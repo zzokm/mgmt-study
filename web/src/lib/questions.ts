@@ -67,16 +67,29 @@ export function getRepetitiveQuestions(): Question[] {
     .filter(Boolean);
 }
 
+function repetitiveMetaFromRaw(raw: Record<string, unknown>) {
+  return {
+    appearances: raw.appearances as Question["appearances"],
+    instanceCount: raw.instanceCount as number | undefined,
+    origins: raw.origins as string[] | undefined,
+    repetitionGroupRank: raw.repetitionGroupRank as number | undefined,
+  };
+}
+
 export function getRepetitiveFileQuestions(): Question[] {
   const data = repetitiveJson as { questions: Array<Record<string, unknown>> };
   return data.questions.map((raw) => {
     const q = raw as unknown as Question;
     const questionKey =
       q.questionKey ?? `${q.origin}:${q.sourceQuestionId || q.id}`;
+    const meta = repetitiveMetaFromRaw(raw);
     const fromCatalog = catalog.questionByKey[questionKey];
-    if (fromCatalog) return fromCatalog;
+    if (fromCatalog) {
+      return { ...fromCatalog, ...meta };
+    }
     return {
       ...q,
+      ...meta,
       questionKey,
       lectureSlug: q.lectureSlug ?? slugFromTopic(q.topic),
       examOrder: q.examOrder ?? 0,

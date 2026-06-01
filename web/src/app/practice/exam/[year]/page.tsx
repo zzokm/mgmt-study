@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { getExamYears, getQuestionsByExamYear } from "@/lib/questions";
-import { PracticeSession } from "@/components/practice/practice-session";
+import { PracticeSessionHydrated } from "@/components/practice/practice-session-hydrated";
 
 export function generateStaticParams() {
   return getExamYears().map((year) => ({ year }));
@@ -17,6 +17,6 @@ export default async function PracticeExamPage({
   const questions = getQuestionsByExamYear(year);
 
   return (
-    <PracticeSession questions={questions} title={`${year} Final — Practice`} />
+    <PracticeSessionHydrated questions={questions} title={`${year} Final — Practice`} />
   );
 }

@@ -82,18 +82,11 @@ export function RepetitivePageClient({
         openValues={openValues}
         onOpenValuesChange={setOpenValues}
         scrollIdPrefix="repetitive"
-        renderTriggerPrefix={(q: Question) => (
-          <div className="flex flex-wrap gap-2">
-            {q.instanceCount != null && q.instanceCount > 1 ? (
-              <Badge>Repeated ×{q.instanceCount}</Badge>
-            ) : null}
-            {q.origins?.map((o) => (
-              <Badge key={o} variant="secondary">
-                {o}
-              </Badge>
-            ))}
-          </div>
-        )}
+        renderTriggerPrefix={(q: Question) =>
+          q.instanceCount != null && q.instanceCount > 1 ? (
+            <Badge className="w-fit">Repeated ×{q.instanceCount}</Badge>
+          ) : null
+        }
       />
     </div>
   );

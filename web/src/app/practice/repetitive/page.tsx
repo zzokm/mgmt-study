@@ -1,9 +1,9 @@
 import { getRepetitiveFileQuestions } from "@/lib/questions";
-import { PracticeSession } from "@/components/practice/practice-session";
+import { PracticeSessionHydrated } from "@/components/practice/practice-session-hydrated";
 
 export default function PracticeRepetitivePage() {
   return (
-    <PracticeSession
+    <PracticeSessionHydrated
       questions={getRepetitiveFileQuestions()}
       title="Repetitive questions — Practice"
     />

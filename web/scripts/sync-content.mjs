@@ -171,6 +171,26 @@ function main() {
     return `${year}:${q.sourceQuestionId || q.id}`;
   });
 
+  for (const rq of repetitive.questions) {
+    const meta = {
+      appearances: rq.appearances,
+      instanceCount: rq.instanceCount,
+      origins: rq.origins,
+      repetitionGroupRank: rq.repetitionGroupRank,
+    };
+    const keys = new Set([
+      `${rq.origin}:${rq.sourceQuestionId || rq.id}`,
+      ...(rq.appearances ?? []).map(
+        (a) => `${a.origin}:${a.sourceQuestionId}`
+      ),
+    ]);
+    for (const key of keys) {
+      if (questionByKey[key]) {
+        questionByKey[key] = { ...questionByKey[key], ...meta };
+      }
+    }
+  }
+
   const catalog = {
     generatedAt: new Date().toISOString(),
     stats: {

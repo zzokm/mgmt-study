@@ -4,6 +4,8 @@
 FROM node:22-bookworm-slim AS deps
 WORKDIR /app/web
 COPY web/package.json web/package-lock.json web/.npmrc ./
+# postinstall runs copy-pdf-worker; script must exist before npm ci
+COPY web/scripts/copy-pdf-worker.mjs ./scripts/
 RUN npm ci
 
 # --- Build static export (sync + next build) ---
@@ -23,7 +25,7 @@ COPY web ./web
 WORKDIR /app/web
 ENV NODE_ENV=production
 ENV NEXT_TELEMETRY_DISABLED=1
-RUN npm run build
+RUN npm run copy-pdf-worker && npm run build
 
 # --- Serve static site on port 3000 ---
 FROM nginx:1.27-alpine AS runner

@@ -10,6 +10,7 @@ import {
 import { LinkButton } from "@/components/ui/link-button";
 import { ExternalLinkIcon } from "lucide-react";
 import { SlidePanel } from "@/components/pdf/slide-panel-dynamic";
+import { QuestionExamAppearances } from "@/components/questions/question-exam-appearances";
 
 interface AnswerRevealProps {
   question: Question;
@@ -21,6 +22,12 @@ export function AnswerReveal({ question }: AnswerRevealProps) {
 
   return (
     <div className="flex flex-col gap-6">
+      <QuestionExamAppearances
+        question={question}
+        variant="detailed"
+        className="rounded-lg border bg-muted/30 px-4 py-3"
+      />
+
       <Card>
         <CardHeader>
           <CardTitle>Explanation</CardTitle>

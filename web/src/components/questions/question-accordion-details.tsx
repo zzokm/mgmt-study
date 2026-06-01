@@ -1,6 +1,7 @@
 import type { Question } from "@/types/question";
 import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
+import { QuestionExamAppearances } from "./question-exam-appearances";
 
 interface QuestionAccordionDetailsProps {
   question: Question;
@@ -14,6 +15,7 @@ export function QuestionAccordionDetails({
 }: QuestionAccordionDetailsProps) {
   return (
     <div className={cn("flex flex-col gap-3 text-muted-foreground", className)}>
+      <QuestionExamAppearances question={question} variant="detailed" />
       <p>
         <span className="font-medium text-foreground">Answer:</span>{" "}
         <Badge variant="secondary">{question.correctAnswerId}</Badge>

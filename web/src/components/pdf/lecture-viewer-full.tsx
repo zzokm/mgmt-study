@@ -1,14 +1,11 @@
 "use client";
 
-import { useCallback, useEffect } from "react";
-import { Viewer, Worker } from "@react-pdf-viewer/core";
-import { defaultLayoutPlugin } from "@react-pdf-viewer/default-layout";
-import { pageNavigationPlugin } from "@react-pdf-viewer/page-navigation";
-import { PDF_WORKER_V4_URL } from "./pdf-config";
-
-import "@react-pdf-viewer/core/lib/styles/index.css";
-import "@react-pdf-viewer/default-layout/lib/styles/index.css";
-import "@react-pdf-viewer/page-navigation/lib/styles/index.css";
+import { useCallback, useRef } from "react";
+import {
+  PDFViewer,
+  type PDFViewerRef,
+  type PluginRegistry,
+} from "@embedpdf/react-pdf-viewer";
 
 function fileUrl(publicPdfUrl: string): string {
   if (publicPdfUrl.startsWith("http")) return publicPdfUrl;
@@ -16,9 +13,44 @@ function fileUrl(publicPdfUrl: string): string {
   return `${window.location.origin}${publicPdfUrl}`;
 }
 
+type ScrollCapability = {
+  onLayoutReady: (
+    handler: (event: {
+      documentId: string;
+      isInitial: boolean;
+      pageNumber: number;
+      totalPages: number;
+    }) => void
+  ) => void;
+  forDocument: (documentId: string) => {
+    scrollToPage: (options: {
+      pageNumber: number;
+      behavior?: ScrollBehavior;
+    }) => void;
+  };
+};
+
+function scrollToInitialPage(
+  registry: PluginRegistry,
+  pageNumber: number
+): void {
+  const scrollPlugin = registry.getPlugin("scroll") as {
+    provides: () => ScrollCapability;
+  } | null;
+  const scroll = scrollPlugin?.provides();
+  if (!scroll) return;
+
+  scroll.onLayoutReady((event) => {
+    if (!event.isInitial) return;
+    scroll.forDocument(event.documentId).scrollToPage({
+      pageNumber,
+      behavior: "instant",
+    });
+  });
+}
+
 /**
- * Full lecture viewer (@react-pdf-viewer running on pdfjs-dist v4 via overrides).
- * Plugin hooks must run every render of this component.
+ * Full lecture viewer (EmbedPDF — bundled engine, separate from react-pdf practice slides).
  */
 export function LectureViewerFull({
   pdfUrl: publicPdfUrl,
@@ -27,32 +59,30 @@ export function LectureViewerFull({
   pdfUrl: string;
   pageIndex: number;
 }) {
+  const viewerRef = useRef<PDFViewerRef>(null);
   const pdfFileUrl = fileUrl(publicPdfUrl);
-  const defaultLayoutPluginInstance = defaultLayoutPlugin();
-  const pageNavigationPluginInstance = pageNavigationPlugin();
-  const { jumpToPage } = pageNavigationPluginInstance;
-  const { zoomPluginInstance } = defaultLayoutPluginInstance.toolbarPluginInstance;
+  const pageNumber = pageIndex + 1;
 
-  const applyViewerDefaults = useCallback(() => {
-    zoomPluginInstance.zoomTo(1);
-  }, [zoomPluginInstance]);
-
-  useEffect(() => {
-    jumpToPage(pageIndex);
-  }, [jumpToPage, pageIndex]);
+  const handleReady = useCallback(
+    (registry: PluginRegistry) => {
+      scrollToInitialPage(registry, pageNumber);
+    },
+    [pageNumber]
+  );
 
   return (
-    <Worker workerUrl={PDF_WORKER_V4_URL}>
-      <div className="lecture-pdf-viewer-inner h-full w-full [&_.rpv-core__viewer]:h-full">
-        <Viewer
-          fileUrl={pdfFileUrl}
-          plugins={[defaultLayoutPluginInstance, pageNavigationPluginInstance]}
-          initialPage={pageIndex}
-          theme="dark"
-          defaultScale={1}
-          onDocumentLoad={applyViewerDefaults}
-        />
-      </div>
-    </Worker>
+    <div className="lecture-pdf-viewer-inner h-full w-full min-h-0">
+      <PDFViewer
+        ref={viewerRef}
+        style={{ height: "100%", width: "100%" }}
+        config={{
+          src: pdfFileUrl,
+          theme: { preference: "dark" },
+          tabBar: "never",
+          zoom: { defaultZoomLevel: 1 },
+        }}
+        onReady={handleReady}
+      />
+    </div>
   );
 }

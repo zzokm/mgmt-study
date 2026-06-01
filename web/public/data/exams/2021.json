@@ -1,0 +1,2226 @@
+[
+  {
+    "id": "Q1",
+    "topic": "Chapter 7: Principles of Planning",
+    "questionText": "Planning involves choosing tasks that must be performed to attain organizational goals, outlining how the tasks must be performed, and indicating when they should be performed.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "Planning is defined as the systematic development of action programs aimed at reaching agreed-upon business objectives, which inherently involves determining how the organization can get where it wants to go, what tasks it will perform, and scheduling them.",
+    "reference": "Chapter 7: Principles of Planning - Answer supported by the definition of planning on Slide 4.",
+    "slideRef": "ch7:s4",
+    "slideRefParsed": {
+      "lectureId": "ch7",
+      "chapterNumber": 7,
+      "topic": "Chapter 7: Principles of Planning",
+      "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+      "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+      "kind": "slides",
+      "pages": [
+        4
+      ],
+      "pageCount": 27,
+      "syntax": "ch7:s4"
+    },
+    "questionKey": "2021:Q1",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q1",
+    "questionType": "true_false",
+    "lectureSlug": "chapter-7-principles-of-planning",
+    "examOrder": 1
+  },
+  {
+    "id": "Q2",
+    "topic": "Chapter 7: Principles of Planning",
+    "questionText": "Planning is concerned only with organizational success in the short term, while organizing is concerned with the more distant future (long term).",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Planning is not restricted to the short term. The evaluation criteria for planners explicitly require that a plan includes both long- and short-term recommendations, and organizational objectives (which are the core of planning) encompass short, intermediate, and long-term targets.",
+    "reference": "Chapter 7: Principles of Planning - Answer found on Slide 16 (Types of Objectives) and Slide 25 (Evaluation of Planners, Point 8).",
+    "slideRef": "ch7:s16,25",
+    "slideRefParsed": {
+      "lectureId": "ch7",
+      "chapterNumber": 7,
+      "topic": "Chapter 7: Principles of Planning",
+      "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+      "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+      "kind": "slides",
+      "pages": [
+        16,
+        25
+      ],
+      "pageCount": 27,
+      "syntax": "ch7:s16,25"
+    },
+    "questionKey": "2021:Q2",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q2",
+    "questionType": "true_false",
+    "lectureSlug": "chapter-7-principles-of-planning",
+    "examOrder": 2
+  },
+  {
+    "id": "Q3",
+    "topic": "Chapter 1: Introduction",
+    "questionText": "Influencing is the process of assigning the tasks developed under the planning function to various individuals or groups within the organization.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Influencing is the process of guiding and motivating people's activities in appropriate directions. The process of assigning tasks developed under the planning function to various individuals or departments is actually the definition of 'Organizing'.",
+    "reference": "Chapter 1: Introduction - Answer found on Slide 9 (Organizing) and Slide 10 (Influencing).",
+    "slideRef": "ch1:s9-10",
+    "slideRefParsed": {
+      "lectureId": "ch1",
+      "chapterNumber": 1,
+      "topic": "Chapter 1: Introduction",
+      "lectureFile": "Chapter 1 - Introduction.pdf",
+      "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+      "kind": "slides",
+      "pages": [
+        9,
+        10
+      ],
+      "pageCount": 30,
+      "syntax": "ch1:s9-10"
+    },
+    "questionKey": "2021:Q3",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q3",
+    "questionType": "true_false",
+    "lectureSlug": "chapter-1-introduction",
+    "examOrder": 3
+  },
+  {
+    "id": "Q4",
+    "topic": "Chapter 1: Introduction",
+    "questionText": "Organizing is also commonly referred to as motivating, leading, directing, or actuating.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Motivating, leading, directing, or actuating are all alternative terms used to describe the 'Influencing' function of management, not the 'Organizing' function.",
+    "reference": "Chapter 1: Introduction - Answer found directly on Slide 10.",
+    "slideRef": "ch1:s10",
+    "slideRefParsed": {
+      "lectureId": "ch1",
+      "chapterNumber": 1,
+      "topic": "Chapter 1: Introduction",
+      "lectureFile": "Chapter 1 - Introduction.pdf",
+      "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+      "kind": "slides",
+      "pages": [
+        10
+      ],
+      "pageCount": 30,
+      "syntax": "ch1:s10"
+    },
+    "questionKey": "2021:Q4",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q4",
+    "questionType": "true_false",
+    "lectureSlug": "chapter-1-introduction",
+    "examOrder": 4
+  },
+  {
+    "id": "Q5",
+    "topic": "Chapter 1: Introduction",
+    "questionText": "Technical skills involve the ability to apply specialized knowledge and expertise to work-related techniques and procedures.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "According to Robert L. Katz's classic view of management skills, technical skills are explicitly defined as the 'ability to apply specialized knowledge & expertise to work techniques & procedures.'",
+    "reference": "Chapter 1: Introduction - Answer found directly on Slide 22.",
+    "slideRef": "ch1:s22",
+    "slideRefParsed": {
+      "lectureId": "ch1",
+      "chapterNumber": 1,
+      "topic": "Chapter 1: Introduction",
+      "lectureFile": "Chapter 1 - Introduction.pdf",
+      "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+      "kind": "slides",
+      "pages": [
+        22
+      ],
+      "pageCount": 30,
+      "syntax": "ch1:s22"
+    },
+    "questionKey": "2021:Q5",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q5",
+    "questionType": "true_false",
+    "lectureSlug": "chapter-1-introduction",
+    "examOrder": 5
+  },
+  {
+    "id": "Q6",
+    "topic": "Chapter 1: Introduction",
+    "questionText": "Human skills, unlike technical skills, involve the ability to see the organization as a whole.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "The ability to see the organization as a whole is the definition of 'Conceptual Skills'. 'Human Skills' are defined as the ability to work with people.",
+    "reference": "Chapter 1: Introduction - Answer found on Slide 22.",
+    "slideRef": "ch1:s22",
+    "slideRefParsed": {
+      "lectureId": "ch1",
+      "chapterNumber": 1,
+      "topic": "Chapter 1: Introduction",
+      "lectureFile": "Chapter 1 - Introduction.pdf",
+      "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+      "kind": "slides",
+      "pages": [
+        22
+      ],
+      "pageCount": 30,
+      "syntax": "ch1:s22"
+    },
+    "questionKey": "2021:Q6",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q6",
+    "questionType": "true_false",
+    "lectureSlug": "chapter-1-introduction",
+    "examOrder": 6
+  },
+  {
+    "id": "Q7",
+    "topic": "Chapter 7: Principles of Planning",
+    "questionText": "The affirmative purpose of planning is to minimize risk by reducing the uncertainties surrounding business conditions and clarifying the consequences of related management activities.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Minimizing risk and reducing uncertainties is defined as the 'Protective' purpose of planning. The 'Affirmative' purpose is specifically to increase the degree of organizational success.",
+    "reference": "Chapter 7: Principles of Planning - Answer found directly on Slide 5.",
+    "slideRef": "ch7:s5",
+    "slideRefParsed": {
+      "lectureId": "ch7",
+      "chapterNumber": 7,
+      "topic": "Chapter 7: Principles of Planning",
+      "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+      "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+      "kind": "slides",
+      "pages": [
+        5
+      ],
+      "pageCount": 27,
+      "syntax": "ch7:s5"
+    },
+    "questionKey": "2021:Q7",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q7",
+    "questionType": "true_false",
+    "lectureSlug": "chapter-7-principles-of-planning",
+    "examOrder": 7
+  },
+  {
+    "id": "Q8",
+    "topic": "Chapter 7: Principles of Planning",
+    "questionText": "Organizations exist for various purposes but have the same types of objectives.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "While businesses share three main objectives (profit, service to customers, and social responsibility), the specific organizational purpose depends on the 'particular group of customers and customer needs' it serves, meaning objectives vary widely across different organizations based on their unique purpose and environment.",
+    "reference": "Chapter 7: Principles of Planning - Answer supported by the definition of organizational purpose on Slide 11 and main objectives on Slide 12.",
+    "slideRef": "ch7:s11-12",
+    "slideRefParsed": {
+      "lectureId": "ch7",
+      "chapterNumber": 7,
+      "topic": "Chapter 7: Principles of Planning",
+      "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+      "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+      "kind": "slides",
+      "pages": [
+        11,
+        12
+      ],
+      "pageCount": 27,
+      "syntax": "ch7:s11-12"
+    },
+    "questionKey": "2021:Q8",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q8",
+    "questionType": "true_false",
+    "lectureSlug": "chapter-7-principles-of-planning",
+    "examOrder": 8
+  },
+  {
+    "id": "Q9",
+    "topic": "Chapter 7: Principles of Planning",
+    "questionText": "Suboptimization is the process of assigning subobjectives to the various people or units in the organization based on the organizational objectives.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "Suboptimization occurs when high-level organizational objectives are broken down and cascaded down into specific sub-objectives for different departments and management levels (e.g., Production, Sales, Finance).",
+    "reference": "Chapter 7: Principles of Planning - Answer supported by the 'Developing a Hierarchy of Objectives / Suboptimization' diagram on Slide 17.",
+    "slideRef": "ch7:s17",
+    "slideRefParsed": {
+      "lectureId": "ch7",
+      "chapterNumber": 7,
+      "topic": "Chapter 7: Principles of Planning",
+      "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+      "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+      "kind": "slides",
+      "pages": [
+        17
+      ],
+      "pageCount": 27,
+      "syntax": "ch7:s17"
+    },
+    "questionKey": "2021:Q9",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q9",
+    "questionType": "true_false",
+    "lectureSlug": "chapter-7-principles-of-planning",
+    "examOrder": 9
+  },
+  {
+    "id": "Q10",
+    "topic": "Chapter 7: Principles of Planning",
+    "questionText": "The management by objectives (MBO) approach has been found to be ineffective for nonprofit organizations.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "The slides explicitly state that \"Most managers find MBO programs beneficial\" and outline its advantages in continually emphasizing what should be done to achieve goals. There is no indication in the provided material that MBO is ineffective for nonprofit organizations; it is presented as a generally applicable strategy.",
+    "reference": "Chapter 7: Principles of Planning - Answer based on the MBO Advantages on Slide 23.",
+    "slideRef": "ch7:s23",
+    "slideRefParsed": {
+      "lectureId": "ch7",
+      "chapterNumber": 7,
+      "topic": "Chapter 7: Principles of Planning",
+      "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+      "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+      "kind": "slides",
+      "pages": [
+        23
+      ],
+      "pageCount": 27,
+      "syntax": "ch7:s23"
+    },
+    "questionKey": "2021:Q10",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q10",
+    "questionType": "true_false",
+    "lectureSlug": "chapter-7-principles-of-planning",
+    "examOrder": 10
+  },
+  {
+    "id": "Q11",
+    "topic": "Chapter 8: Making Decisions",
+    "questionText": "A decision that is routine and repetitive, and typically handled in a specific way, is frequently called a non-programmed decision.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Decisions that are routine and repetitive are called 'Programmed decisions'. 'Non-programmed decisions' are defined as one-shot, ill-structured, or novel policy decisions.",
+    "reference": "Chapter 8: Making Decisions - Answer found on Slide 5 and Slide 6.",
+    "slideRef": "ch8:s5-6",
+    "slideRefParsed": {
+      "lectureId": "ch8",
+      "chapterNumber": 8,
+      "topic": "Chapter 8: Making Decisions",
+      "lectureFile": "Chapter 8 - Making Decisions.pdf",
+      "pdfPath": "Lectures/Chapter 8 - Making Decisions.pdf",
+      "kind": "slides",
+      "pages": [
+        5,
+        6
+      ],
+      "pageCount": 33,
+      "syntax": "ch8:s5-6"
+    },
+    "questionKey": "2021:Q11",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q11",
+    "questionType": "true_false",
+    "lectureSlug": "chapter-8-making-decisions",
+    "examOrder": 11
+  },
+  {
+    "id": "Q12",
+    "topic": "Chapter 8: Making Decisions",
+    "questionText": "Decisions made through consensus usually take up lesser time than those made by a single individual.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "One of the primary disadvantages of consensus or group decision making is that it takes longer, as it involves time-consuming discussions for the group to present and discuss all members' views.",
+    "reference": "Chapter 8: Making Decisions - Answer found on Slide 9 and Slide 26.",
+    "slideRef": "ch8:s9,26",
+    "slideRefParsed": {
+      "lectureId": "ch8",
+      "chapterNumber": 8,
+      "topic": "Chapter 8: Making Decisions",
+      "lectureFile": "Chapter 8 - Making Decisions.pdf",
+      "pdfPath": "Lectures/Chapter 8 - Making Decisions.pdf",
+      "kind": "slides",
+      "pages": [
+        9,
+        26
+      ],
+      "pageCount": 33,
+      "syntax": "ch8:s9,26"
+    },
+    "questionKey": "2021:Q12",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q12",
+    "questionType": "true_false",
+    "lectureSlug": "chapter-8-making-decisions",
+    "examOrder": 12
+  },
+  {
+    "id": "Q13",
+    "topic": "Chapter 8: Making Decisions",
+    "questionText": "Implementation of the chosen alternative is the final step in the decision-making process.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Implementation is the fourth step. The final step is gathering problem-related feedback to verify if the alternative solved the problem.",
+    "reference": "Chapter 8: Making Decisions - Answer found on Slide 11.",
+    "slideRef": "ch8:s11",
+    "slideRefParsed": {
+      "lectureId": "ch8",
+      "chapterNumber": 8,
+      "topic": "Chapter 8: Making Decisions",
+      "lectureFile": "Chapter 8 - Making Decisions.pdf",
+      "pdfPath": "Lectures/Chapter 8 - Making Decisions.pdf",
+      "kind": "slides",
+      "pages": [
+        11
+      ],
+      "pageCount": 33,
+      "syntax": "ch8:s11"
+    },
+    "questionKey": "2021:Q13",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q13",
+    "questionType": "true_false",
+    "lectureSlug": "chapter-8-making-decisions",
+    "examOrder": 13
+  },
+  {
+    "id": "Q14",
+    "topic": "Chapter 18: Groups and Teams",
+    "questionText": "Groupthink is a group decision-making process in which negative feedback on any suggested alternative by any group member is forbidden until all members have presented alternatives that they perceive as valuable.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Groupthink is not a structured process where feedback is forbidden; rather, it is a psychological phenomenon where \"the desire for agreement so dominates the group that it overrides the need to realistically appraise alternative problem solutions.\" It results in members censoring their own ideas to conform.",
+    "reference": "Chapter 18: Groups and Teams - Found on Slide 16.",
+    "slideRef": "ch18:s16",
+    "slideRefParsed": {
+      "lectureId": "ch18",
+      "chapterNumber": 18,
+      "topic": "Chapter 18: Groups and Teams",
+      "lectureFile": "Chapter 18 - Groups and Teams.pdf",
+      "pdfPath": "Lectures/Chapter 18 - Groups and Teams.pdf",
+      "kind": "slides",
+      "pages": [
+        16
+      ],
+      "pageCount": 24,
+      "syntax": "ch18:s16"
+    },
+    "questionKey": "2021:Q14",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q14",
+    "questionType": "true_false",
+    "lectureSlug": "chapter-18-groups-and-teams",
+    "examOrder": 14
+  },
+  {
+    "id": "Q15",
+    "topic": "Chapter 11: Fundamentals of Organizing",
+    "questionText": "The final step in the organization process is to allocate resources and directives for subtasks.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "According to the organizing process model, allocating resources and directives for subtasks is Step 4. The fifth and final step is evaluating the results of the organizing strategy.",
+    "reference": "Chapter 11: Fundamentals of Organizing - Answer found on Slide 7 (Organizing Process).",
+    "slideRef": "ch11:s7",
+    "slideRefParsed": {
+      "lectureId": "ch11",
+      "chapterNumber": 11,
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+      "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+      "kind": "slides",
+      "pages": [
+        7
+      ],
+      "pageCount": 38,
+      "syntax": "ch11:s7"
+    },
+    "questionKey": "2021:Q15",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q15",
+    "questionType": "true_false",
+    "lectureSlug": "chapter-11-fundamentals-of-organizing",
+    "examOrder": 15
+  },
+  {
+    "id": "Q16",
+    "topic": "Chapter 11: Fundamentals of Organizing",
+    "questionText": "Span of management refers to the number of organizational levels below that of a particular manager's.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Span of management (or span of control) refers to the number of individuals a manager directly supervises to best guide them toward production quotas. The number of organizational levels relates to the vertical dimensioning or the 'height' of the organization chart, not the span of management.",
+    "reference": "Chapter 11: Fundamentals of Organizing - Answer deduced from Slide 20 and Slide 23.",
+    "slideRef": "ch11:s20,23",
+    "slideRefParsed": {
+      "lectureId": "ch11",
+      "chapterNumber": 11,
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+      "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+      "kind": "slides",
+      "pages": [
+        20,
+        23
+      ],
+      "pageCount": 38,
+      "syntax": "ch11:s20,23"
+    },
+    "questionKey": "2021:Q16",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q16",
+    "questionType": "true_false",
+    "lectureSlug": "chapter-11-fundamentals-of-organizing",
+    "examOrder": 16
+  },
+  {
+    "id": "Q17",
+    "topic": "Chapter 13: Human Resource Management",
+    "questionText": "Recruitment is the process of developing qualities in human resources that will enable them to be more productive and thus contribute more to organizational goal attainment.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "The statement provided in the question is the exact definition of 'Training'. Recruitment, on the other hand, is defined as the 'initial attraction and screening of the supply of prospective human resources available to fill a position'.",
+    "reference": "Chapter 13: Human Resource Management - Answer found on Slide 31 (Training Definition) and Slide 5 (Recruitment Definition).",
+    "slideRef": "ch13:s5,31",
+    "slideRefParsed": {
+      "lectureId": "ch13",
+      "chapterNumber": 13,
+      "topic": "Chapter 13: Human Resource Management",
+      "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+      "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+      "kind": "slides",
+      "pages": [
+        5,
+        31
+      ],
+      "pageCount": 46,
+      "syntax": "ch13:s5,31"
+    },
+    "questionKey": "2021:Q17",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q17",
+    "questionType": "true_false",
+    "lectureSlug": "chapter-13-human-resource-management",
+    "examOrder": 17
+  },
+  {
+    "id": "Q18",
+    "topic": "Chapter 13: Human Resource Management",
+    "questionText": "Wikstrom's human resource inventory forms are meant to be used exclusively for filling managerial positions and cannot be used for filling nonmanagerial positions.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "While Wikstrom's forms (Management Inventory Card, Position Replacement Form, Management Manpower Replacement Chart) heavily emphasize management roles, the concept of a human resource inventory broadly keeps 'management up to date about the possibilities for filling a position from within'. Furthermore, the slides indicate that computer software aids managers in complex HR inventories for how 'employees can best be deployed and developed,' showing it is not exclusively for management.",
+    "reference": "Chapter 13: Human Resource Management - Deduced from Slide 13 (Objective) and Slide 18 (Software tools).",
+    "slideRef": "ch13:s13,18",
+    "slideRefParsed": {
+      "lectureId": "ch13",
+      "chapterNumber": 13,
+      "topic": "Chapter 13: Human Resource Management",
+      "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+      "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+      "kind": "slides",
+      "pages": [
+        13,
+        18
+      ],
+      "pageCount": 46,
+      "syntax": "ch13:s13,18"
+    },
+    "questionKey": "2021:Q18",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q18",
+    "questionType": "true_false",
+    "lectureSlug": "chapter-13-human-resource-management",
+    "examOrder": 18
+  },
+  {
+    "id": "Q19",
+    "topic": "Chapter 21: Controlling Fundamentals",
+    "questionText": "The process of guiding the activities of organization members in appropriate directions is called controlling.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Guiding the activities of organization members in appropriate directions is the definition of \"Influencing\". Controlling is defined as \"Ensuring that an event occurs as it was planned to occur\".",
+    "reference": "Chapter 21: Controlling Fundamentals - Answer deduced from Slide 4 defining Control, and prior knowledge of the Influencing definition.",
+    "slideRef": "ch21:s4",
+    "slideRefParsed": {
+      "lectureId": "ch21",
+      "chapterNumber": 21,
+      "topic": "Chapter 21: Controlling Fundamentals",
+      "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+      "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+      "kind": "slides",
+      "pages": [
+        4
+      ],
+      "pageCount": 19,
+      "syntax": "ch21:s4"
+    },
+    "questionKey": "2021:Q19",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q19",
+    "questionType": "true_false",
+    "lectureSlug": "chapter-21-controlling-fundamentals",
+    "examOrder": 19
+  },
+  {
+    "id": "Q20",
+    "topic": "Chapter 15: Influencing and Communication",
+    "questionText": "The basic elements of the interpersonal communication process are the source, the encoder, and the decoder.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "The basic elements of the interpersonal communication process are the source/encoder, the signal, and the decoder/destination. The statement incorrectly omits the 'signal' entirely and splits source and encoder.",
+    "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 12 and Slide 13.",
+    "slideRef": "ch15:s12-13",
+    "slideRefParsed": {
+      "lectureId": "ch15",
+      "chapterNumber": 15,
+      "topic": "Chapter 15: Influencing and Communication",
+      "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+      "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+      "kind": "slides",
+      "pages": [
+        12,
+        13
+      ],
+      "pageCount": 25,
+      "syntax": "ch15:s12-13"
+    },
+    "questionKey": "2021:Q20",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q20",
+    "questionType": "true_false",
+    "lectureSlug": "chapter-15-influencing-and-communication",
+    "examOrder": 20
+  },
+  {
+    "id": "Q21",
+    "topic": "Chapter 18: Groups and Teams",
+    "questionText": "A task group is a formal group outlined in the chain of command on an organization chart.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "The formal group outlined in the chain of command is a 'Command Group'. A 'Task Group' is formed to accomplish nonroutine tasks.",
+    "reference": "Chapter 18: Groups and Teams - Found on Slide 9.",
+    "slideRef": "ch18:s9",
+    "slideRefParsed": {
+      "lectureId": "ch18",
+      "chapterNumber": 18,
+      "topic": "Chapter 18: Groups and Teams",
+      "lectureFile": "Chapter 18 - Groups and Teams.pdf",
+      "pdfPath": "Lectures/Chapter 18 - Groups and Teams.pdf",
+      "kind": "slides",
+      "pages": [
+        9
+      ],
+      "pageCount": 24,
+      "syntax": "ch18:s9"
+    },
+    "questionKey": "2021:Q21",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q21",
+    "questionType": "true_false",
+    "lectureSlug": "chapter-18-groups-and-teams",
+    "examOrder": 21
+  },
+  {
+    "id": "Q22",
+    "topic": "Chapter 21: Controlling Fundamentals",
+    "questionText": "Measuring performance is the first step in the controlling process.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "The three steps of the controlling process explicitly list \"1. Measuring Performance\" as the very first step.",
+    "reference": "Chapter 21: Controlling Fundamentals - Answer found verbatim on Slide 9.",
+    "slideRef": "ch21:s9",
+    "slideRefParsed": {
+      "lectureId": "ch21",
+      "chapterNumber": 21,
+      "topic": "Chapter 21: Controlling Fundamentals",
+      "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+      "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+      "kind": "slides",
+      "pages": [
+        9
+      ],
+      "pageCount": 19,
+      "syntax": "ch21:s9"
+    },
+    "questionKey": "2021:Q22",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q22",
+    "questionType": "true_false",
+    "lectureSlug": "chapter-21-controlling-fundamentals",
+    "examOrder": 22
+  },
+  {
+    "id": "Q23",
+    "topic": "Chapter 21: Controlling Fundamentals",
+    "questionText": "For control to be successful, all individuals involved in controlling must have a working knowledge of how the control process operates.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "To make controlling successful, managers must ensure the \"Communication of the Mechanics of the Control Process,\" which means ensuring individuals understand how the process operates.",
+    "reference": "Chapter 21: Controlling Fundamentals - Answer found on Slide 17 under factors for successful controlling.",
+    "slideRef": "ch21:s17",
+    "slideRefParsed": {
+      "lectureId": "ch21",
+      "chapterNumber": 21,
+      "topic": "Chapter 21: Controlling Fundamentals",
+      "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+      "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+      "kind": "slides",
+      "pages": [
+        17
+      ],
+      "pageCount": 19,
+      "syntax": "ch21:s17"
+    },
+    "questionKey": "2021:Q23",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q23",
+    "questionType": "true_false",
+    "lectureSlug": "chapter-21-controlling-fundamentals",
+    "examOrder": 23
+  },
+  {
+    "id": "Q24",
+    "topic": "Chapter 21: Controlling Fundamentals",
+    "questionText": "Most managers have substantial control over increasing their position power.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Position power is derived strictly from the organizational position a manager holds. A manager cannot simply increase this on their own; the organization must promote them. However, a manager can independently work to increase their \"Personal Power\" by building relationships.",
+    "reference": "Chapter 21: Controlling Fundamentals - Answer deduced from the definitions of Position Power and Personal Power on Slide 15 and Slide 16.",
+    "slideRef": "ch21:s15-16",
+    "slideRefParsed": {
+      "lectureId": "ch21",
+      "chapterNumber": 21,
+      "topic": "Chapter 21: Controlling Fundamentals",
+      "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+      "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+      "kind": "slides",
+      "pages": [
+        15,
+        16
+      ],
+      "pageCount": 19,
+      "syntax": "ch21:s15-16"
+    },
+    "questionKey": "2021:Q24",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q24",
+    "questionType": "true_false",
+    "lectureSlug": "chapter-21-controlling-fundamentals",
+    "examOrder": 24
+  },
+  {
+    "id": "Q25",
+    "topic": "Chapter 7: Principles of Planning",
+    "questionText": "Which of the following is an advantage of planning?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "eliminates all risks"
+      },
+      {
+        "id": "b",
+        "content": "enhances decision coordination"
+      },
+      {
+        "id": "c",
+        "content": "emphasizes immediate goals"
+      },
+      {
+        "id": "d",
+        "content": "suboptimizes the use of resources"
+      },
+      {
+        "id": "e",
+        "content": "promotes individual performance"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Enhancing decision coordination is explicitly listed as a key advantage of the planning function.",
+    "reference": "Chapter 7: Principles of Planning - Answer found verbatim on Slide 6 under '+ Advantages'.",
+    "slideRef": "ch7:s6",
+    "slideRefParsed": {
+      "lectureId": "ch7",
+      "chapterNumber": 7,
+      "topic": "Chapter 7: Principles of Planning",
+      "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+      "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+      "kind": "slides",
+      "pages": [
+        6
+      ],
+      "pageCount": 27,
+      "syntax": "ch7:s6"
+    },
+    "questionKey": "2021:Q25",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q25",
+    "questionType": "mcq",
+    "lectureSlug": "chapter-7-principles-of-planning",
+    "examOrder": 25
+  },
+  {
+    "id": "Q26",
+    "topic": "Chapter 21: Controlling Fundamentals",
+    "questionText": "Which of the following is an error managers make during the controlling stage of management?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "not establishing departments appropriately"
+      },
+      {
+        "id": "b",
+        "content": "not taking the time to communicate properly with organization members"
+      },
+      {
+        "id": "c",
+        "content": "establishing improper communication networks"
+      },
+      {
+        "id": "d",
+        "content": "not monitoring progress in carrying out plans"
+      },
+      {
+        "id": "e",
+        "content": "not exploring enough viable alternatives for reaching objectives"
+      }
+    ],
+    "correctAnswerId": "d",
+    "explanation": "Because controlling involves measuring performance to ensure events occur as planned, failing to monitor the progress of those plans is a direct error in the controlling stage. (Establishing departments is Organizing; communication is Influencing; alternatives are Planning).",
+    "reference": "Chapter 21: Controlling Fundamentals - Deduced from the definition of Controlling on Slide 4 and general management principles outlined in Chapter 1.",
+    "slideRef": "ch21:s4",
+    "slideRefParsed": {
+      "lectureId": "ch21",
+      "chapterNumber": 21,
+      "topic": "Chapter 21: Controlling Fundamentals",
+      "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+      "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+      "kind": "slides",
+      "pages": [
+        4
+      ],
+      "pageCount": 19,
+      "syntax": "ch21:s4"
+    },
+    "questionKey": "2021:Q26",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q26",
+    "questionType": "mcq",
+    "lectureSlug": "chapter-21-controlling-fundamentals",
+    "examOrder": 26
+  },
+  {
+    "id": "Q27",
+    "topic": "Chapter 1: Introduction",
+    "questionText": "The more resources unused during the production process, the more ________ the manager.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Inefficient"
+      },
+      {
+        "id": "b",
+        "content": "Efficient"
+      },
+      {
+        "id": "c",
+        "content": "Ineffective"
+      },
+      {
+        "id": "d",
+        "content": "Effective"
+      },
+      {
+        "id": "e",
+        "content": "efficient and ineffective"
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "Managerial efficiency refers to the proportion of total organizational resources that contribute to productivity. Therefore, if more resources are unused or wasted (meaning few resources contribute to production), the manager is considered inefficient.",
+    "reference": "Chapter 1: Introduction - Answer found on Slide 16 and Slide 17.",
+    "slideRef": "ch1:s16-17",
+    "slideRefParsed": {
+      "lectureId": "ch1",
+      "chapterNumber": 1,
+      "topic": "Chapter 1: Introduction",
+      "lectureFile": "Chapter 1 - Introduction.pdf",
+      "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+      "kind": "slides",
+      "pages": [
+        16,
+        17
+      ],
+      "pageCount": 30,
+      "syntax": "ch1:s16-17"
+    },
+    "questionKey": "2021:Q27",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q27",
+    "questionType": "mcq",
+    "lectureSlug": "chapter-1-introduction",
+    "examOrder": 27
+  },
+  {
+    "id": "Q28",
+    "topic": "Chapter 1: Introduction",
+    "questionText": "A manager is considered efficient and effective if the manager",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "does not reach goals and does not waste resources"
+      },
+      {
+        "id": "b",
+        "content": "reaches goals and does not waste resources"
+      },
+      {
+        "id": "c",
+        "content": "does not reach goals and wastes resources"
+      },
+      {
+        "id": "d",
+        "content": "reaches goals and wastes resources"
+      },
+      {
+        "id": "e",
+        "content": "wastes resources on unattainable goals"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Effectiveness is defined as making substantial progress toward organizational goals ('doing the right things'), while efficiency is defined as ensuring most resources contribute to production without waste ('doing things right'). Thus, a manager who is both reaches goals and does not waste resources.",
+    "reference": "Chapter 1: Introduction - Answer found on the matrix on Slide 17.",
+    "slideRef": "ch1:s17",
+    "slideRefParsed": {
+      "lectureId": "ch1",
+      "chapterNumber": 1,
+      "topic": "Chapter 1: Introduction",
+      "lectureFile": "Chapter 1 - Introduction.pdf",
+      "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+      "kind": "slides",
+      "pages": [
+        17
+      ],
+      "pageCount": 30,
+      "syntax": "ch1:s17"
+    },
+    "questionKey": "2021:Q28",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q28",
+    "questionType": "mcq",
+    "lectureSlug": "chapter-1-introduction",
+    "examOrder": 28
+  },
+  {
+    "id": "Q29",
+    "topic": "Chapter 1: Introduction",
+    "questionText": "In any organization, change-related activities include",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "clarifying objectives of jobs in organizations"
+      },
+      {
+        "id": "b",
+        "content": "consulting when making decisions"
+      },
+      {
+        "id": "c",
+        "content": "providing recognition for achievements and contributions"
+      },
+      {
+        "id": "d",
+        "content": "encouraging innovative thinking"
+      },
+      {
+        "id": "e",
+        "content": "short-term planning"
+      }
+    ],
+    "correctAnswerId": "d",
+    "explanation": "According to the contemporary view of management skills, 'Task-related' and 'People-related' activities encompass clarifying roles, consulting, providing recognition, and short-term planning. Change-related activities focus on 'modifying organization components', which aligns directly with encouraging innovative thinking and adapting to new methods.",
+    "reference": "Chapter 1: Introduction - Answer deduced by elimination from the tables on Slide 26 and Slide 28.",
+    "slideRef": "ch1:s26,28",
+    "slideRefParsed": {
+      "lectureId": "ch1",
+      "chapterNumber": 1,
+      "topic": "Chapter 1: Introduction",
+      "lectureFile": "Chapter 1 - Introduction.pdf",
+      "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+      "kind": "slides",
+      "pages": [
+        26,
+        28
+      ],
+      "pageCount": 30,
+      "syntax": "ch1:s26,28"
+    },
+    "questionKey": "2021:Q29",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q29",
+    "questionType": "mcq",
+    "lectureSlug": "chapter-1-introduction",
+    "examOrder": 29
+  },
+  {
+    "id": "Q30",
+    "topic": "Chapter 8: Making Decisions",
+    "questionText": "This is an example of a(n)",
+    "context": "Trendy Garb is a retail store that sells women's apparel. The store has comprehensive rules, policies, and procedures for matters relating to customer complaints and product returns. Hence, when faced with either of these situations, the store manager simply needs to refer to these guidelines and proceed accordingly.",
+    "options": [
+      {
+        "id": "a",
+        "content": "overlapping responsibility"
+      },
+      {
+        "id": "b",
+        "content": "nonprogrammed decision"
+      },
+      {
+        "id": "c",
+        "content": "rule of thumb"
+      },
+      {
+        "id": "d",
+        "content": "decision tree"
+      },
+      {
+        "id": "e",
+        "content": "programmed decision"
+      }
+    ],
+    "correctAnswerId": "e",
+    "explanation": "Because the store has comprehensive, standard operating procedures, rules, and policies established for routine situations (returns and complaints), the manager is executing a programmed decision.",
+    "reference": "Chapter 8: Making Decisions - Answer found on Slide 5 and Slide 6.",
+    "slideRef": "ch8:s5-6",
+    "slideRefParsed": {
+      "lectureId": "ch8",
+      "chapterNumber": 8,
+      "topic": "Chapter 8: Making Decisions",
+      "lectureFile": "Chapter 8 - Making Decisions.pdf",
+      "pdfPath": "Lectures/Chapter 8 - Making Decisions.pdf",
+      "kind": "slides",
+      "pages": [
+        5,
+        6
+      ],
+      "pageCount": 33,
+      "syntax": "ch8:s5-6"
+    },
+    "questionKey": "2021:Q30",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q30",
+    "questionType": "mcq",
+    "lectureSlug": "chapter-8-making-decisions",
+    "examOrder": 30
+  },
+  {
+    "id": "Q31",
+    "topic": "Chapter 8: Making Decisions",
+    "questionText": "Which of the following is a traditional technique for solving a programmed decision?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "judgment"
+      },
+      {
+        "id": "b",
+        "content": "rules of thumb"
+      },
+      {
+        "id": "c",
+        "content": "habit"
+      },
+      {
+        "id": "d",
+        "content": "intuition"
+      },
+      {
+        "id": "e",
+        "content": "training"
+      }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "Under 'Types of Decisions', the traditional techniques for handling a programmed (routine) decision include 'Habit', 'Clerical routine', and 'Organization structure'. Judgment, intuition, and rules of thumb are traditional techniques for nonprogrammed decisions.",
+    "reference": "Chapter 8: Making Decisions - Answer found on the Decision-Making Techniques table on Slide 6.",
+    "slideRef": "ch8:s6",
+    "slideRefParsed": {
+      "lectureId": "ch8",
+      "chapterNumber": 8,
+      "topic": "Chapter 8: Making Decisions",
+      "lectureFile": "Chapter 8 - Making Decisions.pdf",
+      "pdfPath": "Lectures/Chapter 8 - Making Decisions.pdf",
+      "kind": "slides",
+      "pages": [
+        6
+      ],
+      "pageCount": 33,
+      "syntax": "ch8:s6"
+    },
+    "questionKey": "2021:Q31",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q31",
+    "questionType": "mcq",
+    "lectureSlug": "chapter-8-making-decisions",
+    "examOrder": 31
+  },
+  {
+    "id": "Q32",
+    "topic": "Chapter 11: Fundamentals of Organizing",
+    "questionText": "________ is the process of establishing orderly uses for resources within the management system.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Organizing"
+      },
+      {
+        "id": "b",
+        "content": "Communication"
+      },
+      {
+        "id": "c",
+        "content": "Planning"
+      },
+      {
+        "id": "d",
+        "content": "Controlling"
+      },
+      {
+        "id": "e",
+        "content": "Motivation"
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "The formal definition of organizing is the process of establishing orderly uses for resources within the management system.",
+    "reference": "Chapter 11: Fundamentals of Organizing - Answer found verbatim on Slide 5.",
+    "slideRef": "ch11:s5",
+    "slideRefParsed": {
+      "lectureId": "ch11",
+      "chapterNumber": 11,
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+      "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+      "kind": "slides",
+      "pages": [
+        5
+      ],
+      "pageCount": 38,
+      "syntax": "ch11:s5"
+    },
+    "questionKey": "2021:Q32",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q32",
+    "questionType": "mcq",
+    "lectureSlug": "chapter-11-fundamentals-of-organizing",
+    "examOrder": 32
+  },
+  {
+    "id": "Q33",
+    "topic": "Chapter 11: Fundamentals of Organizing",
+    "questionText": "________ is the assignment of various portions of a particular task among a number of organization members.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Participation"
+      },
+      {
+        "id": "b",
+        "content": "Job enlargement"
+      },
+      {
+        "id": "c",
+        "content": "Division of labor"
+      },
+      {
+        "id": "d",
+        "content": "Job rotation"
+      },
+      {
+        "id": "e",
+        "content": "Work sharing"
+      }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "Division of labor is the specific term used to describe assigning portions of a single task among multiple workers.",
+    "reference": "Chapter 11: Fundamentals of Organizing - Answer found verbatim on Slide 11.",
+    "slideRef": "ch11:s11",
+    "slideRefParsed": {
+      "lectureId": "ch11",
+      "chapterNumber": 11,
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+      "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+      "kind": "slides",
+      "pages": [
+        11
+      ],
+      "pageCount": 38,
+      "syntax": "ch11:s11"
+    },
+    "questionKey": "2021:Q33",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q33",
+    "questionType": "mcq",
+    "lectureSlug": "chapter-11-fundamentals-of-organizing",
+    "examOrder": 33
+  },
+  {
+    "id": "Q34",
+    "topic": "Chapter 11: Fundamentals of Organizing",
+    "questionText": "Which of the following is an advantage of division of labor?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "It broadens the scope of work."
+      },
+      {
+        "id": "b",
+        "content": "It results in high levels of employee motivation."
+      },
+      {
+        "id": "c",
+        "content": "It makes work more interesting."
+      },
+      {
+        "id": "d",
+        "content": "It saves time."
+      },
+      {
+        "id": "e",
+        "content": "It emphasizes the human variable in organizations."
+      }
+    ],
+    "correctAnswerId": "d",
+    "explanation": "A key advantage of division of labor is that workers stay in one place and do one job, meaning they 'do not lose valuable time changing tools or locations,' which effectively saves time. Broadening scope, high motivation, interesting work, and emphasizing human variables are contradicted by the listed disadvantages of the division of labor.",
+    "reference": "Chapter 11: Fundamentals of Organizing - Answer deduced from the Advantages on Slide 12.",
+    "slideRef": "ch11:s12",
+    "slideRefParsed": {
+      "lectureId": "ch11",
+      "chapterNumber": 11,
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+      "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+      "kind": "slides",
+      "pages": [
+        12
+      ],
+      "pageCount": 38,
+      "syntax": "ch11:s12"
+    },
+    "questionKey": "2021:Q34",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q34",
+    "questionType": "mcq",
+    "lectureSlug": "chapter-11-fundamentals-of-organizing",
+    "examOrder": 34
+  },
+  {
+    "id": "Q35",
+    "topic": "Chapter 13: Human Resource Management",
+    "questionText": "________ is the initial attraction and screening of the supply of prospective human resources available to fill a position.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Onboarding"
+      },
+      {
+        "id": "b",
+        "content": "Promotion"
+      },
+      {
+        "id": "c",
+        "content": "Recruitment"
+      },
+      {
+        "id": "d",
+        "content": "Prospecting"
+      },
+      {
+        "id": "e",
+        "content": "Orientation"
+      }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "The lecture slides define recruitment exactly as 'the initial attraction and screening of the supply of prospective human resources available to fill a position'.",
+    "reference": "Chapter 13: Human Resource Management - Answer found verbatim on Slide 5.",
+    "slideRef": "ch13:s5",
+    "slideRefParsed": {
+      "lectureId": "ch13",
+      "chapterNumber": 13,
+      "topic": "Chapter 13: Human Resource Management",
+      "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+      "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+      "kind": "slides",
+      "pages": [
+        5
+      ],
+      "pageCount": 46,
+      "syntax": "ch13:s5"
+    },
+    "questionKey": "2021:Q35",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q35",
+    "questionType": "mcq",
+    "lectureSlug": "chapter-13-human-resource-management",
+    "examOrder": 35
+  },
+  {
+    "id": "Q36",
+    "topic": "Chapter 13: Human Resource Management",
+    "questionText": "Which of the following items is likely to be found in a job specification?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "job title"
+      },
+      {
+        "id": "b",
+        "content": "working conditions"
+      },
+      {
+        "id": "c",
+        "content": "equipment used"
+      },
+      {
+        "id": "d",
+        "content": "job summary"
+      },
+      {
+        "id": "e",
+        "content": "physical skills"
+      }
+    ],
+    "correctAnswerId": "e",
+    "explanation": "A Job Specification contains the human qualifications necessary to do the job, which explicitly includes 'Physical skills'. Job title, working conditions, equipment used, and job summary are all found in a Job Description.",
+    "reference": "Chapter 13: Human Resource Management - Answer found on the Job Analysis chart on Slide 8.",
+    "slideRef": "ch13:s8",
+    "slideRefParsed": {
+      "lectureId": "ch13",
+      "chapterNumber": 13,
+      "topic": "Chapter 13: Human Resource Management",
+      "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+      "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+      "kind": "slides",
+      "pages": [
+        8
+      ],
+      "pageCount": 46,
+      "syntax": "ch13:s8"
+    },
+    "questionKey": "2021:Q36",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q36",
+    "questionType": "mcq",
+    "lectureSlug": "chapter-13-human-resource-management",
+    "examOrder": 36
+  },
+  {
+    "id": "Q37",
+    "topic": "Chapter 15: Influencing and Communication",
+    "questionText": "________ is the process of sharing information with other individuals.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Delegation"
+      },
+      {
+        "id": "b",
+        "content": "Communication"
+      },
+      {
+        "id": "c",
+        "content": "Allocation"
+      },
+      {
+        "id": "d",
+        "content": "Authorization"
+      },
+      {
+        "id": "e",
+        "content": "Distribution"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Communication is formally defined as the process of sharing information with other individuals.",
+    "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 10.",
+    "slideRef": "ch15:s10",
+    "slideRefParsed": {
+      "lectureId": "ch15",
+      "chapterNumber": 15,
+      "topic": "Chapter 15: Influencing and Communication",
+      "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+      "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+      "kind": "slides",
+      "pages": [
+        10
+      ],
+      "pageCount": 25,
+      "syntax": "ch15:s10"
+    },
+    "questionKey": "2021:Q37",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q37",
+    "questionType": "mcq",
+    "lectureSlug": "chapter-15-influencing-and-communication",
+    "examOrder": 37
+  },
+  {
+    "id": "Q38",
+    "topic": "Chapter 15: Influencing and Communication",
+    "questionText": "The person in the interpersonal communication situation who originates and encodes information to be shared with another person is called the ________",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Presenter"
+      },
+      {
+        "id": "b",
+        "content": "Channel"
+      },
+      {
+        "id": "c",
+        "content": "Administrator"
+      },
+      {
+        "id": "d",
+        "content": "Medium"
+      },
+      {
+        "id": "e",
+        "content": "source"
+      }
+    ],
+    "correctAnswerId": "e",
+    "explanation": "The source/encoder (source) is defined as the person in the interpersonal communication situation who originates and encodes information to be shared with others.",
+    "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 12.",
+    "slideRef": "ch15:s12",
+    "slideRefParsed": {
+      "lectureId": "ch15",
+      "chapterNumber": 15,
+      "topic": "Chapter 15: Influencing and Communication",
+      "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+      "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+      "kind": "slides",
+      "pages": [
+        12
+      ],
+      "pageCount": 25,
+      "syntax": "ch15:s12"
+    },
+    "questionKey": "2021:Q38",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q38",
+    "questionType": "mcq",
+    "lectureSlug": "chapter-15-influencing-and-communication",
+    "examOrder": 38
+  },
+  {
+    "id": "Q39",
+    "topic": "Chapter 15: Influencing and Communication",
+    "questionText": "Which of the following is a communication macrobarrier?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "need for complex information"
+      },
+      {
+        "id": "b",
+        "content": "destination's view of the source"
+      },
+      {
+        "id": "c",
+        "content": "message interference"
+      },
+      {
+        "id": "d",
+        "content": "receivers' perception"
+      },
+      {
+        "id": "e",
+        "content": "multimeaning words"
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "The 'need for increasingly complex information' is explicitly listed as one of the Communication Macrobarriers. The other options (perception, destination's view of the source, message interference, multimeaning words) are classified as Microbarriers.",
+    "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 15 and Slide 16.",
+    "slideRef": "ch15:s15-16",
+    "slideRefParsed": {
+      "lectureId": "ch15",
+      "chapterNumber": 15,
+      "topic": "Chapter 15: Influencing and Communication",
+      "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+      "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+      "kind": "slides",
+      "pages": [
+        15,
+        16
+      ],
+      "pageCount": 25,
+      "syntax": "ch15:s15-16"
+    },
+    "questionKey": "2021:Q39",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q39",
+    "questionType": "mcq",
+    "lectureSlug": "chapter-15-influencing-and-communication",
+    "examOrder": 39
+  },
+  {
+    "id": "Q40",
+    "topic": "Chapter 15: Influencing and Communication",
+    "questionText": "Which of the following is considered a microbarrier to organizational communication?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "need for better information"
+      },
+      {
+        "id": "b",
+        "content": "need to learn new concepts"
+      },
+      {
+        "id": "c",
+        "content": "need to learn new languages"
+      },
+      {
+        "id": "d",
+        "content": "need to process complex information"
+      },
+      {
+        "id": "e",
+        "content": "individuals' perception of messages"
+      }
+    ],
+    "correctAnswerId": "e",
+    "explanation": "Perception, or the individuals' perception of messages, is listed specifically as a Communication Microbarrier. The other options relate to Macrobarriers like the need for new concepts, new languages, or complex information.",
+    "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 15 and Slide 16.",
+    "slideRef": "ch15:s15-16",
+    "slideRefParsed": {
+      "lectureId": "ch15",
+      "chapterNumber": 15,
+      "topic": "Chapter 15: Influencing and Communication",
+      "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+      "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+      "kind": "slides",
+      "pages": [
+        15,
+        16
+      ],
+      "pageCount": 25,
+      "syntax": "ch15:s15-16"
+    },
+    "questionKey": "2021:Q40",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q40",
+    "questionType": "mcq",
+    "lectureSlug": "chapter-15-influencing-and-communication",
+    "examOrder": 40
+  },
+  {
+    "id": "Q41",
+    "topic": "Chapter 18: Groups and Teams",
+    "questionText": "A formal group is a group that ________",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "is formed by management to perform organizational tasks"
+      },
+      {
+        "id": "b",
+        "content": "is normally defined but unstructured"
+      },
+      {
+        "id": "c",
+        "content": "is formed by the common interests of group members"
+      },
+      {
+        "id": "d",
+        "content": "is formed by the affiliation of the group members"
+      },
+      {
+        "id": "e",
+        "content": "is normally unstructured and undefined"
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "A formal group is defined as a group \"that exists within an organization by virtue of management decree to perform tasks that enhance the attainment of organizational objectives.\"",
+    "reference": "Chapter 18: Groups and Teams - Found on Slide 6.",
+    "slideRef": "ch18:s6",
+    "slideRefParsed": {
+      "lectureId": "ch18",
+      "chapterNumber": 18,
+      "topic": "Chapter 18: Groups and Teams",
+      "lectureFile": "Chapter 18 - Groups and Teams.pdf",
+      "pdfPath": "Lectures/Chapter 18 - Groups and Teams.pdf",
+      "kind": "slides",
+      "pages": [
+        6
+      ],
+      "pageCount": 24,
+      "syntax": "ch18:s6"
+    },
+    "questionKey": "2021:Q41",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q41",
+    "questionType": "mcq",
+    "lectureSlug": "chapter-18-groups-and-teams",
+    "examOrder": 41
+  },
+  {
+    "id": "Q42",
+    "topic": "Chapter 18: Groups and Teams",
+    "questionText": "Formal groups that handle routine activities and are outlined on an organization chart are called ________",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "task groups"
+      },
+      {
+        "id": "b",
+        "content": "committees"
+      },
+      {
+        "id": "c",
+        "content": "transitory groups"
+      },
+      {
+        "id": "d",
+        "content": "work teams"
+      },
+      {
+        "id": "e",
+        "content": "command groups"
+      }
+    ],
+    "correctAnswerId": "e",
+    "explanation": "A command group is a formal group that is outlined in the chain of command on an organization chart. They handle routine activities, unlike task groups which handle nonroutine tasks.",
+    "reference": "Chapter 18: Groups and Teams - Found on Slide 9.",
+    "slideRef": "ch18:s9",
+    "slideRefParsed": {
+      "lectureId": "ch18",
+      "chapterNumber": 18,
+      "topic": "Chapter 18: Groups and Teams",
+      "lectureFile": "Chapter 18 - Groups and Teams.pdf",
+      "pdfPath": "Lectures/Chapter 18 - Groups and Teams.pdf",
+      "kind": "slides",
+      "pages": [
+        9
+      ],
+      "pageCount": 24,
+      "syntax": "ch18:s9"
+    },
+    "questionKey": "2021:Q42",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q42",
+    "questionType": "mcq",
+    "lectureSlug": "chapter-18-groups-and-teams",
+    "examOrder": 42
+  },
+  {
+    "id": "Q43",
+    "topic": "Chapter 18: Groups and Teams",
+    "questionText": "Two formal groups that are often established in organizations are ________ and ________",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "transitory groups; recurrent groups"
+      },
+      {
+        "id": "b",
+        "content": "interest groups; committees"
+      },
+      {
+        "id": "c",
+        "content": "in-groups; out-groups"
+      },
+      {
+        "id": "d",
+        "content": "committees; work teams"
+      },
+      {
+        "id": "e",
+        "content": "interest groups; work teams"
+      }
+    ],
+    "correctAnswerId": "d",
+    "explanation": "While 'Command' and 'Task' are the primary categories of formal groups, 'Committees' are explicitly classified as a type of formal task group, and 'Work Teams' (as formal teams) are also established by organizations. Interest groups are informal.",
+    "reference": "Chapter 18: Groups and Teams - Found on Slide 10 (Committees) and Slide 18/19 (Teams).",
+    "slideRef": "ch18:s10,18",
+    "slideRefParsed": {
+      "lectureId": "ch18",
+      "chapterNumber": 18,
+      "topic": "Chapter 18: Groups and Teams",
+      "lectureFile": "Chapter 18 - Groups and Teams.pdf",
+      "pdfPath": "Lectures/Chapter 18 - Groups and Teams.pdf",
+      "kind": "slides",
+      "pages": [
+        10,
+        18
+      ],
+      "pageCount": 24,
+      "syntax": "ch18:s10,18"
+    },
+    "questionKey": "2021:Q43",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q43",
+    "questionType": "mcq",
+    "lectureSlug": "chapter-18-groups-and-teams",
+    "examOrder": 43
+  },
+  {
+    "id": "Q44",
+    "topic": "Chapter 21: Controlling Fundamentals",
+    "questionText": "________ is the systematic effort to compare performance to predetermined standards in order to determine whether performance is in line with those standards, or needs to be corrected.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Planning"
+      },
+      {
+        "id": "b",
+        "content": "Organizing"
+      },
+      {
+        "id": "c",
+        "content": "Controlling"
+      },
+      {
+        "id": "d",
+        "content": "Designing"
+      },
+      {
+        "id": "e",
+        "content": "Motivation"
+      }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "Roberto Mockler explicitly defines 'Controlling' as this exact systematic effort.",
+    "reference": "Chapter 21: Controlling Fundamentals - Answer found verbatim on Slide 6.",
+    "slideRef": "ch21:s6",
+    "slideRefParsed": {
+      "lectureId": "ch21",
+      "chapterNumber": 21,
+      "topic": "Chapter 21: Controlling Fundamentals",
+      "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+      "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+      "kind": "slides",
+      "pages": [
+        6
+      ],
+      "pageCount": 19,
+      "syntax": "ch21:s6"
+    },
+    "questionKey": "2021:Q44",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q44",
+    "questionType": "mcq",
+    "lectureSlug": "chapter-21-controlling-fundamentals",
+    "examOrder": 44
+  },
+  {
+    "id": "Q45",
+    "topic": "Chapter 21: Controlling Fundamentals",
+    "questionText": "________ and ________ have been called the \"Siamese twins of management.\"",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Setting standards; measuring performance"
+      },
+      {
+        "id": "b",
+        "content": "Managing; leading"
+      },
+      {
+        "id": "c",
+        "content": "Planning; controlling"
+      },
+      {
+        "id": "d",
+        "content": "Problems; symptoms"
+      },
+      {
+        "id": "e",
+        "content": "Organizing; controlling"
+      }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "The lecture states explicitly that \"Planning and control are virtually inseparable functions, they have been called the Siamese twins of management\".",
+    "reference": "Chapter 21: Controlling Fundamentals - Answer found verbatim on Slide 4.",
+    "slideRef": "ch21:s4",
+    "slideRefParsed": {
+      "lectureId": "ch21",
+      "chapterNumber": 21,
+      "topic": "Chapter 21: Controlling Fundamentals",
+      "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+      "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+      "kind": "slides",
+      "pages": [
+        4
+      ],
+      "pageCount": 19,
+      "syntax": "ch21:s4"
+    },
+    "questionKey": "2021:Q45",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q45",
+    "questionType": "mcq",
+    "lectureSlug": "chapter-21-controlling-fundamentals",
+    "examOrder": 45
+  },
+  {
+    "id": "Q46",
+    "topic": "Chapter 21: Controlling Fundamentals",
+    "questionText": "The level of activity established to serve as a model for evaluating organizational performance is a(n) ________",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Symptom"
+      },
+      {
+        "id": "b",
+        "content": "Problem"
+      },
+      {
+        "id": "c",
+        "content": "Standard"
+      },
+      {
+        "id": "d",
+        "content": "Correction"
+      },
+      {
+        "id": "e",
+        "content": "incentive"
+      }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "The lecture defines a \"Standard\" exactly as \"The level of activity established to serve as a model for evaluating organizational performance\".",
+    "reference": "Chapter 21: Controlling Fundamentals - Answer found verbatim on Slide 11.",
+    "slideRef": "ch21:s11",
+    "slideRefParsed": {
+      "lectureId": "ch21",
+      "chapterNumber": 21,
+      "topic": "Chapter 21: Controlling Fundamentals",
+      "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+      "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+      "kind": "slides",
+      "pages": [
+        11
+      ],
+      "pageCount": 19,
+      "syntax": "ch21:s11"
+    },
+    "questionKey": "2021:Q46",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q46",
+    "questionType": "mcq",
+    "lectureSlug": "chapter-21-controlling-fundamentals",
+    "examOrder": 46
+  },
+  {
+    "id": "Q47",
+    "topic": "Chapter 21: Controlling Fundamentals",
+    "questionText": "________ is managerial activity aimed at bringing organizational performance up to the level of performance standards.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Laddering"
+      },
+      {
+        "id": "b",
+        "content": "Corrective action"
+      },
+      {
+        "id": "c",
+        "content": "Reprogramming"
+      },
+      {
+        "id": "d",
+        "content": "Market correction"
+      },
+      {
+        "id": "e",
+        "content": "Contrarian investing"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "The lecture defines \"Corrective action\" exactly as \"Managerial activity aimed at bringing organizational performance up to the level of performance standards\".",
+    "reference": "Chapter 21: Controlling Fundamentals - Answer found verbatim on Slide 13.",
+    "slideRef": "ch21:s13",
+    "slideRefParsed": {
+      "lectureId": "ch21",
+      "chapterNumber": 21,
+      "topic": "Chapter 21: Controlling Fundamentals",
+      "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+      "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+      "kind": "slides",
+      "pages": [
+        13
+      ],
+      "pageCount": 19,
+      "syntax": "ch21:s13"
+    },
+    "questionKey": "2021:Q47",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q47",
+    "questionType": "mcq",
+    "lectureSlug": "chapter-21-controlling-fundamentals",
+    "examOrder": 47
+  },
+  {
+    "id": "Q48",
+    "topic": "Chapter 21: Controlling Fundamentals",
+    "questionText": "Because Jamie is the manager, her subordinates follow her instructions. This is an example of ________ power.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Personal"
+      },
+      {
+        "id": "b",
+        "content": "position"
+      },
+      {
+        "id": "c",
+        "content": "total"
+      },
+      {
+        "id": "d",
+        "content": "social"
+      },
+      {
+        "id": "e",
+        "content": "absolute"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Position power is \"power derived from the organizational position a manager holds\". Since subordinates follow Jamie strictly because she holds the title/position of manager, it is position power.",
+    "reference": "Chapter 21: Controlling Fundamentals - Answer deduced from the definition of Position Power on Slide 15.",
+    "slideRef": "ch21:s15",
+    "slideRefParsed": {
+      "lectureId": "ch21",
+      "chapterNumber": 21,
+      "topic": "Chapter 21: Controlling Fundamentals",
+      "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+      "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+      "kind": "slides",
+      "pages": [
+        15
+      ],
+      "pageCount": 19,
+      "syntax": "ch21:s15"
+    },
+    "questionKey": "2021:Q48",
+    "origin": "2021",
+    "sourceFile": "final21.json",
+    "sourceQuestionId": "Q48",
+    "questionType": "mcq",
+    "lectureSlug": "chapter-21-controlling-fundamentals",
+    "examOrder": 48
+  }
+]

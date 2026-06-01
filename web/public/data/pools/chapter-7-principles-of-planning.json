@@ -1,0 +1,1367 @@
+{
+  "lecture": "Chapter 7: Principles of Planning",
+  "slug": "chapter-7-principles-of-planning",
+  "totalQuestions": 30,
+  "originsBreakdown": {
+    "2019": 4,
+    "2021": 7,
+    "2024": 9,
+    "2025": 10
+  },
+  "questions": [
+    {
+      "id": "Q2.a",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "Of the four primary management functions, organizing usually precedes planning.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "According to the 'Primacy of Planning' concept, planning is the foundational function that must occur before all others. It provides the basis for organizing, influencing, and controlling. Thus, organizing does not precede planning.",
+      "reference": "Chapter 7: Principles of Planning - Answer found on Slide 6 ('Basis for organizing...') and Slide 7 ('Primacy of Planning' diagram).",
+      "slideRef": "ch7:s6-7",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          6,
+          7
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s6-7"
+      },
+      "origin": "2019",
+      "sourceFile": "final19.json",
+      "sourceQuestionId": "Q2.a",
+      "questionType": "true_false",
+      "poolIndex": 1
+    },
+    {
+      "id": "Q1",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "Planning involves choosing tasks that must be performed to attain organizational goals, outlining how the tasks must be performed, and indicating when they should be performed.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Planning is defined as the systematic development of action programs aimed at reaching agreed-upon business objectives, which inherently involves determining how the organization can get where it wants to go, what tasks it will perform, and scheduling them.",
+      "reference": "Chapter 7: Principles of Planning - Answer supported by the definition of planning on Slide 4.",
+      "slideRef": "ch7:s4",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          4
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s4"
+      },
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q1",
+      "questionType": "true_false",
+      "poolIndex": 2
+    },
+    {
+      "id": "Q2",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "Planning is concerned only with organizational success in the short term, while organizing is concerned with the more distant future (long term).",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Planning is not restricted to the short term. The evaluation criteria for planners explicitly require that a plan includes both long- and short-term recommendations, and organizational objectives (which are the core of planning) encompass short, intermediate, and long-term targets.",
+      "reference": "Chapter 7: Principles of Planning - Answer found on Slide 16 (Types of Objectives) and Slide 25 (Evaluation of Planners, Point 8).",
+      "slideRef": "ch7:s16,25",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          16,
+          25
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s16,25"
+      },
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q2",
+      "questionType": "true_false",
+      "poolIndex": 3
+    },
+    {
+      "id": "Q7",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "The affirmative purpose of planning is to minimize risk by reducing the uncertainties surrounding business conditions and clarifying the consequences of related management activities.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Minimizing risk and reducing uncertainties is defined as the 'Protective' purpose of planning. The 'Affirmative' purpose is specifically to increase the degree of organizational success.",
+      "reference": "Chapter 7: Principles of Planning - Answer found directly on Slide 5.",
+      "slideRef": "ch7:s5",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          5
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s5"
+      },
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q7",
+      "questionType": "true_false",
+      "poolIndex": 4
+    },
+    {
+      "id": "Q8",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "Organizations exist for various purposes but have the same types of objectives.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "While businesses share three main objectives (profit, service to customers, and social responsibility), the specific organizational purpose depends on the 'particular group of customers and customer needs' it serves, meaning objectives vary widely across different organizations based on their unique purpose and environment.",
+      "reference": "Chapter 7: Principles of Planning - Answer supported by the definition of organizational purpose on Slide 11 and main objectives on Slide 12.",
+      "slideRef": "ch7:s11-12",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          11,
+          12
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s11-12"
+      },
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q8",
+      "questionType": "true_false",
+      "poolIndex": 5
+    },
+    {
+      "id": "Q9",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "Suboptimization is the process of assigning subobjectives to the various people or units in the organization based on the organizational objectives.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Suboptimization occurs when high-level organizational objectives are broken down and cascaded down into specific sub-objectives for different departments and management levels (e.g., Production, Sales, Finance).",
+      "reference": "Chapter 7: Principles of Planning - Answer supported by the 'Developing a Hierarchy of Objectives / Suboptimization' diagram on Slide 17.",
+      "slideRef": "ch7:s17",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          17
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s17"
+      },
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q9",
+      "questionType": "true_false",
+      "poolIndex": 6
+    },
+    {
+      "id": "Q10",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "The management by objectives (MBO) approach has been found to be ineffective for nonprofit organizations.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "The slides explicitly state that \"Most managers find MBO programs beneficial\" and outline its advantages in continually emphasizing what should be done to achieve goals. There is no indication in the provided material that MBO is ineffective for nonprofit organizations; it is presented as a generally applicable strategy.",
+      "reference": "Chapter 7: Principles of Planning - Answer based on the MBO Advantages on Slide 23.",
+      "slideRef": "ch7:s23",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          23
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s23"
+      },
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q10",
+      "questionType": "true_false",
+      "poolIndex": 7
+    },
+    {
+      "id": "Q1.a",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "Which of the following is the fundamental purpose of planning?",
+      "context": null,
+      "options": [
+        {
+          "id": "1",
+          "content": "eliminating risk"
+        },
+        {
+          "id": "2",
+          "content": "helping the organization reach its objectives"
+        },
+        {
+          "id": "3",
+          "content": "optimizing the use of resources"
+        },
+        {
+          "id": "4",
+          "content": "identifying organizational objectives"
+        },
+        {
+          "id": "5",
+          "content": "organizing work processes"
+        }
+      ],
+      "correctAnswerId": "2",
+      "explanation": "According to the contemporary view, the primary purpose of planning is to help the organization reach its objectives.",
+      "reference": "Chapter 7: Principles of Planning - Answer found directly on Slide 5 under 'Contemporary'.",
+      "slideRef": "ch7:s5",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          5
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s5"
+      },
+      "origin": "2019",
+      "sourceFile": "final19.json",
+      "sourceQuestionId": "Q1.a",
+      "questionType": "mcq",
+      "poolIndex": 8
+    },
+    {
+      "id": "Q1.b",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "The primary management function is",
+      "context": null,
+      "options": [
+        {
+          "id": "1",
+          "content": "organizing"
+        },
+        {
+          "id": "2",
+          "content": "influencing"
+        },
+        {
+          "id": "3",
+          "content": "controlling"
+        },
+        {
+          "id": "4",
+          "content": "planning"
+        },
+        {
+          "id": "5",
+          "content": "staffing"
+        }
+      ],
+      "correctAnswerId": "4",
+      "explanation": "Planning is considered the primary management function because it forms the basis for all other functions (organizing, influencing, and controlling), as depicted in the Primacy of Planning model.",
+      "reference": "Chapter 7: Principles of Planning - Answer found on Slide 6 and the diagram on Slide 7.",
+      "slideRef": "ch7:s6-7",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          6,
+          7
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s6-7"
+      },
+      "origin": "2019",
+      "sourceFile": "final19.json",
+      "sourceQuestionId": "Q1.b",
+      "questionType": "mcq",
+      "poolIndex": 9
+    },
+    {
+      "id": "Q1.f",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "Which of the following is an advantage of planning?",
+      "context": null,
+      "options": [
+        {
+          "id": "1",
+          "content": "eliminates all risks"
+        },
+        {
+          "id": "2",
+          "content": "enhances decision coordination"
+        },
+        {
+          "id": "3",
+          "content": "emphasizes immediate goals"
+        },
+        {
+          "id": "4",
+          "content": "suboptimizes the use of resources"
+        },
+        {
+          "id": "5",
+          "content": "promotes individual performance"
+        }
+      ],
+      "correctAnswerId": "2",
+      "explanation": "One of the listed advantages of planning is that it 'Enhances decision coordination' by making managers future-oriented and emphasizing organizational objectives.",
+      "reference": "Chapter 7: Principles of Planning - Answer found verbatim on Slide 6 under '+ Advantages'.",
+      "slideRef": "ch7:s6",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          6
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s6"
+      },
+      "origin": "2019",
+      "sourceFile": "final19.json",
+      "sourceQuestionId": "Q1.f",
+      "questionType": "mcq",
+      "poolIndex": 10
+    },
+    {
+      "id": "Q25",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "Which of the following is an advantage of planning?",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "eliminates all risks"
+        },
+        {
+          "id": "b",
+          "content": "enhances decision coordination"
+        },
+        {
+          "id": "c",
+          "content": "emphasizes immediate goals"
+        },
+        {
+          "id": "d",
+          "content": "suboptimizes the use of resources"
+        },
+        {
+          "id": "e",
+          "content": "promotes individual performance"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Enhancing decision coordination is explicitly listed as a key advantage of the planning function.",
+      "reference": "Chapter 7: Principles of Planning - Answer found verbatim on Slide 6 under '+ Advantages'.",
+      "slideRef": "ch7:s6",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          6
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s6"
+      },
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q25",
+      "questionType": "mcq",
+      "poolIndex": 11
+    },
+    {
+      "id": "Q17",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "____ and ____ have been called the \"Siamese twins of management.\"",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Setting standards; measuring performance"
+        },
+        {
+          "id": "b",
+          "content": "Managing; leading"
+        },
+        {
+          "id": "c",
+          "content": "Planning; controlling"
+        },
+        {
+          "id": "d",
+          "content": "Problems; symptoms"
+        },
+        {
+          "id": "e",
+          "content": "Organizing; controlling"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Planning and controlling are intimately linked. Planning sets the objectives and standards, while controlling measures performance against those plans to ensure goals are met. This deep interdependence earns them the \"Siamese twins\" moniker.",
+      "reference": "Chapter 7: Principles of Planning - Based on external management theory commonly taught alongside these slides, and supported by the interrelated nature shown on Slide 7.",
+      "slideRef": "ch7:s7",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          7
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s7"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q17",
+      "questionType": "mcq",
+      "poolIndex": 12
+    },
+    {
+      "id": "Q40",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "At what step of the planning can be processed with the topmost and applicable plan would be implemented?",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Setting up objective"
+        },
+        {
+          "id": "b",
+          "content": "Developing Premises"
+        },
+        {
+          "id": "c",
+          "content": "Selecting up objective"
+        },
+        {
+          "id": "d",
+          "content": "Evaluating alternative course of action"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "This question phrasing is slightly irregular, but based on the Planning Process steps, after evaluating alternatives, the next step is to 'Choose best alternative for reaching objectives' (which aligns with selecting the topmost/applicable plan).",
+      "reference": "Chapter 7: Principles of Planning - Answer supported by the Planning Process steps on Slide 10 (Step 4: Choose best alternative).",
+      "slideRef": "ch7:s10",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          10
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s10"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q40",
+      "questionType": "mcq",
+      "poolIndex": 13
+    },
+    {
+      "id": "Q42",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "In which pace of the planning process, two sides of a coin of each alternative are examined.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Setting up Objective"
+        },
+        {
+          "id": "b",
+          "content": "Developing Premises"
+        },
+        {
+          "id": "c",
+          "content": "Selecting an alternative premises"
+        },
+        {
+          "id": "d",
+          "content": "Evaluating alternatives course of action"
+        }
+      ],
+      "correctAnswerId": "d",
+      "explanation": "Evaluating alternatives involves analyzing the pros and cons (the two sides of the coin) of each listed option before making a final choice.",
+      "reference": "Chapter 7: Principles of Planning - Answer deduced from the logical progression of the Planning Process steps on Slide 10, specifically between Step 2 (Listing) and Step 4 (Choosing).",
+      "slideRef": "ch7:s10",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          10
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s10"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q42",
+      "questionType": "mcq",
+      "poolIndex": 14
+    },
+    {
+      "id": "Q45",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "It is known as planning.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "The last function of the manager"
+        },
+        {
+          "id": "b",
+          "content": "Primary/First function of the manager"
+        },
+        {
+          "id": "c",
+          "content": "Both a) and b)"
+        },
+        {
+          "id": "d",
+          "content": "None of the options is correct"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Because of the concept of the 'Primacy of Planning', planning is considered the primary, or first, function a manager must perform, as it sets the foundation for organizing, influencing, and controlling.",
+      "reference": "Chapter 7: Principles of Planning - Answer supported by the Primacy of Planning diagram on Slide 7.",
+      "slideRef": "ch7:s7",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          7
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s7"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q45",
+      "questionType": "mcq",
+      "poolIndex": 15
+    },
+    {
+      "id": "Q47",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "Thinking for the future output is known as",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Setting planning premises"
+        },
+        {
+          "id": "b",
+          "content": "Making derivative plans"
+        },
+        {
+          "id": "c",
+          "content": "Making policy"
+        },
+        {
+          "id": "d",
+          "content": "All of the options are correct"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Developing premises involves making assumptions about the future conditions upon which alternative plans will be based. It is essentially thinking about future scenarios.",
+      "reference": "Chapter 7: Principles of Planning - Answer based on Step 3 of the Planning Process on Slide 10: 'Develop premises upon which each alternative is based'.",
+      "slideRef": "ch7:s10",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          10
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s10"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q47",
+      "questionType": "mcq",
+      "poolIndex": 16
+    },
+    {
+      "id": "Q51",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "What is the core of making a plan?",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Organizing"
+        },
+        {
+          "id": "b",
+          "content": "Thinking in Advance"
+        },
+        {
+          "id": "c",
+          "content": "Directing"
+        },
+        {
+          "id": "d",
+          "content": "All of the above"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Planning is inherently future-oriented. It involves determining how the organization can get where it wants to go, which requires analyzing foreseen opportunities and thinking in advance.",
+      "reference": "Chapter 7: Principles of Planning - Answer supported by the definition of planning on Slide 4 and the advantage 'Helps managers to be future-oriented' on Slide 6.",
+      "slideRef": "ch7:s4,6",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          4,
+          6
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s4,6"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q51",
+      "questionType": "mcq",
+      "poolIndex": 17
+    },
+    {
+      "id": "Q53",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "At what stage of the planning becomes the most feasible plan that can be implemented.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Developing Premises"
+        },
+        {
+          "id": "b",
+          "content": "Evaluating alternative course of action"
+        },
+        {
+          "id": "c",
+          "content": "Selecting an alternative"
+        },
+        {
+          "id": "d",
+          "content": "Setting up objective"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "After evaluating options, the manager chooses the best (most feasible) alternative to reach the objectives, which is then developed into actionable plans.",
+      "reference": "Chapter 7: Principles of Planning - Answer based on Step 4 of the Planning Process on Slide 10: 'Choose best alternative for reaching objectives'.",
+      "slideRef": "ch7:s10",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          10
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s10"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q53",
+      "questionType": "mcq",
+      "poolIndex": 18
+    },
+    {
+      "id": "Q55",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "Planning establishes a ground standard for",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Controlling"
+        },
+        {
+          "id": "b",
+          "content": "Directing"
+        },
+        {
+          "id": "c",
+          "content": "Staffing"
+        },
+        {
+          "id": "d",
+          "content": "Organizing"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "While planning is the basis for all functions, it specifically sets the organizational objectives and targets (standards) that the 'Controlling' function measures performance against to determine if goals are being met.",
+      "reference": "Chapter 7: Principles of Planning - Answer supported by the 'Primacy of Planning' link to Controlling on Slide 7, and general management principles.",
+      "slideRef": "ch7:s7",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          7
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s7"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q55",
+      "questionType": "mcq",
+      "poolIndex": 19
+    },
+    {
+      "id": "Q57",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "Define the term premises?",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Running an organization"
+        },
+        {
+          "id": "b",
+          "content": "Assumptions about the Future"
+        },
+        {
+          "id": "c",
+          "content": "Noting down all the factors"
+        },
+        {
+          "id": "d",
+          "content": "None of the above."
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "In the context of the planning process, developing premises means formulating assumptions about future conditions and environments upon which the alternative plans will be based.",
+      "reference": "Chapter 7: Principles of Planning - Answer based on Step 3 of the Planning Process on Slide 10.",
+      "slideRef": "ch7:s10",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          10
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s10"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q57",
+      "questionType": "mcq",
+      "poolIndex": 20
+    },
+    {
+      "id": "Q20",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "At what step of the planning can be processed with the topmost and applicable plan would be implemented",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Setting up objective"
+        },
+        {
+          "id": "b",
+          "content": "Developing Premises"
+        },
+        {
+          "id": "c",
+          "content": "Selecting up objective"
+        },
+        {
+          "id": "d",
+          "content": "Evaluating alternative course of action"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Selecting the best alternative (or 'selecting up objective' based on the flawed wording of the option) is the step where the most applicable plan is chosen for implementation.",
+      "reference": "Chapter 7: Principles of Planning - Answer based on Step 4 of the Planning Process on Slide 10.",
+      "slideRef": "ch7:s10",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          10
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s10"
+      },
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q20",
+      "questionType": "mcq",
+      "poolIndex": 21
+    },
+    {
+      "id": "Q24",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "In which pace of the planning process, two sides of a coin of each alternative are examined.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Setting up Objective"
+        },
+        {
+          "id": "b",
+          "content": "Developing Premises"
+        },
+        {
+          "id": "c",
+          "content": "Selecting an alternative premises"
+        },
+        {
+          "id": "d",
+          "content": "Evaluating alternatives course of action"
+        }
+      ],
+      "correctAnswerId": "d",
+      "explanation": "Evaluating alternatives is the step where the pros and cons of different courses of action are analyzed before a final choice is made.",
+      "reference": "Chapter 7: Principles of Planning - Answer logically deduced from the Planning Process flow on Slide 10.",
+      "slideRef": "ch7:s10",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          10
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s10"
+      },
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q24",
+      "questionType": "mcq",
+      "poolIndex": 22
+    },
+    {
+      "id": "Q25",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "Planning is",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "The last function of the manager"
+        },
+        {
+          "id": "b",
+          "content": "Primary/First function of the manager"
+        },
+        {
+          "id": "c",
+          "content": "Both a) and b)"
+        },
+        {
+          "id": "d",
+          "content": "None of the options is correct"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Due to the concept of Primacy of Planning, it is the foundational and primary function that precedes organizing, influencing, and controlling.",
+      "reference": "Chapter 7: Principles of Planning - Answer found on Slide 7 (Primacy of Planning).",
+      "slideRef": "ch7:s7",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          7
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s7"
+      },
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q25",
+      "questionType": "mcq",
+      "poolIndex": 23
+    },
+    {
+      "id": "Q27",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "Thinking for the future output is known as",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Setting planning premises"
+        },
+        {
+          "id": "b",
+          "content": "Making derivative plans"
+        },
+        {
+          "id": "c",
+          "content": "Making policy"
+        },
+        {
+          "id": "d",
+          "content": "All of the options are correct"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Developing or setting planning premises involves making assumptions and forecasts about future conditions that will affect the execution of the plans.",
+      "reference": "Chapter 7: Principles of Planning - Answer based on Step 3 of the Planning Process on Slide 10.",
+      "slideRef": "ch7:s10",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          10
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s10"
+      },
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q27",
+      "questionType": "mcq",
+      "poolIndex": 24
+    },
+    {
+      "id": "Q32",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "Looking after the change in an organizational environment doesn't come with any surprises. Address importance of planning related to the topic:",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Planning reduces the risk of uncertainties"
+        },
+        {
+          "id": "b",
+          "content": "Planning provides direction"
+        },
+        {
+          "id": "c",
+          "content": "Planning promotes the innovative idea"
+        },
+        {
+          "id": "d",
+          "content": "Planning facilitates decision making"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "The protective purpose of planning is specifically designed to minimize risk by reducing uncertainties surrounding business conditions, thereby preventing surprises in a changing environment.",
+      "reference": "Chapter 7: Principles of Planning - Answer found directly on Slide 5 under 'Protective' purpose.",
+      "slideRef": "ch7:s5",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          5
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s5"
+      },
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q32",
+      "questionType": "mcq",
+      "poolIndex": 25
+    },
+    {
+      "id": "Q43",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "At what stage of the planning becomes the most feasible plan that can be implemented.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Developing Premises"
+        },
+        {
+          "id": "b",
+          "content": "Evaluating alternative course of action"
+        },
+        {
+          "id": "c",
+          "content": "Selecting an alternative"
+        },
+        {
+          "id": "d",
+          "content": "Setting up objective"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Selecting the best alternative is the stage where the most feasible course of action is chosen to be developed into actual implemented plans.",
+      "reference": "Chapter 7: Principles of Planning - Answer based on Step 4 of the Planning Process on Slide 10.",
+      "slideRef": "ch7:s10",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          10
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s10"
+      },
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q43",
+      "questionType": "mcq",
+      "poolIndex": 26
+    },
+    {
+      "id": "Q47",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "We can address planning as",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "The primary function of the manager"
+        },
+        {
+          "id": "b",
+          "content": "The Last function of a manager"
+        },
+        {
+          "id": "c",
+          "content": "None of the above"
+        },
+        {
+          "id": "d",
+          "content": "Both a) and b)"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Planning is the primary foundation upon which organizing, influencing, and controlling are built.",
+      "reference": "Chapter 7: Principles of Planning - Answer based on the Primacy of Planning on Slide 7.",
+      "slideRef": "ch7:s7",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          7
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s7"
+      },
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q47",
+      "questionType": "mcq",
+      "poolIndex": 27
+    },
+    {
+      "id": "Q51",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "Planning establishes a ground standard for",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Controlling"
+        },
+        {
+          "id": "b",
+          "content": "Directing"
+        },
+        {
+          "id": "c",
+          "content": "Staffing"
+        },
+        {
+          "id": "d",
+          "content": "Organizing"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Planning sets the objectives and standards that the controlling function later uses to measure actual performance against.",
+      "reference": "Chapter 7: Principles of Planning - Answer supported by the connection between Planning and Controlling on Slide 7.",
+      "slideRef": "ch7:s7",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          7
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s7"
+      },
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q51",
+      "questionType": "mcq",
+      "poolIndex": 28
+    },
+    {
+      "id": "Q52",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "It helps to cross the gap between the current position and the future",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Controlling"
+        },
+        {
+          "id": "b",
+          "content": "Planning"
+        },
+        {
+          "id": "c",
+          "content": "Directing"
+        },
+        {
+          "id": "d",
+          "content": "Organizing"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Planning is defined as determining how the organization can get where it wants to go (future position) from its current position.",
+      "reference": "Chapter 7: Principles of Planning - Answer supported by the definition of planning on Slide 4.",
+      "slideRef": "ch7:s4",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          4
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s4"
+      },
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q52",
+      "questionType": "mcq",
+      "poolIndex": 29
+    },
+    {
+      "id": "Q60",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "Which of the following is an error managers make during the planning stage of management?",
+      "context": null,
+      "options": [
+        {
+          "id": "A",
+          "content": "not establishing departments appropriately"
+        },
+        {
+          "id": "B",
+          "content": "not emphasizing coordination of organization members"
+        },
+        {
+          "id": "C",
+          "content": "not exploring enough viable alternatives for reaching objectives"
+        },
+        {
+          "id": "D",
+          "content": "not monitoring progress in carrying out plans"
+        },
+        {
+          "id": "E",
+          "content": "not taking the time to communicate properly with organization members"
+        }
+      ],
+      "correctAnswerId": "C",
+      "explanation": "In Chapter 1, common mistakes for each function were defined. The mistake of 'not exploring enough viable alternatives for reaching objectives' is a specific error associated with the Planning function. Establishing departments is Organizing, communicating is Influencing, and monitoring is Controlling.",
+      "reference": "Chapter 7: Principles of Planning - Based on external course context (Chapter 1, Slide 8) and the Planning Process steps (Slide 10) where listing alternatives is a key step.",
+      "slideRef": "ch7:s8,10",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          8,
+          10
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s8,10"
+      },
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q60",
+      "questionType": "mcq",
+      "poolIndex": 30
+    }
+  ]
+}

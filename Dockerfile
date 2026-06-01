@@ -1,0 +1,35 @@
+# syntax=docker/dockerfile:1
+
+# --- Dependencies (web app) ---
+FROM node:22-bookworm-slim AS deps
+WORKDIR /app/web
+COPY web/package.json web/package-lock.json web/.npmrc ./
+RUN npm ci
+
+# --- Build static export (sync + next build) ---
+FROM node:22-bookworm-slim AS builder
+WORKDIR /app
+
+# Course data consumed by web/scripts/sync-content.mjs
+COPY final19.json final21.json final24.json final25.json ./
+COPY repetitive-questions.json lectures_manifest.json ./
+COPY EXAM_QUESTION_ANALYSIS.md ./
+COPY question-pools-by-lecture ./question-pools-by-lecture
+COPY Lectures ./Lectures
+
+COPY --from=deps /app/web/node_modules ./web/node_modules
+COPY web ./web
+
+WORKDIR /app/web
+ENV NODE_ENV=production
+ENV NEXT_TELEMETRY_DISABLED=1
+RUN npm run build
+
+# --- Serve static site on port 3000 ---
+FROM nginx:1.27-alpine AS runner
+COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=builder /app/web/out /usr/share/nginx/html
+
+EXPOSE 3000
+HEALTHCHECK --interval=30s --timeout=5s --start-period=10s --retries=3 \
+  CMD wget -qO- http://127.0.0.1:3000/ >/dev/null || exit 1

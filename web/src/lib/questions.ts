@@ -1,0 +1,105 @@
+import type { Catalog, Question } from "@/types/question";
+import catalogJson from "@/data/generated/catalog.json";
+import repetitiveJson from "../../public/data/repetitive-questions.json";
+
+const catalog = catalogJson as Catalog;
+
+export function getCatalog(): Catalog {
+  return catalog;
+}
+
+export function getAllQuestions(): Question[] {
+  return catalog.questions;
+}
+
+export function getQuestionByKey(key: string): Question | undefined {
+  return catalog.questionByKey[key];
+}
+
+export function getQuestionsByExamYear(year: string): Question[] {
+  const keys = catalog.byExamYear[year] ?? [];
+  return keys.map((k) => catalog.questionByKey[k]).filter(Boolean);
+}
+
+export function getQuestionsByLectureSlug(slug: string): Question[] {
+  const keys = catalog.byLectureSlug[slug] ?? [];
+  return keys.map((k) => catalog.questionByKey[k]).filter(Boolean);
+}
+
+export function getLectureSlugs(): Array<{
+  slug: string;
+  lecture: string;
+  count: number;
+}> {
+  return catalog.poolIndex.lectureFiles.map((f) => ({
+    slug: f.file.replace(".json", ""),
+    lecture: f.lecture,
+    count: f.count,
+  }));
+}
+
+export function getLectureMeta() {
+  return catalog.lectureMeta;
+}
+
+export function getExamYears() {
+  return catalog.examYears;
+}
+
+export function getStats() {
+  return catalog.stats;
+}
+
+export function isAnswerCorrect(
+  selectedId: string,
+  correctAnswerId: string
+): boolean {
+  return selectedId.trim().toLowerCase() === correctAnswerId.trim().toLowerCase();
+}
+
+export function slugFromLectureFile(file: string): string {
+  return file.replace(".json", "");
+}
+
+export function getRepetitiveQuestions(): Question[] {
+  return catalog.repetitiveKeys
+    .map((k) => catalog.questionByKey[k])
+    .filter(Boolean);
+}
+
+export function getRepetitiveFileQuestions(): Question[] {
+  const data = repetitiveJson as { questions: Array<Record<string, unknown>> };
+  return data.questions.map((raw) => {
+    const q = raw as unknown as Question;
+    const questionKey =
+      q.questionKey ?? `${q.origin}:${q.sourceQuestionId || q.id}`;
+    const fromCatalog = catalog.questionByKey[questionKey];
+    if (fromCatalog) return fromCatalog;
+    return {
+      ...q,
+      questionKey,
+      lectureSlug: q.lectureSlug ?? slugFromTopic(q.topic),
+      examOrder: q.examOrder ?? 0,
+    };
+  });
+}
+
+function slugFromTopic(topic: string): string {
+  const m = topic.match(/Chapter\s+(\d+):\s*(.+)/i);
+  if (!m) return "unknown";
+  const name = m[2]
+    .toLowerCase()
+    .replace(/[^\w\s-]/g, "")
+    .trim()
+    .replace(/\s+/g, "-");
+  return `chapter-${m[1]}-${name}`;
+}
+
+export function getRepetitiveStats() {
+  const data = repetitiveJson as { uniqueRepeatedStems: number };
+  return data.uniqueRepeatedStems;
+}
+
+export function getLectureIdList(): string[] {
+  return Object.keys(catalog.lectureMeta);
+}

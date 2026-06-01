@@ -1,0 +1,1212 @@
+{
+  "lecture": "Chapter 11: Fundamentals of Organizing",
+  "slug": "chapter-11-fundamentals-of-organizing",
+  "totalQuestions": 27,
+  "originsBreakdown": {
+    "2019": 2,
+    "2021": 5,
+    "2024": 8,
+    "2025": 12
+  },
+  "questions": [
+    {
+      "id": "Q2.d",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "Bureaucracy can be characterized as a management system with detailed procedures, rules, and a clearly outlined organizational hierarchy with impersonal relationships among organization members.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Weber's bureaucratic model defines the concept of bureaucracy using three main components: detailed procedures and rules, a clearly outlined organizational hierarchy, and impersonal relationships among organization members.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer found verbatim on Slide 9.",
+      "slideRef": "ch11:s9",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          9
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s9"
+      },
+      "origin": "2019",
+      "sourceFile": "final19.json",
+      "sourceQuestionId": "Q2.d",
+      "questionType": "true_false",
+      "poolIndex": 1
+    },
+    {
+      "id": "Q15",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "The final step in the organization process is to allocate resources and directives for subtasks.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "According to the organizing process model, allocating resources and directives for subtasks is Step 4. The fifth and final step is evaluating the results of the organizing strategy.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer found on Slide 7 (Organizing Process).",
+      "slideRef": "ch11:s7",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          7
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s7"
+      },
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q15",
+      "questionType": "true_false",
+      "poolIndex": 2
+    },
+    {
+      "id": "Q16",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "Span of management refers to the number of organizational levels below that of a particular manager's.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Span of management (or span of control) refers to the number of individuals a manager directly supervises to best guide them toward production quotas. The number of organizational levels relates to the vertical dimensioning or the 'height' of the organization chart, not the span of management.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer deduced from Slide 20 and Slide 23.",
+      "slideRef": "ch11:s20,23",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          20,
+          23
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s20,23"
+      },
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q16",
+      "questionType": "true_false",
+      "poolIndex": 3
+    },
+    {
+      "id": "Q7",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "Henri Fayol recommends that businesses establish multiple guiding authorities when organizing resources.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "The management principle of 'Unity of Command' explicitly recommends that an individual have only one boss. Establishing multiple guiding authorities contradicts this core principle.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer found on Slide 19 under Unity of Command.",
+      "slideRef": "ch11:s19",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          19
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s19"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q7",
+      "questionType": "true_false",
+      "poolIndex": 4
+    },
+    {
+      "id": "Q8",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "Bureaucracy can be characterized as a management system with detailed procedures, rules, and a clearly outlined organizational hierarchy with impersonal relationships among organization members.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "This perfectly matches Weber's bureaucratic model, which is defined by detailed procedures and rules, a clearly outlined organizational hierarchy, and impersonal relationships.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer found verbatim on Slide 9.",
+      "slideRef": "ch11:s9",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          9
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s9"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q8",
+      "questionType": "true_false",
+      "poolIndex": 5
+    },
+    {
+      "id": "Q9",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "Vertical dimensioning is directly related to the concept of the scalar relationship that is, the chain of command.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Vertical dimensioning encompasses the scalar relationship (chain of command), mapping how authority scales downward from the individual at the top to those at the bottom.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer found directly on Slide 18 and Slide 19.",
+      "slideRef": "ch11:s18-19",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          18,
+          19
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s18-19"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q9",
+      "questionType": "true_false",
+      "poolIndex": 6
+    },
+    {
+      "id": "Q10",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "The matrix structure is contradictory to the principle of unity of command.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "The matrix structure forces employees to prioritize responsibilities based on multiple authority figures. This directly contradicts the principle of Unity of Command, which dictates that an employee should have only one boss.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer deduced from Slide 19 (Unity of Command) and Slide 34 (Matrix Disadvantages).",
+      "slideRef": "ch11:s19,34",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          19,
+          34
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s19,34"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q10",
+      "questionType": "true_false",
+      "poolIndex": 7
+    },
+    {
+      "id": "Q2",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "Organizing is the process of establishing orderly uses for all resources within the management system.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "This is the exact, verbatim definition of organizing provided in the fundamental definitions of the lecture.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer found verbatim on Slide 5.",
+      "slideRef": "ch11:s5",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          5
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s5"
+      },
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q2",
+      "questionType": "true_false",
+      "poolIndex": 8
+    },
+    {
+      "id": "Q3",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "Vertical dimensioning is directly related to the concept of the scalar relationship that is, the chain of command.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Vertical dimensioning is the extent to which an organization uses vertical levels, which directly relates to the scalar relationship (chain of command) where authority scales downward.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer found directly on Slide 18 and Slide 19.",
+      "slideRef": "ch11:s18-19",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          18,
+          19
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s18-19"
+      },
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q3",
+      "questionType": "true_false",
+      "poolIndex": 9
+    },
+    {
+      "id": "Q13",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "Span of management refers to the number of organizational levels below that of a particular manager's.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Span of management describes how many individuals a manager directly supervises, not the number of organizational levels below them. Organizational levels dictate the chart's 'height'.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer deduced from Slide 20 and Slide 23.",
+      "slideRef": "ch11:s20,23",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          20,
+          23
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s20,23"
+      },
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q13",
+      "questionType": "true_false",
+      "poolIndex": 10
+    },
+    {
+      "id": "Q1.d",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "_________ is the assignment of various portions of a particular task among a number of organization members.",
+      "context": null,
+      "options": [
+        {
+          "id": "1",
+          "content": "Participation"
+        },
+        {
+          "id": "2",
+          "content": "Job enlargement"
+        },
+        {
+          "id": "3",
+          "content": "Division of labor"
+        },
+        {
+          "id": "4",
+          "content": "Job rotation"
+        },
+        {
+          "id": "5",
+          "content": "Work sharing"
+        }
+      ],
+      "correctAnswerId": "3",
+      "explanation": "Division of labor is defined explicitly as the assignment of various portions of a particular task among a number of organization members to increase specialization and efficiency.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer found verbatim on Slide 11.",
+      "slideRef": "ch11:s11",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          11
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s11"
+      },
+      "origin": "2019",
+      "sourceFile": "final19.json",
+      "sourceQuestionId": "Q1.d",
+      "questionType": "mcq",
+      "poolIndex": 11
+    },
+    {
+      "id": "Q32",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "________ is the process of establishing orderly uses for resources within the management system.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Organizing"
+        },
+        {
+          "id": "b",
+          "content": "Communication"
+        },
+        {
+          "id": "c",
+          "content": "Planning"
+        },
+        {
+          "id": "d",
+          "content": "Controlling"
+        },
+        {
+          "id": "e",
+          "content": "Motivation"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "The formal definition of organizing is the process of establishing orderly uses for resources within the management system.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer found verbatim on Slide 5.",
+      "slideRef": "ch11:s5",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          5
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s5"
+      },
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q32",
+      "questionType": "mcq",
+      "poolIndex": 12
+    },
+    {
+      "id": "Q33",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "________ is the assignment of various portions of a particular task among a number of organization members.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Participation"
+        },
+        {
+          "id": "b",
+          "content": "Job enlargement"
+        },
+        {
+          "id": "c",
+          "content": "Division of labor"
+        },
+        {
+          "id": "d",
+          "content": "Job rotation"
+        },
+        {
+          "id": "e",
+          "content": "Work sharing"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Division of labor is the specific term used to describe assigning portions of a single task among multiple workers.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer found verbatim on Slide 11.",
+      "slideRef": "ch11:s11",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          11
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s11"
+      },
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q33",
+      "questionType": "mcq",
+      "poolIndex": 13
+    },
+    {
+      "id": "Q34",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "Which of the following is an advantage of division of labor?",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "It broadens the scope of work."
+        },
+        {
+          "id": "b",
+          "content": "It results in high levels of employee motivation."
+        },
+        {
+          "id": "c",
+          "content": "It makes work more interesting."
+        },
+        {
+          "id": "d",
+          "content": "It saves time."
+        },
+        {
+          "id": "e",
+          "content": "It emphasizes the human variable in organizations."
+        }
+      ],
+      "correctAnswerId": "d",
+      "explanation": "A key advantage of division of labor is that workers stay in one place and do one job, meaning they 'do not lose valuable time changing tools or locations,' which effectively saves time. Broadening scope, high motivation, interesting work, and emphasizing human variables are contradicted by the listed disadvantages of the division of labor.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer deduced from the Advantages on Slide 12.",
+      "slideRef": "ch11:s12",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          12
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s12"
+      },
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q34",
+      "questionType": "mcq",
+      "poolIndex": 14
+    },
+    {
+      "id": "Q25",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "____ includes determining tasks and groupings of work. It should not be rigid, but adaptable and flexible to meet challenges as circumstances change.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Organizing"
+        },
+        {
+          "id": "b",
+          "content": "Influencing"
+        },
+        {
+          "id": "c",
+          "content": "Controlling"
+        },
+        {
+          "id": "d",
+          "content": "Monitoring"
+        },
+        {
+          "id": "e",
+          "content": "Planning"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Organizing inherently involves establishing tasks and forming departments (groupings of work). Furthermore, Fayol advises that strict adherence to formal structures is not always advisable, highlighting that organizing should remain flexible.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer aligns with Departmentalizing (Slide 24) and Fayol's advice on flexibility (Slide 35).",
+      "slideRef": "ch11:s24,35",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          24,
+          35
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s24,35"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q25",
+      "questionType": "mcq",
+      "poolIndex": 15
+    },
+    {
+      "id": "Q31",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "Which of the following statements is true about organizing?",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "It is the process of determining how the organization will achieve its objectives."
+        },
+        {
+          "id": "b",
+          "content": "It is the management process of guiding the activities of organization members to help attain organizational objectives."
+        },
+        {
+          "id": "c",
+          "content": "It is the process of making things happen as they were planned to happen."
+        },
+        {
+          "id": "d",
+          "content": "It is the process of establishing orderly uses for all the organization's resources."
+        }
+      ],
+      "correctAnswerId": "d",
+      "explanation": "The direct definition provided in the lecture is that organizing is the process of establishing orderly uses for resources within the management system.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer found verbatim on Slide 5.",
+      "slideRef": "ch11:s5",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          5
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s5"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q31",
+      "questionType": "mcq",
+      "poolIndex": 16
+    },
+    {
+      "id": "Q56",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "Which of the following is an advantage of division of labor?",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "It results in easier and more efficient work."
+        },
+        {
+          "id": "b",
+          "content": "It broadens the scope of work."
+        },
+        {
+          "id": "c",
+          "content": "It emphasizes the human variable in organizations."
+        },
+        {
+          "id": "d",
+          "content": "It makes work more interesting."
+        },
+        {
+          "id": "e",
+          "content": "It results in high levels of employee motivation."
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "An explicit advantage of division of labor is that when workers concentrate on performing only one job, they naturally try to make the job easier and more efficient.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer found verbatim on Slide 12.",
+      "slideRef": "ch11:s12",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          12
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s12"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q56",
+      "questionType": "mcq",
+      "poolIndex": 17
+    },
+    {
+      "id": "Q58",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "Which of the following is one of the three main components of the management system that Weber termed a bureaucracy?",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "minimum regulations and paperwork"
+        },
+        {
+          "id": "b",
+          "content": "close, personal relations among organization members"
+        },
+        {
+          "id": "c",
+          "content": "emphasis on the human variable"
+        },
+        {
+          "id": "d",
+          "content": "a flat organizational structure"
+        },
+        {
+          "id": "e",
+          "content": "a clearly outlined organizational hierarchy"
+        }
+      ],
+      "correctAnswerId": "e",
+      "explanation": "Weber's bureaucratic model includes three main concepts: detailed procedures and rules, impersonal relationships, and a clearly outlined organizational hierarchy.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer found verbatim on Slide 9.",
+      "slideRef": "ch11:s9",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          9
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s9"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q58",
+      "questionType": "mcq",
+      "poolIndex": 18
+    },
+    {
+      "id": "Q17",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "Which of the following features is of Formal organization -:",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Directed by company rules and regulations"
+        },
+        {
+          "id": "b",
+          "content": "Managers are leaders"
+        },
+        {
+          "id": "c",
+          "content": "Both (A) and (B)"
+        },
+        {
+          "id": "d",
+          "content": "None of these"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "A formal organization refers strictly to the designated relationships and structures explicitly outlined by management, which are directed by official company rules and regulations.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer derived from the definition of Formal Structure on Slide 16.",
+      "slideRef": "ch11:s16",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          16
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s16"
+      },
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q17",
+      "questionType": "mcq",
+      "poolIndex": 19
+    },
+    {
+      "id": "Q19",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "Organizing is the process of _____ the activities of an enterprise and _____",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Defining and grouping"
+        },
+        {
+          "id": "b",
+          "content": "Allocating and defining"
+        },
+        {
+          "id": "c",
+          "content": "Establishing relationships and Grouping"
+        },
+        {
+          "id": "d",
+          "content": "Defining and allocating"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Organizing essentially involves defining (identifying and dividing work into major tasks) and grouping them (departmentalization) to establish an orderly use of resources.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer deduced from the Organizing Process steps on Slide 7 and Departmentalizing concepts on Slide 24.",
+      "slideRef": "ch11:s7,24",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          7,
+          24
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s7,24"
+      },
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q19",
+      "questionType": "mcq",
+      "poolIndex": 20
+    },
+    {
+      "id": "Q23",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "Organisational structure is a",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Framework within which managerial and operating tasks are performed"
+        },
+        {
+          "id": "b",
+          "content": "Only managerial task are performed"
+        },
+        {
+          "id": "c",
+          "content": "Only operating tasks are performed"
+        },
+        {
+          "id": "d",
+          "content": "None of these"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Structure is the designated relationships among all resources of the management system, facilitating the use of each resource individually and collectively. This encompasses both the managerial hierarchy and the operating tasks performed by employees.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer derived from the definition and purpose of Structure on Slide 16.",
+      "slideRef": "ch11:s16",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          16
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s16"
+      },
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q23",
+      "questionType": "mcq",
+      "poolIndex": 21
+    },
+    {
+      "id": "Q28",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "What is the point of distinction between formal and informal organization",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "The managers are the leaders in case of formal organization while in case of informal organization the managers may or may not be the leaders and the leaders are chosen by the groups"
+        },
+        {
+          "id": "b",
+          "content": "Formal organization is flexible in nature while informal is rigid in nature"
+        },
+        {
+          "id": "c",
+          "content": "None of the above"
+        },
+        {
+          "id": "d",
+          "content": "Both (A) and (B)"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Formal structures are outlined explicitly by management, placing appointed managers as the structural leaders. Informal structures develop organically from informal activities, meaning leaders emerge naturally from the group. Option B is incorrect as formal structures tend to be more rigid than informal ones.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer deduced from the definitions of Formal and Informal structures on Slide 16.",
+      "slideRef": "ch11:s16",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          16
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s16"
+      },
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q28",
+      "questionType": "mcq",
+      "poolIndex": 22
+    },
+    {
+      "id": "Q34",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "Which one is a type of Organizational structures",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Functional structure"
+        },
+        {
+          "id": "b",
+          "content": "Responsibility structure"
+        },
+        {
+          "id": "c",
+          "content": "Behavioral structure"
+        },
+        {
+          "id": "d",
+          "content": "None of the above"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Functional structure (departmentalization based on function) is a primary type of organizational structure outlined in the lecture, alongside product, geographic, customer, and matrix structures.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer found on Slide 25 (Departments Based on Function).",
+      "slideRef": "ch11:s25",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          25
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s25"
+      },
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q34",
+      "questionType": "mcq",
+      "poolIndex": 23
+    },
+    {
+      "id": "Q36",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "The process of organizing involves following steps A. Identification and division of work, B. Assignment of duties, C. Establishing reporting relationship, D. Departmentalization (Arrange them in correct order)",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "A-B-C-D"
+        },
+        {
+          "id": "b",
+          "content": "B-C-A-D"
+        },
+        {
+          "id": "c",
+          "content": "A-D-B-C"
+        },
+        {
+          "id": "d",
+          "content": "B-A-D-D"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "The logical sequence of organizing starts with identifying and dividing the work into manageable tasks (A), grouping those activities into departments (D), assigning specific duties to individuals (B), and finally establishing reporting relationships or a chain of command (C).",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer logically follows the Organizing Process sequence from establishing tasks to allocating directives on Slide 7.",
+      "slideRef": "ch11:s7",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          7
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s7"
+      },
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q36",
+      "questionType": "mcq",
+      "poolIndex": 24
+    },
+    {
+      "id": "Q42",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "______ includes determining tasks and groupings of work. It should not be rigid, but adaptable and flexible to meet challenges as circumstances change.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Organizing"
+        },
+        {
+          "id": "b",
+          "content": "Influencing"
+        },
+        {
+          "id": "c",
+          "content": "Controlling"
+        },
+        {
+          "id": "d",
+          "content": "Monitoring"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Organizing involves establishing tasks and forming departments (groupings of work). Henri Fayol advised that strict adherence to formal structures is not always advisable, highlighting the need for adaptability and flexibility in organizing.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer aligns with Departmentalizing (Slide 24) and Fayol's advice on flexibility (Slide 35).",
+      "slideRef": "ch11:s24,35",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          24,
+          35
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s24,35"
+      },
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q42",
+      "questionType": "mcq",
+      "poolIndex": 25
+    },
+    {
+      "id": "Q50",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "Which one of the following is among the steps of Organizing -",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Establishing reporting relationship"
+        },
+        {
+          "id": "b",
+          "content": "Assignment of duties"
+        },
+        {
+          "id": "c",
+          "content": "Only A"
+        },
+        {
+          "id": "d",
+          "content": "Both A and B"
+        }
+      ],
+      "correctAnswerId": "d",
+      "explanation": "Organizing involves allocating directives and resources, which encompasses both the assignment of duties to specific roles and the establishment of reporting relationships (the chain of command).",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer derived from Step 4 of the Organizing Process (Slide 7) and Scalar Relationships (Slide 19).",
+      "slideRef": "ch11:s7,19",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          7,
+          19
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s7,19"
+      },
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q50",
+      "questionType": "mcq",
+      "poolIndex": 26
+    },
+    {
+      "id": "Q53",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "which of the following is an advantage of Functional structure",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Functional structure leads to occupational specialization"
+        },
+        {
+          "id": "b",
+          "content": "Functional structure promotes better control and coordination within the department"
+        },
+        {
+          "id": "c",
+          "content": "None of the above"
+        },
+        {
+          "id": "d",
+          "content": "Both (A) and (B)"
+        }
+      ],
+      "correctAnswerId": "d",
+      "explanation": "Departmentalization based on function intrinsically groups people with similar skills, leading to occupational specialization. Additionally, placing power in functional heads promotes consistency, which improves control and coordination within that specific department.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer derived from the advantages of Departments Based on Function on Slide 26.",
+      "slideRef": "ch11:s26",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          26
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s26"
+      },
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q53",
+      "questionType": "mcq",
+      "poolIndex": 27
+    }
+  ]
+}

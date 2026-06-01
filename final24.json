@@ -1,0 +1,2769 @@
+[
+  {
+    "id": "Q1",
+    "topic": "Chapter 8: Making Decisions",
+    "questionText": "The second step in the decision-making process is identifying a problem.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "In the Rational Decision-Making Process Model, 'Identify existing problem' is the very first step. The second step is 'List alternative problem solutions'.",
+    "reference": "Chapter 8: Making Decisions - Answer found on Slide 11.",
+    "slideRef": "ch8:s11",
+    "slideRefParsed": {
+      "lectureId": "ch8",
+      "chapterNumber": 8,
+      "topic": "Chapter 8: Making Decisions",
+      "lectureFile": "Chapter 8 - Making Decisions.pdf",
+      "pdfPath": "Lectures/Chapter 8 - Making Decisions.pdf",
+      "kind": "slides",
+      "pages": [
+        11
+      ],
+      "pageCount": 33,
+      "syntax": "ch8:s11"
+    }
+  },
+  {
+    "id": "Q2",
+    "topic": "Chapter 21: Controlling Fundamentals",
+    "questionText": "In order to preserve their position power, managers should avoid doing personal favors for subordinates.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Doing personal favors helps develop a sense of obligation, which increases a manager's \"Personal Power\". It does not negatively impact their \"Position Power,\" which is determined by their formal rank in the organization.",
+    "reference": "Chapter 21: Controlling Fundamentals - Answer deduced from Slide 15 and Slide 16.",
+    "slideRef": "ch21:s15-16",
+    "slideRefParsed": {
+      "lectureId": "ch21",
+      "chapterNumber": 21,
+      "topic": "Chapter 21: Controlling Fundamentals",
+      "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+      "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+      "kind": "slides",
+      "pages": [
+        15,
+        16
+      ],
+      "pageCount": 19,
+      "syntax": "ch21:s15-16"
+    }
+  },
+  {
+    "id": "Q3",
+    "topic": "Chapter 21: Controlling Fundamentals",
+    "questionText": "Managers identify a problem by comparing the current state of affairs to some standard.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "The controlling process involves comparing measured performance to a standard. If the performance is \"significantly different from standards,\" the manager must take corrective action, which begins by recognizing the \"Problem\" (a barrier to goal attainment).",
+    "reference": "Chapter 21: Controlling Fundamentals - Answer derived from the Controlling Process diagram on Slide 8 and definitions on Slide 13.",
+    "slideRef": "ch21:s8,13",
+    "slideRefParsed": {
+      "lectureId": "ch21",
+      "chapterNumber": 21,
+      "topic": "Chapter 21: Controlling Fundamentals",
+      "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+      "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+      "kind": "slides",
+      "pages": [
+        8,
+        13
+      ],
+      "pageCount": 19,
+      "syntax": "ch21:s8,13"
+    }
+  },
+  {
+    "id": "Q4",
+    "topic": "Chapter 8: Making Decisions",
+    "questionText": "intuitive decision making is systematic, logical, and orderly.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Intuition is classified as a 'Subjective' decision-making tool. Systematic, logical, and orderly approaches align with the 'Rational Decision-Making Process' and 'Objective' tools like probability theory or decision trees.",
+    "reference": "Chapter 8: Making Decisions - Answer derived from Slide 20 (Decision-Making Tools).",
+    "slideRef": "ch8:s20",
+    "slideRefParsed": {
+      "lectureId": "ch8",
+      "chapterNumber": 8,
+      "topic": "Chapter 8: Making Decisions",
+      "lectureFile": "Chapter 8 - Making Decisions.pdf",
+      "pdfPath": "Lectures/Chapter 8 - Making Decisions.pdf",
+      "kind": "slides",
+      "pages": [
+        20
+      ],
+      "pageCount": 33,
+      "syntax": "ch8:s20"
+    }
+  },
+  {
+    "id": "Q5",
+    "topic": "Chapter 18: Groups and Teams",
+    "questionText": "A task group is a formal group outlined in the chain of command on an organization chart.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "This describes a 'Command Group'. A 'Task Group' is defined as a formal group of organization members who interact to accomplish nonroutine tasks.",
+    "reference": "Chapter 18: Groups and Teams - Found on Slide 9.",
+    "slideRef": "ch18:s9",
+    "slideRefParsed": {
+      "lectureId": "ch18",
+      "chapterNumber": 18,
+      "topic": "Chapter 18: Groups and Teams",
+      "lectureFile": "Chapter 18 - Groups and Teams.pdf",
+      "pdfPath": "Lectures/Chapter 18 - Groups and Teams.pdf",
+      "kind": "slides",
+      "pages": [
+        9
+      ],
+      "pageCount": 24,
+      "syntax": "ch18:s9"
+    }
+  },
+  {
+    "id": "Q6",
+    "topic": "Chapter 18: Groups and Teams",
+    "questionText": "Groupthink is a group decision-making process in which negative feedback on any suggested alternative by any group member is forbidden until all members have presented alternatives that they perceive as valuable.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Groupthink is defined as \"the mode of thinking that group members engage in when the desire for agreement so dominates the group that it overrides the need to realistically appraise alternative problem solutions.\" It is not a set of rules forbidding negative feedback.",
+    "reference": "Chapter 18: Groups and Teams - Found on Slide 16.",
+    "slideRef": "ch18:s16",
+    "slideRefParsed": {
+      "lectureId": "ch18",
+      "chapterNumber": 18,
+      "topic": "Chapter 18: Groups and Teams",
+      "lectureFile": "Chapter 18 - Groups and Teams.pdf",
+      "pdfPath": "Lectures/Chapter 18 - Groups and Teams.pdf",
+      "kind": "slides",
+      "pages": [
+        16
+      ],
+      "pageCount": 24,
+      "syntax": "ch18:s16"
+    }
+  },
+  {
+    "id": "Q7",
+    "topic": "Chapter 11: Fundamentals of Organizing",
+    "questionText": "Henri Fayol recommends that businesses establish multiple guiding authorities when organizing resources.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "The management principle of 'Unity of Command' explicitly recommends that an individual have only one boss. Establishing multiple guiding authorities contradicts this core principle.",
+    "reference": "Chapter 11: Fundamentals of Organizing - Answer found on Slide 19 under Unity of Command.",
+    "slideRef": "ch11:s19",
+    "slideRefParsed": {
+      "lectureId": "ch11",
+      "chapterNumber": 11,
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+      "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+      "kind": "slides",
+      "pages": [
+        19
+      ],
+      "pageCount": 38,
+      "syntax": "ch11:s19"
+    }
+  },
+  {
+    "id": "Q8",
+    "topic": "Chapter 11: Fundamentals of Organizing",
+    "questionText": "Bureaucracy can be characterized as a management system with detailed procedures, rules, and a clearly outlined organizational hierarchy with impersonal relationships among organization members.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "This perfectly matches Weber's bureaucratic model, which is defined by detailed procedures and rules, a clearly outlined organizational hierarchy, and impersonal relationships.",
+    "reference": "Chapter 11: Fundamentals of Organizing - Answer found verbatim on Slide 9.",
+    "slideRef": "ch11:s9",
+    "slideRefParsed": {
+      "lectureId": "ch11",
+      "chapterNumber": 11,
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+      "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+      "kind": "slides",
+      "pages": [
+        9
+      ],
+      "pageCount": 38,
+      "syntax": "ch11:s9"
+    }
+  },
+  {
+    "id": "Q9",
+    "topic": "Chapter 11: Fundamentals of Organizing",
+    "questionText": "Vertical dimensioning is directly related to the concept of the scalar relationship that is, the chain of command.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "Vertical dimensioning encompasses the scalar relationship (chain of command), mapping how authority scales downward from the individual at the top to those at the bottom.",
+    "reference": "Chapter 11: Fundamentals of Organizing - Answer found directly on Slide 18 and Slide 19.",
+    "slideRef": "ch11:s18-19",
+    "slideRefParsed": {
+      "lectureId": "ch11",
+      "chapterNumber": 11,
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+      "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+      "kind": "slides",
+      "pages": [
+        18,
+        19
+      ],
+      "pageCount": 38,
+      "syntax": "ch11:s18-19"
+    }
+  },
+  {
+    "id": "Q10",
+    "topic": "Chapter 11: Fundamentals of Organizing",
+    "questionText": "The matrix structure is contradictory to the principle of unity of command.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "The matrix structure forces employees to prioritize responsibilities based on multiple authority figures. This directly contradicts the principle of Unity of Command, which dictates that an employee should have only one boss.",
+    "reference": "Chapter 11: Fundamentals of Organizing - Answer deduced from Slide 19 (Unity of Command) and Slide 34 (Matrix Disadvantages).",
+    "slideRef": "ch11:s19,34",
+    "slideRefParsed": {
+      "lectureId": "ch11",
+      "chapterNumber": 11,
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+      "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+      "kind": "slides",
+      "pages": [
+        19,
+        34
+      ],
+      "pageCount": 38,
+      "syntax": "ch11:s19,34"
+    }
+  },
+  {
+    "id": "Q11",
+    "topic": "Chapter 15: Influencing and Communication",
+    "questionText": "The basic elements of the interpersonal communication process are the source, the encoder, and the decoder.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "The basic elements of the interpersonal communication process are the source/encoder, the signal, and the decoder/destination. The statement incorrectly omits the 'signal' entirely.",
+    "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 12 and Slide 13.",
+    "slideRef": "ch15:s12-13",
+    "slideRefParsed": {
+      "lectureId": "ch15",
+      "chapterNumber": 15,
+      "topic": "Chapter 15: Influencing and Communication",
+      "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+      "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+      "kind": "slides",
+      "pages": [
+        12,
+        13
+      ],
+      "pageCount": 25,
+      "syntax": "ch15:s12-13"
+    }
+  },
+  {
+    "id": "Q12",
+    "topic": "Chapter 18: Groups and Teams",
+    "questionText": "The ideal number of committee members for most tasks seems to be from 15 to 20.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "While the slides mention that the \"optimum size of the committee should be determined,\" standard management theory (and typically associated text for this course) suggests much smaller numbers (usually 5-7 members) to maintain efficiency and prevent social loafing. 15 to 20 members is generally considered too large for effective decision-making.",
+    "reference": "Chapter 18: Groups and Teams - Inferred from Slide 14 and general management principles regarding committee size.",
+    "slideRef": "ch18:s14",
+    "slideRefParsed": {
+      "lectureId": "ch18",
+      "chapterNumber": 18,
+      "topic": "Chapter 18: Groups and Teams",
+      "lectureFile": "Chapter 18 - Groups and Teams.pdf",
+      "pdfPath": "Lectures/Chapter 18 - Groups and Teams.pdf",
+      "kind": "slides",
+      "pages": [
+        14
+      ],
+      "pageCount": 24,
+      "syntax": "ch18:s14"
+    }
+  },
+  {
+    "id": "Q13",
+    "topic": "Chapter 18: Groups and Teams",
+    "questionText": "An interest group is an informal group that forms in organizations because of the personal affiliation members have with one another.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "An informal group that forms because of personal affiliation is defined as a \"Friendship Group.\" An \"Interest Group\" gains membership primarily because of a common concern members have about a specific issue.",
+    "reference": "Chapter 18: Groups and Teams - Found on Slide 21.",
+    "slideRef": "ch18:s21",
+    "slideRefParsed": {
+      "lectureId": "ch18",
+      "chapterNumber": 18,
+      "topic": "Chapter 18: Groups and Teams",
+      "lectureFile": "Chapter 18 - Groups and Teams.pdf",
+      "pdfPath": "Lectures/Chapter 18 - Groups and Teams.pdf",
+      "kind": "slides",
+      "pages": [
+        21
+      ],
+      "pageCount": 24,
+      "syntax": "ch18:s21"
+    }
+  },
+  {
+    "id": "Q14",
+    "topic": "Chapter 15: Influencing and Communication",
+    "questionText": "Communication is considered a supplementary management skill rather than a fundamental management skill.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Communication is ranked highly by chief executives as a key learning area, tying for rank 1 as the most important skill that should be taught, making it a fundamental management skill.",
+    "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 6.",
+    "slideRef": "ch15:s6",
+    "slideRefParsed": {
+      "lectureId": "ch15",
+      "chapterNumber": 15,
+      "topic": "Chapter 15: Influencing and Communication",
+      "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+      "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+      "kind": "slides",
+      "pages": [
+        6
+      ],
+      "pageCount": 25,
+      "syntax": "ch15:s6"
+    }
+  },
+  {
+    "id": "Q15",
+    "topic": "Chapter 15: Influencing and Communication",
+    "questionText": "Good communicators consult with others when planning communications.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "True"
+      },
+      {
+        "id": "b",
+        "content": "False"
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "One of the primary guidelines for achieving communication effectiveness is to consult with others, when appropriate, in planning communications.",
+    "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 17.",
+    "slideRef": "ch15:s17",
+    "slideRefParsed": {
+      "lectureId": "ch15",
+      "chapterNumber": 15,
+      "topic": "Chapter 15: Influencing and Communication",
+      "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+      "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+      "kind": "slides",
+      "pages": [
+        17
+      ],
+      "pageCount": 25,
+      "syntax": "ch15:s17"
+    }
+  },
+  {
+    "id": "Q16",
+    "topic": "Chapter 3: Business Ethics",
+    "questionText": "Which of the following statements is true about corporate social responsibility?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "It is the managerial obligation to ensure the accountability of certain individuals in an organization through mechanisms that try to reduce or eliminate the principal-agent problem."
+      },
+      {
+        "id": "b",
+        "content": "It is the managerial obligation to cater to the needs of the stockholders, while abiding by the laws of the society."
+      },
+      {
+        "id": "c",
+        "content": "It is the managerial obligation to take action that protects and improves both the welfare of society as a whole and the interests of the organization."
+      },
+      {
+        "id": "d",
+        "content": "It is the managerial obligation to abide to societal laws when pursuing organizational goals."
+      },
+      {
+        "id": "e",
+        "content": "It is the managerial obligation to ensure ethical decision-making in an organization to benefit its customers."
+      }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "Corporate social responsibility involves taking actions that protect and improve both the welfare of society as a whole and the interests of the organization. The slides highlight that ethics and competitiveness are inseparable, and acting ethically toward all stakeholders improves both corporate health and public image.",
+    "reference": "Chapter 3: Business Ethics - Reflected in the stakeholder relations and corporate health principles on Slide 7 and Slide 9.",
+    "slideRef": "ch3:s7,9",
+    "slideRefParsed": {
+      "lectureId": "ch3",
+      "chapterNumber": 3,
+      "topic": "Chapter 3: Business Ethics",
+      "lectureFile": "Chapter 3 - Busniess Ethics.pdf",
+      "pdfPath": "Lectures/Chapter 3 - Busniess Ethics.pdf",
+      "kind": "slides",
+      "pages": [
+        7,
+        9
+      ],
+      "pageCount": 19,
+      "syntax": "ch3:s7,9"
+    }
+  },
+  {
+    "id": "Q17",
+    "topic": "Chapter 7: Principles of Planning",
+    "questionText": "____ and ____ have been called the \"Siamese twins of management.\"",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Setting standards; measuring performance"
+      },
+      {
+        "id": "b",
+        "content": "Managing; leading"
+      },
+      {
+        "id": "c",
+        "content": "Planning; controlling"
+      },
+      {
+        "id": "d",
+        "content": "Problems; symptoms"
+      },
+      {
+        "id": "e",
+        "content": "Organizing; controlling"
+      }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "Planning and controlling are intimately linked. Planning sets the objectives and standards, while controlling measures performance against those plans to ensure goals are met. This deep interdependence earns them the \"Siamese twins\" moniker.",
+    "reference": "Chapter 7: Principles of Planning - Based on external management theory commonly taught alongside these slides, and supported by the interrelated nature shown on Slide 7.",
+    "slideRef": "ch7:s7",
+    "slideRefParsed": {
+      "lectureId": "ch7",
+      "chapterNumber": 7,
+      "topic": "Chapter 7: Principles of Planning",
+      "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+      "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+      "kind": "slides",
+      "pages": [
+        7
+      ],
+      "pageCount": 27,
+      "syntax": "ch7:s7"
+    }
+  },
+  {
+    "id": "Q18",
+    "topic": "Chapter 8: Making Decisions",
+    "questionText": "Which of the following is true about decisions and decision-making?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Managers make decisions primarily when performing the controlling function."
+      },
+      {
+        "id": "b",
+        "content": "In the process of deciding, the alternatives are as important as the choice made."
+      },
+      {
+        "id": "c",
+        "content": "Organizations only have to consider significant decisions that have a major impact on business."
+      },
+      {
+        "id": "d",
+        "content": "Decision making is the process of choosing the best alternative for reaching objectives."
+      },
+      {
+        "id": "e",
+        "content": "All managerial decisions are of equal significance to the organization."
+      }
+    ],
+    "correctAnswerId": "d",
+    "explanation": "The lecture slides specifically define Decision Making verbatim as 'the process of choosing the best alternative for reaching objectives.'",
+    "reference": "Chapter 8: Making Decisions - Answer found on Slide 4.",
+    "slideRef": "ch8:s4",
+    "slideRefParsed": {
+      "lectureId": "ch8",
+      "chapterNumber": 8,
+      "topic": "Chapter 8: Making Decisions",
+      "lectureFile": "Chapter 8 - Making Decisions.pdf",
+      "pdfPath": "Lectures/Chapter 8 - Making Decisions.pdf",
+      "kind": "slides",
+      "pages": [
+        4
+      ],
+      "pageCount": 33,
+      "syntax": "ch8:s4"
+    }
+  },
+  {
+    "id": "Q19",
+    "topic": "Chapter 21: Controlling Fundamentals",
+    "questionText": "The level of activity established to serve as a model for evaluating organizational performance is a(n)",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "symptom"
+      },
+      {
+        "id": "b",
+        "content": "problem"
+      },
+      {
+        "id": "c",
+        "content": "standard"
+      },
+      {
+        "id": "d",
+        "content": "correction"
+      },
+      {
+        "id": "e",
+        "content": "incentive"
+      }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "This is the exact, verbatim definition of a \"Standard\" provided in the lecture.",
+    "reference": "Chapter 21: Controlling Fundamentals - Answer found verbatim on Slide 11.",
+    "slideRef": "ch21:s11",
+    "slideRefParsed": {
+      "lectureId": "ch21",
+      "chapterNumber": 21,
+      "topic": "Chapter 21: Controlling Fundamentals",
+      "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+      "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+      "kind": "slides",
+      "pages": [
+        11
+      ],
+      "pageCount": 19,
+      "syntax": "ch21:s11"
+    }
+  },
+  {
+    "id": "Q20",
+    "topic": "Chapter 8: Making Decisions",
+    "questionText": "This is an example of a(n)",
+    "context": "Trendy Garb is a retail store that sells women's apparel. The store has comprehensive rules, policies, and procedures for matters relating to customer complaints and product returns. Hence, when faced with either of these situations, the store manager simply needs to refer to these guidelines and proceed accordingly.",
+    "options": [
+      {
+        "id": "a",
+        "content": "overlapping responsibility"
+      },
+      {
+        "id": "b",
+        "content": "nonprogrammed decision"
+      },
+      {
+        "id": "c",
+        "content": "rule of thumb"
+      },
+      {
+        "id": "d",
+        "content": "decision tree"
+      },
+      {
+        "id": "e",
+        "content": "programmed decision"
+      }
+    ],
+    "correctAnswerId": "e",
+    "explanation": "This scenario demonstrates a routine and repetitive problem handled by standard operating procedures (rules and policies), which is the exact definition of a programmed decision.",
+    "reference": "Chapter 8: Making Decisions - Answer found on Slide 5 and Slide 6.",
+    "slideRef": "ch8:s5-6",
+    "slideRefParsed": {
+      "lectureId": "ch8",
+      "chapterNumber": 8,
+      "topic": "Chapter 8: Making Decisions",
+      "lectureFile": "Chapter 8 - Making Decisions.pdf",
+      "pdfPath": "Lectures/Chapter 8 - Making Decisions.pdf",
+      "kind": "slides",
+      "pages": [
+        5,
+        6
+      ],
+      "pageCount": 33,
+      "syntax": "ch8:s5-6"
+    }
+  },
+  {
+    "id": "Q21",
+    "topic": "Chapter 8: Making Decisions",
+    "questionText": "Nonprogrammed decisions are",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "structured"
+      },
+      {
+        "id": "b",
+        "content": "one-shot decisions"
+      },
+      {
+        "id": "c",
+        "content": "routine and repetitive"
+      },
+      {
+        "id": "d",
+        "content": "less time-consuming"
+      },
+      {
+        "id": "e",
+        "content": "made by computers"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Non-programmed decisions are defined as 'one-shot, ill-structured, novel policy decisions' used to handle unique situations.",
+    "reference": "Chapter 8: Making Decisions - Answer found on Slide 5 and Slide 6.",
+    "slideRef": "ch8:s5-6",
+    "slideRefParsed": {
+      "lectureId": "ch8",
+      "chapterNumber": 8,
+      "topic": "Chapter 8: Making Decisions",
+      "lectureFile": "Chapter 8 - Making Decisions.pdf",
+      "pdfPath": "Lectures/Chapter 8 - Making Decisions.pdf",
+      "kind": "slides",
+      "pages": [
+        5,
+        6
+      ],
+      "pageCount": 33,
+      "syntax": "ch8:s5-6"
+    }
+  },
+  {
+    "id": "Q22",
+    "topic": "Chapter 18: Groups and Teams",
+    "questionText": "Which of the following is least accurate regarding groups?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "They are found in all organizations."
+      },
+      {
+        "id": "b",
+        "content": "An understanding of groups can help managers raise the probability that the groups will cause desirable consequences for the organization."
+      },
+      {
+        "id": "c",
+        "content": "Groups inevitably form in all facets of organizational existence."
+      },
+      {
+        "id": "d",
+        "content": "Groups invariably cause desirable consequences within the organization."
+      },
+      {
+        "id": "e",
+        "content": "Groups are characterized by a size small enough to permit each member to communicate with all other members on a face-to-face basis."
+      }
+    ],
+    "correctAnswerId": "d",
+    "explanation": "The slides explicitly state that \"Groups can cause either desirable or undesirable consequences within the organization.\" Therefore, stating that they \"invariably\" (always) cause desirable consequences is inaccurate.",
+    "reference": "Chapter 18: Groups and Teams - Found on Slide 5.",
+    "slideRef": "ch18:s5",
+    "slideRefParsed": {
+      "lectureId": "ch18",
+      "chapterNumber": 18,
+      "topic": "Chapter 18: Groups and Teams",
+      "lectureFile": "Chapter 18 - Groups and Teams.pdf",
+      "pdfPath": "Lectures/Chapter 18 - Groups and Teams.pdf",
+      "kind": "slides",
+      "pages": [
+        5
+      ],
+      "pageCount": 24,
+      "syntax": "ch18:s5"
+    }
+  },
+  {
+    "id": "Q23",
+    "topic": "Chapter 21: Controlling Fundamentals",
+    "questionText": "____ is the management function through which managers compare present performance to preestablished performance standards.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Organizing"
+      },
+      {
+        "id": "b",
+        "content": "Influencing"
+      },
+      {
+        "id": "c",
+        "content": "Controlling"
+      },
+      {
+        "id": "d",
+        "content": "Monitoring"
+      },
+      {
+        "id": "e",
+        "content": "Planning"
+      }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "Controlling is the process that utilizes a systematic effort to compare performance to predetermined standards.",
+    "reference": "Chapter 21: Controlling Fundamentals - Answer found on Slide 6 under Mockler's definition of controlling.",
+    "slideRef": "ch21:s6",
+    "slideRefParsed": {
+      "lectureId": "ch21",
+      "chapterNumber": 21,
+      "topic": "Chapter 21: Controlling Fundamentals",
+      "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+      "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+      "kind": "slides",
+      "pages": [
+        6
+      ],
+      "pageCount": 19,
+      "syntax": "ch21:s6"
+    }
+  },
+  {
+    "id": "Q24",
+    "topic": "Chapter 3: Business Ethics",
+    "questionText": "Which of the following arguments provided by Milton Friedman suggests that corporate social responsibility may be unethical?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Corporate social responsibility compels managers to spend money on some individuals that rightfully belongs to other individuals."
+      },
+      {
+        "id": "b",
+        "content": "Corporate social responsibility is not mandated by law, which means that it has to be done by will, not by compulsion."
+      },
+      {
+        "id": "c",
+        "content": "Empirical studies have not yet demonstrated a definitive relationship between corporate social responsibility and profitability."
+      },
+      {
+        "id": "d",
+        "content": "Profitability and growth go hand-in-hand with responsible treatment of employees, customers, and the community."
+      },
+      {
+        "id": "e",
+        "content": "Firms use corporate social responsibility to increase their brand awareness."
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "Milton Friedman famously argued that corporate social responsibility is unethical because it compels managers to spend money on general social causes that rightfully belongs to the shareholders, employees, or customers. While the slides do not mention Friedman by name, they align with this core business tension by emphasizing that a fundamental responsibility to suppliers and distributors is the opportunity to make a \"fair profit\".",
+    "reference": "Chapter 3: Business Ethics - Based on external management theory (Friedman's shareholder primacy), aligned with the \"fair profit\" concept on Slide 9.",
+    "slideRef": "ch3:s9",
+    "slideRefParsed": {
+      "lectureId": "ch3",
+      "chapterNumber": 3,
+      "topic": "Chapter 3: Business Ethics",
+      "lectureFile": "Chapter 3 - Busniess Ethics.pdf",
+      "pdfPath": "Lectures/Chapter 3 - Busniess Ethics.pdf",
+      "kind": "slides",
+      "pages": [
+        9
+      ],
+      "pageCount": 19,
+      "syntax": "ch3:s9"
+    }
+  },
+  {
+    "id": "Q25",
+    "topic": "Chapter 11: Fundamentals of Organizing",
+    "questionText": "____ includes determining tasks and groupings of work. It should not be rigid, but adaptable and flexible to meet challenges as circumstances change.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Organizing"
+      },
+      {
+        "id": "b",
+        "content": "Influencing"
+      },
+      {
+        "id": "c",
+        "content": "Controlling"
+      },
+      {
+        "id": "d",
+        "content": "Monitoring"
+      },
+      {
+        "id": "e",
+        "content": "Planning"
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "Organizing inherently involves establishing tasks and forming departments (groupings of work). Furthermore, Fayol advises that strict adherence to formal structures is not always advisable, highlighting that organizing should remain flexible.",
+    "reference": "Chapter 11: Fundamentals of Organizing - Answer aligns with Departmentalizing (Slide 24) and Fayol's advice on flexibility (Slide 35).",
+    "slideRef": "ch11:s24,35",
+    "slideRefParsed": {
+      "lectureId": "ch11",
+      "chapterNumber": 11,
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+      "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+      "kind": "slides",
+      "pages": [
+        24,
+        35
+      ],
+      "pageCount": 38,
+      "syntax": "ch11:s24,35"
+    }
+  },
+  {
+    "id": "Q26",
+    "topic": "Chapter 3: Business Ethics",
+    "questionText": "Managers can fulfill their social obligation towards consumers by",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "abiding to the laws"
+      },
+      {
+        "id": "b",
+        "content": "providing safe working environments"
+      },
+      {
+        "id": "c",
+        "content": "repaying debts"
+      },
+      {
+        "id": "d",
+        "content": "increasing the value of the organization"
+      },
+      {
+        "id": "e",
+        "content": "providing safe products"
+      }
+    ],
+    "correctAnswerId": "e",
+    "explanation": "A manager's specific social obligation to consumers is to ensure that the goods or services provided meet high quality and safety standards. The slides explicitly state, using the Johnson & Johnson Credo as an example, that the first responsibility is to the people who use the products and services, and that \"everything we do must be of high quality\".",
+    "reference": "Chapter 3: Business Ethics - Answer found directly on Slide 9 (Johnson & Johnson Credo).",
+    "slideRef": "ch3:s9",
+    "slideRefParsed": {
+      "lectureId": "ch3",
+      "chapterNumber": 3,
+      "topic": "Chapter 3: Business Ethics",
+      "lectureFile": "Chapter 3 - Busniess Ethics.pdf",
+      "pdfPath": "Lectures/Chapter 3 - Busniess Ethics.pdf",
+      "kind": "slides",
+      "pages": [
+        9
+      ],
+      "pageCount": 19,
+      "syntax": "ch3:s9"
+    }
+  },
+  {
+    "id": "Q27",
+    "topic": "Chapter 21: Controlling Fundamentals",
+    "questionText": "As part of the controlling process, you have finished measuring the performance of your team. What must you do next?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Take corrective action."
+      },
+      {
+        "id": "b",
+        "content": "Compare measured performance to standards."
+      },
+      {
+        "id": "c",
+        "content": "Establish a unit of measure to gauge performance."
+      },
+      {
+        "id": "d",
+        "content": "Modify past plans."
+      },
+      {
+        "id": "e",
+        "content": "Restructure control systems and subsystems."
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Step 1 of the controlling process is \"Measuring Performance\". Step 2 is explicitly \"Comparing Measured Performance To Standards\".",
+    "reference": "Chapter 21: Controlling Fundamentals - Answer found directly on the list of steps on Slide 9.",
+    "slideRef": "ch21:s9",
+    "slideRefParsed": {
+      "lectureId": "ch21",
+      "chapterNumber": 21,
+      "topic": "Chapter 21: Controlling Fundamentals",
+      "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+      "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+      "kind": "slides",
+      "pages": [
+        9
+      ],
+      "pageCount": 19,
+      "syntax": "ch21:s9"
+    }
+  },
+  {
+    "id": "Q28",
+    "topic": "Chapter 15: Influencing and Communication",
+    "questionText": "Which of the following is a communication macrobarrier?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "need for complex information"
+      },
+      {
+        "id": "b",
+        "content": "destination's view of the source"
+      },
+      {
+        "id": "c",
+        "content": "message interference"
+      },
+      {
+        "id": "d",
+        "content": "receivers' perception"
+      },
+      {
+        "id": "e",
+        "content": "multimeaning words"
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "The 'need for increasingly complex information' is explicitly listed as a Communication Macrobarrier. The other options listed are Microbarriers.",
+    "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 15 and Slide 16.",
+    "slideRef": "ch15:s15-16",
+    "slideRefParsed": {
+      "lectureId": "ch15",
+      "chapterNumber": 15,
+      "topic": "Chapter 15: Influencing and Communication",
+      "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+      "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+      "kind": "slides",
+      "pages": [
+        15,
+        16
+      ],
+      "pageCount": 25,
+      "syntax": "ch15:s15-16"
+    }
+  },
+  {
+    "id": "Q29",
+    "topic": "Chapter 1: Introduction",
+    "questionText": "Which of the following statements is true for the management function?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "It reaches goals by working with and through people."
+      },
+      {
+        "id": "b",
+        "content": "It is a one-time function in an organization."
+      },
+      {
+        "id": "c",
+        "content": "It is a series of continuing and unrelated activities."
+      },
+      {
+        "id": "d",
+        "content": "It involves-and concentrates on reaching individual goals."
+      },
+      {
+        "id": "e",
+        "content": "It does not consider the people aspect of organizations."
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "The official definition of management states that it is the continuous process of reaching organizational goals by working with and through people and utilizing other organizational resources.",
+    "reference": "Chapter 1: Introduction - Answer found verbatim on Slide 5.",
+    "slideRef": "ch1:s5",
+    "slideRefParsed": {
+      "lectureId": "ch1",
+      "chapterNumber": 1,
+      "topic": "Chapter 1: Introduction",
+      "lectureFile": "Chapter 1 - Introduction.pdf",
+      "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+      "kind": "slides",
+      "pages": [
+        5
+      ],
+      "pageCount": 30,
+      "syntax": "ch1:s5"
+    }
+  },
+  {
+    "id": "Q30",
+    "topic": "Chapter 18: Groups and Teams",
+    "questionText": "Formal groups are commonly divided into ____ and ____",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "transitory groups; recurrent groups"
+      },
+      {
+        "id": "b",
+        "content": "in-groups; out-groups"
+      },
+      {
+        "id": "c",
+        "content": "command groups; task groups"
+      },
+      {
+        "id": "d",
+        "content": "interest groups; friendship groups"
+      },
+      {
+        "id": "e",
+        "content": "primary groups; secondary groups"
+      }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "The two kinds of Formal Groups listed are the Command Group and the Task Group.",
+    "reference": "Chapter 18: Groups and Teams - Found on Slide 9.",
+    "slideRef": "ch18:s9",
+    "slideRefParsed": {
+      "lectureId": "ch18",
+      "chapterNumber": 18,
+      "topic": "Chapter 18: Groups and Teams",
+      "lectureFile": "Chapter 18 - Groups and Teams.pdf",
+      "pdfPath": "Lectures/Chapter 18 - Groups and Teams.pdf",
+      "kind": "slides",
+      "pages": [
+        9
+      ],
+      "pageCount": 24,
+      "syntax": "ch18:s9"
+    }
+  },
+  {
+    "id": "Q31",
+    "topic": "Chapter 11: Fundamentals of Organizing",
+    "questionText": "Which of the following statements is true about organizing?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "It is the process of determining how the organization will achieve its objectives."
+      },
+      {
+        "id": "b",
+        "content": "It is the management process of guiding the activities of organization members to help attain organizational objectives."
+      },
+      {
+        "id": "c",
+        "content": "It is the process of making things happen as they were planned to happen."
+      },
+      {
+        "id": "d",
+        "content": "It is the process of establishing orderly uses for all the organization's resources."
+      }
+    ],
+    "correctAnswerId": "d",
+    "explanation": "The direct definition provided in the lecture is that organizing is the process of establishing orderly uses for resources within the management system.",
+    "reference": "Chapter 11: Fundamentals of Organizing - Answer found verbatim on Slide 5.",
+    "slideRef": "ch11:s5",
+    "slideRefParsed": {
+      "lectureId": "ch11",
+      "chapterNumber": 11,
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+      "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+      "kind": "slides",
+      "pages": [
+        5
+      ],
+      "pageCount": 38,
+      "syntax": "ch11:s5"
+    }
+  },
+  {
+    "id": "Q32",
+    "topic": "Chapter 8: Making Decisions",
+    "questionText": "Which of the following is a traditional technique for solving a programmed decision?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "judgment"
+      },
+      {
+        "id": "b",
+        "content": "rules of thumb"
+      },
+      {
+        "id": "c",
+        "content": "habit"
+      },
+      {
+        "id": "d",
+        "content": "intuition"
+      },
+      {
+        "id": "e",
+        "content": "training"
+      }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "The traditional techniques for solving programmed decisions include Habit, Clerical routine, and Organization structure. Judgment, intuition, and rules of thumb belong to nonprogrammed decisions.",
+    "reference": "Chapter 8: Making Decisions - Answer found on the table on Slide 6.",
+    "slideRef": "ch8:s6",
+    "slideRefParsed": {
+      "lectureId": "ch8",
+      "chapterNumber": 8,
+      "topic": "Chapter 8: Making Decisions",
+      "lectureFile": "Chapter 8 - Making Decisions.pdf",
+      "pdfPath": "Lectures/Chapter 8 - Making Decisions.pdf",
+      "kind": "slides",
+      "pages": [
+        6
+      ],
+      "pageCount": 33,
+      "syntax": "ch8:s6"
+    }
+  },
+  {
+    "id": "Q33",
+    "topic": "Chapter 15: Influencing and Communication",
+    "questionText": "Encoded information the source intends to share with another person is called a(n)",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "rumor"
+      },
+      {
+        "id": "b",
+        "content": "message"
+      },
+      {
+        "id": "c",
+        "content": "signal"
+      },
+      {
+        "id": "d",
+        "content": "medium"
+      },
+      {
+        "id": "e",
+        "content": "code"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Under the definition of the signal, the text states that encoded information that the source intends to share constitutes a message.",
+    "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 12.",
+    "slideRef": "ch15:s12",
+    "slideRefParsed": {
+      "lectureId": "ch15",
+      "chapterNumber": 15,
+      "topic": "Chapter 15: Influencing and Communication",
+      "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+      "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+      "kind": "slides",
+      "pages": [
+        12
+      ],
+      "pageCount": 25,
+      "syntax": "ch15:s12"
+    }
+  },
+  {
+    "id": "Q34",
+    "topic": "Chapter 15: Influencing and Communication",
+    "questionText": "In which of the following stages of performing social responsibility activities does a manager lead, communicate, motivate, and work with groups to attain the organization's social responsibility objectives?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "influencing"
+      },
+      {
+        "id": "b",
+        "content": "controlling"
+      },
+      {
+        "id": "c",
+        "content": "implementing"
+      },
+      {
+        "id": "d",
+        "content": "planning"
+      },
+      {
+        "id": "e",
+        "content": "organizing"
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "The influencing process involves communicating, motivating, leading, and considering groups to guide activities in appropriate directions toward goal attainment.",
+    "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 3 and Slide 5.",
+    "slideRef": "ch15:s3,5",
+    "slideRefParsed": {
+      "lectureId": "ch15",
+      "chapterNumber": 15,
+      "topic": "Chapter 15: Influencing and Communication",
+      "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+      "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+      "kind": "slides",
+      "pages": [
+        3,
+        5
+      ],
+      "pageCount": 25,
+      "syntax": "ch15:s3,5"
+    }
+  },
+  {
+    "id": "Q35",
+    "topic": "Chapter 3: Business Ethics",
+    "questionText": "In business, ethics can be defined as",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "the capacity to reflect on customer preferences in the corporate decision-making process"
+      },
+      {
+        "id": "b",
+        "content": "the capacity to reflect on competitive strategies-in the corporate decision-making process"
+      },
+      {
+        "id": "c",
+        "content": "the capacity to reflect on values in the corporate decision-making process"
+      },
+      {
+        "id": "d",
+        "content": "the capacity to reflect on production bottlenecks in the corporate decision-making process"
+      },
+      {
+        "id": "e",
+        "content": "the capacity to reflect on workforce diversity in the corporate decision-making process"
+      }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "Ethics in business is formally defined as the capacity to reflect on values in the corporate decision-making process, to determine how these values and decisions affect various stakeholder groups, and to establish how managers can use these observations in day-to-day company management.",
+    "reference": "Chapter 3: Business Ethics - Answer found verbatim on Slide 5 under \"Definitions\".",
+    "slideRef": "ch3:s5",
+    "slideRefParsed": {
+      "lectureId": "ch3",
+      "chapterNumber": 3,
+      "topic": "Chapter 3: Business Ethics",
+      "lectureFile": "Chapter 3 - Busniess Ethics.pdf",
+      "pdfPath": "Lectures/Chapter 3 - Busniess Ethics.pdf",
+      "kind": "slides",
+      "pages": [
+        5
+      ],
+      "pageCount": 19,
+      "syntax": "ch3:s5"
+    }
+  },
+  {
+    "id": "Q36",
+    "topic": "Chapter 3: Business Ethics",
+    "questionText": "____ is a formal statement that acts as a guide for the ethics of how people within a particular organization should act and make decisions.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "A social audit"
+      },
+      {
+        "id": "b",
+        "content": "A whistleblower's policy"
+      },
+      {
+        "id": "c",
+        "content": "Corporate governance"
+      },
+      {
+        "id": "d",
+        "content": "A code of ethics"
+      },
+      {
+        "id": "e",
+        "content": "A mission statement"
+      }
+    ],
+    "correctAnswerId": "d",
+    "explanation": "A code of ethics is explicitly defined as a formal statement that acts as a guide for the ethics of how people within a particular organization should act and make decisions.",
+    "reference": "Chapter 3: Business Ethics - Answer found verbatim on Slide 11 under \"A Code of Ethics\".",
+    "slideRef": "ch3:s11",
+    "slideRefParsed": {
+      "lectureId": "ch3",
+      "chapterNumber": 3,
+      "topic": "Chapter 3: Business Ethics",
+      "lectureFile": "Chapter 3 - Busniess Ethics.pdf",
+      "pdfPath": "Lectures/Chapter 3 - Busniess Ethics.pdf",
+      "kind": "slides",
+      "pages": [
+        11
+      ],
+      "pageCount": 19,
+      "syntax": "ch3:s11"
+    }
+  },
+  {
+    "id": "Q37",
+    "topic": "Chapter 3: Business Ethics",
+    "questionText": "Which of the following actions suggests that an individual is following the golden rule?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Acting in a way you would expect others to act toward you."
+      },
+      {
+        "id": "b",
+        "content": "Taking actions that would be viewed as proper by a disinterested panel of professional peers."
+      },
+      {
+        "id": "c",
+        "content": "Acting in a way that results in the greatest good for the greatest number of people."
+      },
+      {
+        "id": "d",
+        "content": "Taking actions that abide by the laws of the state."
+      },
+      {
+        "id": "e",
+        "content": "Acting in a way that the action taken under the circumstances could be a universal law of behavior."
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "In the context of creating an ethical workplace, the \"golden rule\" standard is explicitly defined as acting in a way you would expect others to act toward you.",
+    "reference": "Chapter 3: Business Ethics - Answer found verbatim on Slide 15 under \"Creating an Ethical Workplace\".",
+    "slideRef": "ch3:s15",
+    "slideRefParsed": {
+      "lectureId": "ch3",
+      "chapterNumber": 3,
+      "topic": "Chapter 3: Business Ethics",
+      "lectureFile": "Chapter 3 - Busniess Ethics.pdf",
+      "pdfPath": "Lectures/Chapter 3 - Busniess Ethics.pdf",
+      "kind": "slides",
+      "pages": [
+        15
+      ],
+      "pageCount": 19,
+      "syntax": "ch3:s15"
+    }
+  },
+  {
+    "id": "Q38",
+    "topic": "Chapter 1: Introduction",
+    "questionText": "Name one of the basic concepts for smoothly running an organisation.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Management"
+      },
+      {
+        "id": "b",
+        "content": "Planning"
+      },
+      {
+        "id": "c",
+        "content": "Coordination"
+      },
+      {
+        "id": "d",
+        "content": "None of the options is correct"
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "The overarching role of management is to guide the organization smoothly towards its goals by effectively utilizing its resources through the execution of its core functions (planning, organizing, influencing, controlling).",
+    "reference": "Chapter 1: Introduction - Answer supported by the core concepts on Slide 4 and Slide 5.",
+    "slideRef": "ch1:s4-5",
+    "slideRefParsed": {
+      "lectureId": "ch1",
+      "chapterNumber": 1,
+      "topic": "Chapter 1: Introduction",
+      "lectureFile": "Chapter 1 - Introduction.pdf",
+      "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+      "kind": "slides",
+      "pages": [
+        4,
+        5
+      ],
+      "pageCount": 30,
+      "syntax": "ch1:s4-5"
+    }
+  },
+  {
+    "id": "Q39",
+    "topic": "Chapter 18: Groups and Teams",
+    "questionText": "An informal group that gains and maintains membership primarily because of a common concern members have about a specific issue is called",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "a work team"
+      },
+      {
+        "id": "b",
+        "content": "a friendship group"
+      },
+      {
+        "id": "c",
+        "content": "a command group"
+      },
+      {
+        "id": "d",
+        "content": "an interest group"
+      },
+      {
+        "id": "e",
+        "content": "a committee"
+      }
+    ],
+    "correctAnswerId": "d",
+    "explanation": "This is the exact definition provided for an \"Interest Group\".",
+    "reference": "Chapter 18: Groups and Teams - Found on Slide 21.",
+    "slideRef": "ch18:s21",
+    "slideRefParsed": {
+      "lectureId": "ch18",
+      "chapterNumber": 18,
+      "topic": "Chapter 18: Groups and Teams",
+      "lectureFile": "Chapter 18 - Groups and Teams.pdf",
+      "pdfPath": "Lectures/Chapter 18 - Groups and Teams.pdf",
+      "kind": "slides",
+      "pages": [
+        21
+      ],
+      "pageCount": 24,
+      "syntax": "ch18:s21"
+    }
+  },
+  {
+    "id": "Q40",
+    "topic": "Chapter 7: Principles of Planning",
+    "questionText": "At what step of the planning can be processed with the topmost and applicable plan would be implemented?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Setting up objective"
+      },
+      {
+        "id": "b",
+        "content": "Developing Premises"
+      },
+      {
+        "id": "c",
+        "content": "Selecting up objective"
+      },
+      {
+        "id": "d",
+        "content": "Evaluating alternative course of action"
+      }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "This question phrasing is slightly irregular, but based on the Planning Process steps, after evaluating alternatives, the next step is to 'Choose best alternative for reaching objectives' (which aligns with selecting the topmost/applicable plan).",
+    "reference": "Chapter 7: Principles of Planning - Answer supported by the Planning Process steps on Slide 10 (Step 4: Choose best alternative).",
+    "slideRef": "ch7:s10",
+    "slideRefParsed": {
+      "lectureId": "ch7",
+      "chapterNumber": 7,
+      "topic": "Chapter 7: Principles of Planning",
+      "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+      "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+      "kind": "slides",
+      "pages": [
+        10
+      ],
+      "pageCount": 27,
+      "syntax": "ch7:s10"
+    }
+  },
+  {
+    "id": "Q41",
+    "topic": "Chapter 18: Groups and Teams",
+    "questionText": "A work team composed of people from different functional areas of the organization who are all focused on a specified objective is known as a",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "a task group"
+      },
+      {
+        "id": "b",
+        "content": "cross-functional team"
+      },
+      {
+        "id": "c",
+        "content": "a command group"
+      },
+      {
+        "id": "d",
+        "content": "special-purpose group"
+      },
+      {
+        "id": "e",
+        "content": "self-directed team"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "While 'cross-functional team' is not explicitly defined in the provided slides, it is the standard management term for a team composed of members from different functional areas. A 'task group' is broader, simply defining a group formed for a nonroutine task.",
+    "reference": "Chapter 18: Groups and Teams - Standard management terminology (Inferred from the context of Teams vs Groups on Slide 19).",
+    "slideRef": "ch18:s19",
+    "slideRefParsed": {
+      "lectureId": "ch18",
+      "chapterNumber": 18,
+      "topic": "Chapter 18: Groups and Teams",
+      "lectureFile": "Chapter 18 - Groups and Teams.pdf",
+      "pdfPath": "Lectures/Chapter 18 - Groups and Teams.pdf",
+      "kind": "slides",
+      "pages": [
+        19
+      ],
+      "pageCount": 24,
+      "syntax": "ch18:s19"
+    }
+  },
+  {
+    "id": "Q42",
+    "topic": "Chapter 7: Principles of Planning",
+    "questionText": "In which pace of the planning process, two sides of a coin of each alternative are examined.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Setting up Objective"
+      },
+      {
+        "id": "b",
+        "content": "Developing Premises"
+      },
+      {
+        "id": "c",
+        "content": "Selecting an alternative premises"
+      },
+      {
+        "id": "d",
+        "content": "Evaluating alternatives course of action"
+      }
+    ],
+    "correctAnswerId": "d",
+    "explanation": "Evaluating alternatives involves analyzing the pros and cons (the two sides of the coin) of each listed option before making a final choice.",
+    "reference": "Chapter 7: Principles of Planning - Answer deduced from the logical progression of the Planning Process steps on Slide 10, specifically between Step 2 (Listing) and Step 4 (Choosing).",
+    "slideRef": "ch7:s10",
+    "slideRefParsed": {
+      "lectureId": "ch7",
+      "chapterNumber": 7,
+      "topic": "Chapter 7: Principles of Planning",
+      "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+      "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+      "kind": "slides",
+      "pages": [
+        10
+      ],
+      "pageCount": 27,
+      "syntax": "ch7:s10"
+    }
+  },
+  {
+    "id": "Q43",
+    "topic": "Chapter 18: Groups and Teams",
+    "questionText": "One of the benefits of utilizing committees is that",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "the decision-making process is much quicker than individual decision-making"
+      },
+      {
+        "id": "b",
+        "content": "there is no limit on the size of the committee"
+      },
+      {
+        "id": "c",
+        "content": "a committee does need a leader or a secretary"
+      },
+      {
+        "id": "d",
+        "content": "committees improve the quality of decision-making"
+      },
+      {
+        "id": "e",
+        "content": "decision-makers don't have to represent the group they come from"
+      }
+    ],
+    "correctAnswerId": "d",
+    "explanation": "The slides list \"Committees can improve the quality of decision making\" as one of the primary reasons managers should use committees.",
+    "reference": "Chapter 18: Groups and Teams - Found on Slide 12.",
+    "slideRef": "ch18:s12",
+    "slideRefParsed": {
+      "lectureId": "ch18",
+      "chapterNumber": 18,
+      "topic": "Chapter 18: Groups and Teams",
+      "lectureFile": "Chapter 18 - Groups and Teams.pdf",
+      "pdfPath": "Lectures/Chapter 18 - Groups and Teams.pdf",
+      "kind": "slides",
+      "pages": [
+        12
+      ],
+      "pageCount": 24,
+      "syntax": "ch18:s12"
+    }
+  },
+  {
+    "id": "Q44",
+    "topic": "Chapter 15: Influencing and Communication",
+    "questionText": "Which of the following is considered the first step toward effective communication?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "clarifying the idea or problem to be communicated"
+      },
+      {
+        "id": "b",
+        "content": "examining the true purpose of communication"
+      },
+      {
+        "id": "c",
+        "content": "consulting with others in planning communication"
+      },
+      {
+        "id": "d",
+        "content": "identifying actions that support the message being communicated"
+      },
+      {
+        "id": "e",
+        "content": "understanding the total physical and human setting"
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "The very first guideline listed for achieving communication effectiveness is to 'Seek to clarify your ideas before communicating'.",
+    "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 17.",
+    "slideRef": "ch15:s17",
+    "slideRefParsed": {
+      "lectureId": "ch15",
+      "chapterNumber": 15,
+      "topic": "Chapter 15: Influencing and Communication",
+      "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+      "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+      "kind": "slides",
+      "pages": [
+        17
+      ],
+      "pageCount": 25,
+      "syntax": "ch15:s17"
+    }
+  },
+  {
+    "id": "Q45",
+    "topic": "Chapter 7: Principles of Planning",
+    "questionText": "It is known as planning.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "The last function of the manager"
+      },
+      {
+        "id": "b",
+        "content": "Primary/First function of the manager"
+      },
+      {
+        "id": "c",
+        "content": "Both a) and b)"
+      },
+      {
+        "id": "d",
+        "content": "None of the options is correct"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Because of the concept of the 'Primacy of Planning', planning is considered the primary, or first, function a manager must perform, as it sets the foundation for organizing, influencing, and controlling.",
+    "reference": "Chapter 7: Principles of Planning - Answer supported by the Primacy of Planning diagram on Slide 7.",
+    "slideRef": "ch7:s7",
+    "slideRefParsed": {
+      "lectureId": "ch7",
+      "chapterNumber": 7,
+      "topic": "Chapter 7: Principles of Planning",
+      "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+      "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+      "kind": "slides",
+      "pages": [
+        7
+      ],
+      "pageCount": 27,
+      "syntax": "ch7:s7"
+    }
+  },
+  {
+    "id": "Q46",
+    "topic": "Chapter 18: Groups and Teams",
+    "questionText": "Which of the following is a purely procedural step that could be taken to increase the probability that a committee will be successful?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "rephrasing ideas already expressed"
+      },
+      {
+        "id": "b",
+        "content": "specifying the authority of the committee"
+      },
+      {
+        "id": "c",
+        "content": "bringing all members into active participation"
+      },
+      {
+        "id": "d",
+        "content": "stimulating further thought by members"
+      },
+      {
+        "id": "e",
+        "content": "keeping the goals of the group flexible"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Under 'Procedural Steps' for committee success, \"The committee's authority should be specified\" is explicitly listed. Rephrasing, bringing members into participation, and stimulating thought are 'People-Oriented Guidelines'.",
+    "reference": "Chapter 18: Groups and Teams - Found on Slide 14.",
+    "slideRef": "ch18:s14",
+    "slideRefParsed": {
+      "lectureId": "ch18",
+      "chapterNumber": 18,
+      "topic": "Chapter 18: Groups and Teams",
+      "lectureFile": "Chapter 18 - Groups and Teams.pdf",
+      "pdfPath": "Lectures/Chapter 18 - Groups and Teams.pdf",
+      "kind": "slides",
+      "pages": [
+        14
+      ],
+      "pageCount": 24,
+      "syntax": "ch18:s14"
+    }
+  },
+  {
+    "id": "Q47",
+    "topic": "Chapter 7: Principles of Planning",
+    "questionText": "Thinking for the future output is known as",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Setting planning premises"
+      },
+      {
+        "id": "b",
+        "content": "Making derivative plans"
+      },
+      {
+        "id": "c",
+        "content": "Making policy"
+      },
+      {
+        "id": "d",
+        "content": "All of the options are correct"
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "Developing premises involves making assumptions about the future conditions upon which alternative plans will be based. It is essentially thinking about future scenarios.",
+    "reference": "Chapter 7: Principles of Planning - Answer based on Step 3 of the Planning Process on Slide 10: 'Develop premises upon which each alternative is based'.",
+    "slideRef": "ch7:s10",
+    "slideRefParsed": {
+      "lectureId": "ch7",
+      "chapterNumber": 7,
+      "topic": "Chapter 7: Principles of Planning",
+      "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+      "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+      "kind": "slides",
+      "pages": [
+        10
+      ],
+      "pageCount": 27,
+      "syntax": "ch7:s10"
+    }
+  },
+  {
+    "id": "Q48",
+    "topic": "Chapter 15: Influencing and Communication",
+    "questionText": "What is the major purpose of feedback in the communication process?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "It is used by the source to ensure successful communication."
+      },
+      {
+        "id": "b",
+        "content": "It can be used to boost the legitimate power of managers."
+      },
+      {
+        "id": "c",
+        "content": "It provides formal documentation of the communication process."
+      },
+      {
+        "id": "d",
+        "content": "It helps the source avoid questions from the destination."
+      },
+      {
+        "id": "e",
+        "content": "It fosters lateral communication in the organization."
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "Feedback is the destination's reaction to a message. It is utilized to determine whether the communication was successful (i.e., verifying if the meaning the destination derives is the same as the source intended).",
+    "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 14 and Slide 18.",
+    "slideRef": "ch15:s14,18",
+    "slideRefParsed": {
+      "lectureId": "ch15",
+      "chapterNumber": 15,
+      "topic": "Chapter 15: Influencing and Communication",
+      "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+      "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+      "kind": "slides",
+      "pages": [
+        14,
+        18
+      ],
+      "pageCount": 25,
+      "syntax": "ch15:s14,18"
+    }
+  },
+  {
+    "id": "Q49",
+    "topic": "Chapter 15: Influencing and Communication",
+    "questionText": "The person in the interpersonal communication situation who originates and encodes information to be shared with another person is called the",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "presenter"
+      },
+      {
+        "id": "b",
+        "content": "channel"
+      },
+      {
+        "id": "c",
+        "content": "administrator"
+      },
+      {
+        "id": "d",
+        "content": "medium"
+      },
+      {
+        "id": "e",
+        "content": "source"
+      }
+    ],
+    "correctAnswerId": "e",
+    "explanation": "The source/encoder (source) is explicitly defined as the person in the interpersonal communication situation who originates and encodes information to be shared with others.",
+    "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 12.",
+    "slideRef": "ch15:s12",
+    "slideRefParsed": {
+      "lectureId": "ch15",
+      "chapterNumber": 15,
+      "topic": "Chapter 15: Influencing and Communication",
+      "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+      "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+      "kind": "slides",
+      "pages": [
+        12
+      ],
+      "pageCount": 25,
+      "syntax": "ch15:s12"
+    }
+  },
+  {
+    "id": "Q50",
+    "topic": "Chapter 18: Groups and Teams",
+    "questionText": "Which of the following is an example of an interest group?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "a group of friends interested in interested in rock music"
+      },
+      {
+        "id": "b",
+        "content": "a quarterly work planning-group"
+      },
+      {
+        "id": "c",
+        "content": "a group meeting to consider the feasibility of a new product"
+      },
+      {
+        "id": "d",
+        "content": "a group meeting to prepare the monthly financial reports"
+      },
+      {
+        "id": "e",
+        "content": "a group of workers pressing management for better pay"
+      }
+    ],
+    "correctAnswerId": "e",
+    "explanation": "An interest group forms because members share a common concern about a specific issue (e.g., pressing management for better pay). A group of friends listening to music is a Friendship Group. The other options are formal Task or Command groups.",
+    "reference": "Chapter 18: Groups and Teams - Based on the definition of Interest Group on Slide 21.",
+    "slideRef": "ch18:s21",
+    "slideRefParsed": {
+      "lectureId": "ch18",
+      "chapterNumber": 18,
+      "topic": "Chapter 18: Groups and Teams",
+      "lectureFile": "Chapter 18 - Groups and Teams.pdf",
+      "pdfPath": "Lectures/Chapter 18 - Groups and Teams.pdf",
+      "kind": "slides",
+      "pages": [
+        21
+      ],
+      "pageCount": 24,
+      "syntax": "ch18:s21"
+    }
+  },
+  {
+    "id": "Q51",
+    "topic": "Chapter 7: Principles of Planning",
+    "questionText": "What is the core of making a plan?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Organizing"
+      },
+      {
+        "id": "b",
+        "content": "Thinking in Advance"
+      },
+      {
+        "id": "c",
+        "content": "Directing"
+      },
+      {
+        "id": "d",
+        "content": "All of the above"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Planning is inherently future-oriented. It involves determining how the organization can get where it wants to go, which requires analyzing foreseen opportunities and thinking in advance.",
+    "reference": "Chapter 7: Principles of Planning - Answer supported by the definition of planning on Slide 4 and the advantage 'Helps managers to be future-oriented' on Slide 6.",
+    "slideRef": "ch7:s4,6",
+    "slideRefParsed": {
+      "lectureId": "ch7",
+      "chapterNumber": 7,
+      "topic": "Chapter 7: Principles of Planning",
+      "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+      "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+      "kind": "slides",
+      "pages": [
+        4,
+        6
+      ],
+      "pageCount": 27,
+      "syntax": "ch7:s4,6"
+    }
+  },
+  {
+    "id": "Q52",
+    "topic": "Chapter 18: Groups and Teams",
+    "questionText": "Which of the following statements about groupthink is true?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Groupthink cannot take place in a newly formed group."
+      },
+      {
+        "id": "b",
+        "content": "A group with high levels of mistrust and conflicts is likely to be most susceptible to groupthink."
+      },
+      {
+        "id": "c",
+        "content": "A group with a high level of cohesiveness is likely to be susceptible to groupthink."
+      },
+      {
+        "id": "d",
+        "content": "Managers must help committees to establish groupthink to generate alternative problem solutions."
+      },
+      {
+        "id": "e",
+        "content": "A group which is highly competitive will most probably result in groupthink."
+      }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "Groupthink occurs when the \"desire for agreement so dominates the group that it overrides the need to realistically appraise alternative problem solutions.\" High cohesiveness creates this strong desire for agreement and conformity, making the group highly susceptible to groupthink.",
+    "reference": "Chapter 18: Groups and Teams - Inferred from the definition and symptoms of Groupthink on Slide 16.",
+    "slideRef": "ch18:s16",
+    "slideRefParsed": {
+      "lectureId": "ch18",
+      "chapterNumber": 18,
+      "topic": "Chapter 18: Groups and Teams",
+      "lectureFile": "Chapter 18 - Groups and Teams.pdf",
+      "pdfPath": "Lectures/Chapter 18 - Groups and Teams.pdf",
+      "kind": "slides",
+      "pages": [
+        16
+      ],
+      "pageCount": 24,
+      "syntax": "ch18:s16"
+    }
+  },
+  {
+    "id": "Q53",
+    "topic": "Chapter 7: Principles of Planning",
+    "questionText": "At what stage of the planning becomes the most feasible plan that can be implemented.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Developing Premises"
+      },
+      {
+        "id": "b",
+        "content": "Evaluating alternative course of action"
+      },
+      {
+        "id": "c",
+        "content": "Selecting an alternative"
+      },
+      {
+        "id": "d",
+        "content": "Setting up objective"
+      }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "After evaluating options, the manager chooses the best (most feasible) alternative to reach the objectives, which is then developed into actionable plans.",
+    "reference": "Chapter 7: Principles of Planning - Answer based on Step 4 of the Planning Process on Slide 10: 'Choose best alternative for reaching objectives'.",
+    "slideRef": "ch7:s10",
+    "slideRefParsed": {
+      "lectureId": "ch7",
+      "chapterNumber": 7,
+      "topic": "Chapter 7: Principles of Planning",
+      "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+      "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+      "kind": "slides",
+      "pages": [
+        10
+      ],
+      "pageCount": 27,
+      "syntax": "ch7:s10"
+    }
+  },
+  {
+    "id": "Q54",
+    "topic": "Chapter 15: Influencing and Communication",
+    "questionText": "____ is the process of sharing information with other individuals.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Delegation"
+      },
+      {
+        "id": "b",
+        "content": "Communication"
+      },
+      {
+        "id": "c",
+        "content": "Allocation"
+      },
+      {
+        "id": "d",
+        "content": "Authorization"
+      },
+      {
+        "id": "e",
+        "content": "Distribution"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Communication is formally defined as the process of sharing information with other individuals.",
+    "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 10.",
+    "slideRef": "ch15:s10",
+    "slideRefParsed": {
+      "lectureId": "ch15",
+      "chapterNumber": 15,
+      "topic": "Chapter 15: Influencing and Communication",
+      "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+      "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+      "kind": "slides",
+      "pages": [
+        10
+      ],
+      "pageCount": 25,
+      "syntax": "ch15:s10"
+    }
+  },
+  {
+    "id": "Q55",
+    "topic": "Chapter 7: Principles of Planning",
+    "questionText": "Planning establishes a ground standard for",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Controlling"
+      },
+      {
+        "id": "b",
+        "content": "Directing"
+      },
+      {
+        "id": "c",
+        "content": "Staffing"
+      },
+      {
+        "id": "d",
+        "content": "Organizing"
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "While planning is the basis for all functions, it specifically sets the organizational objectives and targets (standards) that the 'Controlling' function measures performance against to determine if goals are being met.",
+    "reference": "Chapter 7: Principles of Planning - Answer supported by the 'Primacy of Planning' link to Controlling on Slide 7, and general management principles.",
+    "slideRef": "ch7:s7",
+    "slideRefParsed": {
+      "lectureId": "ch7",
+      "chapterNumber": 7,
+      "topic": "Chapter 7: Principles of Planning",
+      "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+      "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+      "kind": "slides",
+      "pages": [
+        7
+      ],
+      "pageCount": 27,
+      "syntax": "ch7:s7"
+    }
+  },
+  {
+    "id": "Q56",
+    "topic": "Chapter 11: Fundamentals of Organizing",
+    "questionText": "Which of the following is an advantage of division of labor?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "It results in easier and more efficient work."
+      },
+      {
+        "id": "b",
+        "content": "It broadens the scope of work."
+      },
+      {
+        "id": "c",
+        "content": "It emphasizes the human variable in organizations."
+      },
+      {
+        "id": "d",
+        "content": "It makes work more interesting."
+      },
+      {
+        "id": "e",
+        "content": "It results in high levels of employee motivation."
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "An explicit advantage of division of labor is that when workers concentrate on performing only one job, they naturally try to make the job easier and more efficient.",
+    "reference": "Chapter 11: Fundamentals of Organizing - Answer found verbatim on Slide 12.",
+    "slideRef": "ch11:s12",
+    "slideRefParsed": {
+      "lectureId": "ch11",
+      "chapterNumber": 11,
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+      "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+      "kind": "slides",
+      "pages": [
+        12
+      ],
+      "pageCount": 38,
+      "syntax": "ch11:s12"
+    }
+  },
+  {
+    "id": "Q57",
+    "topic": "Chapter 7: Principles of Planning",
+    "questionText": "Define the term premises?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Running an organization"
+      },
+      {
+        "id": "b",
+        "content": "Assumptions about the Future"
+      },
+      {
+        "id": "c",
+        "content": "Noting down all the factors"
+      },
+      {
+        "id": "d",
+        "content": "None of the above."
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "In the context of the planning process, developing premises means formulating assumptions about future conditions and environments upon which the alternative plans will be based.",
+    "reference": "Chapter 7: Principles of Planning - Answer based on Step 3 of the Planning Process on Slide 10.",
+    "slideRef": "ch7:s10",
+    "slideRefParsed": {
+      "lectureId": "ch7",
+      "chapterNumber": 7,
+      "topic": "Chapter 7: Principles of Planning",
+      "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+      "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+      "kind": "slides",
+      "pages": [
+        10
+      ],
+      "pageCount": 27,
+      "syntax": "ch7:s10"
+    }
+  },
+  {
+    "id": "Q58",
+    "topic": "Chapter 11: Fundamentals of Organizing",
+    "questionText": "Which of the following is one of the three main components of the management system that Weber termed a bureaucracy?",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "minimum regulations and paperwork"
+      },
+      {
+        "id": "b",
+        "content": "close, personal relations among organization members"
+      },
+      {
+        "id": "c",
+        "content": "emphasis on the human variable"
+      },
+      {
+        "id": "d",
+        "content": "a flat organizational structure"
+      },
+      {
+        "id": "e",
+        "content": "a clearly outlined organizational hierarchy"
+      }
+    ],
+    "correctAnswerId": "e",
+    "explanation": "Weber's bureaucratic model includes three main concepts: detailed procedures and rules, impersonal relationships, and a clearly outlined organizational hierarchy.",
+    "reference": "Chapter 11: Fundamentals of Organizing - Answer found verbatim on Slide 9.",
+    "slideRef": "ch11:s9",
+    "slideRefParsed": {
+      "lectureId": "ch11",
+      "chapterNumber": 11,
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+      "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+      "kind": "slides",
+      "pages": [
+        9
+      ],
+      "pageCount": 38,
+      "syntax": "ch11:s9"
+    }
+  },
+  {
+    "id": "Q59",
+    "topic": "Chapter 15: Influencing and Communication",
+    "questionText": "An individual's emotional intelligence is characterized by self-awareness, self-motivation, self-regulation, empathy for others, and",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "systems thinking"
+      },
+      {
+        "id": "b",
+        "content": "formal communication abilities"
+      },
+      {
+        "id": "c",
+        "content": "openness to experience"
+      },
+      {
+        "id": "d",
+        "content": "adeptness in building relationships"
+      },
+      {
+        "id": "e",
+        "content": "superior intellectual capabilities"
+      }
+    ],
+    "correctAnswerId": "d",
+    "explanation": "According to Goleman's concept of emotional intelligence, it encompasses managing own emotions as well as the emotions in relationships with others, which translates to an adeptness in building relationships.",
+    "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 7.",
+    "slideRef": "ch15:s7",
+    "slideRefParsed": {
+      "lectureId": "ch15",
+      "chapterNumber": 15,
+      "topic": "Chapter 15: Influencing and Communication",
+      "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+      "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+      "kind": "slides",
+      "pages": [
+        7
+      ],
+      "pageCount": 25,
+      "syntax": "ch15:s7"
+    }
+  },
+  {
+    "id": "Q60",
+    "topic": "Chapter 18: Groups and Teams",
+    "questionText": "____ is the mode of thinking that group members engage in when the desire for agreement so dominates the group that it overrides the need to realistically appraise alternative problem solutions.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Social loafing"
+      },
+      {
+        "id": "b",
+        "content": "Group polarization"
+      },
+      {
+        "id": "c",
+        "content": "Groupthink."
+      },
+      {
+        "id": "d",
+        "content": "Cognitive dissonance"
+      },
+      {
+        "id": "e",
+        "content": "Collective intelligence"
+      }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "This is the exact definition of Groupthink provided in the lecture.",
+    "reference": "Chapter 18: Groups and Teams - Found verbatim on Slide 16.",
+    "slideRef": "ch18:s16",
+    "slideRefParsed": {
+      "lectureId": "ch18",
+      "chapterNumber": 18,
+      "topic": "Chapter 18: Groups and Teams",
+      "lectureFile": "Chapter 18 - Groups and Teams.pdf",
+      "pdfPath": "Lectures/Chapter 18 - Groups and Teams.pdf",
+      "kind": "slides",
+      "pages": [
+        16
+      ],
+      "pageCount": 24,
+      "syntax": "ch18:s16"
+    }
+  },
+  {
+    "id": "Q61",
+    "topic": "Chapter 1: Introduction",
+    "questionText": "____ resources refer to the machines used during the manufacturing process.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Hardware"
+      },
+      {
+        "id": "b",
+        "content": "Capital"
+      },
+      {
+        "id": "c",
+        "content": "Technology"
+      },
+      {
+        "id": "d",
+        "content": "Raw material"
+      },
+      {
+        "id": "e",
+        "content": "Monetary"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "In the breakdown of organizational resources, 'Assets/Capital' (or Capital resources) specifically refer to the equipment, facilities, and machines that are utilized as inputs in the production process to create goods or services.",
+    "reference": "Chapter 1: Introduction - Answer supported by Slide 13 and the diagram on Slide 14.",
+    "slideRef": "ch1:s13-14",
+    "slideRefParsed": {
+      "lectureId": "ch1",
+      "chapterNumber": 1,
+      "topic": "Chapter 1: Introduction",
+      "lectureFile": "Chapter 1 - Introduction.pdf",
+      "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+      "kind": "slides",
+      "pages": [
+        13,
+        14
+      ],
+      "pageCount": 30,
+      "syntax": "ch1:s13-14"
+    }
+  },
+  {
+    "id": "Q62",
+    "topic": "Chapter 15: Influencing and Communication",
+    "questionText": "This role performed by Trot can be called",
+    "context": "Trot is the CEO of a consulting firm. He plays a key role in guiding the activities of organization members in appropriate directions.",
+    "options": [
+      {
+        "id": "a",
+        "content": "communicating"
+      },
+      {
+        "id": "b",
+        "content": "influencing"
+      },
+      {
+        "id": "c",
+        "content": "collaborating"
+      },
+      {
+        "id": "d",
+        "content": "motivating"
+      },
+      {
+        "id": "e",
+        "content": "coaching"
+      }
+    ],
+    "correctAnswerId": "b",
+    "explanation": "Influencing is formally defined as the process of guiding the activities of organization members in appropriate directions.",
+    "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 3.",
+    "slideRef": "ch15:s3",
+    "slideRefParsed": {
+      "lectureId": "ch15",
+      "chapterNumber": 15,
+      "topic": "Chapter 15: Influencing and Communication",
+      "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+      "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+      "kind": "slides",
+      "pages": [
+        3
+      ],
+      "pageCount": 25,
+      "syntax": "ch15:s3"
+    }
+  },
+  {
+    "id": "Q63",
+    "topic": "Chapter 15: Influencing and Communication",
+    "questionText": "Organizational communication that does not follow the lines of the organizational chart is specifically called",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "lateral communication"
+      },
+      {
+        "id": "b",
+        "content": "upward communication"
+      },
+      {
+        "id": "c",
+        "content": "vertical communication"
+      },
+      {
+        "id": "d",
+        "content": "informal communication"
+      },
+      {
+        "id": "e",
+        "content": "downward communication"
+      }
+    ],
+    "correctAnswerId": "d",
+    "explanation": "Informal organizational communication (the grapevine) springs up irregularly, is not controlled by top executives, and thus does not follow the formal lines of the organizational chart.",
+    "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 22.",
+    "slideRef": "ch15:s22",
+    "slideRefParsed": {
+      "lectureId": "ch15",
+      "chapterNumber": 15,
+      "topic": "Chapter 15: Influencing and Communication",
+      "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+      "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+      "kind": "slides",
+      "pages": [
+        22
+      ],
+      "pageCount": 25,
+      "syntax": "ch15:s22"
+    }
+  },
+  {
+    "id": "Q64",
+    "topic": "Chapter 1: Introduction",
+    "questionText": "____ skills are very important to managers at the lower, middle and top levels.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "Human"
+      },
+      {
+        "id": "b",
+        "content": "Conceptual"
+      },
+      {
+        "id": "c",
+        "content": "Technical"
+      },
+      {
+        "id": "d",
+        "content": "Strategic"
+      },
+      {
+        "id": "e",
+        "content": "Tactical"
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "According to the classic view charts of management skills, while the need for technical and conceptual skills varies greatly depending on the management level, 'Human Skills' occupy an equally large and consistent segment across top, middle, and supervisory levels.",
+    "reference": "Chapter 1: Introduction - Answer found on the visual charts on Slide 23 and Slide 24.",
+    "slideRef": "ch1:s23-24",
+    "slideRefParsed": {
+      "lectureId": "ch1",
+      "chapterNumber": 1,
+      "topic": "Chapter 1: Introduction",
+      "lectureFile": "Chapter 1 - Introduction.pdf",
+      "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+      "kind": "slides",
+      "pages": [
+        23,
+        24
+      ],
+      "pageCount": 30,
+      "syntax": "ch1:s23-24"
+    }
+  },
+  {
+    "id": "Q65",
+    "topic": "Chapter 21: Controlling Fundamentals",
+    "questionText": "This is a fault in the ____ function of management.",
+    "context": "Gayle has not established appropriate performance standards for her team.",
+    "options": [
+      {
+        "id": "a",
+        "content": "organizing"
+      },
+      {
+        "id": "b",
+        "content": "influencing"
+      },
+      {
+        "id": "c",
+        "content": "controlling"
+      },
+      {
+        "id": "d",
+        "content": "monitoring"
+      },
+      {
+        "id": "e",
+        "content": "planning"
+      }
+    ],
+    "correctAnswerId": "c",
+    "explanation": "Establishing performance standards is a core component of the \"Comparing Measured Performance To Standards\" step within the Controlling process. Failing to establish these standards prevents successful controlling.",
+    "reference": "Chapter 21: Controlling Fundamentals - Answer deduced from Slide 11.",
+    "slideRef": "ch21:s11",
+    "slideRefParsed": {
+      "lectureId": "ch21",
+      "chapterNumber": 21,
+      "topic": "Chapter 21: Controlling Fundamentals",
+      "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+      "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+      "kind": "slides",
+      "pages": [
+        11
+      ],
+      "pageCount": 19,
+      "syntax": "ch21:s11"
+    }
+  },
+  {
+    "id": "Q66",
+    "topic": "Chapter 1: Introduction",
+    "questionText": "The more resources unused during the production process, the more ____ the manager.",
+    "context": null,
+    "options": [
+      {
+        "id": "a",
+        "content": "inefficient"
+      },
+      {
+        "id": "b",
+        "content": "efficient"
+      },
+      {
+        "id": "c",
+        "content": "ineffective"
+      },
+      {
+        "id": "d",
+        "content": "effective"
+      },
+      {
+        "id": "e",
+        "content": "efficient and ineffective"
+      }
+    ],
+    "correctAnswerId": "a",
+    "explanation": "Managerial efficiency deals directly with the proportion of resources contributing to productivity. A higher proportion of unused or wasted resources means fewer resources are actively contributing to the final product, rendering the manager inefficient.",
+    "reference": "Chapter 1: Introduction - Answer found on Slide 16 and Slide 17.",
+    "slideRef": "ch1:s16-17",
+    "slideRefParsed": {
+      "lectureId": "ch1",
+      "chapterNumber": 1,
+      "topic": "Chapter 1: Introduction",
+      "lectureFile": "Chapter 1 - Introduction.pdf",
+      "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+      "kind": "slides",
+      "pages": [
+        16,
+        17
+      ],
+      "pageCount": 30,
+      "syntax": "ch1:s16-17"
+    }
+  }
+]

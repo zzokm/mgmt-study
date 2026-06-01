@@ -1,0 +1,1565 @@
+{
+  "title": "Repetitive Questions",
+  "description": "One entry per repeated stem (exact text match, 2+ appearances across exams). Perfect duplicates collapsed to a single question; instanceCount and appearances record how often and where it showed up. Ordered by instanceCount ascending (2, then 3, then 4…); within the same count: True/False before MCQ, then 2019→2021→2024→2025, then exam question id (Q1, Q2, Q1.a…).",
+  "generatedOn": "2026-06-01",
+  "uniqueRepeatedStems": 25,
+  "totalQuestionEntries": 25,
+  "instanceCountBreakdown": {
+    "2": 24,
+    "4": 1
+  },
+  "questions": [
+    {
+      "id": "Q2.c",
+      "topic": "Chapter 8: Making Decisions",
+      "questionText": "Implementation of the chosen alternative is the final step in the decision-making process.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "According to the Rational Decision-Making Process Model, 'Implement chosen alternative' is the fourth step. The fifth and final step is 'Gather problem-related feedback' to determine the effect on the problem.",
+      "reference": "Chapter 8: Making Decisions - Answer found on Slide 11 and Slide 18.",
+      "slideRef": "ch8:s11,18",
+      "slideRefParsed": {
+        "lectureId": "ch8",
+        "chapterNumber": 8,
+        "topic": "Chapter 8: Making Decisions",
+        "lectureFile": "Chapter 8 - Making Decisions.pdf",
+        "pdfPath": "Lectures/Chapter 8 - Making Decisions.pdf",
+        "kind": "slides",
+        "pages": [
+          11,
+          18
+        ],
+        "pageCount": 33,
+        "syntax": "ch8:s11,18"
+      },
+      "origin": "2019",
+      "sourceFile": "final19.json",
+      "sourceQuestionId": "Q2.c",
+      "questionType": "true_false",
+      "poolIndex": 2,
+      "instanceCount": 2,
+      "repetitionGroupRank": 1,
+      "origins": [
+        "2019",
+        "2021"
+      ],
+      "appearances": [
+        {
+          "origin": "2019",
+          "sourceFile": "final19.json",
+          "sourceQuestionId": "Q2.c"
+        },
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q13"
+        }
+      ]
+    },
+    {
+      "id": "Q2.d",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "Bureaucracy can be characterized as a management system with detailed procedures, rules, and a clearly outlined organizational hierarchy with impersonal relationships among organization members.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Weber's bureaucratic model defines the concept of bureaucracy using three main components: detailed procedures and rules, a clearly outlined organizational hierarchy, and impersonal relationships among organization members.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer found verbatim on Slide 9.",
+      "slideRef": "ch11:s9",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          9
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s9"
+      },
+      "origin": "2019",
+      "sourceFile": "final19.json",
+      "sourceQuestionId": "Q2.d",
+      "questionType": "true_false",
+      "poolIndex": 1,
+      "instanceCount": 2,
+      "repetitionGroupRank": 2,
+      "origins": [
+        "2019",
+        "2024"
+      ],
+      "appearances": [
+        {
+          "origin": "2019",
+          "sourceFile": "final19.json",
+          "sourceQuestionId": "Q2.d"
+        },
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q8"
+        }
+      ]
+    },
+    {
+      "id": "Q2.e",
+      "topic": "Chapter 15: Influencing and Communication",
+      "questionText": "Communication is considered a supplementary management skill rather than a fundamental management skill.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Communication is ranked highly by chief executives as a key learning area, tying for rank 1 as the most important skill that should be taught, making it a fundamental management skill rather than a supplementary one.",
+      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 6.",
+      "slideRef": "ch15:s6",
+      "slideRefParsed": {
+        "lectureId": "ch15",
+        "chapterNumber": 15,
+        "topic": "Chapter 15: Influencing and Communication",
+        "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+        "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+        "kind": "slides",
+        "pages": [
+          6
+        ],
+        "pageCount": 25,
+        "syntax": "ch15:s6"
+      },
+      "origin": "2019",
+      "sourceFile": "final19.json",
+      "sourceQuestionId": "Q2.e",
+      "questionType": "true_false",
+      "poolIndex": 1,
+      "instanceCount": 2,
+      "repetitionGroupRank": 3,
+      "origins": [
+        "2019",
+        "2024"
+      ],
+      "appearances": [
+        {
+          "origin": "2019",
+          "sourceFile": "final19.json",
+          "sourceQuestionId": "Q2.e"
+        },
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q14"
+        }
+      ]
+    },
+    {
+      "id": "Q2.h",
+      "topic": "Chapter 21: Controlling Fundamentals",
+      "questionText": "In order to preserve their position power, managers should avoid doing personal favors for subordinates.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "To increase personal power, a manager should attempt to develop a \"sense of obligation toward the manager\" among organization members. Doing personal favors is a common way to build this sense of obligation, thereby increasing personal power, not detracting from position power.",
+      "reference": "Chapter 21: Controlling Fundamentals - Answer deduced from Slide 16 regarding increasing personal power.",
+      "slideRef": "ch21:s16",
+      "slideRefParsed": {
+        "lectureId": "ch21",
+        "chapterNumber": 21,
+        "topic": "Chapter 21: Controlling Fundamentals",
+        "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+        "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+        "kind": "slides",
+        "pages": [
+          16
+        ],
+        "pageCount": 19,
+        "syntax": "ch21:s16"
+      },
+      "origin": "2019",
+      "sourceFile": "final19.json",
+      "sourceQuestionId": "Q2.h",
+      "questionType": "true_false",
+      "poolIndex": 2,
+      "instanceCount": 2,
+      "repetitionGroupRank": 4,
+      "origins": [
+        "2019",
+        "2024"
+      ],
+      "appearances": [
+        {
+          "origin": "2019",
+          "sourceFile": "final19.json",
+          "sourceQuestionId": "Q2.h"
+        },
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q2"
+        }
+      ]
+    },
+    {
+      "id": "Q6",
+      "topic": "Chapter 1: Introduction",
+      "questionText": "Human skills, unlike technical skills, involve the ability to see the organization as a whole.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "The ability to see the organization as a whole is the definition of 'Conceptual Skills'. 'Human Skills' are defined as the ability to work with people.",
+      "reference": "Chapter 1: Introduction - Answer found on Slide 22.",
+      "slideRef": "ch1:s22",
+      "slideRefParsed": {
+        "lectureId": "ch1",
+        "chapterNumber": 1,
+        "topic": "Chapter 1: Introduction",
+        "lectureFile": "Chapter 1 - Introduction.pdf",
+        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+        "kind": "slides",
+        "pages": [
+          22
+        ],
+        "pageCount": 30,
+        "syntax": "ch1:s22"
+      },
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q6",
+      "questionType": "true_false",
+      "poolIndex": 4,
+      "instanceCount": 2,
+      "repetitionGroupRank": 5,
+      "origins": [
+        "2021",
+        "2025"
+      ],
+      "appearances": [
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q6"
+        },
+        {
+          "origin": "2025",
+          "sourceFile": "final25.json",
+          "sourceQuestionId": "Q5"
+        }
+      ]
+    },
+    {
+      "id": "Q14",
+      "topic": "Chapter 18: Groups and Teams",
+      "questionText": "Groupthink is a group decision-making process in which negative feedback on any suggested alternative by any group member is forbidden until all members have presented alternatives that they perceive as valuable.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Groupthink is not a structured process where feedback is forbidden; rather, it is a psychological phenomenon where \"the desire for agreement so dominates the group that it overrides the need to realistically appraise alternative problem solutions.\" It results in members censoring their own ideas to conform.",
+      "reference": "Chapter 18: Groups and Teams - Found on Slide 16.",
+      "slideRef": "ch18:s16",
+      "slideRefParsed": {
+        "lectureId": "ch18",
+        "chapterNumber": 18,
+        "topic": "Chapter 18: Groups and Teams",
+        "lectureFile": "Chapter 18 - Groups and Teams.pdf",
+        "pdfPath": "Lectures/Chapter 18 - Groups and Teams.pdf",
+        "kind": "slides",
+        "pages": [
+          16
+        ],
+        "pageCount": 24,
+        "syntax": "ch18:s16"
+      },
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q14",
+      "questionType": "true_false",
+      "poolIndex": 2,
+      "instanceCount": 2,
+      "repetitionGroupRank": 6,
+      "origins": [
+        "2021",
+        "2024"
+      ],
+      "appearances": [
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q14"
+        },
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q6"
+        }
+      ]
+    },
+    {
+      "id": "Q16",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "Span of management refers to the number of organizational levels below that of a particular manager's.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Span of management (or span of control) refers to the number of individuals a manager directly supervises to best guide them toward production quotas. The number of organizational levels relates to the vertical dimensioning or the 'height' of the organization chart, not the span of management.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer deduced from Slide 20 and Slide 23.",
+      "slideRef": "ch11:s20,23",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          20,
+          23
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s20,23"
+      },
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q16",
+      "questionType": "true_false",
+      "poolIndex": 3,
+      "instanceCount": 2,
+      "repetitionGroupRank": 7,
+      "origins": [
+        "2021",
+        "2025"
+      ],
+      "appearances": [
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q16"
+        },
+        {
+          "origin": "2025",
+          "sourceFile": "final25.json",
+          "sourceQuestionId": "Q13"
+        }
+      ]
+    },
+    {
+      "id": "Q18",
+      "topic": "Chapter 13: Human Resource Management",
+      "questionText": "Wikstrom's human resource inventory forms are meant to be used exclusively for filling managerial positions and cannot be used for filling nonmanagerial positions.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "While Wikstrom's forms (Management Inventory Card, Position Replacement Form, Management Manpower Replacement Chart) heavily emphasize management roles, the concept of a human resource inventory broadly keeps 'management up to date about the possibilities for filling a position from within'. Furthermore, the slides indicate that computer software aids managers in complex HR inventories for how 'employees can best be deployed and developed,' showing it is not exclusively for management.",
+      "reference": "Chapter 13: Human Resource Management - Deduced from Slide 13 (Objective) and Slide 18 (Software tools).",
+      "slideRef": "ch13:s13,18",
+      "slideRefParsed": {
+        "lectureId": "ch13",
+        "chapterNumber": 13,
+        "topic": "Chapter 13: Human Resource Management",
+        "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+        "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+        "kind": "slides",
+        "pages": [
+          13,
+          18
+        ],
+        "pageCount": 46,
+        "syntax": "ch13:s13,18"
+      },
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q18",
+      "questionType": "true_false",
+      "poolIndex": 2,
+      "instanceCount": 2,
+      "repetitionGroupRank": 8,
+      "origins": [
+        "2021",
+        "2025"
+      ],
+      "appearances": [
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q18"
+        },
+        {
+          "origin": "2025",
+          "sourceFile": "final25.json",
+          "sourceQuestionId": "Q8"
+        }
+      ]
+    },
+    {
+      "id": "Q20",
+      "topic": "Chapter 15: Influencing and Communication",
+      "questionText": "The basic elements of the interpersonal communication process are the source, the encoder, and the decoder.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "The basic elements of the interpersonal communication process are the source/encoder, the signal, and the decoder/destination. The statement incorrectly omits the 'signal' entirely and splits source and encoder.",
+      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 12 and Slide 13.",
+      "slideRef": "ch15:s12-13",
+      "slideRefParsed": {
+        "lectureId": "ch15",
+        "chapterNumber": 15,
+        "topic": "Chapter 15: Influencing and Communication",
+        "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+        "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+        "kind": "slides",
+        "pages": [
+          12,
+          13
+        ],
+        "pageCount": 25,
+        "syntax": "ch15:s12-13"
+      },
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q20",
+      "questionType": "true_false",
+      "poolIndex": 2,
+      "instanceCount": 2,
+      "repetitionGroupRank": 9,
+      "origins": [
+        "2021",
+        "2024"
+      ],
+      "appearances": [
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q20"
+        },
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q11"
+        }
+      ]
+    },
+    {
+      "id": "Q7",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "Henri Fayol recommends that businesses establish multiple guiding authorities when organizing resources.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "The management principle of 'Unity of Command' explicitly recommends that an individual have only one boss. Establishing multiple guiding authorities contradicts this core principle.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer found on Slide 19 under Unity of Command.",
+      "slideRef": "ch11:s19",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          19
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s19"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q7",
+      "questionType": "true_false",
+      "poolIndex": 4,
+      "instanceCount": 2,
+      "repetitionGroupRank": 10,
+      "origins": [
+        "2024",
+        "2025"
+      ],
+      "appearances": [
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q7"
+        },
+        {
+          "origin": "2025",
+          "sourceFile": "final25.json",
+          "sourceQuestionId": "Q12"
+        }
+      ]
+    },
+    {
+      "id": "Q9",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "Vertical dimensioning is directly related to the concept of the scalar relationship that is, the chain of command.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Vertical dimensioning encompasses the scalar relationship (chain of command), mapping how authority scales downward from the individual at the top to those at the bottom.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer found directly on Slide 18 and Slide 19.",
+      "slideRef": "ch11:s18-19",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          18,
+          19
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s18-19"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q9",
+      "questionType": "true_false",
+      "poolIndex": 6,
+      "instanceCount": 2,
+      "repetitionGroupRank": 11,
+      "origins": [
+        "2024",
+        "2025"
+      ],
+      "appearances": [
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q9"
+        },
+        {
+          "origin": "2025",
+          "sourceFile": "final25.json",
+          "sourceQuestionId": "Q3"
+        }
+      ]
+    },
+    {
+      "id": "Q1.f",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "Which of the following is an advantage of planning?",
+      "context": null,
+      "options": [
+        {
+          "id": "1",
+          "content": "eliminates all risks"
+        },
+        {
+          "id": "2",
+          "content": "enhances decision coordination"
+        },
+        {
+          "id": "3",
+          "content": "emphasizes immediate goals"
+        },
+        {
+          "id": "4",
+          "content": "suboptimizes the use of resources"
+        },
+        {
+          "id": "5",
+          "content": "promotes individual performance"
+        }
+      ],
+      "correctAnswerId": "2",
+      "explanation": "One of the listed advantages of planning is that it 'Enhances decision coordination' by making managers future-oriented and emphasizing organizational objectives.",
+      "reference": "Chapter 7: Principles of Planning - Answer found verbatim on Slide 6 under '+ Advantages'.",
+      "slideRef": "ch7:s6",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          6
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s6"
+      },
+      "origin": "2019",
+      "sourceFile": "final19.json",
+      "sourceQuestionId": "Q1.f",
+      "questionType": "mcq",
+      "poolIndex": 10,
+      "instanceCount": 2,
+      "repetitionGroupRank": 12,
+      "origins": [
+        "2019",
+        "2021"
+      ],
+      "appearances": [
+        {
+          "origin": "2019",
+          "sourceFile": "final19.json",
+          "sourceQuestionId": "Q1.f"
+        },
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q25"
+        }
+      ]
+    },
+    {
+      "id": "Q30",
+      "topic": "Chapter 8: Making Decisions",
+      "questionText": "This is an example of a(n)",
+      "context": "Trendy Garb is a retail store that sells women's apparel. The store has comprehensive rules, policies, and procedures for matters relating to customer complaints and product returns. Hence, when faced with either of these situations, the store manager simply needs to refer to these guidelines and proceed accordingly.",
+      "options": [
+        {
+          "id": "a",
+          "content": "overlapping responsibility"
+        },
+        {
+          "id": "b",
+          "content": "nonprogrammed decision"
+        },
+        {
+          "id": "c",
+          "content": "rule of thumb"
+        },
+        {
+          "id": "d",
+          "content": "decision tree"
+        },
+        {
+          "id": "e",
+          "content": "programmed decision"
+        }
+      ],
+      "correctAnswerId": "e",
+      "explanation": "Because the store has comprehensive, standard operating procedures, rules, and policies established for routine situations (returns and complaints), the manager is executing a programmed decision.",
+      "reference": "Chapter 8: Making Decisions - Answer found on Slide 5 and Slide 6.",
+      "slideRef": "ch8:s5-6",
+      "slideRefParsed": {
+        "lectureId": "ch8",
+        "chapterNumber": 8,
+        "topic": "Chapter 8: Making Decisions",
+        "lectureFile": "Chapter 8 - Making Decisions.pdf",
+        "pdfPath": "Lectures/Chapter 8 - Making Decisions.pdf",
+        "kind": "slides",
+        "pages": [
+          5,
+          6
+        ],
+        "pageCount": 33,
+        "syntax": "ch8:s5-6"
+      },
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q30",
+      "questionType": "mcq",
+      "poolIndex": 10,
+      "instanceCount": 2,
+      "repetitionGroupRank": 13,
+      "origins": [
+        "2021",
+        "2024"
+      ],
+      "appearances": [
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q30"
+        },
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q20"
+        }
+      ]
+    },
+    {
+      "id": "Q31",
+      "topic": "Chapter 8: Making Decisions",
+      "questionText": "Which of the following is a traditional technique for solving a programmed decision?",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "judgment"
+        },
+        {
+          "id": "b",
+          "content": "rules of thumb"
+        },
+        {
+          "id": "c",
+          "content": "habit"
+        },
+        {
+          "id": "d",
+          "content": "intuition"
+        },
+        {
+          "id": "e",
+          "content": "training"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Under 'Types of Decisions', the traditional techniques for handling a programmed (routine) decision include 'Habit', 'Clerical routine', and 'Organization structure'. Judgment, intuition, and rules of thumb are traditional techniques for nonprogrammed decisions.",
+      "reference": "Chapter 8: Making Decisions - Answer found on the Decision-Making Techniques table on Slide 6.",
+      "slideRef": "ch8:s6",
+      "slideRefParsed": {
+        "lectureId": "ch8",
+        "chapterNumber": 8,
+        "topic": "Chapter 8: Making Decisions",
+        "lectureFile": "Chapter 8 - Making Decisions.pdf",
+        "pdfPath": "Lectures/Chapter 8 - Making Decisions.pdf",
+        "kind": "slides",
+        "pages": [
+          6
+        ],
+        "pageCount": 33,
+        "syntax": "ch8:s6"
+      },
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q31",
+      "questionType": "mcq",
+      "poolIndex": 11,
+      "instanceCount": 2,
+      "repetitionGroupRank": 14,
+      "origins": [
+        "2021",
+        "2024"
+      ],
+      "appearances": [
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q31"
+        },
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q32"
+        }
+      ]
+    },
+    {
+      "id": "Q34",
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "questionText": "Which of the following is an advantage of division of labor?",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "It broadens the scope of work."
+        },
+        {
+          "id": "b",
+          "content": "It results in high levels of employee motivation."
+        },
+        {
+          "id": "c",
+          "content": "It makes work more interesting."
+        },
+        {
+          "id": "d",
+          "content": "It saves time."
+        },
+        {
+          "id": "e",
+          "content": "It emphasizes the human variable in organizations."
+        }
+      ],
+      "correctAnswerId": "d",
+      "explanation": "A key advantage of division of labor is that workers stay in one place and do one job, meaning they 'do not lose valuable time changing tools or locations,' which effectively saves time. Broadening scope, high motivation, interesting work, and emphasizing human variables are contradicted by the listed disadvantages of the division of labor.",
+      "reference": "Chapter 11: Fundamentals of Organizing - Answer deduced from the Advantages on Slide 12.",
+      "slideRef": "ch11:s12",
+      "slideRefParsed": {
+        "lectureId": "ch11",
+        "chapterNumber": 11,
+        "topic": "Chapter 11: Fundamentals of Organizing",
+        "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+        "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+        "kind": "slides",
+        "pages": [
+          12
+        ],
+        "pageCount": 38,
+        "syntax": "ch11:s12"
+      },
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q34",
+      "questionType": "mcq",
+      "poolIndex": 14,
+      "instanceCount": 2,
+      "repetitionGroupRank": 15,
+      "origins": [
+        "2021",
+        "2024"
+      ],
+      "appearances": [
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q34"
+        },
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q56"
+        }
+      ]
+    },
+    {
+      "id": "Q39",
+      "topic": "Chapter 15: Influencing and Communication",
+      "questionText": "Which of the following is a communication macrobarrier?",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "need for complex information"
+        },
+        {
+          "id": "b",
+          "content": "destination's view of the source"
+        },
+        {
+          "id": "c",
+          "content": "message interference"
+        },
+        {
+          "id": "d",
+          "content": "receivers' perception"
+        },
+        {
+          "id": "e",
+          "content": "multimeaning words"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "The 'need for increasingly complex information' is explicitly listed as one of the Communication Macrobarriers. The other options (perception, destination's view of the source, message interference, multimeaning words) are classified as Microbarriers.",
+      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 15 and Slide 16.",
+      "slideRef": "ch15:s15-16",
+      "slideRefParsed": {
+        "lectureId": "ch15",
+        "chapterNumber": 15,
+        "topic": "Chapter 15: Influencing and Communication",
+        "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+        "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+        "kind": "slides",
+        "pages": [
+          15,
+          16
+        ],
+        "pageCount": 25,
+        "syntax": "ch15:s15-16"
+      },
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q39",
+      "questionType": "mcq",
+      "poolIndex": 9,
+      "instanceCount": 2,
+      "repetitionGroupRank": 16,
+      "origins": [
+        "2021",
+        "2024"
+      ],
+      "appearances": [
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q39"
+        },
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q28"
+        }
+      ]
+    },
+    {
+      "id": "Q29",
+      "topic": "Chapter 1: Introduction",
+      "questionText": "Which of the following statements is true for the management function?",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "It reaches goals by working with and through people."
+        },
+        {
+          "id": "b",
+          "content": "It is a one-time function in an organization."
+        },
+        {
+          "id": "c",
+          "content": "It is a series of continuing and unrelated activities."
+        },
+        {
+          "id": "d",
+          "content": "It involves-and concentrates on reaching individual goals."
+        },
+        {
+          "id": "e",
+          "content": "It does not consider the people aspect of organizations."
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "The official definition of management states that it is the continuous process of reaching organizational goals by working with and through people and utilizing other organizational resources.",
+      "reference": "Chapter 1: Introduction - Answer found verbatim on Slide 5.",
+      "slideRef": "ch1:s5",
+      "slideRefParsed": {
+        "lectureId": "ch1",
+        "chapterNumber": 1,
+        "topic": "Chapter 1: Introduction",
+        "lectureFile": "Chapter 1 - Introduction.pdf",
+        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+        "kind": "slides",
+        "pages": [
+          5
+        ],
+        "pageCount": 30,
+        "syntax": "ch1:s5"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q29",
+      "questionType": "mcq",
+      "poolIndex": 9,
+      "instanceCount": 2,
+      "repetitionGroupRank": 17,
+      "origins": [
+        "2024",
+        "2025"
+      ],
+      "appearances": [
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q29"
+        },
+        {
+          "origin": "2025",
+          "sourceFile": "final25.json",
+          "sourceQuestionId": "Q59"
+        }
+      ]
+    },
+    {
+      "id": "Q38",
+      "topic": "Chapter 1: Introduction",
+      "questionText": "Name one of the basic concepts for smoothly running an organisation.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Management"
+        },
+        {
+          "id": "b",
+          "content": "Planning"
+        },
+        {
+          "id": "c",
+          "content": "Coordination"
+        },
+        {
+          "id": "d",
+          "content": "None of the options is correct"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "The overarching role of management is to guide the organization smoothly towards its goals by effectively utilizing its resources through the execution of its core functions (planning, organizing, influencing, controlling).",
+      "reference": "Chapter 1: Introduction - Answer supported by the core concepts on Slide 4 and Slide 5.",
+      "slideRef": "ch1:s4-5",
+      "slideRefParsed": {
+        "lectureId": "ch1",
+        "chapterNumber": 1,
+        "topic": "Chapter 1: Introduction",
+        "lectureFile": "Chapter 1 - Introduction.pdf",
+        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+        "kind": "slides",
+        "pages": [
+          4,
+          5
+        ],
+        "pageCount": 30,
+        "syntax": "ch1:s4-5"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q38",
+      "questionType": "mcq",
+      "poolIndex": 10,
+      "instanceCount": 2,
+      "repetitionGroupRank": 18,
+      "origins": [
+        "2024",
+        "2025"
+      ],
+      "appearances": [
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q38"
+        },
+        {
+          "origin": "2025",
+          "sourceFile": "final25.json",
+          "sourceQuestionId": "Q18"
+        }
+      ]
+    },
+    {
+      "id": "Q40",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "At what step of the planning can be processed with the topmost and applicable plan would be implemented?",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Setting up objective"
+        },
+        {
+          "id": "b",
+          "content": "Developing Premises"
+        },
+        {
+          "id": "c",
+          "content": "Selecting up objective"
+        },
+        {
+          "id": "d",
+          "content": "Evaluating alternative course of action"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "This question phrasing is slightly irregular, but based on the Planning Process steps, after evaluating alternatives, the next step is to 'Choose best alternative for reaching objectives' (which aligns with selecting the topmost/applicable plan).",
+      "reference": "Chapter 7: Principles of Planning - Answer supported by the Planning Process steps on Slide 10 (Step 4: Choose best alternative).",
+      "slideRef": "ch7:s10",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          10
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s10"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q40",
+      "questionType": "mcq",
+      "poolIndex": 13,
+      "instanceCount": 2,
+      "repetitionGroupRank": 19,
+      "origins": [
+        "2024",
+        "2025"
+      ],
+      "appearances": [
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q40"
+        },
+        {
+          "origin": "2025",
+          "sourceFile": "final25.json",
+          "sourceQuestionId": "Q20"
+        }
+      ]
+    },
+    {
+      "id": "Q42",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "In which pace of the planning process, two sides of a coin of each alternative are examined.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Setting up Objective"
+        },
+        {
+          "id": "b",
+          "content": "Developing Premises"
+        },
+        {
+          "id": "c",
+          "content": "Selecting an alternative premises"
+        },
+        {
+          "id": "d",
+          "content": "Evaluating alternatives course of action"
+        }
+      ],
+      "correctAnswerId": "d",
+      "explanation": "Evaluating alternatives involves analyzing the pros and cons (the two sides of the coin) of each listed option before making a final choice.",
+      "reference": "Chapter 7: Principles of Planning - Answer deduced from the logical progression of the Planning Process steps on Slide 10, specifically between Step 2 (Listing) and Step 4 (Choosing).",
+      "slideRef": "ch7:s10",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          10
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s10"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q42",
+      "questionType": "mcq",
+      "poolIndex": 14,
+      "instanceCount": 2,
+      "repetitionGroupRank": 20,
+      "origins": [
+        "2024",
+        "2025"
+      ],
+      "appearances": [
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q42"
+        },
+        {
+          "origin": "2025",
+          "sourceFile": "final25.json",
+          "sourceQuestionId": "Q24"
+        }
+      ]
+    },
+    {
+      "id": "Q47",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "Thinking for the future output is known as",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Setting planning premises"
+        },
+        {
+          "id": "b",
+          "content": "Making derivative plans"
+        },
+        {
+          "id": "c",
+          "content": "Making policy"
+        },
+        {
+          "id": "d",
+          "content": "All of the options are correct"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Developing premises involves making assumptions about the future conditions upon which alternative plans will be based. It is essentially thinking about future scenarios.",
+      "reference": "Chapter 7: Principles of Planning - Answer based on Step 3 of the Planning Process on Slide 10: 'Develop premises upon which each alternative is based'.",
+      "slideRef": "ch7:s10",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          10
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s10"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q47",
+      "questionType": "mcq",
+      "poolIndex": 16,
+      "instanceCount": 2,
+      "repetitionGroupRank": 21,
+      "origins": [
+        "2024",
+        "2025"
+      ],
+      "appearances": [
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q47"
+        },
+        {
+          "origin": "2025",
+          "sourceFile": "final25.json",
+          "sourceQuestionId": "Q27"
+        }
+      ]
+    },
+    {
+      "id": "Q52",
+      "topic": "Chapter 18: Groups and Teams",
+      "questionText": "Which of the following statements about groupthink is true?",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Groupthink cannot take place in a newly formed group."
+        },
+        {
+          "id": "b",
+          "content": "A group with high levels of mistrust and conflicts is likely to be most susceptible to groupthink."
+        },
+        {
+          "id": "c",
+          "content": "A group with a high level of cohesiveness is likely to be susceptible to groupthink."
+        },
+        {
+          "id": "d",
+          "content": "Managers must help committees to establish groupthink to generate alternative problem solutions."
+        },
+        {
+          "id": "e",
+          "content": "A group which is highly competitive will most probably result in groupthink."
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Groupthink occurs when the \"desire for agreement so dominates the group that it overrides the need to realistically appraise alternative problem solutions.\" High cohesiveness creates this strong desire for agreement and conformity, making the group highly susceptible to groupthink.",
+      "reference": "Chapter 18: Groups and Teams - Inferred from the definition and symptoms of Groupthink on Slide 16.",
+      "slideRef": "ch18:s16",
+      "slideRefParsed": {
+        "lectureId": "ch18",
+        "chapterNumber": 18,
+        "topic": "Chapter 18: Groups and Teams",
+        "lectureFile": "Chapter 18 - Groups and Teams.pdf",
+        "pdfPath": "Lectures/Chapter 18 - Groups and Teams.pdf",
+        "kind": "slides",
+        "pages": [
+          16
+        ],
+        "pageCount": 24,
+        "syntax": "ch18:s16"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q52",
+      "questionType": "mcq",
+      "poolIndex": 23,
+      "instanceCount": 2,
+      "repetitionGroupRank": 22,
+      "origins": [
+        "2024",
+        "2025"
+      ],
+      "appearances": [
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q52"
+        },
+        {
+          "origin": "2025",
+          "sourceFile": "final25.json",
+          "sourceQuestionId": "Q58"
+        }
+      ]
+    },
+    {
+      "id": "Q53",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "At what stage of the planning becomes the most feasible plan that can be implemented.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Developing Premises"
+        },
+        {
+          "id": "b",
+          "content": "Evaluating alternative course of action"
+        },
+        {
+          "id": "c",
+          "content": "Selecting an alternative"
+        },
+        {
+          "id": "d",
+          "content": "Setting up objective"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "After evaluating options, the manager chooses the best (most feasible) alternative to reach the objectives, which is then developed into actionable plans.",
+      "reference": "Chapter 7: Principles of Planning - Answer based on Step 4 of the Planning Process on Slide 10: 'Choose best alternative for reaching objectives'.",
+      "slideRef": "ch7:s10",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          10
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s10"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q53",
+      "questionType": "mcq",
+      "poolIndex": 18,
+      "instanceCount": 2,
+      "repetitionGroupRank": 23,
+      "origins": [
+        "2024",
+        "2025"
+      ],
+      "appearances": [
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q53"
+        },
+        {
+          "origin": "2025",
+          "sourceFile": "final25.json",
+          "sourceQuestionId": "Q43"
+        }
+      ]
+    },
+    {
+      "id": "Q55",
+      "topic": "Chapter 7: Principles of Planning",
+      "questionText": "Planning establishes a ground standard for",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Controlling"
+        },
+        {
+          "id": "b",
+          "content": "Directing"
+        },
+        {
+          "id": "c",
+          "content": "Staffing"
+        },
+        {
+          "id": "d",
+          "content": "Organizing"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "While planning is the basis for all functions, it specifically sets the organizational objectives and targets (standards) that the 'Controlling' function measures performance against to determine if goals are being met.",
+      "reference": "Chapter 7: Principles of Planning - Answer supported by the 'Primacy of Planning' link to Controlling on Slide 7, and general management principles.",
+      "slideRef": "ch7:s7",
+      "slideRefParsed": {
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "kind": "slides",
+        "pages": [
+          7
+        ],
+        "pageCount": 27,
+        "syntax": "ch7:s7"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q55",
+      "questionType": "mcq",
+      "poolIndex": 19,
+      "instanceCount": 2,
+      "repetitionGroupRank": 24,
+      "origins": [
+        "2024",
+        "2025"
+      ],
+      "appearances": [
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q55"
+        },
+        {
+          "origin": "2025",
+          "sourceFile": "final25.json",
+          "sourceQuestionId": "Q51"
+        }
+      ]
+    },
+    {
+      "id": "Q2.f",
+      "topic": "Chapter 18: Groups and Teams",
+      "questionText": "A task group is a formal group outlined in the chain of command on an organization chart.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "A command group is defined as the formal group outlined in the chain of command on an organization chart. A task group is a formal group of organization members who interact with one another to accomplish most of the organization's nonroutine tasks.",
+      "reference": "Chapter 18: Groups and Teams - Found on Slide 9.",
+      "slideRef": "ch18:s9",
+      "slideRefParsed": {
+        "lectureId": "ch18",
+        "chapterNumber": 18,
+        "topic": "Chapter 18: Groups and Teams",
+        "lectureFile": "Chapter 18 - Groups and Teams.pdf",
+        "pdfPath": "Lectures/Chapter 18 - Groups and Teams.pdf",
+        "kind": "slides",
+        "pages": [
+          9
+        ],
+        "pageCount": 24,
+        "syntax": "ch18:s9"
+      },
+      "origin": "2019",
+      "sourceFile": "final19.json",
+      "sourceQuestionId": "Q2.f",
+      "questionType": "true_false",
+      "poolIndex": 1,
+      "instanceCount": 4,
+      "repetitionGroupRank": 25,
+      "origins": [
+        "2019",
+        "2021",
+        "2024",
+        "2025"
+      ],
+      "appearances": [
+        {
+          "origin": "2019",
+          "sourceFile": "final19.json",
+          "sourceQuestionId": "Q2.f"
+        },
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q21"
+        },
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q5"
+        },
+        {
+          "origin": "2025",
+          "sourceFile": "final25.json",
+          "sourceQuestionId": "Q9"
+        }
+      ]
+    }
+  ]
+}

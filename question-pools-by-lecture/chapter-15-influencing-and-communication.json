@@ -1,0 +1,1053 @@
+{
+  "lecture": "Chapter 15: Influencing and Communication",
+  "slug": "chapter-15-influencing-and-communication",
+  "totalQuestions": 22,
+  "originsBreakdown": {
+    "2019": 2,
+    "2021": 5,
+    "2024": 13,
+    "2025": 2
+  },
+  "questions": [
+    {
+      "id": "Q2.e",
+      "topic": "Chapter 15: Influencing and Communication",
+      "questionText": "Communication is considered a supplementary management skill rather than a fundamental management skill.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Communication is ranked highly by chief executives as a key learning area, tying for rank 1 as the most important skill that should be taught, making it a fundamental management skill rather than a supplementary one.",
+      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 6.",
+      "slideRef": "ch15:s6",
+      "slideRefParsed": {
+        "lectureId": "ch15",
+        "chapterNumber": 15,
+        "topic": "Chapter 15: Influencing and Communication",
+        "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+        "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+        "kind": "slides",
+        "pages": [
+          6
+        ],
+        "pageCount": 25,
+        "syntax": "ch15:s6"
+      },
+      "origin": "2019",
+      "sourceFile": "final19.json",
+      "sourceQuestionId": "Q2.e",
+      "questionType": "true_false",
+      "poolIndex": 1
+    },
+    {
+      "id": "Q20",
+      "topic": "Chapter 15: Influencing and Communication",
+      "questionText": "The basic elements of the interpersonal communication process are the source, the encoder, and the decoder.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "The basic elements of the interpersonal communication process are the source/encoder, the signal, and the decoder/destination. The statement incorrectly omits the 'signal' entirely and splits source and encoder.",
+      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 12 and Slide 13.",
+      "slideRef": "ch15:s12-13",
+      "slideRefParsed": {
+        "lectureId": "ch15",
+        "chapterNumber": 15,
+        "topic": "Chapter 15: Influencing and Communication",
+        "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+        "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+        "kind": "slides",
+        "pages": [
+          12,
+          13
+        ],
+        "pageCount": 25,
+        "syntax": "ch15:s12-13"
+      },
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q20",
+      "questionType": "true_false",
+      "poolIndex": 2
+    },
+    {
+      "id": "Q11",
+      "topic": "Chapter 15: Influencing and Communication",
+      "questionText": "The basic elements of the interpersonal communication process are the source, the encoder, and the decoder.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "The basic elements of the interpersonal communication process are the source/encoder, the signal, and the decoder/destination. The statement incorrectly omits the 'signal' entirely.",
+      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 12 and Slide 13.",
+      "slideRef": "ch15:s12-13",
+      "slideRefParsed": {
+        "lectureId": "ch15",
+        "chapterNumber": 15,
+        "topic": "Chapter 15: Influencing and Communication",
+        "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+        "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+        "kind": "slides",
+        "pages": [
+          12,
+          13
+        ],
+        "pageCount": 25,
+        "syntax": "ch15:s12-13"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q11",
+      "questionType": "true_false",
+      "poolIndex": 3
+    },
+    {
+      "id": "Q14",
+      "topic": "Chapter 15: Influencing and Communication",
+      "questionText": "Communication is considered a supplementary management skill rather than a fundamental management skill.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Communication is ranked highly by chief executives as a key learning area, tying for rank 1 as the most important skill that should be taught, making it a fundamental management skill.",
+      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 6.",
+      "slideRef": "ch15:s6",
+      "slideRefParsed": {
+        "lectureId": "ch15",
+        "chapterNumber": 15,
+        "topic": "Chapter 15: Influencing and Communication",
+        "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+        "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+        "kind": "slides",
+        "pages": [
+          6
+        ],
+        "pageCount": 25,
+        "syntax": "ch15:s6"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q14",
+      "questionType": "true_false",
+      "poolIndex": 4
+    },
+    {
+      "id": "Q15",
+      "topic": "Chapter 15: Influencing and Communication",
+      "questionText": "Good communicators consult with others when planning communications.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "True"
+        },
+        {
+          "id": "b",
+          "content": "False"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "One of the primary guidelines for achieving communication effectiveness is to consult with others, when appropriate, in planning communications.",
+      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 17.",
+      "slideRef": "ch15:s17",
+      "slideRefParsed": {
+        "lectureId": "ch15",
+        "chapterNumber": 15,
+        "topic": "Chapter 15: Influencing and Communication",
+        "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+        "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+        "kind": "slides",
+        "pages": [
+          17
+        ],
+        "pageCount": 25,
+        "syntax": "ch15:s17"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q15",
+      "questionType": "true_false",
+      "poolIndex": 5
+    },
+    {
+      "id": "Q1.e",
+      "topic": "Chapter 15: Influencing and Communication",
+      "questionText": "_________ is the process of sharing information with other individuals.",
+      "context": null,
+      "options": [
+        {
+          "id": "1",
+          "content": "Delegation"
+        },
+        {
+          "id": "2",
+          "content": "Communication"
+        },
+        {
+          "id": "3",
+          "content": "Allocation"
+        },
+        {
+          "id": "4",
+          "content": "Authorization"
+        },
+        {
+          "id": "5",
+          "content": "Distribution"
+        }
+      ],
+      "correctAnswerId": "2",
+      "explanation": "Communication is formally defined as the process of sharing information with other individuals.",
+      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 10.",
+      "slideRef": "ch15:s10",
+      "slideRefParsed": {
+        "lectureId": "ch15",
+        "chapterNumber": 15,
+        "topic": "Chapter 15: Influencing and Communication",
+        "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+        "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+        "kind": "slides",
+        "pages": [
+          10
+        ],
+        "pageCount": 25,
+        "syntax": "ch15:s10"
+      },
+      "origin": "2019",
+      "sourceFile": "final19.json",
+      "sourceQuestionId": "Q1.e",
+      "questionType": "mcq",
+      "poolIndex": 6
+    },
+    {
+      "id": "Q37",
+      "topic": "Chapter 15: Influencing and Communication",
+      "questionText": "________ is the process of sharing information with other individuals.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Delegation"
+        },
+        {
+          "id": "b",
+          "content": "Communication"
+        },
+        {
+          "id": "c",
+          "content": "Allocation"
+        },
+        {
+          "id": "d",
+          "content": "Authorization"
+        },
+        {
+          "id": "e",
+          "content": "Distribution"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Communication is formally defined as the process of sharing information with other individuals.",
+      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 10.",
+      "slideRef": "ch15:s10",
+      "slideRefParsed": {
+        "lectureId": "ch15",
+        "chapterNumber": 15,
+        "topic": "Chapter 15: Influencing and Communication",
+        "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+        "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+        "kind": "slides",
+        "pages": [
+          10
+        ],
+        "pageCount": 25,
+        "syntax": "ch15:s10"
+      },
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q37",
+      "questionType": "mcq",
+      "poolIndex": 7
+    },
+    {
+      "id": "Q38",
+      "topic": "Chapter 15: Influencing and Communication",
+      "questionText": "The person in the interpersonal communication situation who originates and encodes information to be shared with another person is called the ________",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Presenter"
+        },
+        {
+          "id": "b",
+          "content": "Channel"
+        },
+        {
+          "id": "c",
+          "content": "Administrator"
+        },
+        {
+          "id": "d",
+          "content": "Medium"
+        },
+        {
+          "id": "e",
+          "content": "source"
+        }
+      ],
+      "correctAnswerId": "e",
+      "explanation": "The source/encoder (source) is defined as the person in the interpersonal communication situation who originates and encodes information to be shared with others.",
+      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 12.",
+      "slideRef": "ch15:s12",
+      "slideRefParsed": {
+        "lectureId": "ch15",
+        "chapterNumber": 15,
+        "topic": "Chapter 15: Influencing and Communication",
+        "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+        "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+        "kind": "slides",
+        "pages": [
+          12
+        ],
+        "pageCount": 25,
+        "syntax": "ch15:s12"
+      },
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q38",
+      "questionType": "mcq",
+      "poolIndex": 8
+    },
+    {
+      "id": "Q39",
+      "topic": "Chapter 15: Influencing and Communication",
+      "questionText": "Which of the following is a communication macrobarrier?",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "need for complex information"
+        },
+        {
+          "id": "b",
+          "content": "destination's view of the source"
+        },
+        {
+          "id": "c",
+          "content": "message interference"
+        },
+        {
+          "id": "d",
+          "content": "receivers' perception"
+        },
+        {
+          "id": "e",
+          "content": "multimeaning words"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "The 'need for increasingly complex information' is explicitly listed as one of the Communication Macrobarriers. The other options (perception, destination's view of the source, message interference, multimeaning words) are classified as Microbarriers.",
+      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 15 and Slide 16.",
+      "slideRef": "ch15:s15-16",
+      "slideRefParsed": {
+        "lectureId": "ch15",
+        "chapterNumber": 15,
+        "topic": "Chapter 15: Influencing and Communication",
+        "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+        "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+        "kind": "slides",
+        "pages": [
+          15,
+          16
+        ],
+        "pageCount": 25,
+        "syntax": "ch15:s15-16"
+      },
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q39",
+      "questionType": "mcq",
+      "poolIndex": 9
+    },
+    {
+      "id": "Q40",
+      "topic": "Chapter 15: Influencing and Communication",
+      "questionText": "Which of the following is considered a microbarrier to organizational communication?",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "need for better information"
+        },
+        {
+          "id": "b",
+          "content": "need to learn new concepts"
+        },
+        {
+          "id": "c",
+          "content": "need to learn new languages"
+        },
+        {
+          "id": "d",
+          "content": "need to process complex information"
+        },
+        {
+          "id": "e",
+          "content": "individuals' perception of messages"
+        }
+      ],
+      "correctAnswerId": "e",
+      "explanation": "Perception, or the individuals' perception of messages, is listed specifically as a Communication Microbarrier. The other options relate to Macrobarriers like the need for new concepts, new languages, or complex information.",
+      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 15 and Slide 16.",
+      "slideRef": "ch15:s15-16",
+      "slideRefParsed": {
+        "lectureId": "ch15",
+        "chapterNumber": 15,
+        "topic": "Chapter 15: Influencing and Communication",
+        "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+        "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+        "kind": "slides",
+        "pages": [
+          15,
+          16
+        ],
+        "pageCount": 25,
+        "syntax": "ch15:s15-16"
+      },
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q40",
+      "questionType": "mcq",
+      "poolIndex": 10
+    },
+    {
+      "id": "Q28",
+      "topic": "Chapter 15: Influencing and Communication",
+      "questionText": "Which of the following is a communication macrobarrier?",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "need for complex information"
+        },
+        {
+          "id": "b",
+          "content": "destination's view of the source"
+        },
+        {
+          "id": "c",
+          "content": "message interference"
+        },
+        {
+          "id": "d",
+          "content": "receivers' perception"
+        },
+        {
+          "id": "e",
+          "content": "multimeaning words"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "The 'need for increasingly complex information' is explicitly listed as a Communication Macrobarrier. The other options listed are Microbarriers.",
+      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 15 and Slide 16.",
+      "slideRef": "ch15:s15-16",
+      "slideRefParsed": {
+        "lectureId": "ch15",
+        "chapterNumber": 15,
+        "topic": "Chapter 15: Influencing and Communication",
+        "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+        "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+        "kind": "slides",
+        "pages": [
+          15,
+          16
+        ],
+        "pageCount": 25,
+        "syntax": "ch15:s15-16"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q28",
+      "questionType": "mcq",
+      "poolIndex": 11
+    },
+    {
+      "id": "Q33",
+      "topic": "Chapter 15: Influencing and Communication",
+      "questionText": "Encoded information the source intends to share with another person is called a(n)",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "rumor"
+        },
+        {
+          "id": "b",
+          "content": "message"
+        },
+        {
+          "id": "c",
+          "content": "signal"
+        },
+        {
+          "id": "d",
+          "content": "medium"
+        },
+        {
+          "id": "e",
+          "content": "code"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Under the definition of the signal, the text states that encoded information that the source intends to share constitutes a message.",
+      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 12.",
+      "slideRef": "ch15:s12",
+      "slideRefParsed": {
+        "lectureId": "ch15",
+        "chapterNumber": 15,
+        "topic": "Chapter 15: Influencing and Communication",
+        "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+        "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+        "kind": "slides",
+        "pages": [
+          12
+        ],
+        "pageCount": 25,
+        "syntax": "ch15:s12"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q33",
+      "questionType": "mcq",
+      "poolIndex": 12
+    },
+    {
+      "id": "Q34",
+      "topic": "Chapter 15: Influencing and Communication",
+      "questionText": "In which of the following stages of performing social responsibility activities does a manager lead, communicate, motivate, and work with groups to attain the organization's social responsibility objectives?",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "influencing"
+        },
+        {
+          "id": "b",
+          "content": "controlling"
+        },
+        {
+          "id": "c",
+          "content": "implementing"
+        },
+        {
+          "id": "d",
+          "content": "planning"
+        },
+        {
+          "id": "e",
+          "content": "organizing"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "The influencing process involves communicating, motivating, leading, and considering groups to guide activities in appropriate directions toward goal attainment.",
+      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 3 and Slide 5.",
+      "slideRef": "ch15:s3,5",
+      "slideRefParsed": {
+        "lectureId": "ch15",
+        "chapterNumber": 15,
+        "topic": "Chapter 15: Influencing and Communication",
+        "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+        "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+        "kind": "slides",
+        "pages": [
+          3,
+          5
+        ],
+        "pageCount": 25,
+        "syntax": "ch15:s3,5"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q34",
+      "questionType": "mcq",
+      "poolIndex": 13
+    },
+    {
+      "id": "Q44",
+      "topic": "Chapter 15: Influencing and Communication",
+      "questionText": "Which of the following is considered the first step toward effective communication?",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "clarifying the idea or problem to be communicated"
+        },
+        {
+          "id": "b",
+          "content": "examining the true purpose of communication"
+        },
+        {
+          "id": "c",
+          "content": "consulting with others in planning communication"
+        },
+        {
+          "id": "d",
+          "content": "identifying actions that support the message being communicated"
+        },
+        {
+          "id": "e",
+          "content": "understanding the total physical and human setting"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "The very first guideline listed for achieving communication effectiveness is to 'Seek to clarify your ideas before communicating'.",
+      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 17.",
+      "slideRef": "ch15:s17",
+      "slideRefParsed": {
+        "lectureId": "ch15",
+        "chapterNumber": 15,
+        "topic": "Chapter 15: Influencing and Communication",
+        "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+        "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+        "kind": "slides",
+        "pages": [
+          17
+        ],
+        "pageCount": 25,
+        "syntax": "ch15:s17"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q44",
+      "questionType": "mcq",
+      "poolIndex": 14
+    },
+    {
+      "id": "Q48",
+      "topic": "Chapter 15: Influencing and Communication",
+      "questionText": "What is the major purpose of feedback in the communication process?",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "It is used by the source to ensure successful communication."
+        },
+        {
+          "id": "b",
+          "content": "It can be used to boost the legitimate power of managers."
+        },
+        {
+          "id": "c",
+          "content": "It provides formal documentation of the communication process."
+        },
+        {
+          "id": "d",
+          "content": "It helps the source avoid questions from the destination."
+        },
+        {
+          "id": "e",
+          "content": "It fosters lateral communication in the organization."
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Feedback is the destination's reaction to a message. It is utilized to determine whether the communication was successful (i.e., verifying if the meaning the destination derives is the same as the source intended).",
+      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 14 and Slide 18.",
+      "slideRef": "ch15:s14,18",
+      "slideRefParsed": {
+        "lectureId": "ch15",
+        "chapterNumber": 15,
+        "topic": "Chapter 15: Influencing and Communication",
+        "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+        "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+        "kind": "slides",
+        "pages": [
+          14,
+          18
+        ],
+        "pageCount": 25,
+        "syntax": "ch15:s14,18"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q48",
+      "questionType": "mcq",
+      "poolIndex": 15
+    },
+    {
+      "id": "Q49",
+      "topic": "Chapter 15: Influencing and Communication",
+      "questionText": "The person in the interpersonal communication situation who originates and encodes information to be shared with another person is called the",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "presenter"
+        },
+        {
+          "id": "b",
+          "content": "channel"
+        },
+        {
+          "id": "c",
+          "content": "administrator"
+        },
+        {
+          "id": "d",
+          "content": "medium"
+        },
+        {
+          "id": "e",
+          "content": "source"
+        }
+      ],
+      "correctAnswerId": "e",
+      "explanation": "The source/encoder (source) is explicitly defined as the person in the interpersonal communication situation who originates and encodes information to be shared with others.",
+      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 12.",
+      "slideRef": "ch15:s12",
+      "slideRefParsed": {
+        "lectureId": "ch15",
+        "chapterNumber": 15,
+        "topic": "Chapter 15: Influencing and Communication",
+        "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+        "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+        "kind": "slides",
+        "pages": [
+          12
+        ],
+        "pageCount": 25,
+        "syntax": "ch15:s12"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q49",
+      "questionType": "mcq",
+      "poolIndex": 16
+    },
+    {
+      "id": "Q54",
+      "topic": "Chapter 15: Influencing and Communication",
+      "questionText": "____ is the process of sharing information with other individuals.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Delegation"
+        },
+        {
+          "id": "b",
+          "content": "Communication"
+        },
+        {
+          "id": "c",
+          "content": "Allocation"
+        },
+        {
+          "id": "d",
+          "content": "Authorization"
+        },
+        {
+          "id": "e",
+          "content": "Distribution"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Communication is formally defined as the process of sharing information with other individuals.",
+      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 10.",
+      "slideRef": "ch15:s10",
+      "slideRefParsed": {
+        "lectureId": "ch15",
+        "chapterNumber": 15,
+        "topic": "Chapter 15: Influencing and Communication",
+        "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+        "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+        "kind": "slides",
+        "pages": [
+          10
+        ],
+        "pageCount": 25,
+        "syntax": "ch15:s10"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q54",
+      "questionType": "mcq",
+      "poolIndex": 17
+    },
+    {
+      "id": "Q59",
+      "topic": "Chapter 15: Influencing and Communication",
+      "questionText": "An individual's emotional intelligence is characterized by self-awareness, self-motivation, self-regulation, empathy for others, and",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "systems thinking"
+        },
+        {
+          "id": "b",
+          "content": "formal communication abilities"
+        },
+        {
+          "id": "c",
+          "content": "openness to experience"
+        },
+        {
+          "id": "d",
+          "content": "adeptness in building relationships"
+        },
+        {
+          "id": "e",
+          "content": "superior intellectual capabilities"
+        }
+      ],
+      "correctAnswerId": "d",
+      "explanation": "According to Goleman's concept of emotional intelligence, it encompasses managing own emotions as well as the emotions in relationships with others, which translates to an adeptness in building relationships.",
+      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 7.",
+      "slideRef": "ch15:s7",
+      "slideRefParsed": {
+        "lectureId": "ch15",
+        "chapterNumber": 15,
+        "topic": "Chapter 15: Influencing and Communication",
+        "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+        "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+        "kind": "slides",
+        "pages": [
+          7
+        ],
+        "pageCount": 25,
+        "syntax": "ch15:s7"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q59",
+      "questionType": "mcq",
+      "poolIndex": 18
+    },
+    {
+      "id": "Q62",
+      "topic": "Chapter 15: Influencing and Communication",
+      "questionText": "This role performed by Trot can be called",
+      "context": "Trot is the CEO of a consulting firm. He plays a key role in guiding the activities of organization members in appropriate directions.",
+      "options": [
+        {
+          "id": "a",
+          "content": "communicating"
+        },
+        {
+          "id": "b",
+          "content": "influencing"
+        },
+        {
+          "id": "c",
+          "content": "collaborating"
+        },
+        {
+          "id": "d",
+          "content": "motivating"
+        },
+        {
+          "id": "e",
+          "content": "coaching"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Influencing is formally defined as the process of guiding the activities of organization members in appropriate directions.",
+      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 3.",
+      "slideRef": "ch15:s3",
+      "slideRefParsed": {
+        "lectureId": "ch15",
+        "chapterNumber": 15,
+        "topic": "Chapter 15: Influencing and Communication",
+        "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+        "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+        "kind": "slides",
+        "pages": [
+          3
+        ],
+        "pageCount": 25,
+        "syntax": "ch15:s3"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q62",
+      "questionType": "mcq",
+      "poolIndex": 19
+    },
+    {
+      "id": "Q63",
+      "topic": "Chapter 15: Influencing and Communication",
+      "questionText": "Organizational communication that does not follow the lines of the organizational chart is specifically called",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "lateral communication"
+        },
+        {
+          "id": "b",
+          "content": "upward communication"
+        },
+        {
+          "id": "c",
+          "content": "vertical communication"
+        },
+        {
+          "id": "d",
+          "content": "informal communication"
+        },
+        {
+          "id": "e",
+          "content": "downward communication"
+        }
+      ],
+      "correctAnswerId": "d",
+      "explanation": "Informal organizational communication (the grapevine) springs up irregularly, is not controlled by top executives, and thus does not follow the formal lines of the organizational chart.",
+      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 22.",
+      "slideRef": "ch15:s22",
+      "slideRefParsed": {
+        "lectureId": "ch15",
+        "chapterNumber": 15,
+        "topic": "Chapter 15: Influencing and Communication",
+        "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+        "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+        "kind": "slides",
+        "pages": [
+          22
+        ],
+        "pageCount": 25,
+        "syntax": "ch15:s22"
+      },
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q63",
+      "questionType": "mcq",
+      "poolIndex": 20
+    },
+    {
+      "id": "Q38",
+      "topic": "Chapter 15: Influencing and Communication",
+      "questionText": "______ can be defined as guiding the activities of organization members in appropriate directions.",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "Organizing"
+        },
+        {
+          "id": "b",
+          "content": "Influencing"
+        },
+        {
+          "id": "c",
+          "content": "Controlling"
+        },
+        {
+          "id": "d",
+          "content": "Monitoring"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Influencing is formally defined as the process of guiding the activities of organization members in appropriate directions.",
+      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 3.",
+      "slideRef": "ch15:s3",
+      "slideRefParsed": {
+        "lectureId": "ch15",
+        "chapterNumber": 15,
+        "topic": "Chapter 15: Influencing and Communication",
+        "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+        "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+        "kind": "slides",
+        "pages": [
+          3
+        ],
+        "pageCount": 25,
+        "syntax": "ch15:s3"
+      },
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q38",
+      "questionType": "mcq",
+      "poolIndex": 21
+    },
+    {
+      "id": "Q39",
+      "topic": "Chapter 15: Influencing and Communication",
+      "questionText": "The information the receiver gets is called",
+      "context": null,
+      "options": [
+        {
+          "id": "a",
+          "content": "message."
+        },
+        {
+          "id": "b",
+          "content": "output."
+        },
+        {
+          "id": "c",
+          "content": "input."
+        },
+        {
+          "id": "d",
+          "content": "source."
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "The encoded information that the source shares and that the destination (receiver) derives meaning from is called the message.",
+      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 12 and Slide 14.",
+      "slideRef": "ch15:s12,14",
+      "slideRefParsed": {
+        "lectureId": "ch15",
+        "chapterNumber": 15,
+        "topic": "Chapter 15: Influencing and Communication",
+        "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+        "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+        "kind": "slides",
+        "pages": [
+          12,
+          14
+        ],
+        "pageCount": 25,
+        "syntax": "ch15:s12,14"
+      },
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q39",
+      "questionType": "mcq",
+      "poolIndex": 22
+    }
+  ]
+}

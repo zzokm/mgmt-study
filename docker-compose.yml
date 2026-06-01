@@ -1,0 +1,10 @@
+services:
+  mgmt-study:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: mgmt-study:latest
+    container_name: mgmt-study
+    ports:
+      - "7821:3000"
+    restart: unless-stopped

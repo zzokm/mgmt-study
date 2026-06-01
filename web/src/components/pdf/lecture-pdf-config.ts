@@ -1,6 +1,9 @@
 import type { PluginRegistry } from "@embedpdf/react-pdf-viewer";
 
-/** Study viewer: no form fill, redaction, insert, or shape tools. */
+/**
+ * Study viewer: trim editing tools and document menu actions.
+ * @see https://www.embedpdf.com/docs/react/viewer/customizing-ui
+ */
 export const LECTURE_VIEWER_DISABLED_CATEGORIES: string[] = [
   "form",
   "redaction",
@@ -11,7 +14,27 @@ export const LECTURE_VIEWER_DISABLED_CATEGORIES: string[] = [
   "mode-shapes",
   "shape",
   "annotation-shape",
+  "document-open",
+  "document-close",
+  "document-export",
+  "document-protect",
 ];
+
+/** Document menu (top-left): print + screenshot only. */
+const STUDY_DOCUMENT_MENU_ITEMS = [
+  {
+    type: "command",
+    id: "document:print",
+    commandId: "document:print",
+    categories: ["document", "document-print"],
+  },
+  {
+    type: "command",
+    id: "document:capture",
+    commandId: "document:capture",
+    categories: ["document", "document-capture"],
+  },
+] as const;
 
 type UiCapability = {
   getSchema: () => {
@@ -59,14 +82,14 @@ export function customizeLectureViewerUi(registry: PluginRegistry): void {
   }
 
   const docMenu = schema.menus["document-menu"];
-  if (docMenu?.items) {
-    const items = docMenu.items.filter(
-      (item) =>
-        item.id !== "document:fullscreen" &&
-        item.commandId !== "document:fullscreen"
-    );
+  if (docMenu) {
     ui.mergeSchema({
-      menus: { "document-menu": { ...docMenu, items } },
+      menus: {
+        "document-menu": {
+          ...docMenu,
+          items: [...STUDY_DOCUMENT_MENU_ITEMS],
+        },
+      },
     });
   }
 }

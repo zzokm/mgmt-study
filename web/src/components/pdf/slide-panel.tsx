@@ -6,6 +6,7 @@ import type { SlideRefParsed } from "@/types/question";
 import { lecturePdfUrl, pagesForDisplay } from "@/lib/slide-ref";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Skeleton } from "@/components/ui/skeleton";
+import { PDF_DOCUMENT_OPTIONS } from "./pdf-config";
 import "./pdf-config";
 
 function pdfFileUrl(path: string): string {
@@ -23,6 +24,7 @@ export function SlidePanel({ slideRefParsed, title = "Referenced slides" }: Slid
   const pages = pagesForDisplay(slideRefParsed);
   const pdfUrl = pdfFileUrl(lecturePdfUrl(slideRefParsed.lectureId));
   const [loaded, setLoaded] = useState(false);
+  const [loadError, setLoadError] = useState<string | null>(null);
 
   if (slideRefParsed.kind === "course") {
     return (
@@ -56,7 +58,14 @@ export function SlidePanel({ slideRefParsed, title = "Referenced slides" }: Slid
       <h3 className="text-sm font-medium text-muted-foreground">{title}</h3>
       <Document
         file={pdfUrl}
-        onLoadSuccess={() => setLoaded(true)}
+        options={PDF_DOCUMENT_OPTIONS}
+        onLoadSuccess={() => {
+          setLoadError(null);
+          setLoaded(true);
+        }}
+        onLoadError={(error) =>
+          setLoadError(error?.message ?? "PDF.js could not open this file.")
+        }
         loading={
           <div className="flex flex-col gap-3">
             {pages.map((p) => (
@@ -67,7 +76,13 @@ export function SlidePanel({ slideRefParsed, title = "Referenced slides" }: Slid
         error={
           <Alert variant="destructive">
             <AlertTitle>Could not load PDF</AlertTitle>
-            <AlertDescription>{pdfUrl}</AlertDescription>
+            <AlertDescription className="flex flex-col gap-1">
+              <span>{pdfUrl}</span>
+              <span className="text-xs opacity-90">
+                {loadError ??
+                  "Practice slides use PDF.js — check /pdf.worker.min.mjs in the network tab."}
+              </span>
+            </AlertDescription>
           </Alert>
         }
       >

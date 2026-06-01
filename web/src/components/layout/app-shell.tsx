@@ -74,7 +74,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           <SidebarHeader className="border-b border-sidebar-border px-4 py-4">
             <Link href="/" className="flex items-center gap-2 font-semibold tracking-tight">
               <LayersIcon className="size-5" />
-              Mgmt Study
+              Management Study
             </Link>
             <p className="text-xs text-muted-foreground">Management finals prep</p>
           </SidebarHeader>

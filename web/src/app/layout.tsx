@@ -9,7 +9,7 @@ const bricolageGrotesque = Bricolage_Grotesque({
 });
 
 export const metadata: Metadata = {
-  title: "Mgmt Study",
+  title: "Management Study",
   description: "Management final exam study — questions, lectures, and practice",
 };
 

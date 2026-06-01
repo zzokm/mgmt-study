@@ -29,7 +29,6 @@
     "next": "16.2.7",
     "next-themes": "^0.4.6",
     "pdfjs-dist": "4.8.69",
-    "pdfjs-dist-v3": "npm:pdfjs-dist@3.4.120",
     "react": "19.2.4",
     "react-day-picker": "^10.0.1",
     "react-dom": "19.2.4",
@@ -47,6 +46,15 @@
   },
   "overrides": {
     "postcss": ">=8.5.10",
+    "@react-pdf-viewer/core": {
+      "pdfjs-dist": "4.8.69"
+    },
+    "@react-pdf-viewer/default-layout": {
+      "pdfjs-dist": "4.8.69"
+    },
+    "@react-pdf-viewer/page-navigation": {
+      "pdfjs-dist": "4.8.69"
+    },
     "react-pdf": {
       "pdfjs-dist": "4.8.69"
     }

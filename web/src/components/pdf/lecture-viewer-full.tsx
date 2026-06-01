@@ -4,7 +4,7 @@ import { useCallback, useEffect } from "react";
 import { Viewer, Worker } from "@react-pdf-viewer/core";
 import { defaultLayoutPlugin } from "@react-pdf-viewer/default-layout";
 import { pageNavigationPlugin } from "@react-pdf-viewer/page-navigation";
-import { PDF_WORKER_V3_URL } from "./pdf-config";
+import { PDF_WORKER_V4_URL } from "./pdf-config";
 
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import "@react-pdf-viewer/default-layout/lib/styles/index.css";
@@ -17,7 +17,7 @@ function fileUrl(publicPdfUrl: string): string {
 }
 
 /**
- * Full lecture viewer (pdfjs v3 via @react-pdf-viewer).
+ * Full lecture viewer (@react-pdf-viewer running on pdfjs-dist v4 via overrides).
  * Plugin hooks must run every render of this component.
  */
 export function LectureViewerFull({
@@ -42,7 +42,7 @@ export function LectureViewerFull({
   }, [jumpToPage, pageIndex]);
 
   return (
-    <Worker workerUrl={PDF_WORKER_V3_URL}>
+    <Worker workerUrl={PDF_WORKER_V4_URL}>
       <div className="lecture-pdf-viewer-inner h-full w-full [&_.rpv-core__viewer]:h-full">
         <Viewer
           fileUrl={pdfFileUrl}

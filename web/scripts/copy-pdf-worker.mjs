@@ -49,7 +49,3 @@ function copyWorkerFromDir(pkgDir, destFile) {
 mkdirSync(publicDir, { recursive: true });
 
 copyWorkerFromDir(resolveReactPdfJsDir(), "pdf.worker.min.mjs");
-
-// @react-pdf-viewer (lectures) — pdfjs v3 alias package
-const v3PkgDir = dirname(require.resolve("pdfjs-dist-v3/package.json"));
-copyWorkerFromDir(v3PkgDir, "pdf.worker.v3.min.js");

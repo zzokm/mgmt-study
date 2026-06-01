@@ -49,3 +49,23 @@ function copyWorkerFromDir(pkgDir, destFile) {
 mkdirSync(publicDir, { recursive: true });
 
 copyWorkerFromDir(resolveReactPdfJsDir(), "pdf.worker.min.mjs");
+
+/** EmbedPDF lecture viewer — avoid CDN wasm (blocked/offline/CSP). */
+function copyPdfiumWasm() {
+  const wasmSrc = join(
+    root,
+    "node_modules",
+    "@embedpdf",
+    "pdfium",
+    "dist",
+    "pdfium.wasm"
+  );
+  if (!existsSync(wasmSrc)) {
+    console.error(`pdfium.wasm not found at ${wasmSrc}`);
+    process.exit(1);
+  }
+  copyFileSync(wasmSrc, join(publicDir, "pdfium.wasm"));
+  console.log("Copied pdfium.wasm (@embedpdf/pdfium)");
+}
+
+copyPdfiumWasm();

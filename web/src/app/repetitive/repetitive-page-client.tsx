@@ -2,7 +2,6 @@
 
 import { useCallback, useEffect, useState } from "react";
 import type { Question } from "@/types/question";
-import { Badge } from "@/components/ui/badge";
 import { LinkButton } from "@/components/ui/link-button";
 import { QuestionBrowseAccordion } from "@/components/questions/question-browse-accordion";
 
@@ -82,11 +81,6 @@ export function RepetitivePageClient({
         openValues={openValues}
         onOpenValuesChange={setOpenValues}
         scrollIdPrefix="repetitive"
-        renderTriggerPrefix={(q: Question) =>
-          q.instanceCount != null && q.instanceCount > 1 ? (
-            <Badge className="w-fit">Repeated ×{q.instanceCount}</Badge>
-          ) : null
-        }
       />
     </div>
   );

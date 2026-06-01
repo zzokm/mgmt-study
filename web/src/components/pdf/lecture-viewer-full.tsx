@@ -1,16 +1,24 @@
 "use client";
 
-import { useCallback, useRef } from "react";
+import { useCallback, useEffect, useMemo, useRef } from "react";
+import { useRouter } from "next/navigation";
 import {
   PDFViewer,
   type PDFViewerRef,
   type PluginRegistry,
 } from "@embedpdf/react-pdf-viewer";
+import type { LectureMeta } from "@/types/question";
+import {
+  customizeLectureViewerUi,
+  LECTURE_VIEWER_DISABLED_CATEGORIES,
+} from "./lecture-pdf-config";
 
-function fileUrl(publicPdfUrl: string): string {
-  if (publicPdfUrl.startsWith("http")) return publicPdfUrl;
-  if (typeof window === "undefined") return publicPdfUrl;
-  return `${window.location.origin}${publicPdfUrl}`;
+const LECTURE_VIEWER_HEIGHT = "min(80vh, 900px)";
+
+function absoluteAssetUrl(path: string): string {
+  if (path.startsWith("http")) return path;
+  if (typeof window === "undefined") return path;
+  return `${window.location.origin}${path}`;
 }
 
 type ScrollCapability = {
@@ -30,59 +38,139 @@ type ScrollCapability = {
   };
 };
 
-function scrollToInitialPage(
-  registry: PluginRegistry,
-  pageNumber: number
-): void {
+type DocumentManagerCapability = {
+  setActiveDocument: (documentId: string) => void;
+  onActiveDocumentChanged: EventHook<{
+    previousDocumentId: string | null;
+    currentDocumentId: string | null;
+  }>;
+};
+
+type EventHook<T> = {
+  (handler: (event: T) => void): void;
+};
+
+function getScroll(registry: PluginRegistry): ScrollCapability | null {
   const scrollPlugin = registry.getPlugin("scroll") as {
     provides: () => ScrollCapability;
   } | null;
-  const scroll = scrollPlugin?.provides();
+  return scrollPlugin?.provides() ?? null;
+}
+
+function getDocumentManager(registry: PluginRegistry): DocumentManagerCapability | null {
+  const plugin = registry.getPlugin("document-manager") as {
+    provides: () => DocumentManagerCapability;
+  } | null;
+  return plugin?.provides() ?? null;
+}
+
+function scrollActiveDocToPage(
+  registry: PluginRegistry,
+  documentId: string,
+  pageNumber: number
+): void {
+  const scroll = getScroll(registry);
   if (!scroll) return;
 
   scroll.onLayoutReady((event) => {
-    if (!event.isInitial) return;
-    scroll.forDocument(event.documentId).scrollToPage({
+    if (event.documentId !== documentId) return;
+    scroll.forDocument(documentId).scrollToPage({
       pageNumber,
       behavior: "instant",
     });
   });
 }
 
+function activateDocument(registry: PluginRegistry, documentId: string): void {
+  getDocumentManager(registry)?.setActiveDocument(documentId);
+}
+
 /**
- * Full lecture viewer (EmbedPDF — bundled engine, separate from react-pdf practice slides).
+ * Full lecture viewer (EmbedPDF) — all lectures as document tabs.
  */
 export function LectureViewerFull({
-  pdfUrl: publicPdfUrl,
+  lectures,
+  activeLectureId,
   pageIndex,
 }: {
-  pdfUrl: string;
+  lectures: LectureMeta[];
+  activeLectureId: string;
   pageIndex: number;
 }) {
+  const router = useRouter();
   const viewerRef = useRef<PDFViewerRef>(null);
-  const pdfFileUrl = fileUrl(publicPdfUrl);
+  const registryRef = useRef<PluginRegistry | null>(null);
+  const syncingFromViewerRef = useRef(false);
   const pageNumber = pageIndex + 1;
+
+  const initialDocuments = useMemo(
+    () =>
+      lectures.map((lec) => ({
+        url: absoluteAssetUrl(lec.publicPdfUrl),
+        documentId: lec.lectureId,
+        name: `Ch ${lec.chapterNumber}: ${lec.topic}`,
+        autoActivate: lec.lectureId === activeLectureId,
+      })),
+    // PDFViewer reads config only on mount; activation is synced in onReady/useEffect.
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- activeLectureId intentionally omitted
+    [lectures]
+  );
+
+  const viewerConfig = useMemo(
+    () => ({
+      wasmUrl: absoluteAssetUrl("/pdfium.wasm"),
+      theme: { preference: "dark" as const },
+      tabBar: "always" as const,
+      disabledCategories: LECTURE_VIEWER_DISABLED_CATEGORIES,
+      documentManager: { initialDocuments },
+    }),
+    [initialDocuments]
+  );
+
+  const syncRouteToLecture = useCallback(
+    (lectureId: string) => {
+      if (lectureId === activeLectureId) return;
+      syncingFromViewerRef.current = true;
+      router.push(`/lectures/${lectureId}/?page=1`);
+    },
+    [activeLectureId, router]
+  );
 
   const handleReady = useCallback(
     (registry: PluginRegistry) => {
-      scrollToInitialPage(registry, pageNumber);
+      registryRef.current = registry;
+      customizeLectureViewerUi(registry);
+      activateDocument(registry, activeLectureId);
+      scrollActiveDocToPage(registry, activeLectureId, pageNumber);
+
+      const dm = getDocumentManager(registry);
+      dm?.onActiveDocumentChanged((event) => {
+        if (syncingFromViewerRef.current) {
+          syncingFromViewerRef.current = false;
+          return;
+        }
+        if (event.currentDocumentId) {
+          syncRouteToLecture(event.currentDocumentId);
+        }
+      });
     },
-    [pageNumber]
+    [activeLectureId, pageNumber, syncRouteToLecture]
   );
 
+  useEffect(() => {
+    const registry = registryRef.current;
+    if (!registry) return;
+    activateDocument(registry, activeLectureId);
+    scrollActiveDocToPage(registry, activeLectureId, pageNumber);
+  }, [activeLectureId, pageNumber]);
+
   return (
-    <div className="lecture-pdf-viewer-inner h-full w-full min-h-0">
-      <PDFViewer
-        ref={viewerRef}
-        style={{ height: "100%", width: "100%" }}
-        config={{
-          src: pdfFileUrl,
-          theme: { preference: "dark" },
-          tabBar: "never",
-          zoom: { defaultZoomLevel: 1 },
-        }}
-        onReady={handleReady}
-      />
-    </div>
+    <PDFViewer
+      ref={viewerRef}
+      className="lecture-pdf-viewer-inner w-full"
+      style={{ height: LECTURE_VIEWER_HEIGHT, width: "100%" }}
+      config={viewerConfig}
+      onReady={handleReady}
+    />
   );
 }

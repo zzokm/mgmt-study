@@ -5,7 +5,6 @@ import { isAnswerCorrect } from "@/lib/questions";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
-import { Label } from "@/components/ui/label";
 import { QuestionMeta } from "./question-meta";
 
 interface QuestionCardProps {
@@ -24,6 +23,37 @@ export function QuestionCard({
   disabled,
 }: QuestionCardProps) {
   const isTf = question.questionType === "true_false";
+
+  function radioItemClass(optionId: string) {
+    const isSelected = selectedId === optionId;
+    if (!isSelected) return "shrink-0";
+
+    const indicatorDot =
+      "[&_[data-slot=radio-group-indicator]_span]:size-2.5 [&_[data-slot=radio-group-indicator]_span]:bg-current";
+
+    if (!revealed) {
+      return cn(
+        "shrink-0 border-black bg-background text-black dark:bg-background dark:text-black",
+        "data-checked:border-black data-checked:bg-background dark:data-checked:bg-background",
+        indicatorDot
+      );
+    }
+
+    const isCorrect = isAnswerCorrect(optionId, question.correctAnswerId);
+    if (isCorrect) {
+      return cn(
+        "shrink-0 border-green-600 bg-background text-green-600 dark:bg-background",
+        "data-checked:border-green-600 data-checked:bg-background dark:data-checked:bg-background",
+        indicatorDot
+      );
+    }
+
+    return cn(
+      "shrink-0 border-red-600 bg-background text-red-600 dark:bg-background",
+      "data-checked:border-red-600 data-checked:bg-background dark:data-checked:bg-background",
+      indicatorDot
+    );
+  }
 
   function optionClass(optionId: string) {
     const isSelected = selectedId === optionId;
@@ -78,29 +108,41 @@ export function QuestionCard({
       <QuestionMeta question={question} />
       <p className="text-lg leading-relaxed">{question.questionText}</p>
       <RadioGroup
-        value={selectedId ?? undefined}
+        value={selectedId ?? ""}
         onValueChange={onSelect}
         className="flex flex-col gap-3"
         disabled={disabled || revealed}
       >
-        {question.options.map((opt) => (
-          <div
-            key={opt.id}
-            className={cn(
-              "flex items-start gap-3 rounded-lg border p-4 transition-colors",
-              optionClass(opt.id)
-            )}
-          >
-            <RadioGroupItem value={opt.id} id={`${question.questionKey}-${opt.id}`} />
-            <Label
-              htmlFor={`${question.questionKey}-${opt.id}`}
-              className="cursor-pointer text-base leading-snug font-normal"
+        {question.options.map((opt) => {
+          const interactive = !disabled && !revealed;
+
+          return (
+            <div
+              key={opt.id}
+              onClick={() => {
+                if (!interactive) return;
+                onSelect(opt.id);
+              }}
+              className={cn(
+                "flex items-center gap-3 rounded-lg border p-4 transition-all duration-150",
+                interactive &&
+                  "cursor-pointer hover:border-muted-foreground/30 hover:bg-muted/45 hover:shadow-sm active:scale-[0.995]",
+                !interactive && "cursor-default",
+                optionClass(opt.id)
+              )}
             >
-              <span className="font-medium text-muted-foreground mr-2">{opt.id}.</span>
-              {opt.content}
-            </Label>
-          </div>
-        ))}
+              <RadioGroupItem
+                value={opt.id}
+                id={`${question.questionKey}-${opt.id}`}
+                className={radioItemClass(opt.id)}
+              />
+              <div className="pointer-events-none grid min-w-0 flex-1 grid-cols-[auto_1fr] items-start gap-x-2 text-base leading-snug">
+                <span className="font-medium text-muted-foreground">{opt.id}.</span>
+                <span>{opt.content}</span>
+              </div>
+            </div>
+          );
+        })}
       </RadioGroup>
     </div>
   );

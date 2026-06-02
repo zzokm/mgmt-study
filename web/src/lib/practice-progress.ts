@@ -64,6 +64,28 @@ export function savePracticeProgress(
   }
 }
 
+export function hasPracticeProgress(progress: PracticeProgress): boolean {
+  return Object.values(progress).some(
+    (attempt) => attempt.selectedId != null || attempt.revealed
+  );
+}
+
+export function practiceProgressCount(progress: PracticeProgress): number {
+  return Object.values(progress).filter(
+    (attempt) => attempt.selectedId != null || attempt.revealed
+  ).length;
+}
+
+export function clearPracticeProgress(sessionKey: string): void {
+  if (typeof window === "undefined") return;
+  try {
+    localStorage.removeItem(storageKey(sessionKey));
+    sessionStorage.removeItem(LEGACY_SESSION_PREFIX + sessionKey);
+  } catch {
+    // ignore
+  }
+}
+
 export function isAttemptCorrect(
   question: Question,
   attempt: QuestionAttempt

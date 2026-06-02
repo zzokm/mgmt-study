@@ -23,8 +23,10 @@ COPY --from=deps /app/web/node_modules ./web/node_modules
 COPY web ./web
 
 WORKDIR /app/web
+ARG NEXT_PUBLIC_GOOGLE_TAG_ID
 ENV NODE_ENV=production
 ENV NEXT_TELEMETRY_DISABLED=1
+ENV NEXT_PUBLIC_GOOGLE_TAG_ID=$NEXT_PUBLIC_GOOGLE_TAG_ID
 RUN npm run copy-pdf-worker && npm run build
 
 # --- Serve static site on port 3000 ---

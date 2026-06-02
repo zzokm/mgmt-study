@@ -17,6 +17,7 @@ import {
 import {
   Sidebar,
   SidebarContent,
+  SidebarFooter,
   SidebarGroup,
   SidebarGroupContent,
   SidebarGroupLabel,
@@ -28,6 +29,7 @@ import {
   SidebarProvider,
   SidebarTrigger,
 } from "@/components/ui/sidebar";
+import { GitHubIcon } from "@/components/icons/github-icon";
 import { Separator } from "@/components/ui/separator";
 import { TooltipProvider } from "@/components/ui/tooltip";
 
@@ -100,6 +102,17 @@ export function AppShell({ children }: { children: React.ReactNode }) {
               </SidebarGroup>
             ))}
           </SidebarContent>
+          <SidebarFooter className="mt-auto border-t border-sidebar-border px-4 py-3">
+            <a
+              href="https://github.com/zzokm"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex w-full items-center justify-center gap-2 text-xs text-muted-foreground/80 transition-colors hover:text-muted-foreground"
+            >
+              <GitHubIcon />
+              <span>Made By Yehia</span>
+            </a>
+          </SidebarFooter>
         </Sidebar>
         <SidebarInset>
           <header className="flex h-14 shrink-0 items-center gap-2 border-b px-4">

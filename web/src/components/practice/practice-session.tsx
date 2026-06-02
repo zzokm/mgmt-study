@@ -5,13 +5,16 @@ import { useRouter } from "next/navigation";
 import type { Question } from "@/types/question";
 import { isAnswerCorrect } from "@/lib/questions";
 import {
+  clearPracticeProgress,
   getAttempt,
   loadPracticeProgress,
+  practiceProgressCount,
   practiceSessionKey,
   savePracticeProgress,
   type PracticeProgress,
   type QuestionAttempt,
 } from "@/lib/practice-progress";
+import { ResetPracticeProgressButton } from "@/components/practice/reset-practice-progress-button";
 import { savePracticeResult } from "@/lib/practice-results";
 import { QuestionCard } from "@/components/questions/question-card";
 import { AnswerReveal } from "@/components/questions/answer-reveal";
@@ -119,6 +122,14 @@ function PracticeSessionInner({
     router.push(`/practice/results/?id=${id}`);
   }, [sessionKey, title, questions, progress, router]);
 
+  const handleResetProgress = useCallback(() => {
+    clearPracticeProgress(sessionKey);
+    setProgress({});
+    setIndex(0);
+  }, [sessionKey]);
+
+  const savedCount = practiceProgressCount(progress);
+
   if (!question) {
     return (
       <Alert>
@@ -143,7 +154,13 @@ function PracticeSessionInner({
         }}
       >
         <div className="flex flex-col gap-2">
-          <h1 className="text-2xl font-semibold tracking-tight">{title}</h1>
+          <div className="flex flex-wrap items-start justify-between gap-3">
+            <h1 className="text-2xl font-semibold tracking-tight">{title}</h1>
+            <ResetPracticeProgressButton
+              savedCount={savedCount}
+              onConfirm={handleResetProgress}
+            />
+          </div>
           <p className="text-sm text-muted-foreground">
             Question {index + 1} of {questions.length}
           </p>

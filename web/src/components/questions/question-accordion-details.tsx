@@ -1,34 +1,26 @@
 import type { Question } from "@/types/question";
-import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
 import { QuestionExamAppearances } from "./question-exam-appearances";
+import { QuestionDetailSections } from "./question-detail-sections";
 
 interface QuestionAccordionDetailsProps {
   question: Question;
   className?: string;
 }
 
-/** Answer, explanation, and textual reference (never raw slideRef tags). */
+/** Answer, explanation, reference, and slide preview for browse / results views. */
 export function QuestionAccordionDetails({
   question,
   className,
 }: QuestionAccordionDetailsProps) {
   return (
-    <div className={cn("flex flex-col gap-3 text-muted-foreground", className)}>
-      <QuestionExamAppearances question={question} variant="detailed" />
-      <p>
-        <span className="font-medium text-foreground">Answer:</span>{" "}
-        <Badge variant="secondary">{question.correctAnswerId}</Badge>
-      </p>
-      {question.explanation ? (
-        <p className="text-sm leading-relaxed">{question.explanation}</p>
-      ) : null}
-      {question.reference ? (
-        <p className="text-sm leading-relaxed">
-          <span className="font-medium text-foreground">Reference:</span>{" "}
-          {question.reference}
-        </p>
-      ) : null}
+    <div className={cn("flex flex-col gap-4", className)}>
+      <QuestionExamAppearances
+        question={question}
+        variant="detailed"
+        className="rounded-lg border bg-muted/30 px-4 py-3"
+      />
+      <QuestionDetailSections question={question} />
     </div>
   );
 }

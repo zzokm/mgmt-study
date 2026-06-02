@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import type { Question } from "@/types/question";
+import { cn } from "@/lib/utils";
 import {
   Accordion,
   AccordionContent,
@@ -34,10 +35,16 @@ export function QuestionBrowseAccordion({
   const controlled =
     openValues !== undefined && onOpenValuesChange !== undefined;
 
+  const itemClassName =
+    "rounded-xl border bg-card shadow-sm overflow-hidden not-last:border-b-0";
+  const triggerClassName =
+    "px-4 py-4 w-full cursor-pointer hover:bg-muted/40 hover:no-underline";
+  const contentClassName = "border-t bg-muted/20";
+
   return (
     <Accordion
       multiple
-      className="w-full"
+      className="flex w-full flex-col gap-3"
       {...(controlled
         ? {
             value: openValues,
@@ -56,9 +63,12 @@ export function QuestionBrowseAccordion({
               ? `${scrollIdPrefix}-${q.questionKey}`
               : undefined
           }
-          className={scrollIdPrefix ? "scroll-mt-24" : undefined}
+          className={cn(
+            itemClassName,
+            scrollIdPrefix ? "scroll-mt-24" : undefined
+          )}
         >
-          <AccordionTrigger className="hover:no-underline">
+          <AccordionTrigger className={triggerClassName}>
             <div className="min-w-0 flex-1 text-left">
               <div className="flex flex-col gap-2">
                 {renderTriggerPrefix?.(q)}
@@ -69,17 +79,14 @@ export function QuestionBrowseAccordion({
               </div>
             </div>
           </AccordionTrigger>
-          <AccordionContent>
-            <div className="relative">
+          <AccordionContent className={contentClassName}>
+            <div className="flex flex-col gap-4 p-4">
               {showSaveButton ? (
-                <div className="absolute top-0 right-0 z-10">
-                  <SaveButton question={q} corner />
+                <div className="flex justify-end">
+                  <SaveButton question={q} />
                 </div>
               ) : null}
-              <QuestionAccordionDetails
-                question={q}
-                className={showSaveButton ? "pr-28" : undefined}
-              />
+              <QuestionAccordionDetails question={q} />
             </div>
           </AccordionContent>
         </AccordionItem>

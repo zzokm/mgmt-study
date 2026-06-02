@@ -57,6 +57,20 @@ export function isAnswerCorrect(
   return selectedId.trim().toLowerCase() === correctAnswerId.trim().toLowerCase();
 }
 
+export function getCorrectAnswerDisplay(question: Question): {
+  id: string;
+  label: string;
+} {
+  const opt = question.options.find(
+    (o) => o.id.toLowerCase() === question.correctAnswerId.toLowerCase()
+  );
+  const content = opt?.content ?? question.correctAnswerId;
+  return {
+    id: question.correctAnswerId.toUpperCase(),
+    label: content,
+  };
+}
+
 export function slugFromLectureFile(file: string): string {
   return file.replace(".json", "");
 }

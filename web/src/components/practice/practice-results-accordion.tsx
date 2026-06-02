@@ -53,8 +53,14 @@ export function PracticeResultsAccordion({
     );
   }
 
+  const itemClassName =
+    "rounded-xl border bg-card shadow-sm overflow-hidden not-last:border-b-0";
+  const triggerClassName =
+    "px-4 py-4 w-full cursor-pointer hover:bg-muted/40 hover:no-underline";
+  const contentClassName = "border-t bg-muted/20";
+
   return (
-    <Accordion multiple className="w-full">
+    <Accordion multiple className="flex w-full flex-col gap-3">
       {visible.map((q) => {
         const attempt = getAttempt(progress, q.questionKey);
         const status = statusFor(q, progress);
@@ -64,8 +70,8 @@ export function PracticeResultsAccordion({
           "—";
 
         return (
-          <AccordionItem key={q.questionKey} value={q.questionKey}>
-            <AccordionTrigger className="hover:no-underline">
+          <AccordionItem key={q.questionKey} value={q.questionKey} className={itemClassName}>
+            <AccordionTrigger className={triggerClassName}>
               <div className="min-w-0 flex-1 text-left">
                 <div className="flex flex-col gap-2">
                   <div className="flex flex-wrap items-center gap-2">
@@ -108,8 +114,10 @@ export function PracticeResultsAccordion({
                 </div>
               </div>
             </AccordionTrigger>
-            <AccordionContent>
-              <QuestionAccordionDetails question={q} />
+            <AccordionContent className={contentClassName}>
+              <div className="p-4">
+                <QuestionAccordionDetails question={q} />
+              </div>
             </AccordionContent>
           </AccordionItem>
         );

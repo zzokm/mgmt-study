@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { Bricolage_Grotesque } from "next/font/google";
+import { GoogleAnalytics } from "@/components/analytics/google-analytics";
 import { AppShell } from "@/components/layout/app-shell";
 import "./globals.css";
 
@@ -24,6 +26,9 @@ export default function RootLayout({
       className={`${bricolageGrotesque.variable} ${bricolageGrotesque.className} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col font-sans">
+        <Suspense fallback={null}>
+          <GoogleAnalytics />
+        </Suspense>
         <AppShell>{children}</AppShell>
       </body>
     </html>

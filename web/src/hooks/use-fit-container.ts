@@ -18,10 +18,9 @@ export function useFitContainer(
     if (!el) return;
 
     const measure = () => {
-      const rect = el.getBoundingClientRect();
       setSize({
-        width: Math.max(0, Math.floor(rect.width)),
-        height: Math.max(0, Math.floor(rect.height)),
+        width: Math.max(0, Math.floor(el.clientWidth)),
+        height: Math.max(0, Math.floor(el.clientHeight)),
       });
     };
 
@@ -47,18 +46,59 @@ export function useFitContainer(
   return size;
 }
 
-/** Fit page aspect ratio inside container (contain), with optional inner padding. */
+/** Cap DPR for sharp canvas without excessive memory use. */
+export function getPdfDevicePixelRatio(): number {
+  if (typeof window === "undefined") return 1;
+  return Math.min(Math.max(window.devicePixelRatio || 1, 1), 2.5);
+}
+
+export type PageLayoutSize = { width: number; height: number };
+
+/**
+ * Fit page inside max bounds (contain) preserving aspect ratio.
+ * Uses explicit width + height so layout cannot squash the canvas.
+ */
+export function fitPageLayoutSize(
+  containerWidth: number,
+  pageWidth: number,
+  pageHeight: number,
+  maxHeight: number,
+  padding = 16
+): PageLayoutSize {
+  const availW = Math.max(0, containerWidth - padding * 2);
+  const availH = Math.max(0, maxHeight);
+
+  if (
+    availW <= 0 ||
+    availH <= 0 ||
+    pageWidth <= 0 ||
+    pageHeight <= 0
+  ) {
+    const fallbackW = availW || 280;
+    return {
+      width: fallbackW,
+      height: Math.floor((fallbackW * pageHeight) / pageWidth) || fallbackW,
+    };
+  }
+
+  const scale = Math.min(availW / pageWidth, availH / pageHeight);
+  const width = Math.max(1, Math.floor(pageWidth * scale));
+  const height = Math.max(1, Math.floor(pageHeight * scale));
+  return { width, height };
+}
+
+/** @deprecated Use fitPageLayoutSize */
 export function fitPageRenderWidth(
   container: ContainerSize,
   pageWidth: number,
   pageHeight: number,
-  padding = 8
+  padding = 16
 ): number {
-  const availW = container.width - padding * 2;
-  const availH = container.height - padding * 2;
-  if (availW <= 0 || availH <= 0 || pageWidth <= 0 || pageHeight <= 0) {
-    return Math.max(0, availW) || 280;
-  }
-  const scale = Math.min(availW / pageWidth, availH / pageHeight);
-  return Math.max(1, Math.floor(pageWidth * scale));
+  return fitPageLayoutSize(
+    container.width,
+    pageWidth,
+    pageHeight,
+    container.height > 0 ? container.height - padding * 2 : 600,
+    padding
+  ).width;
 }

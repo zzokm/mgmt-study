@@ -3,16 +3,16 @@
 import dynamic from "next/dynamic";
 import { useMemo, useState } from "react";
 import { Document } from "react-pdf";
-import { Maximize2Icon } from "lucide-react";
-import type { SlideRefParsed } from "@/types/question";
+import type { Question, SlideRefParsed } from "@/types/question";
 import { lecturePdfUrl, pagesForDisplay } from "@/lib/slide-ref";
 import { getLectureMeta } from "@/lib/questions";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-import { Button } from "@/components/ui/button";
-import { Skeleton } from "@/components/ui/skeleton";
+import { SlidePreviewLoading } from "./slide-preview-loading";
+import { OpenFullLectureLink } from "@/components/questions/reference-slide-links";
 import { PDF_DOCUMENT_OPTIONS } from "./pdf-config";
 import { FitPdfPage } from "./fit-pdf-page";
-import { SlideChapterHeading } from "./slide-chapter-heading";
+import { SlideCardHeader } from "./slide-card-header";
+import { cn } from "@/lib/utils";
 import "./pdf-config";
 
 const SlideReferenceViewerDialog = dynamic(
@@ -31,10 +31,26 @@ function pdfFileUrl(path: string): string {
 
 interface SlidePanelProps {
   slideRefParsed: SlideRefParsed;
+  /** For per-slide open links and analytics. */
+  question: Question;
+  /** Tighter gaps and smaller per-slide headers (practice + browse previews). */
+  density?: "default" | "compact";
 }
 
-export function SlidePanel({ slideRefParsed }: SlidePanelProps) {
+export function SlidePanel({
+  slideRefParsed,
+  question,
+  density = "default",
+}: SlidePanelProps) {
   const pages = pagesForDisplay(slideRefParsed);
+  const compact = density === "compact";
+  const slideListGap = compact
+    ? pages.length > 1
+      ? "gap-5"
+      : "gap-0"
+    : pages.length > 1
+      ? "gap-10"
+      : "gap-0";
   const pdfUrl = pdfFileUrl(lecturePdfUrl(slideRefParsed.lectureId));
   const [loaded, setLoaded] = useState(false);
   const [loadError, setLoadError] = useState<string | null>(null);
@@ -64,8 +80,12 @@ export function SlidePanel({ slideRefParsed }: SlidePanelProps) {
     return (
       <Alert>
         <AlertTitle>Whole lecture reference</AlertTitle>
-        <AlertDescription>
-          Open the full lecture PDF to review all {slideRefParsed.pageCount} slides.
+        <AlertDescription className="flex flex-col gap-2">
+          <span>
+            Open the full lecture PDF to review all {slideRefParsed.pageCount}{" "}
+            slides.
+          </span>
+          <OpenFullLectureLink question={question} className="w-fit" />
         </AlertDescription>
       </Alert>
     );
@@ -88,9 +108,9 @@ export function SlidePanel({ slideRefParsed }: SlidePanelProps) {
           setLoadError(error?.message ?? "PDF.js could not open this file.")
         }
         loading={
-          <div className="flex flex-col gap-10">
+          <div className={cn("flex flex-col", slideListGap)}>
             {pages.map((p) => (
-              <Skeleton key={p} className="h-[min(50vh,420px)] w-full rounded-lg" />
+              <SlidePreviewLoading key={p} compact={compact} />
             ))}
           </div>
         }
@@ -108,31 +128,20 @@ export function SlidePanel({ slideRefParsed }: SlidePanelProps) {
         }
       >
         {loaded ? (
-          <ul className="m-0 flex list-none flex-col gap-10 p-0">
+          <ul className={cn("m-0 flex list-none flex-col p-0", slideListGap)}>
             {pages.map((pageNum) => (
               <li
                 key={pageNum}
-                className="relative isolate overflow-hidden rounded-lg border bg-card shadow-sm"
+                className="relative isolate rounded-lg border bg-card shadow-sm"
               >
-                <div className="flex items-center justify-between gap-2 border-b bg-muted/50 px-3 py-2.5">
-                  <SlideChapterHeading
-                    topic={slideRefParsed.topic}
-                    pageNumber={pageNum}
-                    size="sm"
-                  />
-                  <Button
-                    type="button"
-                    variant="ghost"
-                    size="icon-sm"
-                    className="size-7 shrink-0"
-                    aria-label={`Open slide ${pageNum} in full viewer`}
-                    title="Full screen"
-                    onClick={() => setFullscreenPage(pageNum)}
-                  >
-                    <Maximize2Icon className="size-3.5" />
-                  </Button>
-                </div>
-                <FitPdfPage pageNumber={pageNum} />
+                <SlideCardHeader
+                  question={question}
+                  topic={slideRefParsed.topic}
+                  pageNum={pageNum}
+                  compact={compact}
+                  onFullscreen={() => setFullscreenPage(pageNum)}
+                />
+                <FitPdfPage pageNumber={pageNum} compact={compact} />
               </li>
             ))}
           </ul>

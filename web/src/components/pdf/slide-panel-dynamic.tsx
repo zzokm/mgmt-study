@@ -1,17 +1,17 @@
 "use client";
 
+import type { ComponentProps } from "react";
 import dynamic from "next/dynamic";
-import { Skeleton } from "@/components/ui/skeleton";
-import type { SlideRefParsed } from "@/types/question";
+import { SlidePreviewLoading } from "./slide-preview-loading";
 
 const SlidePanelInner = dynamic(
   () => import("./slide-panel").then((m) => m.SlidePanel),
   {
     ssr: false,
-    loading: () => <Skeleton className="h-64 w-full" />,
+    loading: () => <SlidePreviewLoading />,
   }
 );
 
-export function SlidePanel(props: { slideRefParsed: SlideRefParsed }) {
+export function SlidePanel(props: ComponentProps<typeof SlidePanelInner>) {
   return <SlidePanelInner {...props} />;
 }

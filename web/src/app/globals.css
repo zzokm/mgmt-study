@@ -117,6 +117,32 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+/* Referenced slide previews — centered contain, no canvas squash or clip. */
+.pdf-slide-fit {
+  line-height: 0;
+}
+
+.pdf-slide-fit .react-pdf__Page {
+  display: block;
+  margin-inline: auto;
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 0 !important;
+}
+
+.pdf-slide-fit .react-pdf__Page__canvas {
+  display: block;
+  margin-inline: auto;
+  max-width: 100%;
+}
+
+.pdf-slide-fit,
+.pdf-slide-fit .react-pdf__Page,
+.pdf-slide-fit .react-pdf__Page__canvas {
+  transition: none !important;
+  animation: none !important;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

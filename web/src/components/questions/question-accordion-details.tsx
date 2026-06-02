@@ -2,6 +2,7 @@ import type { Question } from "@/types/question";
 import { cn } from "@/lib/utils";
 import { QuestionExamAppearances } from "./question-exam-appearances";
 import { QuestionDetailSections } from "./question-detail-sections";
+import { BrowseReferencedSlides } from "./browse-referenced-slides";
 
 interface QuestionAccordionDetailsProps {
   question: Question;
@@ -20,7 +21,10 @@ export function QuestionAccordionDetails({
         variant="detailed"
         className="rounded-lg border bg-muted/30 px-4 py-3"
       />
-      <QuestionDetailSections question={question} />
+      <QuestionDetailSections
+        question={question}
+        referencedSlides={<BrowseReferencedSlides question={question} />}
+      />
     </div>
   );
 }

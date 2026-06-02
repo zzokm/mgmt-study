@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 interface SlideChapterHeadingProps {
   topic?: string;
   pageNumber: number;
-  size?: "sm" | "md";
+  size?: "xs" | "sm" | "md";
   className?: string;
 }
 
@@ -14,12 +14,13 @@ export function SlideChapterHeading({
   className,
 }: SlideChapterHeadingProps) {
   const chapter = topic?.trim() || "Lecture slides";
-  const textClass = size === "sm" ? "text-xs" : "text-sm";
+  const textClass =
+    size === "xs" ? "text-[11px]" : size === "sm" ? "text-xs" : "text-sm";
 
   return (
     <span
       className={cn(
-        "block min-w-0 truncate font-medium leading-tight text-foreground",
+        "block min-w-0 truncate font-medium leading-snug text-foreground",
         textClass,
         className
       )}

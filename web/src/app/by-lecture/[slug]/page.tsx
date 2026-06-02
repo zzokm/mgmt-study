@@ -1,10 +1,21 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { metadataTitle } from "@/lib/analytics-page-titles";
 import { getLectureSlugs, getQuestionsByLectureSlug } from "@/lib/questions";
 import { LinkButton } from "@/components/ui/link-button";
 import { QuestionBrowseAccordion } from "@/components/questions/question-browse-accordion";
 
 export function generateStaticParams() {
   return getLectureSlugs().map((l) => ({ slug: l.slug }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  return { title: metadataTitle(`/by-lecture/${slug}/`) };
 }
 
 export default async function LectureQuestionsPage({
@@ -29,7 +40,10 @@ export default async function LectureQuestionsPage({
         <LinkButton href={`/practice/lecture/${slug}/`}>Practice this lecture</LinkButton>
       </div>
 
-      <QuestionBrowseAccordion questions={questions} />
+      <QuestionBrowseAccordion
+        questions={questions}
+        browseContext="by_lecture"
+      />
     </div>
   );
 }

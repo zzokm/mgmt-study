@@ -1,11 +1,23 @@
 "use client";
 
-import { useCallback, useMemo, useState } from "react";
-import { useRouter } from "next/navigation";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { usePathname, useRouter } from "next/navigation";
 import type { Question } from "@/types/question";
+import { AnalyticsEvents } from "@/lib/analytics-events";
+import {
+  examYearFromPathname,
+  lectureSlugFromPathname,
+  practiceModeFromPathname,
+} from "@/lib/analytics-practice";
+import {
+  questionAnalyticsParams,
+  setUserProperties,
+  trackEvent,
+} from "@/lib/analytics";
 import { isAnswerCorrect } from "@/lib/questions";
 import {
   clearPracticeProgress,
+  computePracticeScore,
   getAttempt,
   loadPracticeProgress,
   practiceProgressCount,
@@ -51,6 +63,11 @@ function PracticeSessionInner({
   title,
 }: PracticeSessionProps & { sessionKey: string }) {
   const router = useRouter();
+  const pathname = usePathname();
+  const practiceMode = practiceModeFromPathname(pathname);
+  const examYear = examYearFromPathname(pathname);
+  const lectureSlug = lectureSlugFromPathname(pathname);
+  const startedRef = useRef(false);
   const [index, setIndex] = useState(0);
   const [progress, setProgress] = useState<PracticeProgress>(() =>
     loadPracticeProgress(sessionKey)
@@ -87,31 +104,85 @@ function PracticeSessionInner({
     [question, patchProgress]
   );
 
+  useEffect(() => {
+    if (startedRef.current || questions.length === 0) return;
+    startedRef.current = true;
+    trackEvent(AnalyticsEvents.practiceStart, {
+      practice_mode: practiceMode,
+      question_count: questions.length,
+      exam_year: examYear,
+      lecture_slug: lectureSlug,
+      session_title: title,
+    });
+    setUserProperties({
+      last_practice_mode: practiceMode,
+      last_exam_year: examYear,
+      last_lecture_slug: lectureSlug,
+    });
+  }, [questions.length, practiceMode, examYear, lectureSlug, title]);
+
   const handleSelect = useCallback(
     (id: string) => {
+      if (!question) return;
       updateCurrentAttempt({ selectedId: id });
+      trackEvent(AnalyticsEvents.practiceSelectAnswer, {
+        ...questionAnalyticsParams(question),
+        practice_mode: practiceMode,
+        question_index: index + 1,
+        selected_option_id: id,
+      });
     },
-    [updateCurrentAttempt]
+    [question, updateCurrentAttempt, practiceMode, index]
   );
 
   const handleCheck = () => {
-    if (!selectedId) return;
+    if (!selectedId || !question) return;
+    const isCorrect = isAnswerCorrect(selectedId, question.correctAnswerId);
     updateCurrentAttempt({ revealed: true });
+    trackEvent(AnalyticsEvents.practiceCheckAnswer, {
+      ...questionAnalyticsParams(question),
+      practice_mode: practiceMode,
+      question_index: index + 1,
+      selected_option_id: selectedId,
+      correct: isCorrect,
+    });
   };
 
   const handleNext = () => {
-    if (index < questions.length - 1 && revealed) {
+    if (index < questions.length - 1 && revealed && question) {
+      trackEvent(AnalyticsEvents.practiceNext, {
+        ...questionAnalyticsParams(question),
+        practice_mode: practiceMode,
+        question_index: index + 1,
+      });
       setIndex((i) => i + 1);
     }
   };
 
   const handlePrevious = () => {
-    if (index > 0) {
+    if (index > 0 && question) {
+      trackEvent(AnalyticsEvents.practicePrevious, {
+        ...questionAnalyticsParams(question),
+        practice_mode: practiceMode,
+        question_index: index + 1,
+      });
       setIndex((i) => i - 1);
     }
   };
 
   const handleFinish = useCallback(() => {
+    const score = computePracticeScore(questions, progress);
+    trackEvent(AnalyticsEvents.practiceFinish, {
+      practice_mode: practiceMode,
+      question_count: questions.length,
+      exam_year: examYear,
+      lecture_slug: lectureSlug,
+      session_title: title,
+      score_percent: score.percent,
+      correct: score.correct,
+      incorrect: score.incorrect,
+      skipped: score.skipped,
+    });
     const id = savePracticeResult({
       sessionKey,
       title,
@@ -120,13 +191,26 @@ function PracticeSessionInner({
       progress,
     });
     router.push(`/practice/results/?id=${id}`);
-  }, [sessionKey, title, questions, progress, router]);
+  }, [
+    sessionKey,
+    title,
+    questions,
+    progress,
+    router,
+    practiceMode,
+    examYear,
+    lectureSlug,
+  ]);
 
   const handleResetProgress = useCallback(() => {
+    trackEvent(AnalyticsEvents.practiceReset, {
+      practice_mode: practiceMode,
+      saved_answers_count: practiceProgressCount(progress),
+    });
     clearPracticeProgress(sessionKey);
     setProgress({});
     setIndex(0);
-  }, [sessionKey]);
+  }, [sessionKey, practiceMode, progress]);
 
   const savedCount = practiceProgressCount(progress);
 

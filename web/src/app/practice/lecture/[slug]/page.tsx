@@ -1,4 +1,6 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { metadataTitle } from "@/lib/analytics-page-titles";
 import {
   getLectureSlugs,
   getQuestionsByLectureSlug,
@@ -7,6 +9,15 @@ import { PracticeSessionHydrated } from "@/components/practice/practice-session-
 
 export function generateStaticParams() {
   return getLectureSlugs().map((l) => ({ slug: l.slug }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  return { title: metadataTitle(`/practice/lecture/${slug}/`) };
 }
 
 export default async function PracticeLecturePage({

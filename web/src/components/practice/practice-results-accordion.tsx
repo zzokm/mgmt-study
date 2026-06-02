@@ -1,6 +1,9 @@
 "use client";
 
+import { useCallback, useMemo, useRef } from "react";
 import type { Question } from "@/types/question";
+import { AnalyticsEvents } from "@/lib/analytics-events";
+import { questionAnalyticsParams, trackEvent } from "@/lib/analytics";
 import {
   getAttempt,
   isAttemptCorrect,
@@ -43,6 +46,40 @@ export function PracticeResultsAccordion({
     ? questions.filter((q) => isAttemptWrong(q, getAttempt(progress, q.questionKey)))
     : questions;
 
+  const prevOpenRef = useRef<string[]>([]);
+  const questionsByKey = useMemo(
+    () => new Map(visible.map((q) => [q.questionKey, q])),
+    [visible]
+  );
+
+  const handleOpenChange = useCallback((value: string | string[]) => {
+    const next = Array.isArray(value) ? value : [];
+    const prev = prevOpenRef.current;
+    for (const key of next) {
+      if (!prev.includes(key)) {
+        const q = questionsByKey.get(key);
+        if (q) {
+          trackEvent(AnalyticsEvents.questionExpand, {
+            ...questionAnalyticsParams(q),
+            browse_context: "practice_results",
+          });
+        }
+      }
+    }
+    for (const key of prev) {
+      if (!next.includes(key)) {
+        const q = questionsByKey.get(key);
+        if (q) {
+          trackEvent(AnalyticsEvents.questionCollapse, {
+            ...questionAnalyticsParams(q),
+            browse_context: "practice_results",
+          });
+        }
+      }
+    }
+    prevOpenRef.current = next;
+  }, [questionsByKey]);
+
   if (visible.length === 0) {
     return (
       <p className="text-sm text-muted-foreground">
@@ -60,7 +97,11 @@ export function PracticeResultsAccordion({
   const contentClassName = "border-t bg-muted/20";
 
   return (
-    <Accordion multiple className="flex w-full flex-col gap-3">
+    <Accordion
+      multiple
+      className="flex w-full flex-col gap-3"
+      onValueChange={handleOpenChange}
+    >
       {visible.map((q) => {
         const attempt = getAttempt(progress, q.questionKey);
         const status = statusFor(q, progress);

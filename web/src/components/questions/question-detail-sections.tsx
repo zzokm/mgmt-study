@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import type { Question } from "@/types/question";
+import { AnalyticsEvents } from "@/lib/analytics-events";
+import { questionAnalyticsParams, trackEvent } from "@/lib/analytics";
 import { getCorrectAnswerDisplay } from "@/lib/questions";
 import { lecturePageUrl, pagesForDisplay } from "@/lib/slide-ref";
 import {
@@ -42,6 +44,13 @@ function ReferenceSlideLinks({ question }: { question: Question }) {
         size="sm"
         target="_blank"
         rel="noopener noreferrer"
+        onClick={() =>
+          trackEvent(AnalyticsEvents.slideLinkClick, {
+            ...questionAnalyticsParams(question),
+            lecture_id: parsed.lectureId,
+            link_type: "full_lecture",
+          })
+        }
       >
         <ExternalLinkIcon data-icon="inline-start" />
         Open full lecture
@@ -62,6 +71,14 @@ function ReferenceSlideLinks({ question }: { question: Question }) {
           size="sm"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() =>
+            trackEvent(AnalyticsEvents.slideLinkClick, {
+              ...questionAnalyticsParams(question),
+              lecture_id: parsed.lectureId,
+              slide_page: pageNum,
+              link_type: "slide",
+            })
+          }
         >
           <ExternalLinkIcon data-icon="inline-start" />
           Open slide {pageNum}
@@ -89,7 +106,21 @@ function ReferenceSlidePreview({ question }: { question: Question }) {
         variant="ghost"
         size="sm"
         className="h-auto w-full justify-between rounded-lg px-3 py-2.5 font-medium text-foreground hover:bg-muted/50"
-        onClick={() => setOpen((v) => !v)}
+        onClick={() => {
+          setOpen((v) => {
+            const next = !v;
+            trackEvent(
+              next
+                ? AnalyticsEvents.slidePreviewOpen
+                : AnalyticsEvents.slidePreviewClose,
+              {
+                ...questionAnalyticsParams(question),
+                lecture_id: parsed.lectureId,
+              }
+            );
+            return next;
+          });
+        }}
         aria-expanded={open}
       >
         <span>Show referenced slides</span>

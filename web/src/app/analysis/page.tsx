@@ -1,4 +1,10 @@
+import type { Metadata } from "next";
+import { metadataTitle } from "@/lib/analytics-page-titles";
 import { buildExamAnalysis } from "@/lib/exam-analysis";
+
+export const metadata: Metadata = {
+  title: metadataTitle("/analysis/"),
+};
 import { AnalysisPageClient } from "./analysis-page-client";
 
 export default function AnalysisPage() {

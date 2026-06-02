@@ -78,6 +78,7 @@ export function RepetitivePageClient({
 
       <QuestionBrowseAccordion
         questions={questions}
+        browseContext="repetitive"
         openValues={openValues}
         onOpenValuesChange={setOpenValues}
         scrollIdPrefix="repetitive"

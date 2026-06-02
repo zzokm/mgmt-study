@@ -62,6 +62,7 @@ export function SavedPageClient() {
 
       <QuestionBrowseAccordion
         questions={questions}
+        browseContext="saved"
         showSaveButton
         renderTriggerPrefix={(q) => {
           const savedAt = savedAtByKey.get(q.questionKey);

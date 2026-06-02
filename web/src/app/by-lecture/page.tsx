@@ -1,5 +1,11 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+import { metadataTitle } from "@/lib/analytics-page-titles";
 import { getLectureSlugs } from "@/lib/questions";
+
+export const metadata: Metadata = {
+  title: metadataTitle("/by-lecture/"),
+};
 import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default function ByLecturePage() {

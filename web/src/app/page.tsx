@@ -1,8 +1,14 @@
+import type { Metadata } from "next";
+import { metadataTitle } from "@/lib/analytics-page-titles";
 import {
   getExamYears,
   getLectureSlugs,
   getStats,
 } from "@/lib/questions";
+
+export const metadata: Metadata = {
+  title: metadataTitle("/"),
+};
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { LinkButton } from "@/components/ui/link-button";
 

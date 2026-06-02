@@ -1,7 +1,9 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
+import { AnalyticsEvents } from "@/lib/analytics-events";
+import { trackEvent } from "@/lib/analytics";
 import { getQuestionByKey } from "@/lib/questions";
 import { computePracticeScore } from "@/lib/practice-progress";
 import { loadPracticeResult } from "@/lib/practice-results";
@@ -29,6 +31,29 @@ export function PracticeResultsPageClient() {
       .filter((q): q is Question => q != null);
   }, [stored]);
 
+  const score = useMemo(
+    () =>
+      stored
+        ? computePracticeScore(questions, stored.progress)
+        : { percent: 0, correct: 0, incorrect: 0, skipped: 0, total: 0, answered: 0 },
+    [stored, questions]
+  );
+
+  const viewedRef = useRef(false);
+
+  useEffect(() => {
+    if (!stored || viewedRef.current) return;
+    viewedRef.current = true;
+    trackEvent(AnalyticsEvents.practiceResultsView, {
+      session_title: stored.title,
+      score_percent: score.percent,
+      correct: score.correct,
+      incorrect: score.incorrect,
+      skipped: score.skipped,
+      question_count: questions.length,
+    });
+  }, [stored, score, questions.length]);
+
   if (!id || !stored) {
     return (
       <Empty>
@@ -42,8 +67,6 @@ export function PracticeResultsPageClient() {
       </Empty>
     );
   }
-
-  const score = computePracticeScore(questions, stored.progress);
 
   return (
     <div className="mx-auto flex max-w-3xl flex-col gap-6">
@@ -78,7 +101,15 @@ export function PracticeResultsPageClient() {
         <Button
           type="button"
           variant={mistakesOnly ? "default" : "outline"}
-          onClick={() => setMistakesOnly((v) => !v)}
+          onClick={() => {
+            setMistakesOnly((v) => {
+              const next = !v;
+              trackEvent(AnalyticsEvents.practiceResultsFilter, {
+                mistakes_only: next,
+              });
+              return next;
+            });
+          }}
         >
           {mistakesOnly ? "Show all questions" : "Show mistakes only"}
         </Button>

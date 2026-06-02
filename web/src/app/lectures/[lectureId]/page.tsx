@@ -1,11 +1,22 @@
+import type { Metadata } from "next";
 import { Suspense } from "react";
 import { notFound } from "next/navigation";
+import { metadataTitle } from "@/lib/analytics-page-titles";
 import { getLectureIdList, getLectureMeta } from "@/lib/questions";
 import { Skeleton } from "@/components/ui/skeleton";
 import { LecturePageClient } from "./lecture-page-client";
 
 export function generateStaticParams() {
   return getLectureIdList().map((lectureId) => ({ lectureId }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lectureId: string }>;
+}): Promise<Metadata> {
+  const { lectureId } = await params;
+  return { title: metadataTitle(`/lectures/${lectureId}/`) };
 }
 
 export default async function LectureDetailPage({

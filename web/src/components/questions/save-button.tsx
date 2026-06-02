@@ -5,6 +5,8 @@ import type { Question } from "@/types/question";
 import { Button } from "@/components/ui/button";
 import { BookmarkIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { AnalyticsEvents } from "@/lib/analytics-events";
+import { questionAnalyticsParams, trackEvent } from "@/lib/analytics";
 import {
   isQuestionSaved,
   toggleSavedQuestion,
@@ -30,6 +32,15 @@ export function SaveButton({ question, corner = false }: SaveButtonProps) {
     saved && "fill-amber-500 text-amber-500"
   );
 
+  function handleToggle() {
+    const next = toggleSavedQuestion(question);
+    setSaved(next);
+    trackEvent(
+      next ? AnalyticsEvents.questionSave : AnalyticsEvents.questionUnsave,
+      questionAnalyticsParams(question)
+    );
+  }
+
   if (corner) {
     return (
       <Button
@@ -37,7 +48,7 @@ export function SaveButton({ question, corner = false }: SaveButtonProps) {
         variant="ghost"
         size="sm"
         className="h-auto gap-1.5 px-2 py-1.5 text-muted-foreground hover:text-foreground"
-        onClick={() => setSaved(toggleSavedQuestion(question))}
+        onClick={handleToggle}
         aria-pressed={saved}
         aria-label={saved ? "Saved for later" : "Save for later"}
       >
@@ -52,7 +63,7 @@ export function SaveButton({ question, corner = false }: SaveButtonProps) {
       type="button"
       variant={saved ? "secondary" : "outline"}
       size="sm"
-      onClick={() => setSaved(toggleSavedQuestion(question))}
+      onClick={handleToggle}
       aria-pressed={saved}
     >
       {saved ? "Saved" : "Save for later"}

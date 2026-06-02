@@ -1,4 +1,10 @@
+import type { Metadata } from "next";
+import { metadataTitle } from "@/lib/analytics-page-titles";
 import { SavedPageClient } from "./saved-page-client";
+
+export const metadata: Metadata = {
+  title: metadataTitle("/saved/"),
+};
 
 export default function SavedPage() {
   return (

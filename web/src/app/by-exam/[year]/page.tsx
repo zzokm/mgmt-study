@@ -1,11 +1,21 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { metadataTitle } from "@/lib/analytics-page-titles";
 import { getExamYears, getQuestionsByExamYear } from "@/lib/questions";
-import { Badge } from "@/components/ui/badge";
 import { LinkButton } from "@/components/ui/link-button";
 import { QuestionBrowseAccordion } from "@/components/questions/question-browse-accordion";
 
 export function generateStaticParams() {
   return getExamYears().map((year) => ({ year }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ year: string }>;
+}): Promise<Metadata> {
+  const { year } = await params;
+  return { title: metadataTitle(`/by-exam/${year}/`) };
 }
 
 export default async function ExamYearPage({
@@ -30,11 +40,8 @@ export default async function ExamYearPage({
 
       <QuestionBrowseAccordion
         questions={questions}
-        renderTriggerPrefix={(q) => (
-          <Badge variant="outline" className="w-fit">
-            {q.id}
-          </Badge>
-        )}
+        browseContext="by_exam"
+        showQuestionIdBadge
       />
     </div>
   );

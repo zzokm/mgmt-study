@@ -1,13 +1,27 @@
 "use client";
 
-import { useState } from "react";
-import { Document, Page } from "react-pdf";
+import dynamic from "next/dynamic";
+import { useMemo, useState } from "react";
+import { Document } from "react-pdf";
+import { Maximize2Icon } from "lucide-react";
 import type { SlideRefParsed } from "@/types/question";
 import { lecturePdfUrl, pagesForDisplay } from "@/lib/slide-ref";
+import { getLectureMeta } from "@/lib/questions";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 import { PDF_DOCUMENT_OPTIONS } from "./pdf-config";
+import { FitPdfPage } from "./fit-pdf-page";
+import { SlideChapterHeading } from "./slide-chapter-heading";
 import "./pdf-config";
+
+const SlideReferenceViewerDialog = dynamic(
+  () =>
+    import("./slide-reference-viewer-dialog").then(
+      (m) => m.SlideReferenceViewerDialog
+    ),
+  { ssr: false }
+);
 
 function pdfFileUrl(path: string): string {
   if (path.startsWith("http")) return path;
@@ -17,14 +31,22 @@ function pdfFileUrl(path: string): string {
 
 interface SlidePanelProps {
   slideRefParsed: SlideRefParsed;
-  title?: string;
 }
 
-export function SlidePanel({ slideRefParsed, title = "Referenced slides" }: SlidePanelProps) {
+export function SlidePanel({ slideRefParsed }: SlidePanelProps) {
   const pages = pagesForDisplay(slideRefParsed);
   const pdfUrl = pdfFileUrl(lecturePdfUrl(slideRefParsed.lectureId));
   const [loaded, setLoaded] = useState(false);
   const [loadError, setLoadError] = useState<string | null>(null);
+  const [fullscreenPage, setFullscreenPage] = useState<number | null>(null);
+
+  const lectures = useMemo(
+    () =>
+      Object.values(getLectureMeta()).sort(
+        (a, b) => a.chapterNumber - b.chapterNumber
+      ),
+    []
+  );
 
   if (slideRefParsed.kind === "course") {
     return (
@@ -54,8 +76,7 @@ export function SlidePanel({ slideRefParsed, title = "Referenced slides" }: Slid
   }
 
   return (
-    <div className="flex flex-col gap-4">
-      <h3 className="text-sm font-medium text-muted-foreground">{title}</h3>
+    <div className="flex flex-col">
       <Document
         file={pdfUrl}
         options={PDF_DOCUMENT_OPTIONS}
@@ -67,9 +88,9 @@ export function SlidePanel({ slideRefParsed, title = "Referenced slides" }: Slid
           setLoadError(error?.message ?? "PDF.js could not open this file.")
         }
         loading={
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-10">
             {pages.map((p) => (
-              <Skeleton key={p} className="h-64 w-full" />
+              <Skeleton key={p} className="h-[min(50vh,420px)] w-full rounded-lg" />
             ))}
           </div>
         }
@@ -86,24 +107,50 @@ export function SlidePanel({ slideRefParsed, title = "Referenced slides" }: Slid
           </Alert>
         }
       >
-        {loaded &&
-          pages.map((pageNum) => (
-            <div
-              key={pageNum}
-              className="mb-6 overflow-hidden rounded-lg border bg-card shadow-sm"
-            >
-              <div className="border-b bg-muted/50 px-3 py-1.5 text-xs font-medium">
-                Slide {pageNum}
-              </div>
-              <Page
-                pageNumber={pageNum}
-                width={Math.min(720, typeof window !== "undefined" ? window.innerWidth - 48 : 720)}
-                renderTextLayer={false}
-                renderAnnotationLayer={false}
-              />
-            </div>
-          ))}
+        {loaded ? (
+          <ul className="m-0 flex list-none flex-col gap-10 p-0">
+            {pages.map((pageNum) => (
+              <li
+                key={pageNum}
+                className="relative isolate overflow-hidden rounded-lg border bg-card shadow-sm"
+              >
+                <div className="flex items-center justify-between gap-2 border-b bg-muted/50 px-3 py-2.5">
+                  <SlideChapterHeading
+                    topic={slideRefParsed.topic}
+                    pageNumber={pageNum}
+                    size="sm"
+                  />
+                  <Button
+                    type="button"
+                    variant="ghost"
+                    size="icon-sm"
+                    className="size-7 shrink-0"
+                    aria-label={`Open slide ${pageNum} in full viewer`}
+                    title="Full screen"
+                    onClick={() => setFullscreenPage(pageNum)}
+                  >
+                    <Maximize2Icon className="size-3.5" />
+                  </Button>
+                </div>
+                <FitPdfPage pageNumber={pageNum} />
+              </li>
+            ))}
+          </ul>
+        ) : null}
       </Document>
+
+      {fullscreenPage != null ? (
+        <SlideReferenceViewerDialog
+          open
+          onOpenChange={(open) => {
+            if (!open) setFullscreenPage(null);
+          }}
+          lectures={lectures}
+          lectureId={slideRefParsed.lectureId}
+          pageNumber={fullscreenPage}
+          topic={slideRefParsed.topic}
+        />
+      ) : null}
     </div>
   );
 }

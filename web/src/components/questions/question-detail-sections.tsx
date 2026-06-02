@@ -23,6 +23,8 @@ import { ChevronDownIcon, ExternalLinkIcon } from "lucide-react";
 interface QuestionDetailSectionsProps {
   question: Question;
   className?: string;
+  /** Practice: show slide PDFs immediately after reveal. Browse: collapsed behind toggle. */
+  expandReferencedSlides?: boolean;
 }
 
 function ReferenceSlideLinks({ question }: { question: Question }) {
@@ -88,61 +90,76 @@ function ReferenceSlideLinks({ question }: { question: Question }) {
   );
 }
 
-function ReferenceSlidePreview({ question }: { question: Question }) {
+function ReferenceSlidePreview({
+  question,
+  expanded = false,
+}: {
+  question: Question;
+  expanded?: boolean;
+}) {
   const parsed = question.slideRefParsed;
   const displayPages = pagesForDisplay(parsed);
   const showPreview =
     parsed.kind === "course" ||
     parsed.kind === "all" ||
     (parsed.kind === "slides" && displayPages.length > 0);
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(expanded);
 
   if (!showPreview) return null;
 
+  const showSlides = expanded || open;
+
   return (
-    <div className="rounded-lg border bg-muted/30">
-      <Button
-        type="button"
-        variant="ghost"
-        size="sm"
-        className="h-auto w-full justify-between rounded-lg px-3 py-2.5 font-medium text-foreground hover:bg-muted/50"
-        onClick={() => {
-          setOpen((v) => {
-            const next = !v;
-            trackEvent(
-              next
-                ? AnalyticsEvents.slidePreviewOpen
-                : AnalyticsEvents.slidePreviewClose,
-              {
-                ...questionAnalyticsParams(question),
-                lecture_id: parsed.lectureId,
-              }
-            );
-            return next;
-          });
-        }}
-        aria-expanded={open}
-      >
-        <span>Show referenced slides</span>
-        <ChevronDownIcon
-          className={cn(
-            "size-4 shrink-0 text-muted-foreground transition-transform",
-            open && "rotate-180"
-          )}
-        />
-      </Button>
-      {open ? (
-        <div className="border-t px-3 pb-3 pt-3">
-          <SlidePanel slideRefParsed={parsed} />
-        </div>
-      ) : null}
-    </div>
+    <section
+      className="flex flex-col gap-8 border-t border-border/60 pt-8"
+      aria-label="Referenced slides"
+    >
+      {expanded ? (
+        <h4 className="text-sm font-medium tracking-tight text-foreground">
+          Referenced slides
+        </h4>
+      ) : (
+        <Button
+          type="button"
+          variant="ghost"
+          size="sm"
+          className="h-auto w-fit justify-start gap-2 px-0 py-0 font-medium text-foreground hover:bg-transparent"
+          onClick={() => {
+            setOpen((v) => {
+              const next = !v;
+              trackEvent(
+                next
+                  ? AnalyticsEvents.slidePreviewOpen
+                  : AnalyticsEvents.slidePreviewClose,
+                {
+                  ...questionAnalyticsParams(question),
+                  lecture_id: parsed.lectureId,
+                }
+              );
+              return next;
+            });
+          }}
+          aria-expanded={open}
+        >
+          <span>Referenced slides</span>
+          <ChevronDownIcon
+            className={cn(
+              "size-4 shrink-0 text-muted-foreground transition-transform",
+              open && "rotate-180"
+            )}
+          />
+        </Button>
+      )}
+
+      {showSlides ? <SlidePanel slideRefParsed={parsed} /> : null}
+    </section>
   );
 }
 
 export function QuestionDetailSections({
   question,
   className,
+  expandReferencedSlides = false,
 }: QuestionDetailSectionsProps) {
   const answer = getCorrectAnswerDisplay(question);
   const parsed = question.slideRefParsed;
@@ -184,12 +201,15 @@ export function QuestionDetailSections({
                 : "Source in course materials"}
             </CardDescription>
           </CardHeader>
-          <CardContent className="flex flex-col gap-4">
+          <CardContent className="flex flex-col gap-6">
             <p className="leading-relaxed text-muted-foreground">
               {question.reference}
             </p>
             <ReferenceSlideLinks question={question} />
-            <ReferenceSlidePreview question={question} />
+            <ReferenceSlidePreview
+              question={question}
+              expanded={expandReferencedSlides}
+            />
           </CardContent>
         </Card>
       ) : null}

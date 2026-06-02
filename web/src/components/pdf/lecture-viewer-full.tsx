@@ -92,10 +92,15 @@ export function LectureViewerFull({
   lectures,
   activeLectureId,
   pageIndex,
+  syncUrl = true,
+  height = LECTURE_VIEWER_HEIGHT,
 }: {
   lectures: LectureMeta[];
   activeLectureId: string;
   pageIndex: number;
+  /** When false, tab changes do not navigate (e.g. practice fullscreen modal). */
+  syncUrl?: boolean;
+  height?: string;
 }) {
   const router = useRouter();
   const viewerRef = useRef<PDFViewerRef>(null);
@@ -129,11 +134,11 @@ export function LectureViewerFull({
 
   const syncRouteToLecture = useCallback(
     (lectureId: string) => {
-      if (lectureId === activeLectureId) return;
+      if (!syncUrl || lectureId === activeLectureId) return;
       syncingFromViewerRef.current = true;
       router.push(`/lectures/${lectureId}/?page=1`);
     },
-    [activeLectureId, router]
+    [activeLectureId, router, syncUrl]
   );
 
   const handleReady = useCallback(
@@ -143,18 +148,20 @@ export function LectureViewerFull({
       activateDocument(registry, activeLectureId);
       scrollActiveDocToPage(registry, activeLectureId, pageNumber);
 
-      const dm = getDocumentManager(registry);
-      dm?.onActiveDocumentChanged((event) => {
-        if (syncingFromViewerRef.current) {
-          syncingFromViewerRef.current = false;
-          return;
-        }
-        if (event.currentDocumentId) {
-          syncRouteToLecture(event.currentDocumentId);
-        }
-      });
+      if (syncUrl) {
+        const dm = getDocumentManager(registry);
+        dm?.onActiveDocumentChanged((event) => {
+          if (syncingFromViewerRef.current) {
+            syncingFromViewerRef.current = false;
+            return;
+          }
+          if (event.currentDocumentId) {
+            syncRouteToLecture(event.currentDocumentId);
+          }
+        });
+      }
     },
-    [activeLectureId, pageNumber, syncRouteToLecture]
+    [activeLectureId, pageNumber, syncRouteToLecture, syncUrl]
   );
 
   useEffect(() => {
@@ -168,7 +175,7 @@ export function LectureViewerFull({
     <PDFViewer
       ref={viewerRef}
       className="lecture-pdf-viewer-inner w-full"
-      style={{ height: LECTURE_VIEWER_HEIGHT, width: "100%" }}
+      style={{ height, width: "100%" }}
       config={viewerConfig}
       onReady={handleReady}
     />

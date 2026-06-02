@@ -12,9 +12,6 @@ const SlidePanelInner = dynamic(
   }
 );
 
-export function SlidePanel(props: {
-  slideRefParsed: SlideRefParsed;
-  title?: string;
-}) {
+export function SlidePanel(props: { slideRefParsed: SlideRefParsed }) {
   return <SlidePanelInner {...props} />;
 }

@@ -14,7 +14,7 @@ export function AnswerReveal({ question }: AnswerRevealProps) {
         variant="detailed"
         className="rounded-lg border bg-muted/30 px-4 py-3"
       />
-      <QuestionDetailSections question={question} />
+      <QuestionDetailSections question={question} expandReferencedSlides />
     </div>
   );
 }

@@ -17,9 +17,15 @@ export function SlideChapterHeading({
   const textClass = size === "sm" ? "text-xs" : "text-sm";
 
   return (
-    <div className={cn("flex min-w-0 flex-col gap-0.5 leading-tight", className)}>
-      <span className={cn(textClass, "font-medium text-foreground")}>{chapter}</span>
-      <span className={cn(textClass, "text-foreground")}>Slide {pageNumber}</span>
-    </div>
+    <span
+      className={cn(
+        "block min-w-0 truncate font-medium leading-tight text-foreground",
+        textClass,
+        className
+      )}
+    >
+      {chapter}
+      <span className="font-normal text-muted-foreground"> · Slide {pageNumber}</span>
+    </span>
   );
 }

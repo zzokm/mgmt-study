@@ -135,7 +135,6 @@ export function SlidePanel({
                 className="relative isolate rounded-lg border bg-card shadow-sm"
               >
                 <SlideCardHeader
-                  question={question}
                   topic={slideRefParsed.topic}
                   pageNum={pageNum}
                   compact={compact}

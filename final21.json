@@ -1076,8 +1076,8 @@
       }
     ],
     "correctAnswerId": "b",
-    "explanation": "The statement provided in the question is the exact definition of 'Training'. Recruitment, on the other hand, is defined as the 'initial attraction and screening of the supply of prospective human resources available to fill a position'.",
-    "reference": "Chapter 13: Human Resource Management - Answer found on Slide 31 (Training Definition) and Slide 5 (Recruitment Definition).",
+    "explanation": "The statement provided in the question is the exact textbook definition of 'Training'. Recruitment, on the other hand, is defined as the 'initial attraction and screening of the supply of prospective human resources available to fill a position'.",
+    "reference": "Textbook Page 303: \"Training is the process of developing qualities in human resources that will enable them to be more productive...\" compared to Textbook Page 297: \"Recruitment is the initial attraction and screening of the supply...\"",
     "slideRef": "ch13:s5,31",
     "slideRefParsed": {
       "lectureId": "ch13",
@@ -1092,7 +1092,45 @@
       ],
       "pageCount": 46,
       "syntax": "ch13:s5,31"
-    }
+    },
+    "sourceRefs": [
+      "ch13:s5,31",
+      "ch13,p297,303"
+    ],
+    "sourceRefsParsed": [
+      {
+        "lectureId": "ch13",
+        "chapterNumber": 13,
+        "topic": "Chapter 13: Human Resource Management",
+        "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+        "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+        "kind": "slides",
+        "pages": [
+          5,
+          31
+        ],
+        "pageCount": 46,
+        "syntax": "ch13:s5,31"
+      },
+      {
+        "lectureId": "ch13",
+        "chapterNumber": 13,
+        "topic": "Chapter 13: Human Resource Management",
+        "lectureFile": "chapter-13.pdf",
+        "pdfPath": "Book/chapter-13.pdf",
+        "kind": "book",
+        "bookPages": [
+          297,
+          303
+        ],
+        "pages": [
+          4,
+          10
+        ],
+        "pageCount": 25,
+        "syntax": "ch13,p297,303"
+      }
+    ]
   },
   {
     "id": "Q18",
@@ -1110,9 +1148,9 @@
       }
     ],
     "correctAnswerId": "b",
-    "explanation": "While Wikstrom's forms (Management Inventory Card, Position Replacement Form, Management Manpower Replacement Chart) heavily emphasize management roles, the concept of a human resource inventory broadly keeps 'management up to date about the possibilities for filling a position from within'. Furthermore, the slides indicate that computer software aids managers in complex HR inventories for how 'employees can best be deployed and developed,' showing it is not exclusively for management.",
-    "reference": "Chapter 13: Human Resource Management - Deduced from Slide 13 (Objective) and Slide 18 (Software tools).",
-    "slideRef": "ch13:s13,18",
+    "explanation": "While Wikstrom's specific examples (like the Management Inventory Card) focus heavily on management personnel, the textbook explicitly notes that similar forms can be used to keep a human resource inventory of nonmanagerial personnel as well.",
+    "reference": "Textbook Page 299: \"As you can see, Wikstrom’s forms... are focused on management personnel. Of course, similar forms could be used to keep a human resource inventory of nonmanagerial personnel.\"",
+    "slideRef": "ch13:s13",
     "slideRefParsed": {
       "lectureId": "ch13",
       "chapterNumber": 13,
@@ -1121,12 +1159,46 @@
       "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
       "kind": "slides",
       "pages": [
-        13,
-        18
+        13
       ],
       "pageCount": 46,
-      "syntax": "ch13:s13,18"
-    }
+      "syntax": "ch13:s13"
+    },
+    "sourceRefs": [
+      "ch13:s13",
+      "ch13,p299"
+    ],
+    "sourceRefsParsed": [
+      {
+        "lectureId": "ch13",
+        "chapterNumber": 13,
+        "topic": "Chapter 13: Human Resource Management",
+        "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+        "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+        "kind": "slides",
+        "pages": [
+          13
+        ],
+        "pageCount": 46,
+        "syntax": "ch13:s13"
+      },
+      {
+        "lectureId": "ch13",
+        "chapterNumber": 13,
+        "topic": "Chapter 13: Human Resource Management",
+        "lectureFile": "chapter-13.pdf",
+        "pdfPath": "Book/chapter-13.pdf",
+        "kind": "book",
+        "bookPages": [
+          299
+        ],
+        "pages": [
+          6
+        ],
+        "pageCount": 25,
+        "syntax": "ch13,p299"
+      }
+    ]
   },
   {
     "id": "Q19",
@@ -2308,8 +2380,8 @@
       }
     ],
     "correctAnswerId": "c",
-    "explanation": "The lecture slides define recruitment exactly as 'the initial attraction and screening of the supply of prospective human resources available to fill a position'.",
-    "reference": "Chapter 13: Human Resource Management - Answer found verbatim on Slide 5.",
+    "explanation": "The textbook explicitly defines recruitment exactly as the initial attraction and screening of the supply of prospective human resources available to fill a position.",
+    "reference": "Textbook Page 297: \"Recruitment is the initial attraction and screening of the supply of prospective human resources available to fill a position.\"",
     "slideRef": "ch13:s5",
     "slideRefParsed": {
       "lectureId": "ch13",
@@ -2323,7 +2395,42 @@
       ],
       "pageCount": 46,
       "syntax": "ch13:s5"
-    }
+    },
+    "sourceRefs": [
+      "ch13:s5",
+      "ch13,p297"
+    ],
+    "sourceRefsParsed": [
+      {
+        "lectureId": "ch13",
+        "chapterNumber": 13,
+        "topic": "Chapter 13: Human Resource Management",
+        "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+        "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+        "kind": "slides",
+        "pages": [
+          5
+        ],
+        "pageCount": 46,
+        "syntax": "ch13:s5"
+      },
+      {
+        "lectureId": "ch13",
+        "chapterNumber": 13,
+        "topic": "Chapter 13: Human Resource Management",
+        "lectureFile": "chapter-13.pdf",
+        "pdfPath": "Book/chapter-13.pdf",
+        "kind": "book",
+        "bookPages": [
+          297
+        ],
+        "pages": [
+          4
+        ],
+        "pageCount": 25,
+        "syntax": "ch13,p297"
+      }
+    ]
   },
   {
     "id": "Q36",
@@ -2354,21 +2461,56 @@
     ],
     "correctAnswerId": "e",
     "explanation": "A Job Specification contains the human qualifications necessary to do the job, which explicitly includes 'Physical skills'. Job title, working conditions, equipment used, and job summary are all found in a Job Description.",
-    "reference": "Chapter 1: Introduction - Slide 20 (management skills) lists physical skills among qualifications in a job specification.",
-    "slideRef": "ch1:s20",
+    "reference": "Textbook Page 298 (Figure 13.2): Displays 'Job Specification' including 'Physical Skills'. The other options fall under 'Job Description'.",
+    "slideRef": "ch13:s8",
     "slideRefParsed": {
-      "lectureId": "ch1",
-      "chapterNumber": 1,
-      "topic": "Chapter 1: Introduction",
-      "lectureFile": "Chapter 1 - Introduction.pdf",
-      "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+      "lectureId": "ch13",
+      "chapterNumber": 13,
+      "topic": "Chapter 13: Human Resource Management",
+      "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+      "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
       "kind": "slides",
       "pages": [
-        20
+        8
       ],
-      "pageCount": 30,
-      "syntax": "ch1:s20"
-    }
+      "pageCount": 46,
+      "syntax": "ch13:s8"
+    },
+    "sourceRefs": [
+      "ch13:s8",
+      "ch13,p298"
+    ],
+    "sourceRefsParsed": [
+      {
+        "lectureId": "ch13",
+        "chapterNumber": 13,
+        "topic": "Chapter 13: Human Resource Management",
+        "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+        "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+        "kind": "slides",
+        "pages": [
+          8
+        ],
+        "pageCount": 46,
+        "syntax": "ch13:s8"
+      },
+      {
+        "lectureId": "ch13",
+        "chapterNumber": 13,
+        "topic": "Chapter 13: Human Resource Management",
+        "lectureFile": "chapter-13.pdf",
+        "pdfPath": "Book/chapter-13.pdf",
+        "kind": "book",
+        "bookPages": [
+          298
+        ],
+        "pages": [
+          5
+        ],
+        "pageCount": 25,
+        "syntax": "ch13,p298"
+      }
+    ]
   },
   {
     "id": "Q37",

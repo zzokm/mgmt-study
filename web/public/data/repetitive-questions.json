@@ -629,9 +629,9 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "While Wikstrom's forms (Management Inventory Card, Position Replacement Form, Management Manpower Replacement Chart) heavily emphasize management roles, the concept of a human resource inventory broadly keeps 'management up to date about the possibilities for filling a position from within'. Furthermore, the slides indicate that computer software aids managers in complex HR inventories for how 'employees can best be deployed and developed,' showing it is not exclusively for management.",
-      "reference": "Chapter 13: Human Resource Management - Deduced from Slide 13 (Objective) and Slide 18 (Software tools).",
-      "slideRef": "ch13:s13,18",
+      "explanation": "While Wikstrom's specific examples (like the Management Inventory Card) focus heavily on management personnel, the textbook explicitly notes that similar forms can be used to keep a human resource inventory of nonmanagerial personnel as well.",
+      "reference": "Textbook Page 299: \"As you can see, Wikstrom’s forms... are focused on management personnel. Of course, similar forms could be used to keep a human resource inventory of nonmanagerial personnel.\"",
+      "slideRef": "ch13:s13",
       "slideRefParsed": {
         "lectureId": "ch13",
         "chapterNumber": 13,
@@ -640,11 +640,10 @@
         "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
         "kind": "slides",
         "pages": [
-          13,
-          18
+          13
         ],
         "pageCount": 46,
-        "syntax": "ch13:s13,18"
+        "syntax": "ch13:s13"
       },
       "origin": "2021",
       "sourceFile": "final21.json",
@@ -667,6 +666,41 @@
           "origin": "2025",
           "sourceFile": "final25.json",
           "sourceQuestionId": "Q8"
+        }
+      ],
+      "sourceRefs": [
+        "ch13:s13",
+        "ch13,p299"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "slides",
+          "pages": [
+            13
+          ],
+          "pageCount": 46,
+          "syntax": "ch13:s13"
+        },
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "chapter-13.pdf",
+          "pdfPath": "Book/chapter-13.pdf",
+          "kind": "book",
+          "bookPages": [
+            299
+          ],
+          "pages": [
+            6
+          ],
+          "pageCount": 25,
+          "syntax": "ch13,p299"
         }
       ]
     },

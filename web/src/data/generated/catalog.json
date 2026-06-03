@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T14:49:22.806Z",
+  "generatedAt": "2026-06-03T15:01:18.641Z",
   "stats": {
     "totalQuestions": 192,
     "lectures": 10,
@@ -2909,8 +2909,8 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "The statement provided in the question is the exact definition of 'Training'. Recruitment, on the other hand, is defined as the 'initial attraction and screening of the supply of prospective human resources available to fill a position'.",
-      "reference": "Chapter 13: Human Resource Management - Answer found on Slide 31 (Training Definition) and Slide 5 (Recruitment Definition).",
+      "explanation": "The statement provided in the question is the exact textbook definition of 'Training'. Recruitment, on the other hand, is defined as the 'initial attraction and screening of the supply of prospective human resources available to fill a position'.",
+      "reference": "Textbook Page 303: \"Training is the process of developing qualities in human resources that will enable them to be more productive...\" compared to Textbook Page 297: \"Recruitment is the initial attraction and screening of the supply...\"",
       "slideRef": "ch13:s5,31",
       "slideRefParsed": {
         "lectureId": "ch13",
@@ -2926,6 +2926,44 @@
         "pageCount": 46,
         "syntax": "ch13:s5,31"
       },
+      "sourceRefs": [
+        "ch13:s5,31",
+        "ch13,p297,303"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "slides",
+          "pages": [
+            5,
+            31
+          ],
+          "pageCount": 46,
+          "syntax": "ch13:s5,31"
+        },
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "chapter-13.pdf",
+          "pdfPath": "Book/chapter-13.pdf",
+          "kind": "book",
+          "bookPages": [
+            297,
+            303
+          ],
+          "pages": [
+            4,
+            10
+          ],
+          "pageCount": 25,
+          "syntax": "ch13,p297,303"
+        }
+      ],
       "questionKey": "2021:Q17",
       "origin": "2021",
       "sourceFile": "final21.json",
@@ -2950,9 +2988,9 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "While Wikstrom's forms (Management Inventory Card, Position Replacement Form, Management Manpower Replacement Chart) heavily emphasize management roles, the concept of a human resource inventory broadly keeps 'management up to date about the possibilities for filling a position from within'. Furthermore, the slides indicate that computer software aids managers in complex HR inventories for how 'employees can best be deployed and developed,' showing it is not exclusively for management.",
-      "reference": "Chapter 13: Human Resource Management - Deduced from Slide 13 (Objective) and Slide 18 (Software tools).",
-      "slideRef": "ch13:s13,18",
+      "explanation": "While Wikstrom's specific examples (like the Management Inventory Card) focus heavily on management personnel, the textbook explicitly notes that similar forms can be used to keep a human resource inventory of nonmanagerial personnel as well.",
+      "reference": "Textbook Page 299: \"As you can see, Wikstrom’s forms... are focused on management personnel. Of course, similar forms could be used to keep a human resource inventory of nonmanagerial personnel.\"",
+      "slideRef": "ch13:s13",
       "slideRefParsed": {
         "lectureId": "ch13",
         "chapterNumber": 13,
@@ -2961,12 +2999,46 @@
         "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
         "kind": "slides",
         "pages": [
-          13,
-          18
+          13
         ],
         "pageCount": 46,
-        "syntax": "ch13:s13,18"
+        "syntax": "ch13:s13"
       },
+      "sourceRefs": [
+        "ch13:s13",
+        "ch13,p299"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "slides",
+          "pages": [
+            13
+          ],
+          "pageCount": 46,
+          "syntax": "ch13:s13"
+        },
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "chapter-13.pdf",
+          "pdfPath": "Book/chapter-13.pdf",
+          "kind": "book",
+          "bookPages": [
+            299
+          ],
+          "pages": [
+            6
+          ],
+          "pageCount": 25,
+          "syntax": "ch13,p299"
+        }
+      ],
       "questionKey": "2021:Q18",
       "origin": "2021",
       "sourceFile": "final21.json",
@@ -4267,8 +4339,8 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "The lecture slides define recruitment exactly as 'the initial attraction and screening of the supply of prospective human resources available to fill a position'.",
-      "reference": "Chapter 13: Human Resource Management - Answer found verbatim on Slide 5.",
+      "explanation": "The textbook explicitly defines recruitment exactly as the initial attraction and screening of the supply of prospective human resources available to fill a position.",
+      "reference": "Textbook Page 297: \"Recruitment is the initial attraction and screening of the supply of prospective human resources available to fill a position.\"",
       "slideRef": "ch13:s5",
       "slideRefParsed": {
         "lectureId": "ch13",
@@ -4283,6 +4355,41 @@
         "pageCount": 46,
         "syntax": "ch13:s5"
       },
+      "sourceRefs": [
+        "ch13:s5",
+        "ch13,p297"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "slides",
+          "pages": [
+            5
+          ],
+          "pageCount": 46,
+          "syntax": "ch13:s5"
+        },
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "chapter-13.pdf",
+          "pdfPath": "Book/chapter-13.pdf",
+          "kind": "book",
+          "bookPages": [
+            297
+          ],
+          "pages": [
+            4
+          ],
+          "pageCount": 25,
+          "syntax": "ch13,p297"
+        }
+      ],
       "questionKey": "2021:Q35",
       "origin": "2021",
       "sourceFile": "final21.json",
@@ -4320,21 +4427,56 @@
       ],
       "correctAnswerId": "e",
       "explanation": "A Job Specification contains the human qualifications necessary to do the job, which explicitly includes 'Physical skills'. Job title, working conditions, equipment used, and job summary are all found in a Job Description.",
-      "reference": "Chapter 1: Introduction - Slide 20 (management skills) lists physical skills among qualifications in a job specification.",
-      "slideRef": "ch1:s20",
+      "reference": "Textbook Page 298 (Figure 13.2): Displays 'Job Specification' including 'Physical Skills'. The other options fall under 'Job Description'.",
+      "slideRef": "ch13:s8",
       "slideRefParsed": {
-        "lectureId": "ch1",
-        "chapterNumber": 1,
-        "topic": "Chapter 1: Introduction",
-        "lectureFile": "Chapter 1 - Introduction.pdf",
-        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+        "lectureId": "ch13",
+        "chapterNumber": 13,
+        "topic": "Chapter 13: Human Resource Management",
+        "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+        "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
         "kind": "slides",
         "pages": [
-          20
+          8
         ],
-        "pageCount": 30,
-        "syntax": "ch1:s20"
+        "pageCount": 46,
+        "syntax": "ch13:s8"
       },
+      "sourceRefs": [
+        "ch13:s8",
+        "ch13,p298"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "slides",
+          "pages": [
+            8
+          ],
+          "pageCount": 46,
+          "syntax": "ch13:s8"
+        },
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "chapter-13.pdf",
+          "pdfPath": "Book/chapter-13.pdf",
+          "kind": "book",
+          "bookPages": [
+            298
+          ],
+          "pages": [
+            5
+          ],
+          "pageCount": 25,
+          "syntax": "ch13,p298"
+        }
+      ],
       "questionKey": "2021:Q36",
       "origin": "2021",
       "sourceFile": "final21.json",
@@ -10771,8 +10913,8 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Although not explicitly stated in the provided slides, this is a known external HR concept related to dual-career couples and employee retention strategies. Often, retaining a highly valued employee who is relocating requires assisting their trailing spouse with career placement. *Note: If constrained strictly to the slides, there is no direct evidence for this, but it is a standard true/false question in management courses.*",
-      "reference": "Chapter 13: Human Resource Management - Standard HR Management principle (Not explicitly detailed in the provided slides, but generally considered True in this course context).",
+      "explanation": "Although not explicitly outlined in the core text of this chapter, this is a standard external HR management concept regarding dual-career couples and employee retention. Retaining a highly valued employee often requires addressing work-life constraints, including assisting a trailing spouse.",
+      "reference": "Standard HR Management principle regarding employee retention and dual-career couples (Not explicitly detailed in the provided textbook chapter).",
       "slideRef": "ch13:course",
       "slideRefParsed": {
         "lectureId": "ch13",
@@ -10785,6 +10927,22 @@
         "pageCount": 46,
         "syntax": "ch13:course"
       },
+      "sourceRefs": [
+        "ch13:course"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "course",
+          "pages": [],
+          "pageCount": 46,
+          "syntax": "ch13:course"
+        }
+      ],
       "questionKey": "2025:Q6",
       "origin": "2025",
       "sourceFile": "final25.json",
@@ -10809,8 +10967,8 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "The lecture slides explicitly state that the supply of individuals to recruit from is continually changing, making finding appropriate human resources harder at certain times. Because of this, HR specialists must continually monitor the labor market.",
-      "reference": "Chapter 13: Human Resource Management - Answer found verbatim on Slide 10.",
+      "explanation": "The textbook explicitly states that the labor market is dynamic and the supply of individuals to recruit from is continually changing, making finding appropriate human resources harder at certain times.",
+      "reference": "Textbook Page 297: \"The supply of individuals from which to recruit is continually changing. Thus, there are times when finding appropriate human resources is much harder than at other times.\"",
       "slideRef": "ch13:s10",
       "slideRefParsed": {
         "lectureId": "ch13",
@@ -10825,6 +10983,41 @@
         "pageCount": 46,
         "syntax": "ch13:s10"
       },
+      "sourceRefs": [
+        "ch13:s10",
+        "ch13,p297"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "slides",
+          "pages": [
+            10
+          ],
+          "pageCount": 46,
+          "syntax": "ch13:s10"
+        },
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "chapter-13.pdf",
+          "pdfPath": "Book/chapter-13.pdf",
+          "kind": "book",
+          "bookPages": [
+            297
+          ],
+          "pages": [
+            4
+          ],
+          "pageCount": 25,
+          "syntax": "ch13,p297"
+        }
+      ],
       "questionKey": "2025:Q7",
       "origin": "2025",
       "sourceFile": "final25.json",
@@ -10849,9 +11042,9 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "While Wikstrom's specific examples (Management Inventory Card) focus on managers, the overarching goal of an HR Inventory is to evaluate the characteristics of 'organization members' (past performance and future potential) to fill positions from within. Modern succession planning tools are deployed for 'employees' broadly, not exclusively managers.",
-      "reference": "Chapter 13: Human Resource Management - Answer deduced from Slide 13 and Slide 18.",
-      "slideRef": "ch13:s13,18",
+      "explanation": "While Wikstrom's specific examples focus heavily on management personnel, the textbook explicitly notes that similar forms can be used to keep a human resource inventory of nonmanagerial personnel as well.",
+      "reference": "Textbook Page 299: \"As you can see, Wikstrom’s forms... are focused on management personnel. Of course, similar forms could be used to keep a human resource inventory of nonmanagerial personnel.\"",
+      "slideRef": "ch13:s13",
       "slideRefParsed": {
         "lectureId": "ch13",
         "chapterNumber": 13,
@@ -10860,12 +11053,46 @@
         "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
         "kind": "slides",
         "pages": [
-          13,
-          18
+          13
         ],
         "pageCount": 46,
-        "syntax": "ch13:s13,18"
+        "syntax": "ch13:s13"
       },
+      "sourceRefs": [
+        "ch13:s13",
+        "ch13,p299"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "slides",
+          "pages": [
+            13
+          ],
+          "pageCount": 46,
+          "syntax": "ch13:s13"
+        },
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "chapter-13.pdf",
+          "pdfPath": "Book/chapter-13.pdf",
+          "kind": "book",
+          "bookPages": [
+            299
+          ],
+          "pages": [
+            6
+          ],
+          "pageCount": 25,
+          "syntax": "ch13,p299"
+        }
+      ],
       "questionKey": "2025:Q8",
       "origin": "2025",
       "sourceFile": "final25.json",
@@ -11705,9 +11932,9 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "Training is defined as 'developing qualities in human resources' to make them more productive, and determining training needs involves identifying the 'information or skill areas of an individual/group that need further development'.",
-      "reference": "Chapter 13: Human Resource Management - Answer based on the definitions on Slide 31 and Slide 33.",
-      "slideRef": "ch13:s31,33",
+      "explanation": "Training is defined as developing qualities in human resources to make them more productive. Determining training needs involves identifying the information or skill areas of an individual or group that need further development to enhance their knowledge and skills.",
+      "reference": "Textbook Page 303: \"Training is the process of developing qualities in human resources that will enable them to be more productive...\"",
+      "slideRef": "ch13:s31",
       "slideRefParsed": {
         "lectureId": "ch13",
         "chapterNumber": 13,
@@ -11716,12 +11943,46 @@
         "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
         "kind": "slides",
         "pages": [
-          31,
-          33
+          31
         ],
         "pageCount": 46,
-        "syntax": "ch13:s31,33"
+        "syntax": "ch13:s31"
       },
+      "sourceRefs": [
+        "ch13:s31",
+        "ch13,p303"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "slides",
+          "pages": [
+            31
+          ],
+          "pageCount": 46,
+          "syntax": "ch13:s31"
+        },
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "chapter-13.pdf",
+          "pdfPath": "Book/chapter-13.pdf",
+          "kind": "book",
+          "bookPages": [
+            303
+          ],
+          "pages": [
+            10
+          ],
+          "pageCount": 25,
+          "syntax": "ch13,p303"
+        }
+      ],
       "questionKey": "2025:Q21",
       "origin": "2025",
       "sourceFile": "final25.json",
@@ -12422,9 +12683,9 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "Job analysis is a technique used to gain an understanding of a job, specifically for the purpose of creating a job description (which lists specific activities/duties) and a job specification (human qualifications). It essentially defines the role and its responsibilities.",
-      "reference": "Chapter 13: Human Resource Management - Answer found on Slide 7 and Slide 8.",
-      "slideRef": "ch13:s7-8",
+      "explanation": "Job analysis is a technique used to gain an understanding of what a job entails (resulting in a job description) and what kind of person should be hired (resulting in a job specification). In essence, it defines the job roles and responsibilities.",
+      "reference": "Textbook Page 298: \"Job analysis is a technique commonly used to gain an understanding of what a task entails and the type of individual who should be hired to perform that task.\"",
+      "slideRef": "ch13:s7",
       "slideRefParsed": {
         "lectureId": "ch13",
         "chapterNumber": 13,
@@ -12433,12 +12694,46 @@
         "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
         "kind": "slides",
         "pages": [
-          7,
-          8
+          7
         ],
         "pageCount": 46,
-        "syntax": "ch13:s7-8"
+        "syntax": "ch13:s7"
       },
+      "sourceRefs": [
+        "ch13:s7",
+        "ch13,p298"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "slides",
+          "pages": [
+            7
+          ],
+          "pageCount": 46,
+          "syntax": "ch13:s7"
+        },
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "chapter-13.pdf",
+          "pdfPath": "Book/chapter-13.pdf",
+          "kind": "book",
+          "bookPages": [
+            298
+          ],
+          "pages": [
+            5
+          ],
+          "pageCount": 25,
+          "syntax": "ch13,p298"
+        }
+      ],
       "questionKey": "2025:Q30",
       "origin": "2025",
       "sourceFile": "final25.json",
@@ -12639,9 +12934,9 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "The phrasing of the question is somewhat tautological. The process of recruiting and selecting employees falls directly under the 'Recruitment and Selection' (or 'Providing Human Resources') function of HRM, which encompasses Step 1: Recruitment and Step 2: Selection.",
-      "reference": "Chapter 13: Human Resource Management - Slide 26 defines selection in the HRM process.",
-      "slideRef": "ch13:s26",
+      "explanation": "The process of recruiting and selecting employees falls directly under the 'Providing Human Resources' function of HRM, which encompasses Step 1: Recruitment and Step 2: Selection.",
+      "reference": "Textbook Page 296 (Figure 13.1): Displays 'Recruitment' and 'Selection' as the first two steps in providing appropriate human resources.",
+      "slideRef": "ch13:s4",
       "slideRefParsed": {
         "lectureId": "ch13",
         "chapterNumber": 13,
@@ -12650,11 +12945,46 @@
         "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
         "kind": "slides",
         "pages": [
-          26
+          4
         ],
         "pageCount": 46,
-        "syntax": "ch13:s26"
+        "syntax": "ch13:s4"
       },
+      "sourceRefs": [
+        "ch13:s4",
+        "ch13,p296"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "slides",
+          "pages": [
+            4
+          ],
+          "pageCount": 46,
+          "syntax": "ch13:s4"
+        },
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "chapter-13.pdf",
+          "pdfPath": "Book/chapter-13.pdf",
+          "kind": "book",
+          "bookPages": [
+            296
+          ],
+          "pages": [
+            3
+          ],
+          "pageCount": 25,
+          "syntax": "ch13,p296"
+        }
+      ],
       "questionKey": "2025:Q33",
       "origin": "2025",
       "sourceFile": "final25.json",
@@ -13571,8 +13901,8 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Methods for determining training needs include 'Looking into the future', which directly aligns with considering current and projected changes within the organization. Rating scales, interviews, and questionnaires are typically performance appraisal or data gathering tools.",
-      "reference": "Chapter 13: Human Resource Management - Answer aligns with 'Looking into the future' method on Slide 33.",
+      "explanation": "Methods for determining training needs include 'Looking into the future', which directly aligns with considering current and projected changes within the organization (e.g., planning to buy new equipment).",
+      "reference": "Textbook Page 304: \"Another way to determine training needs is to look into the future. If management is planning to buy new equipment, expand...\"",
       "slideRef": "ch13:s33",
       "slideRefParsed": {
         "lectureId": "ch13",
@@ -13587,6 +13917,41 @@
         "pageCount": 46,
         "syntax": "ch13:s33"
       },
+      "sourceRefs": [
+        "ch13:s33",
+        "ch13,p304"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "slides",
+          "pages": [
+            33
+          ],
+          "pageCount": 46,
+          "syntax": "ch13:s33"
+        },
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "chapter-13.pdf",
+          "pdfPath": "Book/chapter-13.pdf",
+          "kind": "book",
+          "bookPages": [
+            304
+          ],
+          "pages": [
+            11
+          ],
+          "pageCount": 25,
+          "syntax": "ch13,p304"
+        }
+      ],
       "questionKey": "2025:Q45",
       "origin": "2025",
       "sourceFile": "final25.json",
@@ -13798,8 +14163,8 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "Performance Appraisal is explicitly defined as the 'process of reviewing individuals' past productive activity to evaluate the contribution they have made'. Its purpose is to furnish feedback to help them become more productive (improve performance).",
-      "reference": "Chapter 13: Human Resource Management - Answer found verbatim on Slide 41.",
+      "explanation": "Performance Appraisal is explicitly defined in the textbook as the process of reviewing individuals' past productive activity to evaluate the contribution they have made and provide feedback for improvement.",
+      "reference": "Textbook Page 308: \"Performance appraisal is the process of reviewing individuals’ past productive activity to evaluate the contribution they have made toward attaining management system objectives.\"",
       "slideRef": "ch13:s41",
       "slideRefParsed": {
         "lectureId": "ch13",
@@ -13814,6 +14179,41 @@
         "pageCount": 46,
         "syntax": "ch13:s41"
       },
+      "sourceRefs": [
+        "ch13:s41",
+        "ch13,p308"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "slides",
+          "pages": [
+            41
+          ],
+          "pageCount": 46,
+          "syntax": "ch13:s41"
+        },
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "chapter-13.pdf",
+          "pdfPath": "Book/chapter-13.pdf",
+          "kind": "book",
+          "bookPages": [
+            308
+          ],
+          "pages": [
+            15
+          ],
+          "pageCount": 25,
+          "syntax": "ch13,p308"
+        }
+      ],
       "questionKey": "2025:Q49",
       "origin": "2025",
       "sourceFile": "final25.json",
@@ -14254,8 +14654,8 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Comparing actual productive activity (achievements) against the management system objectives is the process of reviewing Job Performance during a Performance Appraisal. A job description merely lists the duties, and job evaluation is a method to determine compensation.",
-      "reference": "Chapter 13: Human Resource Management - Answer deduced from the definition of Performance Appraisal on Slide 41.",
+      "explanation": "Comparing actual productive activity (achievements) against the management system objectives is the process of reviewing Job Performance during a Performance Appraisal.",
+      "reference": "Textbook Page 308: Discusses performance appraisal as reviewing past productive activity to evaluate contribution to management system objectives.",
       "slideRef": "ch13:s41",
       "slideRefParsed": {
         "lectureId": "ch13",
@@ -14270,6 +14670,41 @@
         "pageCount": 46,
         "syntax": "ch13:s41"
       },
+      "sourceRefs": [
+        "ch13:s41",
+        "ch13,p308"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "slides",
+          "pages": [
+            41
+          ],
+          "pageCount": 46,
+          "syntax": "ch13:s41"
+        },
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "chapter-13.pdf",
+          "pdfPath": "Book/chapter-13.pdf",
+          "kind": "book",
+          "bookPages": [
+            308
+          ],
+          "pages": [
+            15
+          ],
+          "pageCount": 25,
+          "syntax": "ch13,p308"
+        }
+      ],
       "questionKey": "2025:Q55",
       "origin": "2025",
       "sourceFile": "final25.json",
@@ -14302,8 +14737,8 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "While specific methods are not explicitly detailed in the provided slides, in standard HRM theory, the 'Essay method' requires the evaluator to write a detailed narrative describing the employee's performance, which is highly time-consuming compared to simply checking boxes on a Rating Scale.",
-      "reference": "Chapter 13: Human Resource Management - Standard HR Management principle (Not explicitly detailed in the provided slides, but a standard answer in HRM courses).",
+      "explanation": "While specific appraisal methods like the essay method are not detailed heavily in the provided textbook chapter, in standard HRM theory, the 'Essay method' requires the evaluator to write a detailed, free-form narrative describing the employee's performance. This makes it highly time-consuming compared to checking boxes on Rating Scales.",
+      "reference": "Standard HR Management principle (Not explicitly detailed in the provided textbook or slides).",
       "slideRef": "ch13:course",
       "slideRefParsed": {
         "lectureId": "ch13",
@@ -14316,6 +14751,22 @@
         "pageCount": 46,
         "syntax": "ch13:course"
       },
+      "sourceRefs": [
+        "ch13:course"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "course",
+          "pages": [],
+          "pageCount": 46,
+          "syntax": "ch13:course"
+        }
+      ],
       "questionKey": "2025:Q56",
       "origin": "2025",
       "sourceFile": "final25.json",
@@ -14348,8 +14799,8 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "Training is defined as developing qualities in human resources to make them more productive. By utilizing techniques like Programmed Learning, Coaching, and Position Rotation, training inherently provides a climate for learning and growth. *Note: While 'a' and 'b' can be secondary effects, 'c' is the most direct benefit of a structured learning program.*",
-      "reference": "Chapter 13: Human Resource Management - Answer supported by the 'Techniques for Transmitting Information' and 'Developing Skills' on Slides 36-39.",
+      "explanation": "Training is defined as developing qualities in human resources to make them more productive. By utilizing structured techniques for developing skills and transmitting information, training provides a climate for learning, growth, and improved coordination.",
+      "reference": "Textbook Page 303: \"Training is the process of developing qualities in human resources...\" Slides 36-39 cover techniques that facilitate learning and skill development.",
       "slideRef": "ch13:s36-39",
       "slideRefParsed": {
         "lectureId": "ch13",
@@ -14367,6 +14818,44 @@
         "pageCount": 46,
         "syntax": "ch13:s36-39"
       },
+      "sourceRefs": [
+        "ch13:s36-39",
+        "ch13,p303"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "slides",
+          "pages": [
+            36,
+            37,
+            38,
+            39
+          ],
+          "pageCount": 46,
+          "syntax": "ch13:s36-39"
+        },
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "chapter-13.pdf",
+          "pdfPath": "Book/chapter-13.pdf",
+          "kind": "book",
+          "bookPages": [
+            303
+          ],
+          "pages": [
+            10
+          ],
+          "pageCount": 25,
+          "syntax": "ch13,p303"
+        }
+      ],
       "questionKey": "2025:Q57",
       "origin": "2025",
       "sourceFile": "final25.json",
@@ -17804,8 +18293,8 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "The statement provided in the question is the exact definition of 'Training'. Recruitment, on the other hand, is defined as the 'initial attraction and screening of the supply of prospective human resources available to fill a position'.",
-      "reference": "Chapter 13: Human Resource Management - Answer found on Slide 31 (Training Definition) and Slide 5 (Recruitment Definition).",
+      "explanation": "The statement provided in the question is the exact textbook definition of 'Training'. Recruitment, on the other hand, is defined as the 'initial attraction and screening of the supply of prospective human resources available to fill a position'.",
+      "reference": "Textbook Page 303: \"Training is the process of developing qualities in human resources that will enable them to be more productive...\" compared to Textbook Page 297: \"Recruitment is the initial attraction and screening of the supply...\"",
       "slideRef": "ch13:s5,31",
       "slideRefParsed": {
         "lectureId": "ch13",
@@ -17821,6 +18310,44 @@
         "pageCount": 46,
         "syntax": "ch13:s5,31"
       },
+      "sourceRefs": [
+        "ch13:s5,31",
+        "ch13,p297,303"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "slides",
+          "pages": [
+            5,
+            31
+          ],
+          "pageCount": 46,
+          "syntax": "ch13:s5,31"
+        },
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "chapter-13.pdf",
+          "pdfPath": "Book/chapter-13.pdf",
+          "kind": "book",
+          "bookPages": [
+            297,
+            303
+          ],
+          "pages": [
+            4,
+            10
+          ],
+          "pageCount": 25,
+          "syntax": "ch13,p297,303"
+        }
+      ],
       "questionKey": "2021:Q17",
       "origin": "2021",
       "sourceFile": "final21.json",
@@ -17845,9 +18372,9 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "While Wikstrom's forms (Management Inventory Card, Position Replacement Form, Management Manpower Replacement Chart) heavily emphasize management roles, the concept of a human resource inventory broadly keeps 'management up to date about the possibilities for filling a position from within'. Furthermore, the slides indicate that computer software aids managers in complex HR inventories for how 'employees can best be deployed and developed,' showing it is not exclusively for management.",
-      "reference": "Chapter 13: Human Resource Management - Deduced from Slide 13 (Objective) and Slide 18 (Software tools).",
-      "slideRef": "ch13:s13,18",
+      "explanation": "While Wikstrom's specific examples (like the Management Inventory Card) focus heavily on management personnel, the textbook explicitly notes that similar forms can be used to keep a human resource inventory of nonmanagerial personnel as well.",
+      "reference": "Textbook Page 299: \"As you can see, Wikstrom’s forms... are focused on management personnel. Of course, similar forms could be used to keep a human resource inventory of nonmanagerial personnel.\"",
+      "slideRef": "ch13:s13",
       "slideRefParsed": {
         "lectureId": "ch13",
         "chapterNumber": 13,
@@ -17856,12 +18383,46 @@
         "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
         "kind": "slides",
         "pages": [
-          13,
-          18
+          13
         ],
         "pageCount": 46,
-        "syntax": "ch13:s13,18"
+        "syntax": "ch13:s13"
       },
+      "sourceRefs": [
+        "ch13:s13",
+        "ch13,p299"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "slides",
+          "pages": [
+            13
+          ],
+          "pageCount": 46,
+          "syntax": "ch13:s13"
+        },
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "chapter-13.pdf",
+          "pdfPath": "Book/chapter-13.pdf",
+          "kind": "book",
+          "bookPages": [
+            299
+          ],
+          "pages": [
+            6
+          ],
+          "pageCount": 25,
+          "syntax": "ch13,p299"
+        }
+      ],
       "questionKey": "2021:Q18",
       "origin": "2021",
       "sourceFile": "final21.json",
@@ -19300,8 +19861,8 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "The lecture slides define recruitment exactly as 'the initial attraction and screening of the supply of prospective human resources available to fill a position'.",
-      "reference": "Chapter 13: Human Resource Management - Answer found verbatim on Slide 5.",
+      "explanation": "The textbook explicitly defines recruitment exactly as the initial attraction and screening of the supply of prospective human resources available to fill a position.",
+      "reference": "Textbook Page 297: \"Recruitment is the initial attraction and screening of the supply of prospective human resources available to fill a position.\"",
       "slideRef": "ch13:s5",
       "slideRefParsed": {
         "lectureId": "ch13",
@@ -19316,6 +19877,41 @@
         "pageCount": 46,
         "syntax": "ch13:s5"
       },
+      "sourceRefs": [
+        "ch13:s5",
+        "ch13,p297"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "slides",
+          "pages": [
+            5
+          ],
+          "pageCount": 46,
+          "syntax": "ch13:s5"
+        },
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "chapter-13.pdf",
+          "pdfPath": "Book/chapter-13.pdf",
+          "kind": "book",
+          "bookPages": [
+            297
+          ],
+          "pages": [
+            4
+          ],
+          "pageCount": 25,
+          "syntax": "ch13,p297"
+        }
+      ],
       "questionKey": "2021:Q35",
       "origin": "2021",
       "sourceFile": "final21.json",
@@ -19353,21 +19949,56 @@
       ],
       "correctAnswerId": "e",
       "explanation": "A Job Specification contains the human qualifications necessary to do the job, which explicitly includes 'Physical skills'. Job title, working conditions, equipment used, and job summary are all found in a Job Description.",
-      "reference": "Chapter 1: Introduction - Slide 20 (management skills) lists physical skills among qualifications in a job specification.",
-      "slideRef": "ch1:s20",
+      "reference": "Textbook Page 298 (Figure 13.2): Displays 'Job Specification' including 'Physical Skills'. The other options fall under 'Job Description'.",
+      "slideRef": "ch13:s8",
       "slideRefParsed": {
-        "lectureId": "ch1",
-        "chapterNumber": 1,
-        "topic": "Chapter 1: Introduction",
-        "lectureFile": "Chapter 1 - Introduction.pdf",
-        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+        "lectureId": "ch13",
+        "chapterNumber": 13,
+        "topic": "Chapter 13: Human Resource Management",
+        "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+        "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
         "kind": "slides",
         "pages": [
-          20
+          8
         ],
-        "pageCount": 30,
-        "syntax": "ch1:s20"
+        "pageCount": 46,
+        "syntax": "ch13:s8"
       },
+      "sourceRefs": [
+        "ch13:s8",
+        "ch13,p298"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "slides",
+          "pages": [
+            8
+          ],
+          "pageCount": 46,
+          "syntax": "ch13:s8"
+        },
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "chapter-13.pdf",
+          "pdfPath": "Book/chapter-13.pdf",
+          "kind": "book",
+          "bookPages": [
+            298
+          ],
+          "pages": [
+            5
+          ],
+          "pageCount": 25,
+          "syntax": "ch13,p298"
+        }
+      ],
       "questionKey": "2021:Q36",
       "origin": "2021",
       "sourceFile": "final21.json",
@@ -26230,8 +26861,8 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Although not explicitly stated in the provided slides, this is a known external HR concept related to dual-career couples and employee retention strategies. Often, retaining a highly valued employee who is relocating requires assisting their trailing spouse with career placement. *Note: If constrained strictly to the slides, there is no direct evidence for this, but it is a standard true/false question in management courses.*",
-      "reference": "Chapter 13: Human Resource Management - Standard HR Management principle (Not explicitly detailed in the provided slides, but generally considered True in this course context).",
+      "explanation": "Although not explicitly outlined in the core text of this chapter, this is a standard external HR management concept regarding dual-career couples and employee retention. Retaining a highly valued employee often requires addressing work-life constraints, including assisting a trailing spouse.",
+      "reference": "Standard HR Management principle regarding employee retention and dual-career couples (Not explicitly detailed in the provided textbook chapter).",
       "slideRef": "ch13:course",
       "slideRefParsed": {
         "lectureId": "ch13",
@@ -26244,6 +26875,22 @@
         "pageCount": 46,
         "syntax": "ch13:course"
       },
+      "sourceRefs": [
+        "ch13:course"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "course",
+          "pages": [],
+          "pageCount": 46,
+          "syntax": "ch13:course"
+        }
+      ],
       "questionKey": "2025:Q6",
       "origin": "2025",
       "sourceFile": "final25.json",
@@ -26268,8 +26915,8 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "The lecture slides explicitly state that the supply of individuals to recruit from is continually changing, making finding appropriate human resources harder at certain times. Because of this, HR specialists must continually monitor the labor market.",
-      "reference": "Chapter 13: Human Resource Management - Answer found verbatim on Slide 10.",
+      "explanation": "The textbook explicitly states that the labor market is dynamic and the supply of individuals to recruit from is continually changing, making finding appropriate human resources harder at certain times.",
+      "reference": "Textbook Page 297: \"The supply of individuals from which to recruit is continually changing. Thus, there are times when finding appropriate human resources is much harder than at other times.\"",
       "slideRef": "ch13:s10",
       "slideRefParsed": {
         "lectureId": "ch13",
@@ -26284,6 +26931,41 @@
         "pageCount": 46,
         "syntax": "ch13:s10"
       },
+      "sourceRefs": [
+        "ch13:s10",
+        "ch13,p297"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "slides",
+          "pages": [
+            10
+          ],
+          "pageCount": 46,
+          "syntax": "ch13:s10"
+        },
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "chapter-13.pdf",
+          "pdfPath": "Book/chapter-13.pdf",
+          "kind": "book",
+          "bookPages": [
+            297
+          ],
+          "pages": [
+            4
+          ],
+          "pageCount": 25,
+          "syntax": "ch13,p297"
+        }
+      ],
       "questionKey": "2025:Q7",
       "origin": "2025",
       "sourceFile": "final25.json",
@@ -26308,9 +26990,9 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "While Wikstrom's specific examples (Management Inventory Card) focus on managers, the overarching goal of an HR Inventory is to evaluate the characteristics of 'organization members' (past performance and future potential) to fill positions from within. Modern succession planning tools are deployed for 'employees' broadly, not exclusively managers.",
-      "reference": "Chapter 13: Human Resource Management - Answer deduced from Slide 13 and Slide 18.",
-      "slideRef": "ch13:s13,18",
+      "explanation": "While Wikstrom's specific examples focus heavily on management personnel, the textbook explicitly notes that similar forms can be used to keep a human resource inventory of nonmanagerial personnel as well.",
+      "reference": "Textbook Page 299: \"As you can see, Wikstrom’s forms... are focused on management personnel. Of course, similar forms could be used to keep a human resource inventory of nonmanagerial personnel.\"",
+      "slideRef": "ch13:s13",
       "slideRefParsed": {
         "lectureId": "ch13",
         "chapterNumber": 13,
@@ -26319,12 +27001,46 @@
         "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
         "kind": "slides",
         "pages": [
-          13,
-          18
+          13
         ],
         "pageCount": 46,
-        "syntax": "ch13:s13,18"
+        "syntax": "ch13:s13"
       },
+      "sourceRefs": [
+        "ch13:s13",
+        "ch13,p299"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "slides",
+          "pages": [
+            13
+          ],
+          "pageCount": 46,
+          "syntax": "ch13:s13"
+        },
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "chapter-13.pdf",
+          "pdfPath": "Book/chapter-13.pdf",
+          "kind": "book",
+          "bookPages": [
+            299
+          ],
+          "pages": [
+            6
+          ],
+          "pageCount": 25,
+          "syntax": "ch13,p299"
+        }
+      ],
       "questionKey": "2025:Q8",
       "origin": "2025",
       "sourceFile": "final25.json",
@@ -27284,9 +28000,9 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "Training is defined as 'developing qualities in human resources' to make them more productive, and determining training needs involves identifying the 'information or skill areas of an individual/group that need further development'.",
-      "reference": "Chapter 13: Human Resource Management - Answer based on the definitions on Slide 31 and Slide 33.",
-      "slideRef": "ch13:s31,33",
+      "explanation": "Training is defined as developing qualities in human resources to make them more productive. Determining training needs involves identifying the information or skill areas of an individual or group that need further development to enhance their knowledge and skills.",
+      "reference": "Textbook Page 303: \"Training is the process of developing qualities in human resources that will enable them to be more productive...\"",
+      "slideRef": "ch13:s31",
       "slideRefParsed": {
         "lectureId": "ch13",
         "chapterNumber": 13,
@@ -27295,12 +28011,46 @@
         "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
         "kind": "slides",
         "pages": [
-          31,
-          33
+          31
         ],
         "pageCount": 46,
-        "syntax": "ch13:s31,33"
+        "syntax": "ch13:s31"
       },
+      "sourceRefs": [
+        "ch13:s31",
+        "ch13,p303"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "slides",
+          "pages": [
+            31
+          ],
+          "pageCount": 46,
+          "syntax": "ch13:s31"
+        },
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "chapter-13.pdf",
+          "pdfPath": "Book/chapter-13.pdf",
+          "kind": "book",
+          "bookPages": [
+            303
+          ],
+          "pages": [
+            10
+          ],
+          "pageCount": 25,
+          "syntax": "ch13,p303"
+        }
+      ],
       "questionKey": "2025:Q21",
       "origin": "2025",
       "sourceFile": "final25.json",
@@ -28037,9 +28787,9 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "Job analysis is a technique used to gain an understanding of a job, specifically for the purpose of creating a job description (which lists specific activities/duties) and a job specification (human qualifications). It essentially defines the role and its responsibilities.",
-      "reference": "Chapter 13: Human Resource Management - Answer found on Slide 7 and Slide 8.",
-      "slideRef": "ch13:s7-8",
+      "explanation": "Job analysis is a technique used to gain an understanding of what a job entails (resulting in a job description) and what kind of person should be hired (resulting in a job specification). In essence, it defines the job roles and responsibilities.",
+      "reference": "Textbook Page 298: \"Job analysis is a technique commonly used to gain an understanding of what a task entails and the type of individual who should be hired to perform that task.\"",
+      "slideRef": "ch13:s7",
       "slideRefParsed": {
         "lectureId": "ch13",
         "chapterNumber": 13,
@@ -28048,12 +28798,46 @@
         "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
         "kind": "slides",
         "pages": [
-          7,
-          8
+          7
         ],
         "pageCount": 46,
-        "syntax": "ch13:s7-8"
+        "syntax": "ch13:s7"
       },
+      "sourceRefs": [
+        "ch13:s7",
+        "ch13,p298"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "slides",
+          "pages": [
+            7
+          ],
+          "pageCount": 46,
+          "syntax": "ch13:s7"
+        },
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "chapter-13.pdf",
+          "pdfPath": "Book/chapter-13.pdf",
+          "kind": "book",
+          "bookPages": [
+            298
+          ],
+          "pages": [
+            5
+          ],
+          "pageCount": 25,
+          "syntax": "ch13,p298"
+        }
+      ],
       "questionKey": "2025:Q30",
       "origin": "2025",
       "sourceFile": "final25.json",
@@ -28254,9 +29038,9 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "The phrasing of the question is somewhat tautological. The process of recruiting and selecting employees falls directly under the 'Recruitment and Selection' (or 'Providing Human Resources') function of HRM, which encompasses Step 1: Recruitment and Step 2: Selection.",
-      "reference": "Chapter 13: Human Resource Management - Slide 26 defines selection in the HRM process.",
-      "slideRef": "ch13:s26",
+      "explanation": "The process of recruiting and selecting employees falls directly under the 'Providing Human Resources' function of HRM, which encompasses Step 1: Recruitment and Step 2: Selection.",
+      "reference": "Textbook Page 296 (Figure 13.1): Displays 'Recruitment' and 'Selection' as the first two steps in providing appropriate human resources.",
+      "slideRef": "ch13:s4",
       "slideRefParsed": {
         "lectureId": "ch13",
         "chapterNumber": 13,
@@ -28265,11 +29049,46 @@
         "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
         "kind": "slides",
         "pages": [
-          26
+          4
         ],
         "pageCount": 46,
-        "syntax": "ch13:s26"
+        "syntax": "ch13:s4"
       },
+      "sourceRefs": [
+        "ch13:s4",
+        "ch13,p296"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "slides",
+          "pages": [
+            4
+          ],
+          "pageCount": 46,
+          "syntax": "ch13:s4"
+        },
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "chapter-13.pdf",
+          "pdfPath": "Book/chapter-13.pdf",
+          "kind": "book",
+          "bookPages": [
+            296
+          ],
+          "pages": [
+            3
+          ],
+          "pageCount": 25,
+          "syntax": "ch13,p296"
+        }
+      ],
       "questionKey": "2025:Q33",
       "origin": "2025",
       "sourceFile": "final25.json",
@@ -29204,8 +30023,8 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Methods for determining training needs include 'Looking into the future', which directly aligns with considering current and projected changes within the organization. Rating scales, interviews, and questionnaires are typically performance appraisal or data gathering tools.",
-      "reference": "Chapter 13: Human Resource Management - Answer aligns with 'Looking into the future' method on Slide 33.",
+      "explanation": "Methods for determining training needs include 'Looking into the future', which directly aligns with considering current and projected changes within the organization (e.g., planning to buy new equipment).",
+      "reference": "Textbook Page 304: \"Another way to determine training needs is to look into the future. If management is planning to buy new equipment, expand...\"",
       "slideRef": "ch13:s33",
       "slideRefParsed": {
         "lectureId": "ch13",
@@ -29220,6 +30039,41 @@
         "pageCount": 46,
         "syntax": "ch13:s33"
       },
+      "sourceRefs": [
+        "ch13:s33",
+        "ch13,p304"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "slides",
+          "pages": [
+            33
+          ],
+          "pageCount": 46,
+          "syntax": "ch13:s33"
+        },
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "chapter-13.pdf",
+          "pdfPath": "Book/chapter-13.pdf",
+          "kind": "book",
+          "bookPages": [
+            304
+          ],
+          "pages": [
+            11
+          ],
+          "pageCount": 25,
+          "syntax": "ch13,p304"
+        }
+      ],
       "questionKey": "2025:Q45",
       "origin": "2025",
       "sourceFile": "final25.json",
@@ -29431,8 +30285,8 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "Performance Appraisal is explicitly defined as the 'process of reviewing individuals' past productive activity to evaluate the contribution they have made'. Its purpose is to furnish feedback to help them become more productive (improve performance).",
-      "reference": "Chapter 13: Human Resource Management - Answer found verbatim on Slide 41.",
+      "explanation": "Performance Appraisal is explicitly defined in the textbook as the process of reviewing individuals' past productive activity to evaluate the contribution they have made and provide feedback for improvement.",
+      "reference": "Textbook Page 308: \"Performance appraisal is the process of reviewing individuals’ past productive activity to evaluate the contribution they have made toward attaining management system objectives.\"",
       "slideRef": "ch13:s41",
       "slideRefParsed": {
         "lectureId": "ch13",
@@ -29447,6 +30301,41 @@
         "pageCount": 46,
         "syntax": "ch13:s41"
       },
+      "sourceRefs": [
+        "ch13:s41",
+        "ch13,p308"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "slides",
+          "pages": [
+            41
+          ],
+          "pageCount": 46,
+          "syntax": "ch13:s41"
+        },
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "chapter-13.pdf",
+          "pdfPath": "Book/chapter-13.pdf",
+          "kind": "book",
+          "bookPages": [
+            308
+          ],
+          "pages": [
+            15
+          ],
+          "pageCount": 25,
+          "syntax": "ch13,p308"
+        }
+      ],
       "questionKey": "2025:Q49",
       "origin": "2025",
       "sourceFile": "final25.json",
@@ -29905,8 +30794,8 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Comparing actual productive activity (achievements) against the management system objectives is the process of reviewing Job Performance during a Performance Appraisal. A job description merely lists the duties, and job evaluation is a method to determine compensation.",
-      "reference": "Chapter 13: Human Resource Management - Answer deduced from the definition of Performance Appraisal on Slide 41.",
+      "explanation": "Comparing actual productive activity (achievements) against the management system objectives is the process of reviewing Job Performance during a Performance Appraisal.",
+      "reference": "Textbook Page 308: Discusses performance appraisal as reviewing past productive activity to evaluate contribution to management system objectives.",
       "slideRef": "ch13:s41",
       "slideRefParsed": {
         "lectureId": "ch13",
@@ -29921,6 +30810,41 @@
         "pageCount": 46,
         "syntax": "ch13:s41"
       },
+      "sourceRefs": [
+        "ch13:s41",
+        "ch13,p308"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "slides",
+          "pages": [
+            41
+          ],
+          "pageCount": 46,
+          "syntax": "ch13:s41"
+        },
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "chapter-13.pdf",
+          "pdfPath": "Book/chapter-13.pdf",
+          "kind": "book",
+          "bookPages": [
+            308
+          ],
+          "pages": [
+            15
+          ],
+          "pageCount": 25,
+          "syntax": "ch13,p308"
+        }
+      ],
       "questionKey": "2025:Q55",
       "origin": "2025",
       "sourceFile": "final25.json",
@@ -29953,8 +30877,8 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "While specific methods are not explicitly detailed in the provided slides, in standard HRM theory, the 'Essay method' requires the evaluator to write a detailed narrative describing the employee's performance, which is highly time-consuming compared to simply checking boxes on a Rating Scale.",
-      "reference": "Chapter 13: Human Resource Management - Standard HR Management principle (Not explicitly detailed in the provided slides, but a standard answer in HRM courses).",
+      "explanation": "While specific appraisal methods like the essay method are not detailed heavily in the provided textbook chapter, in standard HRM theory, the 'Essay method' requires the evaluator to write a detailed, free-form narrative describing the employee's performance. This makes it highly time-consuming compared to checking boxes on Rating Scales.",
+      "reference": "Standard HR Management principle (Not explicitly detailed in the provided textbook or slides).",
       "slideRef": "ch13:course",
       "slideRefParsed": {
         "lectureId": "ch13",
@@ -29967,6 +30891,22 @@
         "pageCount": 46,
         "syntax": "ch13:course"
       },
+      "sourceRefs": [
+        "ch13:course"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "course",
+          "pages": [],
+          "pageCount": 46,
+          "syntax": "ch13:course"
+        }
+      ],
       "questionKey": "2025:Q56",
       "origin": "2025",
       "sourceFile": "final25.json",
@@ -29999,8 +30939,8 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "Training is defined as developing qualities in human resources to make them more productive. By utilizing techniques like Programmed Learning, Coaching, and Position Rotation, training inherently provides a climate for learning and growth. *Note: While 'a' and 'b' can be secondary effects, 'c' is the most direct benefit of a structured learning program.*",
-      "reference": "Chapter 13: Human Resource Management - Answer supported by the 'Techniques for Transmitting Information' and 'Developing Skills' on Slides 36-39.",
+      "explanation": "Training is defined as developing qualities in human resources to make them more productive. By utilizing structured techniques for developing skills and transmitting information, training provides a climate for learning, growth, and improved coordination.",
+      "reference": "Textbook Page 303: \"Training is the process of developing qualities in human resources...\" Slides 36-39 cover techniques that facilitate learning and skill development.",
       "slideRef": "ch13:s36-39",
       "slideRefParsed": {
         "lectureId": "ch13",
@@ -30018,6 +30958,44 @@
         "pageCount": 46,
         "syntax": "ch13:s36-39"
       },
+      "sourceRefs": [
+        "ch13:s36-39",
+        "ch13,p303"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "Chapter 13 - Human Resource Management.pdf",
+          "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+          "kind": "slides",
+          "pages": [
+            36,
+            37,
+            38,
+            39
+          ],
+          "pageCount": 46,
+          "syntax": "ch13:s36-39"
+        },
+        {
+          "lectureId": "ch13",
+          "chapterNumber": 13,
+          "topic": "Chapter 13: Human Resource Management",
+          "lectureFile": "chapter-13.pdf",
+          "pdfPath": "Book/chapter-13.pdf",
+          "kind": "book",
+          "bookPages": [
+            303
+          ],
+          "pages": [
+            10
+          ],
+          "pageCount": 25,
+          "syntax": "ch13,p303"
+        }
+      ],
       "questionKey": "2025:Q57",
       "origin": "2025",
       "sourceFile": "final25.json",

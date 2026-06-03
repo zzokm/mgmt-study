@@ -978,7 +978,7 @@
       "explanation": "Despite the flawed wording in option 'c' ('Selecting up objective' instead of 'Selecting an alternative'), Step 4 of the planning process involves choosing the best alternative (the topmost/applicable plan) for implementation.",
       "reference": "Textbook Page 164 (The Planning Process): \"Step 4: Choose best alternative for reaching objectives.\"",
       "sourceRefs": [
-        "ch7:s10",
+        "ch7:s8",
         "ch7,p164"
       ],
       "sourceRefsParsed": [
@@ -990,10 +990,10 @@
           "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
           "kind": "slides",
           "pages": [
-            10
+            8
           ],
           "pageCount": 27,
-          "syntax": "ch7:s10"
+          "syntax": "ch7:s8"
         },
         {
           "lectureId": "ch7",
@@ -1017,7 +1017,7 @@
       "sourceQuestionId": "Q40",
       "questionType": "mcq",
       "poolIndex": 13,
-      "slideRef": "ch7:s10",
+      "slideRef": "ch7:s8",
       "slideRefParsed": {
         "lectureId": "ch7",
         "chapterNumber": 7,
@@ -1026,10 +1026,10 @@
         "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
         "kind": "slides",
         "pages": [
-          10
+          8
         ],
         "pageCount": 27,
-        "syntax": "ch7:s10"
+        "syntax": "ch7:s8"
       }
     },
     {
@@ -1059,7 +1059,7 @@
       "explanation": "Evaluating alternatives involves analyzing the pros and cons (the two sides of the coin) of each listed option before making a final selection.",
       "reference": "Textbook Page 164: Evaluating alternatives is the step where managers assess the benefits and drawbacks of each potential course of action.",
       "sourceRefs": [
-        "ch7:s10",
+        "ch7:s8",
         "ch7,p164"
       ],
       "sourceRefsParsed": [
@@ -1071,10 +1071,10 @@
           "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
           "kind": "slides",
           "pages": [
-            10
+            8
           ],
           "pageCount": 27,
-          "syntax": "ch7:s10"
+          "syntax": "ch7:s8"
         },
         {
           "lectureId": "ch7",
@@ -1098,7 +1098,7 @@
       "sourceQuestionId": "Q42",
       "questionType": "mcq",
       "poolIndex": 14,
-      "slideRef": "ch7:s10",
+      "slideRef": "ch7:s8",
       "slideRefParsed": {
         "lectureId": "ch7",
         "chapterNumber": 7,
@@ -1107,10 +1107,10 @@
         "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
         "kind": "slides",
         "pages": [
-          10
+          8
         ],
         "pageCount": 27,
-        "syntax": "ch7:s10"
+        "syntax": "ch7:s8"
       }
     },
     {
@@ -1221,7 +1221,7 @@
       "explanation": "Developing or setting planning premises involves making assumptions about the future conditions upon which alternative plans will be based. It is essentially thinking about future scenarios.",
       "reference": "Textbook Page 164: Step 3 of the Planning Process involves \"Develop premises upon which each alternative is based... a premise is an assumption upon which the alternative is based.\"",
       "sourceRefs": [
-        "ch7:s10",
+        "ch7:s8",
         "ch7,p164"
       ],
       "sourceRefsParsed": [
@@ -1233,10 +1233,10 @@
           "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
           "kind": "slides",
           "pages": [
-            10
+            8
           ],
           "pageCount": 27,
-          "syntax": "ch7:s10"
+          "syntax": "ch7:s8"
         },
         {
           "lectureId": "ch7",
@@ -1260,7 +1260,7 @@
       "sourceQuestionId": "Q47",
       "questionType": "mcq",
       "poolIndex": 16,
-      "slideRef": "ch7:s10",
+      "slideRef": "ch7:s8",
       "slideRefParsed": {
         "lectureId": "ch7",
         "chapterNumber": 7,
@@ -1269,10 +1269,10 @@
         "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
         "kind": "slides",
         "pages": [
-          10
+          8
         ],
         "pageCount": 27,
-        "syntax": "ch7:s10"
+        "syntax": "ch7:s8"
       }
     },
     {
@@ -1383,7 +1383,7 @@
       "explanation": "After evaluating options, the manager chooses the best (most feasible) alternative to reach the objectives, which is then developed into actionable plans.",
       "reference": "Textbook Page 164: Step 4 of the Planning Process is \"Choose best alternative for reaching objectives.\"",
       "sourceRefs": [
-        "ch7:s10",
+        "ch7:s8",
         "ch7,p164"
       ],
       "sourceRefsParsed": [
@@ -1395,10 +1395,10 @@
           "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
           "kind": "slides",
           "pages": [
-            10
+            8
           ],
           "pageCount": 27,
-          "syntax": "ch7:s10"
+          "syntax": "ch7:s8"
         },
         {
           "lectureId": "ch7",
@@ -1422,7 +1422,7 @@
       "sourceQuestionId": "Q53",
       "questionType": "mcq",
       "poolIndex": 18,
-      "slideRef": "ch7:s10",
+      "slideRef": "ch7:s8",
       "slideRefParsed": {
         "lectureId": "ch7",
         "chapterNumber": 7,
@@ -1431,10 +1431,10 @@
         "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
         "kind": "slides",
         "pages": [
-          10
+          8
         ],
         "pageCount": 27,
-        "syntax": "ch7:s10"
+        "syntax": "ch7:s8"
       }
     },
     {
@@ -1545,7 +1545,7 @@
       "explanation": "In the context of the planning process, developing premises means formulating assumptions about future conditions and environments upon which alternative plans will be based.",
       "reference": "Textbook Page 164: \"a premise is an assumption upon which the alternative is based.\"",
       "sourceRefs": [
-        "ch7:s10",
+        "ch7:s8",
         "ch7,p164"
       ],
       "sourceRefsParsed": [
@@ -1557,10 +1557,10 @@
           "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
           "kind": "slides",
           "pages": [
-            10
+            8
           ],
           "pageCount": 27,
-          "syntax": "ch7:s10"
+          "syntax": "ch7:s8"
         },
         {
           "lectureId": "ch7",
@@ -1584,7 +1584,7 @@
       "sourceQuestionId": "Q57",
       "questionType": "mcq",
       "poolIndex": 20,
-      "slideRef": "ch7:s10",
+      "slideRef": "ch7:s8",
       "slideRefParsed": {
         "lectureId": "ch7",
         "chapterNumber": 7,
@@ -1593,10 +1593,10 @@
         "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
         "kind": "slides",
         "pages": [
-          10
+          8
         ],
         "pageCount": 27,
-        "syntax": "ch7:s10"
+        "syntax": "ch7:s8"
       }
     },
     {
@@ -1626,7 +1626,7 @@
       "explanation": "Selecting the best alternative (or 'selecting up objective' based on the flawed wording of the option) is the step where the most applicable plan is chosen for implementation.",
       "reference": "Textbook Page 164 (The Planning Process): \"Step 4: Choose best alternative for reaching objectives.\"",
       "sourceRefs": [
-        "ch7:s10",
+        "ch7:s8",
         "ch7,p164"
       ],
       "sourceRefsParsed": [
@@ -1638,10 +1638,10 @@
           "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
           "kind": "slides",
           "pages": [
-            10
+            8
           ],
           "pageCount": 27,
-          "syntax": "ch7:s10"
+          "syntax": "ch7:s8"
         },
         {
           "lectureId": "ch7",
@@ -1665,7 +1665,7 @@
       "sourceQuestionId": "Q20",
       "questionType": "mcq",
       "poolIndex": 21,
-      "slideRef": "ch7:s10",
+      "slideRef": "ch7:s8",
       "slideRefParsed": {
         "lectureId": "ch7",
         "chapterNumber": 7,
@@ -1674,10 +1674,10 @@
         "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
         "kind": "slides",
         "pages": [
-          10
+          8
         ],
         "pageCount": 27,
-        "syntax": "ch7:s10"
+        "syntax": "ch7:s8"
       }
     },
     {
@@ -1707,7 +1707,7 @@
       "explanation": "Evaluating alternatives is the step where the pros and cons of different courses of action are analyzed before a final choice is made.",
       "reference": "Textbook Page 164: Evaluating alternatives is the step where managers assess the benefits and drawbacks of each potential course of action.",
       "sourceRefs": [
-        "ch7:s10",
+        "ch7:s8",
         "ch7,p164"
       ],
       "sourceRefsParsed": [
@@ -1719,10 +1719,10 @@
           "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
           "kind": "slides",
           "pages": [
-            10
+            8
           ],
           "pageCount": 27,
-          "syntax": "ch7:s10"
+          "syntax": "ch7:s8"
         },
         {
           "lectureId": "ch7",
@@ -1746,7 +1746,7 @@
       "sourceQuestionId": "Q24",
       "questionType": "mcq",
       "poolIndex": 22,
-      "slideRef": "ch7:s10",
+      "slideRef": "ch7:s8",
       "slideRefParsed": {
         "lectureId": "ch7",
         "chapterNumber": 7,
@@ -1755,10 +1755,10 @@
         "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
         "kind": "slides",
         "pages": [
-          10
+          8
         ],
         "pageCount": 27,
-        "syntax": "ch7:s10"
+        "syntax": "ch7:s8"
       }
     },
     {
@@ -1869,7 +1869,7 @@
       "explanation": "Developing or setting planning premises involves making assumptions and forecasts about future conditions that will affect the execution of the plans.",
       "reference": "Textbook Page 164: Step 3 of the Planning Process involves \"Develop premises upon which each alternative is based... a premise is an assumption upon which the alternative is based.\"",
       "sourceRefs": [
-        "ch7:s10",
+        "ch7:s8",
         "ch7,p164"
       ],
       "sourceRefsParsed": [
@@ -1881,10 +1881,10 @@
           "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
           "kind": "slides",
           "pages": [
-            10
+            8
           ],
           "pageCount": 27,
-          "syntax": "ch7:s10"
+          "syntax": "ch7:s8"
         },
         {
           "lectureId": "ch7",
@@ -1908,7 +1908,7 @@
       "sourceQuestionId": "Q27",
       "questionType": "mcq",
       "poolIndex": 24,
-      "slideRef": "ch7:s10",
+      "slideRef": "ch7:s8",
       "slideRefParsed": {
         "lectureId": "ch7",
         "chapterNumber": 7,
@@ -1917,10 +1917,10 @@
         "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
         "kind": "slides",
         "pages": [
-          10
+          8
         ],
         "pageCount": 27,
-        "syntax": "ch7:s10"
+        "syntax": "ch7:s8"
       }
     },
     {
@@ -2031,7 +2031,7 @@
       "explanation": "Selecting the best alternative is the stage where the most feasible course of action is chosen to be developed into actual implemented plans.",
       "reference": "Textbook Page 164: Step 4 of the Planning Process is \"Choose best alternative for reaching objectives.\"",
       "sourceRefs": [
-        "ch7:s10",
+        "ch7:s8",
         "ch7,p164"
       ],
       "sourceRefsParsed": [
@@ -2043,10 +2043,10 @@
           "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
           "kind": "slides",
           "pages": [
-            10
+            8
           ],
           "pageCount": 27,
-          "syntax": "ch7:s10"
+          "syntax": "ch7:s8"
         },
         {
           "lectureId": "ch7",
@@ -2070,7 +2070,7 @@
       "sourceQuestionId": "Q43",
       "questionType": "mcq",
       "poolIndex": 26,
-      "slideRef": "ch7:s10",
+      "slideRef": "ch7:s8",
       "slideRefParsed": {
         "lectureId": "ch7",
         "chapterNumber": 7,
@@ -2079,10 +2079,10 @@
         "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
         "kind": "slides",
         "pages": [
-          10
+          8
         ],
         "pageCount": 27,
-        "syntax": "ch7:s10"
+        "syntax": "ch7:s8"
       }
     },
     {
@@ -2359,7 +2359,7 @@
       "explanation": "In common errors associated with each function, the mistake of 'not exploring enough viable alternatives for reaching objectives' is a specific error associated with the Planning function. Establishing departments is Organizing, communicating is Influencing, and monitoring is Controlling.",
       "reference": "Textbook Page 164: Evaluating alternatives is a crucial step in the planning process. Failing to explore viable alternatives is a planning error.",
       "sourceRefs": [
-        "ch7:s10",
+        "ch7:s8",
         "ch7,p164"
       ],
       "sourceRefsParsed": [
@@ -2371,10 +2371,10 @@
           "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
           "kind": "slides",
           "pages": [
-            10
+            8
           ],
           "pageCount": 27,
-          "syntax": "ch7:s10"
+          "syntax": "ch7:s8"
         },
         {
           "lectureId": "ch7",
@@ -2398,7 +2398,7 @@
       "sourceQuestionId": "Q60",
       "questionType": "mcq",
       "poolIndex": 30,
-      "slideRef": "ch7:s10",
+      "slideRef": "ch7:s8",
       "slideRefParsed": {
         "lectureId": "ch7",
         "chapterNumber": 7,
@@ -2407,10 +2407,10 @@
         "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
         "kind": "slides",
         "pages": [
-          10
+          8
         ],
         "pageCount": 27,
-        "syntax": "ch7:s10"
+        "syntax": "ch7:s8"
       }
     }
   ]

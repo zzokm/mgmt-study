@@ -983,7 +983,7 @@
       "questionType": "mcq",
       "poolIndex": 13,
       "sourceRefs": [
-        "ch7:s10",
+        "ch7:s8",
         "ch7,p164"
       ],
       "sourceRefsParsed": [
@@ -995,10 +995,10 @@
           "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
           "kind": "slides",
           "pages": [
-            10
+            8
           ],
           "pageCount": 27,
-          "syntax": "ch7:s10"
+          "syntax": "ch7:s8"
         },
         {
           "lectureId": "ch7",
@@ -1017,7 +1017,7 @@
           "syntax": "ch7,p164"
         }
       ],
-      "slideRef": "ch7:s10",
+      "slideRef": "ch7:s8",
       "slideRefParsed": {
         "lectureId": "ch7",
         "chapterNumber": 7,
@@ -1026,10 +1026,10 @@
         "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
         "kind": "slides",
         "pages": [
-          10
+          8
         ],
         "pageCount": 27,
-        "syntax": "ch7:s10"
+        "syntax": "ch7:s8"
       }
     },
     {
@@ -1064,7 +1064,7 @@
       "questionType": "mcq",
       "poolIndex": 14,
       "sourceRefs": [
-        "ch7:s10",
+        "ch7:s8",
         "ch7,p164"
       ],
       "sourceRefsParsed": [
@@ -1076,10 +1076,10 @@
           "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
           "kind": "slides",
           "pages": [
-            10
+            8
           ],
           "pageCount": 27,
-          "syntax": "ch7:s10"
+          "syntax": "ch7:s8"
         },
         {
           "lectureId": "ch7",
@@ -1098,7 +1098,7 @@
           "syntax": "ch7,p164"
         }
       ],
-      "slideRef": "ch7:s10",
+      "slideRef": "ch7:s8",
       "slideRefParsed": {
         "lectureId": "ch7",
         "chapterNumber": 7,
@@ -1107,10 +1107,10 @@
         "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
         "kind": "slides",
         "pages": [
-          10
+          8
         ],
         "pageCount": 27,
-        "syntax": "ch7:s10"
+        "syntax": "ch7:s8"
       }
     },
     {
@@ -1226,7 +1226,7 @@
       "questionType": "mcq",
       "poolIndex": 16,
       "sourceRefs": [
-        "ch7:s10",
+        "ch7:s8",
         "ch7,p164"
       ],
       "sourceRefsParsed": [
@@ -1238,10 +1238,10 @@
           "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
           "kind": "slides",
           "pages": [
-            10
+            8
           ],
           "pageCount": 27,
-          "syntax": "ch7:s10"
+          "syntax": "ch7:s8"
         },
         {
           "lectureId": "ch7",
@@ -1260,7 +1260,7 @@
           "syntax": "ch7,p164"
         }
       ],
-      "slideRef": "ch7:s10",
+      "slideRef": "ch7:s8",
       "slideRefParsed": {
         "lectureId": "ch7",
         "chapterNumber": 7,
@@ -1269,10 +1269,10 @@
         "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
         "kind": "slides",
         "pages": [
-          10
+          8
         ],
         "pageCount": 27,
-        "syntax": "ch7:s10"
+        "syntax": "ch7:s8"
       }
     },
     {
@@ -1388,7 +1388,7 @@
       "questionType": "mcq",
       "poolIndex": 18,
       "sourceRefs": [
-        "ch7:s10",
+        "ch7:s8",
         "ch7,p164"
       ],
       "sourceRefsParsed": [
@@ -1400,10 +1400,10 @@
           "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
           "kind": "slides",
           "pages": [
-            10
+            8
           ],
           "pageCount": 27,
-          "syntax": "ch7:s10"
+          "syntax": "ch7:s8"
         },
         {
           "lectureId": "ch7",
@@ -1422,7 +1422,7 @@
           "syntax": "ch7,p164"
         }
       ],
-      "slideRef": "ch7:s10",
+      "slideRef": "ch7:s8",
       "slideRefParsed": {
         "lectureId": "ch7",
         "chapterNumber": 7,
@@ -1431,10 +1431,10 @@
         "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
         "kind": "slides",
         "pages": [
-          10
+          8
         ],
         "pageCount": 27,
-        "syntax": "ch7:s10"
+        "syntax": "ch7:s8"
       }
     },
     {
@@ -1550,7 +1550,7 @@
       "questionType": "mcq",
       "poolIndex": 20,
       "sourceRefs": [
-        "ch7:s10",
+        "ch7:s8",
         "ch7,p164"
       ],
       "sourceRefsParsed": [
@@ -1562,10 +1562,10 @@
           "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
           "kind": "slides",
           "pages": [
-            10
+            8
           ],
           "pageCount": 27,
-          "syntax": "ch7:s10"
+          "syntax": "ch7:s8"
         },
         {
           "lectureId": "ch7",
@@ -1584,7 +1584,7 @@
           "syntax": "ch7,p164"
         }
       ],
-      "slideRef": "ch7:s10",
+      "slideRef": "ch7:s8",
       "slideRefParsed": {
         "lectureId": "ch7",
         "chapterNumber": 7,
@@ -1593,10 +1593,10 @@
         "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
         "kind": "slides",
         "pages": [
-          10
+          8
         ],
         "pageCount": 27,
-        "syntax": "ch7:s10"
+        "syntax": "ch7:s8"
       }
     },
     {
@@ -1631,7 +1631,7 @@
       "questionType": "mcq",
       "poolIndex": 21,
       "sourceRefs": [
-        "ch7:s10",
+        "ch7:s8",
         "ch7,p164"
       ],
       "sourceRefsParsed": [
@@ -1643,10 +1643,10 @@
           "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
           "kind": "slides",
           "pages": [
-            10
+            8
           ],
           "pageCount": 27,
-          "syntax": "ch7:s10"
+          "syntax": "ch7:s8"
         },
         {
           "lectureId": "ch7",
@@ -1665,7 +1665,7 @@
           "syntax": "ch7,p164"
         }
       ],
-      "slideRef": "ch7:s10",
+      "slideRef": "ch7:s8",
       "slideRefParsed": {
         "lectureId": "ch7",
         "chapterNumber": 7,
@@ -1674,10 +1674,10 @@
         "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
         "kind": "slides",
         "pages": [
-          10
+          8
         ],
         "pageCount": 27,
-        "syntax": "ch7:s10"
+        "syntax": "ch7:s8"
       }
     },
     {
@@ -1712,7 +1712,7 @@
       "questionType": "mcq",
       "poolIndex": 22,
       "sourceRefs": [
-        "ch7:s10",
+        "ch7:s8",
         "ch7,p164"
       ],
       "sourceRefsParsed": [
@@ -1724,10 +1724,10 @@
           "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
           "kind": "slides",
           "pages": [
-            10
+            8
           ],
           "pageCount": 27,
-          "syntax": "ch7:s10"
+          "syntax": "ch7:s8"
         },
         {
           "lectureId": "ch7",
@@ -1746,7 +1746,7 @@
           "syntax": "ch7,p164"
         }
       ],
-      "slideRef": "ch7:s10",
+      "slideRef": "ch7:s8",
       "slideRefParsed": {
         "lectureId": "ch7",
         "chapterNumber": 7,
@@ -1755,10 +1755,10 @@
         "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
         "kind": "slides",
         "pages": [
-          10
+          8
         ],
         "pageCount": 27,
-        "syntax": "ch7:s10"
+        "syntax": "ch7:s8"
       }
     },
     {
@@ -1874,7 +1874,7 @@
       "questionType": "mcq",
       "poolIndex": 24,
       "sourceRefs": [
-        "ch7:s10",
+        "ch7:s8",
         "ch7,p164"
       ],
       "sourceRefsParsed": [
@@ -1886,10 +1886,10 @@
           "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
           "kind": "slides",
           "pages": [
-            10
+            8
           ],
           "pageCount": 27,
-          "syntax": "ch7:s10"
+          "syntax": "ch7:s8"
         },
         {
           "lectureId": "ch7",
@@ -1908,7 +1908,7 @@
           "syntax": "ch7,p164"
         }
       ],
-      "slideRef": "ch7:s10",
+      "slideRef": "ch7:s8",
       "slideRefParsed": {
         "lectureId": "ch7",
         "chapterNumber": 7,
@@ -1917,10 +1917,10 @@
         "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
         "kind": "slides",
         "pages": [
-          10
+          8
         ],
         "pageCount": 27,
-        "syntax": "ch7:s10"
+        "syntax": "ch7:s8"
       }
     },
     {
@@ -2036,7 +2036,7 @@
       "questionType": "mcq",
       "poolIndex": 26,
       "sourceRefs": [
-        "ch7:s10",
+        "ch7:s8",
         "ch7,p164"
       ],
       "sourceRefsParsed": [
@@ -2048,10 +2048,10 @@
           "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
           "kind": "slides",
           "pages": [
-            10
+            8
           ],
           "pageCount": 27,
-          "syntax": "ch7:s10"
+          "syntax": "ch7:s8"
         },
         {
           "lectureId": "ch7",
@@ -2070,7 +2070,7 @@
           "syntax": "ch7,p164"
         }
       ],
-      "slideRef": "ch7:s10",
+      "slideRef": "ch7:s8",
       "slideRefParsed": {
         "lectureId": "ch7",
         "chapterNumber": 7,
@@ -2079,10 +2079,10 @@
         "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
         "kind": "slides",
         "pages": [
-          10
+          8
         ],
         "pageCount": 27,
-        "syntax": "ch7:s10"
+        "syntax": "ch7:s8"
       }
     },
     {
@@ -2364,7 +2364,7 @@
       "questionType": "mcq",
       "poolIndex": 30,
       "sourceRefs": [
-        "ch7:s10",
+        "ch7:s8",
         "ch7,p164"
       ],
       "sourceRefsParsed": [
@@ -2376,10 +2376,10 @@
           "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
           "kind": "slides",
           "pages": [
-            10
+            8
           ],
           "pageCount": 27,
-          "syntax": "ch7:s10"
+          "syntax": "ch7:s8"
         },
         {
           "lectureId": "ch7",
@@ -2398,7 +2398,7 @@
           "syntax": "ch7,p164"
         }
       ],
-      "slideRef": "ch7:s10",
+      "slideRef": "ch7:s8",
       "slideRefParsed": {
         "lectureId": "ch7",
         "chapterNumber": 7,
@@ -2407,10 +2407,10 @@
         "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
         "kind": "slides",
         "pages": [
-          10
+          8
         ],
         "pageCount": 27,
-        "syntax": "ch7:s10"
+        "syntax": "ch7:s8"
       }
     }
   ]

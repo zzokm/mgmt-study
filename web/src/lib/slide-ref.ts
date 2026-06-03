@@ -171,10 +171,7 @@ export function pdfUrlForRef(parsed: SlideRefParsed): string {
     : lecturePdfUrl(parsed.lectureId);
 }
 
-/** ch7 slide 8: Planning Steps diagram renders with empty boxes in the PDF viewer. */
-const BLOCKED_PAGES: Record<string, ReadonlySet<number>> = {
-  ch7: new Set([8]),
-};
+const BLOCKED_PAGES: Record<string, ReadonlySet<number>> = {};
 
 export function pagesForDisplay(parsed: SlideRefParsed): number[] {
   if (parsed.kind === "course") return [];

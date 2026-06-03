@@ -26,6 +26,29 @@ export function getQuestionsByLectureSlug(slug: string): Question[] {
   return keys.map((k) => catalog.questionByKey[k]).filter(Boolean);
 }
 
+/** Match build_question_pools.py stem grouping for cross-exam duplicates. */
+export function normQuestionText(text: string): string {
+  return text
+    .toLowerCase()
+    .trim()
+    .replace(/\s+/g, " ")
+    .replace(/[^\w\s]/g, "");
+}
+
+/** Lecture practice: one card per unique question stem (browse keeps all exam instances). */
+export function getQuestionsForLecturePractice(slug: string): Question[] {
+  const all = getQuestionsByLectureSlug(slug);
+  const seen = new Set<string>();
+  const unique: Question[] = [];
+  for (const q of all) {
+    const stem = normQuestionText(q.questionText);
+    if (seen.has(stem)) continue;
+    seen.add(stem);
+    unique.push(q);
+  }
+  return unique;
+}
+
 export function getLectureSlugs(): Array<{
   slug: string;
   lecture: string;

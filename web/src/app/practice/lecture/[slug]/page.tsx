@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { metadataTitle } from "@/lib/analytics-page-titles";
 import {
   getLectureSlugs,
-  getQuestionsByLectureSlug,
+  getQuestionsForLecturePractice,
 } from "@/lib/questions";
 import { PracticeSessionHydrated } from "@/components/practice/practice-session-hydrated";
 
@@ -29,7 +29,7 @@ export default async function PracticeLecturePage({
   const meta = getLectureSlugs().find((l) => l.slug === slug);
   if (!meta) notFound();
 
-  const questions = getQuestionsByLectureSlug(slug);
+  const questions = getQuestionsForLecturePractice(slug);
 
   return (
     <PracticeSessionHydrated

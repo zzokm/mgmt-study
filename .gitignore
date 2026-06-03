@@ -25,6 +25,9 @@ web/public/book/*.pdf
 
 # Full textbook PDF (only split chapter-*.pdf are deployed)
 Book/Modern Management*.pdf
+Book/_test-*.pdf
+Book/answer-sheet.pdf
+Book/web/
 
 # Env / secrets
 .env

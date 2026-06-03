@@ -39,8 +39,8 @@ export function LectureViewer({
       </div>
 
       <p className="text-center text-xs text-muted-foreground">
-        {lecture.topic} · {pageLabel} {startPage} of {lecture.pageCount} ·
-        switch chapter via tabs above · use{" "}
+        {lecture.topic} · {pageLabel} {startPage} of {lecture.pageCount} · switch
+        chapter via tabs above · use{" "}
         <code className="text-[0.7rem]">?page=N</code> to deep-link
       </p>
     </div>

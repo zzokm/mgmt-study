@@ -8,7 +8,7 @@ import {
   type PluginRegistry,
 } from "@embedpdf/react-pdf-viewer";
 import type { LectureMeta } from "@/types/question";
-import { sameOriginAssetPath } from "@/lib/public-origin";
+import { pdfDocumentUrl, pdfiumWasmUrl } from "@/lib/pdf-assets";
 import {
   customizeLectureViewerUi,
   LECTURE_VIEWER_DISABLED_CATEGORIES,
@@ -81,7 +81,7 @@ function activateDocument(registry: PluginRegistry, documentId: string): void {
 }
 
 /**
- * Full lecture viewer (EmbedPDF) — all lectures as document tabs.
+ * Full PDF viewer (EmbedPDF) with document tabs for lectures and textbook chapters.
  */
 export function LectureViewerFull({
   lectures,
@@ -109,7 +109,7 @@ export function LectureViewerFull({
   const initialDocuments = useMemo(
     () =>
       lectures.map((lec) => ({
-        url: sameOriginAssetPath(lec.publicPdfUrl),
+        url: pdfDocumentUrl(lec.publicPdfUrl),
         documentId: lec.lectureId,
         name: `Ch ${lec.chapterNumber}: ${lec.topic}`,
         autoActivate: lec.lectureId === activeLectureId,
@@ -121,7 +121,7 @@ export function LectureViewerFull({
 
   const viewerConfig = useMemo(
     () => ({
-      wasmUrl: sameOriginAssetPath("/pdfium.wasm"),
+      wasmUrl: pdfiumWasmUrl(),
       theme: { preference: "dark" as const },
       tabBar: "always" as const,
       disabledCategories: LECTURE_VIEWER_DISABLED_CATEGORIES,
@@ -130,11 +130,11 @@ export function LectureViewerFull({
     [initialDocuments]
   );
 
-  const syncRouteToLecture = useCallback(
-    (lectureId: string) => {
-      if (!syncUrl || lectureId === activeLectureId) return;
+  const syncRouteToDocument = useCallback(
+    (documentId: string) => {
+      if (!syncUrl || documentId === activeLectureId) return;
       syncingFromViewerRef.current = true;
-      router.push(`${routeBase}/${lectureId}/?page=1`);
+      router.push(`${routeBase}/${documentId}/?page=1`);
     },
     [activeLectureId, routeBase, router, syncUrl]
   );
@@ -142,9 +142,15 @@ export function LectureViewerFull({
   const handleReady = useCallback(
     (registry: PluginRegistry) => {
       registryRef.current = registry;
-      customizeLectureViewerUi(registry);
-      activateDocument(registry, activeLectureId);
-      scrollActiveDocToPage(registry, activeLectureId, pageNumber);
+      queueMicrotask(() => {
+        try {
+          customizeLectureViewerUi(registry);
+        } catch {
+          /* UI schema may not be ready; viewer still works */
+        }
+        activateDocument(registry, activeLectureId);
+        scrollActiveDocToPage(registry, activeLectureId, pageNumber);
+      });
 
       if (syncUrl) {
         const dm = getDocumentManager(registry);
@@ -154,12 +160,12 @@ export function LectureViewerFull({
             return;
           }
           if (event.currentDocumentId) {
-            syncRouteToLecture(event.currentDocumentId);
+            syncRouteToDocument(event.currentDocumentId);
           }
         });
       }
     },
-    [activeLectureId, pageNumber, syncRouteToLecture, syncUrl]
+    [activeLectureId, pageNumber, syncRouteToDocument, syncUrl]
   );
 
   useEffect(() => {

@@ -16,8 +16,8 @@ export default function BookChaptersPage() {
       <div>
         <h1 className="text-2xl font-semibold tracking-tight">Textbook chapters</h1>
         <p className="text-muted-foreground">
-          {getBookTitle()} — selected chapters with answer sheet (not the full
-          book).
+          {getBookTitle()} — selected chapters with answer sheet at the end of
+          each PDF (not the full book).
         </p>
       </div>
       <div className="grid gap-4 sm:grid-cols-2">

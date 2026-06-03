@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "sync": "node scripts/sync-content.mjs",
-    "predev": "npm run sync",
-    "prebuild": "npm run sync",
+    "predev": "npm run copy-pdf-worker && npm run sync",
+    "prebuild": "npm run copy-pdf-worker && npm run sync",
     "dev": "next dev --webpack",
     "build": "npm run audit:ci && next build --webpack",
     "start": "next start",

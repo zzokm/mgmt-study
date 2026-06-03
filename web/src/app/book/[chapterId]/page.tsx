@@ -34,7 +34,7 @@ export default async function BookChapterDetailPage({
         <h1 className="text-2xl font-semibold tracking-tight">{meta.topic}</h1>
         <p className="text-muted-foreground">
           {meta.pageCount} pages · textbook pp. {meta.bookPageRange[0]}–
-          {meta.bookPageRange[1]} · answer sheet included at end
+          {meta.bookPageRange[1]} · answer sheet at end (book p. 577)
         </p>
       </div>
       <Suspense fallback={<Skeleton className="h-[480px] w-full" />}>

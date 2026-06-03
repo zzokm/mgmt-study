@@ -24,7 +24,7 @@ CHAPTERS: dict[int, tuple[int, int]] = {
     21: (521, 546),
 }
 
-# Answer sheet appended to every chapter PDF
+# Answer sheet appended to the end of every chapter PDF
 ANSWER_SHEET_PAGE = 577
 
 
@@ -33,7 +33,6 @@ def extract_chapter(reader: PdfReader, chapter: int, start: int, end: int) -> Pa
         raise ValueError(
             f"Chapter {chapter}: pages {start}-{end} invalid for PDF ({len(reader.pages)} pages)"
         )
-
     if ANSWER_SHEET_PAGE < 1 or ANSWER_SHEET_PAGE > len(reader.pages):
         raise ValueError(
             f"Answer sheet page {ANSWER_SHEET_PAGE} invalid for PDF ({len(reader.pages)} pages)"
@@ -60,6 +59,10 @@ def write_manifest(page_counts: dict[int, int]) -> None:
             continue
         entry["sourceFile"] = file_by_num[chapter_num]
         entry["pageCount"] = page_count
+        entry.pop("webSourceFile", None)
+        entry.pop("contentPageCount", None)
+    manifest.pop("answerSheetFile", None)
+    manifest.pop("answerSheetPage", None)
     MANIFEST_PATH.write_text(
         json.dumps(manifest, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",

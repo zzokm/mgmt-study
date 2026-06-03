@@ -292,25 +292,34 @@ def expand_pages(slide_ref: str, manifest: dict | None = None) -> list[int]:
     return parse_slide_ref(slide_ref, manifest)["pages"]
 
 
+# Cited page numbers in sourceRefs / reference text use chapter-style numbering;
+# add this offset to get the global page in the full Certo 12th ed. book PDF.
+BOOK_CITATION_TO_GLOBAL_OFFSET = 21
+
+
 def load_book_manifest() -> dict:
     return json.loads(BOOK_MANIFEST_PATH.read_text(encoding="utf-8"))
 
 
-def book_printed_pages_to_pdf_pages(chapter: int, printed_pages: list[int], book_manifest: dict | None = None) -> list[int]:
-    """Map chapter printed page numbers (footer) to 1-based pages in the split chapter PDF."""
+def cited_pages_to_global(cited_pages: list[int]) -> list[int]:
+    return [p + BOOK_CITATION_TO_GLOBAL_OFFSET for p in cited_pages]
+
+
+def global_pages_to_pdf_pages(
+    chapter: int, global_pages: list[int], book_manifest: dict | None = None
+) -> list[int]:
+    """Map global book page numbers to 1-based pages in the split chapter PDF."""
     book_manifest = book_manifest or load_book_manifest()
     lid = lecture_id(chapter)
     ch = book_manifest["chapters"][lid]
+    start, end = ch["bookPageRange"]
     page_count = ch["pageCount"]
-    pstart = ch.get("printedPageStart") or ch["bookPageRange"][0]
     pdf_pages: list[int] = []
-    for p in printed_pages:
-        if "printedPageStart" in ch:
-            idx = p - pstart + 1
-        else:
-            idx = p - ch["bookPageRange"][0] + 1
-        if 1 <= idx <= page_count:
-            pdf_pages.append(idx)
+    for g in global_pages:
+        if start <= g <= end:
+            idx = g - start + 1
+            if 1 <= idx <= page_count:
+                pdf_pages.append(idx)
     return sorted(set(pdf_pages))
 
 
@@ -324,8 +333,9 @@ def parse_book_ref(token: str, book_manifest: dict | None = None, lecture_manife
     lid = lecture_id(ch)
     ch_meta = book_manifest["chapters"][lid]
     lec = lecture_manifest.get(lid, {})
-    printed_pages = expand_page_spec(m.group(2))
-    pdf_pages = book_printed_pages_to_pdf_pages(ch, printed_pages, book_manifest)
+    cited_pages = expand_page_spec(m.group(2))
+    global_pages = cited_pages_to_global(cited_pages)
+    pdf_pages = global_pages_to_pdf_pages(ch, global_pages, book_manifest)
     return {
         "lectureId": lid,
         "chapterNumber": ch,
@@ -333,7 +343,7 @@ def parse_book_ref(token: str, book_manifest: dict | None = None, lecture_manife
         "lectureFile": ch_meta["sourceFile"],
         "pdfPath": f"Book/{ch_meta['sourceFile']}",
         "kind": "book",
-        "bookPages": printed_pages,
+        "bookPages": cited_pages,
         "pages": pdf_pages,
         "pageCount": ch_meta["pageCount"],
         "syntax": token.strip(),

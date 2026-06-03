@@ -3,6 +3,9 @@ import type { Question, SlideRefParsed } from "@/types/question";
 const SLIDE_REF_RE = /^ch(\d+):(s[\d,\-]+|all|course)$/i;
 const BOOK_REF_RE = /^ch(\d+),p([\d,\-]+)$/i;
 
+/** Cited page in sourceRefs → global page in full Certo PDF (+21). */
+export const BOOK_CITATION_TO_GLOBAL_OFFSET = 21;
+
 export function expandPageSpec(spec: string): number[] {
   const pages: number[] = [];
   for (const part of spec.split(",")) {
@@ -104,7 +107,6 @@ export function parseBookRef(
       topic: string;
       sourceFile: string;
       bookPageRange: [number, number];
-      printedPageStart?: number;
     }
   >
 ): SlideRefParsed {
@@ -114,16 +116,12 @@ export function parseBookRef(
   const ch = parseInt(m[1], 10);
   const lid = `ch${ch}`;
   const meta = bookMeta?.[lid];
-  const printedPages = expandPageSpec(m[2]);
-  const pageStart =
-    meta?.printedPageStart ?? meta?.bookPageRange?.[0] ?? 1;
+  const citedPages = expandPageSpec(m[2]);
+  const globalPages = citedPages.map((p) => p + BOOK_CITATION_TO_GLOBAL_OFFSET);
+  const rangeStart = meta?.bookPageRange?.[0] ?? 1;
   const pageCount = meta?.pageCount ?? 1;
-  const pdfPages = printedPages
-    .map((p) =>
-      meta?.printedPageStart != null
-        ? p - pageStart + 1
-        : p - (meta?.bookPageRange?.[0] ?? 1) + 1
-    )
+  const pdfPages = globalPages
+    .map((g) => g - rangeStart + 1)
     .filter((idx) => idx >= 1 && idx <= pageCount);
 
   return {
@@ -133,7 +131,7 @@ export function parseBookRef(
     lectureFile: meta?.sourceFile ?? "",
     pdfPath: `Book/${meta?.sourceFile ?? ""}`,
     kind: "book",
-    bookPages: printedPages,
+    bookPages: citedPages,
     pages: [...new Set(pdfPages)].sort((a, b) => a - b),
     pageCount,
     syntax: token.trim(),

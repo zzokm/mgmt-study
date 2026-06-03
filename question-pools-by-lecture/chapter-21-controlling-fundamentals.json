@@ -26,7 +26,50 @@
       ],
       "correctAnswerId": "a",
       "explanation": "The three steps of the controlling process are: 1) Measuring performance, 2) Comparing measured performance to standards, and 3) Taking corrective action. Therefore, taking corrective action is the logical next step after comparison if performance deviates from standards.",
-      "reference": "Chapter 21: Controlling Fundamentals - Answer found directly on Slide 8 and Slide 9.",
+      "reference": "Textbook Page 506: \"After actual performance has been measured and compared with established performance standards, the next step in the controlling process is to take corrective action if necessary.\"",
+      "origin": "2019",
+      "sourceFile": "final19.json",
+      "sourceQuestionId": "Q2.g",
+      "questionType": "true_false",
+      "poolIndex": 1,
+      "sourceRefs": [
+        "ch21,p503,506",
+        "ch21:s8-9"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            503,
+            506
+          ],
+          "pages": [
+            4,
+            7
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p503,506"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            8,
+            9
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s8-9"
+        }
+      ],
       "slideRef": "ch21:s8-9",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -41,12 +84,7 @@
         ],
         "pageCount": 19,
         "syntax": "ch21:s8-9"
-      },
-      "origin": "2019",
-      "sourceFile": "final19.json",
-      "sourceQuestionId": "Q2.g",
-      "questionType": "true_false",
-      "poolIndex": 1
+      }
     },
     {
       "id": "Q2.h",
@@ -64,8 +102,48 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "To increase personal power, a manager should attempt to develop a \"sense of obligation toward the manager\" among organization members. Doing personal favors is a common way to build this sense of obligation, thereby increasing personal power, not detracting from position power.",
-      "reference": "Chapter 21: Controlling Fundamentals - Answer deduced from Slide 16 regarding increasing personal power.",
+      "explanation": "Doing personal favors is a strategy to develop a sense of obligation toward the manager, which increases their personal power, not their position power. Position power is derived from the formal organizational position a manager holds, so doing personal favors does not diminish or preserve it.",
+      "reference": "Textbook Page 508: \"To increase personal power, a manager should attempt to develop the following attitudes and beliefs in other organization members: 1. A sense of obligation toward the manager... The basic strategy suggested for creating this sense of obligation is to do personal favors for people.\"",
+      "origin": "2019",
+      "sourceFile": "final19.json",
+      "sourceQuestionId": "Q2.h",
+      "questionType": "true_false",
+      "poolIndex": 2,
+      "sourceRefs": [
+        "ch21,p508",
+        "ch21:s16"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            508
+          ],
+          "pages": [
+            9
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p508"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            16
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s16"
+        }
+      ],
       "slideRef": "ch21:s16",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -79,12 +157,7 @@
         ],
         "pageCount": 19,
         "syntax": "ch21:s16"
-      },
-      "origin": "2019",
-      "sourceFile": "final19.json",
-      "sourceQuestionId": "Q2.h",
-      "questionType": "true_false",
-      "poolIndex": 2
+      }
     },
     {
       "id": "Q19",
@@ -102,8 +175,48 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "Guiding the activities of organization members in appropriate directions is the definition of \"Influencing\". Controlling is defined as \"Ensuring that an event occurs as it was planned to occur\".",
-      "reference": "Chapter 21: Controlling Fundamentals - Answer deduced from Slide 4 defining Control, and prior knowledge of the Influencing definition.",
+      "explanation": "Guiding the activities of organization members in appropriate directions is the definition of 'Influencing'. Controlling is formally defined as ensuring that an event occurs as it was planned to occur.",
+      "reference": "Textbook Page 502: \"Stated simply, control entails ensuring that an event occurs as it was planned to occur.\"",
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q19",
+      "questionType": "true_false",
+      "poolIndex": 3,
+      "sourceRefs": [
+        "ch21,p502",
+        "ch21:s4"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            502
+          ],
+          "pages": [
+            3
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p502"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            4
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s4"
+        }
+      ],
       "slideRef": "ch21:s4",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -117,12 +230,7 @@
         ],
         "pageCount": 19,
         "syntax": "ch21:s4"
-      },
-      "origin": "2021",
-      "sourceFile": "final21.json",
-      "sourceQuestionId": "Q19",
-      "questionType": "true_false",
-      "poolIndex": 3
+      }
     },
     {
       "id": "Q22",
@@ -140,8 +248,48 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "The three steps of the controlling process explicitly list \"1. Measuring Performance\" as the very first step.",
-      "reference": "Chapter 21: Controlling Fundamentals - Answer found verbatim on Slide 9.",
+      "explanation": "The three steps of the controlling process explicitly list 'Measuring performance' as the very first step.",
+      "reference": "Textbook Page 503: \"As Figure 21.2 illustrates, there are three main steps in the controlling process: 1. Measuring performance 2. Comparing measured performance to standards 3. Taking corrective action.\"",
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q22",
+      "questionType": "true_false",
+      "poolIndex": 4,
+      "sourceRefs": [
+        "ch21,p503",
+        "ch21:s9"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            503
+          ],
+          "pages": [
+            4
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p503"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            9
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s9"
+        }
+      ],
       "slideRef": "ch21:s9",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -155,12 +303,7 @@
         ],
         "pageCount": 19,
         "syntax": "ch21:s9"
-      },
-      "origin": "2021",
-      "sourceFile": "final21.json",
-      "sourceQuestionId": "Q22",
-      "questionType": "true_false",
-      "poolIndex": 4
+      }
     },
     {
       "id": "Q23",
@@ -178,8 +321,48 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "To make controlling successful, managers must ensure the \"Communication of the Mechanics of the Control Process,\" which means ensuring individuals understand how the process operates.",
-      "reference": "Chapter 21: Controlling Fundamentals - Answer found on Slide 17 under factors for successful controlling.",
+      "explanation": "To make controlling successful, managers must ensure the communication of the mechanics of the control process. This means ensuring that all individuals involved in controlling must have a working knowledge of how the process operates.",
+      "reference": "Textbook Page 509: \"The lesson here is simple: For control to be successful, all individuals involved in controlling must have a working knowledge of how the control process operates.\"",
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q23",
+      "questionType": "true_false",
+      "poolIndex": 5,
+      "sourceRefs": [
+        "ch21,p509",
+        "ch21:s17"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            509
+          ],
+          "pages": [
+            10
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p509"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            17
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s17"
+        }
+      ],
       "slideRef": "ch21:s17",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -193,12 +376,7 @@
         ],
         "pageCount": 19,
         "syntax": "ch21:s17"
-      },
-      "origin": "2021",
-      "sourceFile": "final21.json",
-      "sourceQuestionId": "Q23",
-      "questionType": "true_false",
-      "poolIndex": 5
+      }
     },
     {
       "id": "Q24",
@@ -216,8 +394,49 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "Position power is derived strictly from the organizational position a manager holds. A manager cannot simply increase this on their own; the organization must promote them. However, a manager can independently work to increase their \"Personal Power\" by building relationships.",
-      "reference": "Chapter 21: Controlling Fundamentals - Answer deduced from the definitions of Position Power and Personal Power on Slide 15 and Slide 16.",
+      "explanation": "Position power is derived strictly from the organizational position a manager holds, which usually depends on promotions that managers have little personal control over. However, managers do have substantial control over increasing their 'personal power' by building relationships.",
+      "reference": "Textbook Page 508: \"Position power is generally enhanced by a move to a higher organizational position, but most managers have little personal control over when they will move up in an organization. Managers do, however, have substantial control over the amount of personal power they hold over other organization members.\"",
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q24",
+      "questionType": "true_false",
+      "poolIndex": 6,
+      "sourceRefs": [
+        "ch21,p508",
+        "ch21:s15-16"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            508
+          ],
+          "pages": [
+            9
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p508"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            15,
+            16
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s15-16"
+        }
+      ],
       "slideRef": "ch21:s15-16",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -232,12 +451,7 @@
         ],
         "pageCount": 19,
         "syntax": "ch21:s15-16"
-      },
-      "origin": "2021",
-      "sourceFile": "final21.json",
-      "sourceQuestionId": "Q24",
-      "questionType": "true_false",
-      "poolIndex": 6
+      }
     },
     {
       "id": "Q2",
@@ -255,9 +469,49 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "Doing personal favors helps develop a sense of obligation, which increases a manager's \"Personal Power\". It does not negatively impact their \"Position Power,\" which is determined by their formal rank in the organization.",
-      "reference": "Chapter 21: Controlling Fundamentals - Answer deduced from Slide 15 and Slide 16.",
-      "slideRef": "ch21:s15-16",
+      "explanation": "Doing personal favors helps develop a sense of obligation, which increases a manager's \"personal power.\" It does not negatively impact their \"position power,\" which is determined by their formal rank in the organization.",
+      "reference": "Textbook Page 508: \"To increase personal power, a manager should attempt to develop... A sense of obligation toward the manager... The basic strategy suggested for creating this sense of obligation is to do personal favors for people.\"",
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q2",
+      "questionType": "true_false",
+      "poolIndex": 7,
+      "sourceRefs": [
+        "ch21,p508",
+        "ch21:s16"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            508
+          ],
+          "pages": [
+            9
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p508"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            16
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s16"
+        }
+      ],
+      "slideRef": "ch21:s16",
       "slideRefParsed": {
         "lectureId": "ch21",
         "chapterNumber": 21,
@@ -266,17 +520,11 @@
         "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
         "kind": "slides",
         "pages": [
-          15,
           16
         ],
         "pageCount": 19,
-        "syntax": "ch21:s15-16"
-      },
-      "origin": "2024",
-      "sourceFile": "final24.json",
-      "sourceQuestionId": "Q2",
-      "questionType": "true_false",
-      "poolIndex": 7
+        "syntax": "ch21:s16"
+      }
     },
     {
       "id": "Q3",
@@ -294,8 +542,53 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "The controlling process involves comparing measured performance to a standard. If the performance is \"significantly different from standards,\" the manager must take corrective action, which begins by recognizing the \"Problem\" (a barrier to goal attainment).",
-      "reference": "Chapter 21: Controlling Fundamentals - Answer derived from the Controlling Process diagram on Slide 8 and definitions on Slide 13.",
+      "explanation": "The controlling process involves comparing measured performance to a standard. If the performance is significantly different from standards, the manager must take corrective action, which begins by recognizing the problem (a barrier to organizational goal attainment) that caused the deviation from the standard.",
+      "reference": "Textbook Pages 506-507 and the Controlling Process diagram on Page 504.",
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q3",
+      "questionType": "true_false",
+      "poolIndex": 8,
+      "sourceRefs": [
+        "ch21,p504,506-507",
+        "ch21:s8,13"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            504,
+            506,
+            507
+          ],
+          "pages": [
+            5,
+            7,
+            8
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p504,506-507"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            8,
+            13
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s8,13"
+        }
+      ],
       "slideRef": "ch21:s8,13",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -310,12 +603,7 @@
         ],
         "pageCount": 19,
         "syntax": "ch21:s8,13"
-      },
-      "origin": "2024",
-      "sourceFile": "final24.json",
-      "sourceQuestionId": "Q3",
-      "questionType": "true_false",
-      "poolIndex": 8
+      }
     },
     {
       "id": "Q1",
@@ -333,8 +621,48 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "The entire purpose of comparing measured performance to standards is to highlight deviations (whether performance is \"significantly different from standards\") so that corrective action can be taken.",
-      "reference": "Chapter 21: Controlling Fundamentals - Answer deduced from the Controlling Process diagram on Slide 8.",
+      "explanation": "The entire purpose of control and comparing measured performance to standards is to signal or highlight when deviations from the plan are occurring so that corrective action can be taken.",
+      "reference": "Textbook Page 502: \"We must develop methods of measurement and control to signal when deviations from the plan are occurring so that corrective action can be taken.\"",
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q1",
+      "questionType": "true_false",
+      "poolIndex": 9,
+      "sourceRefs": [
+        "ch21,p502",
+        "ch21:s8"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            502
+          ],
+          "pages": [
+            3
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p502"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            8
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s8"
+        }
+      ],
       "slideRef": "ch21:s8",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -348,12 +676,7 @@
         ],
         "pageCount": 19,
         "syntax": "ch21:s8"
-      },
-      "origin": "2025",
-      "sourceFile": "final25.json",
-      "sourceQuestionId": "Q1",
-      "questionType": "true_false",
-      "poolIndex": 9
+      }
     },
     {
       "id": "Q4",
@@ -371,8 +694,48 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "If the comparison step shows that performance is \"significantly different from standards\" (a deviation), the immediate next required step in the controlling process is to \"Take corrective action\".",
-      "reference": "Chapter 21: Controlling Fundamentals - Answer found directly on the Controlling Process diagram on Slide 8.",
+      "explanation": "If the comparison step shows that performance is significantly different from standards (a deviation), the required next step in the controlling process is to take corrective action to bring performance up to the standard.",
+      "reference": "Textbook Page 506: \"After actual performance has been measured and compared with established performance standards, the next step in the controlling process is to take corrective action if necessary.\"",
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q4",
+      "questionType": "true_false",
+      "poolIndex": 10,
+      "sourceRefs": [
+        "ch21,p506",
+        "ch21:s8"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            506
+          ],
+          "pages": [
+            7
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p506"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            8
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s8"
+        }
+      ],
       "slideRef": "ch21:s8",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -386,12 +749,7 @@
         ],
         "pageCount": 19,
         "syntax": "ch21:s8"
-      },
-      "origin": "2025",
-      "sourceFile": "final25.json",
-      "sourceQuestionId": "Q4",
-      "questionType": "true_false",
-      "poolIndex": 10
+      }
     },
     {
       "id": "Q1.i",
@@ -421,8 +779,48 @@
         }
       ],
       "correctAnswerId": "2",
-      "explanation": "The lecture slides provide the exact definition: \"Corrective action: Managerial activity aimed at bringing organizational performance up to the level of performance standards\".",
-      "reference": "Chapter 21: Controlling Fundamentals - Answer found verbatim on Slide 13.",
+      "explanation": "Corrective action is the specific managerial activity in the controlling process aimed at correcting mistakes and bringing organizational performance up to the level of the established performance standards.",
+      "reference": "Textbook Page 506: \"Corrective action is managerial activity aimed at bringing organizational performance up to the level of performance standards.\"",
+      "origin": "2019",
+      "sourceFile": "final19.json",
+      "sourceQuestionId": "Q1.i",
+      "questionType": "mcq",
+      "poolIndex": 11,
+      "sourceRefs": [
+        "ch21,p506",
+        "ch21:s13"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            506
+          ],
+          "pages": [
+            7
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p506"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            13
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s13"
+        }
+      ],
       "slideRef": "ch21:s13",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -436,12 +834,7 @@
         ],
         "pageCount": 19,
         "syntax": "ch21:s13"
-      },
-      "origin": "2019",
-      "sourceFile": "final19.json",
-      "sourceQuestionId": "Q1.i",
-      "questionType": "mcq",
-      "poolIndex": 11
+      }
     },
     {
       "id": "Q1.j",
@@ -471,8 +864,48 @@
         }
       ],
       "correctAnswerId": "3",
-      "explanation": "Roberto Mockler's definition of controlling explicitly states it is \"a systematic effort by business management to compare performance to predetermined standards... to determine whether performance is in line with these standards...\".",
-      "reference": "Chapter 21: Controlling Fundamentals - Answer found verbatim on Slide 6.",
+      "explanation": "Roberto Mockler's formal definition of controlling explicitly states it is a systematic effort by business management to compare performance to predetermined standards to determine whether performance is in line with those standards.",
+      "reference": "Textbook Page 502: \"According to Roberto Mockler, controlling is a systematic effort by business management to compare performance to predetermined standards, plans, or objectives to determine whether performance is in line with these standards...\"",
+      "origin": "2019",
+      "sourceFile": "final19.json",
+      "sourceQuestionId": "Q1.j",
+      "questionType": "mcq",
+      "poolIndex": 12,
+      "sourceRefs": [
+        "ch21,p502",
+        "ch21:s6"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            502
+          ],
+          "pages": [
+            3
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p502"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            6
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s6"
+        }
+      ],
       "slideRef": "ch21:s6",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -486,12 +919,7 @@
         ],
         "pageCount": 19,
         "syntax": "ch21:s6"
-      },
-      "origin": "2019",
-      "sourceFile": "final19.json",
-      "sourceQuestionId": "Q1.j",
-      "questionType": "mcq",
-      "poolIndex": 12
+      }
     },
     {
       "id": "Q26",
@@ -521,27 +949,34 @@
         }
       ],
       "correctAnswerId": "d",
-      "explanation": "Because controlling involves measuring performance to ensure events occur as planned, failing to monitor the progress of those plans is a direct error in the controlling stage. (Establishing departments is Organizing; communication is Influencing; alternatives are Planning).",
-      "reference": "Chapter 1: Introduction - Slide 11 lists controlling common mistakes; \"not monitoring progress in carrying out plans\" is the controlling error.",
-      "slideRef": "ch1:s11",
-      "slideRefParsed": {
-        "lectureId": "ch1",
-        "chapterNumber": 1,
-        "topic": "Chapter 1: Introduction",
-        "lectureFile": "Chapter 1 - Introduction.pdf",
-        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
-        "kind": "slides",
-        "pages": [
-          11
-        ],
-        "pageCount": 30,
-        "syntax": "ch1:s11"
-      },
+      "explanation": "Controlling involves monitoring and measuring performance to ensure events occur as planned. Therefore, failing to monitor the progress of carrying out those plans is a direct error in the controlling stage. (Establishing departments is Organizing; communication is Influencing; alternatives are Planning).",
+      "reference": "Textbook Page 502: \"...managers should continually control—that is, check to see that organizational activities and processes are going as planned.\"",
       "origin": "2021",
       "sourceFile": "final21.json",
       "sourceQuestionId": "Q26",
       "questionType": "mcq",
-      "poolIndex": 13
+      "poolIndex": 13,
+      "sourceRefs": [
+        "ch21,p502"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            502
+          ],
+          "pages": [
+            3
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p502"
+        }
+      ]
     },
     {
       "id": "Q44",
@@ -572,7 +1007,47 @@
       ],
       "correctAnswerId": "c",
       "explanation": "Roberto Mockler explicitly defines 'Controlling' as this exact systematic effort.",
-      "reference": "Chapter 21: Controlling Fundamentals - Answer found verbatim on Slide 6.",
+      "reference": "Textbook Page 502: \"According to Roberto Mockler, controlling is a systematic effort by business management to compare performance to predetermined standards...\"",
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q44",
+      "questionType": "mcq",
+      "poolIndex": 14,
+      "sourceRefs": [
+        "ch21,p502",
+        "ch21:s6"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            502
+          ],
+          "pages": [
+            3
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p502"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            6
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s6"
+        }
+      ],
       "slideRef": "ch21:s6",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -586,12 +1061,7 @@
         ],
         "pageCount": 19,
         "syntax": "ch21:s6"
-      },
-      "origin": "2021",
-      "sourceFile": "final21.json",
-      "sourceQuestionId": "Q44",
-      "questionType": "mcq",
-      "poolIndex": 14
+      }
     },
     {
       "id": "Q45",
@@ -621,8 +1091,48 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "The lecture states explicitly that \"Planning and control are virtually inseparable functions, they have been called the Siamese twins of management\".",
-      "reference": "Chapter 21: Controlling Fundamentals - Answer found verbatim on Slide 4.",
+      "explanation": "The textbook explicitly states that planning and control are virtually inseparable functions and refers to them as the Siamese twins of management.",
+      "reference": "Textbook Page 502: \"As implied by this definition, planning and control are virtually inseparable functions. In fact, these two functions have been called the Siamese twins of management.\"",
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q45",
+      "questionType": "mcq",
+      "poolIndex": 15,
+      "sourceRefs": [
+        "ch21,p502",
+        "ch21:s4"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            502
+          ],
+          "pages": [
+            3
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p502"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            4
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s4"
+        }
+      ],
       "slideRef": "ch21:s4",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -636,12 +1146,7 @@
         ],
         "pageCount": 19,
         "syntax": "ch21:s4"
-      },
-      "origin": "2021",
-      "sourceFile": "final21.json",
-      "sourceQuestionId": "Q45",
-      "questionType": "mcq",
-      "poolIndex": 15
+      }
     },
     {
       "id": "Q46",
@@ -671,8 +1176,48 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "The lecture defines a \"Standard\" exactly as \"The level of activity established to serve as a model for evaluating organizational performance\".",
-      "reference": "Chapter 21: Controlling Fundamentals - Answer found verbatim on Slide 11.",
+      "explanation": "A standard acts as the yardstick that determines whether organizational performance is adequate or inadequate. The textbook defines it exactly as the level of activity established to serve as a model for evaluation.",
+      "reference": "Textbook Page 505: \"A standard is the level of activity established to serve as a model for evaluating organizational performance.\"",
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q46",
+      "questionType": "mcq",
+      "poolIndex": 16,
+      "sourceRefs": [
+        "ch21,p505",
+        "ch21:s11"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            505
+          ],
+          "pages": [
+            6
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p505"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            11
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s11"
+        }
+      ],
       "slideRef": "ch21:s11",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -686,12 +1231,7 @@
         ],
         "pageCount": 19,
         "syntax": "ch21:s11"
-      },
-      "origin": "2021",
-      "sourceFile": "final21.json",
-      "sourceQuestionId": "Q46",
-      "questionType": "mcq",
-      "poolIndex": 16
+      }
     },
     {
       "id": "Q47",
@@ -721,8 +1261,48 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "The lecture defines \"Corrective action\" exactly as \"Managerial activity aimed at bringing organizational performance up to the level of performance standards\".",
-      "reference": "Chapter 21: Controlling Fundamentals - Answer found verbatim on Slide 13.",
+      "explanation": "The textbook defines \"Corrective action\" exactly as managerial activity aimed at bringing organizational performance up to the level of performance standards.",
+      "reference": "Textbook Page 506: \"Corrective action is managerial activity aimed at bringing organizational performance up to the level of performance standards.\"",
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q47",
+      "questionType": "mcq",
+      "poolIndex": 17,
+      "sourceRefs": [
+        "ch21,p506",
+        "ch21:s13"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            506
+          ],
+          "pages": [
+            7
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p506"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            13
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s13"
+        }
+      ],
       "slideRef": "ch21:s13",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -736,12 +1316,7 @@
         ],
         "pageCount": 19,
         "syntax": "ch21:s13"
-      },
-      "origin": "2021",
-      "sourceFile": "final21.json",
-      "sourceQuestionId": "Q47",
-      "questionType": "mcq",
-      "poolIndex": 17
+      }
     },
     {
       "id": "Q48",
@@ -771,8 +1346,48 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "Position power is \"power derived from the organizational position a manager holds\". Since subordinates follow Jamie strictly because she holds the title/position of manager, it is position power.",
-      "reference": "Chapter 21: Controlling Fundamentals - Answer deduced from the definition of Position Power on Slide 15.",
+      "explanation": "Position power is the power derived strictly from the organizational position a manager holds. Since subordinates follow Jamie because she holds the official title and position of manager, it is an example of position power.",
+      "reference": "Textbook Page 508: \"Position power is power derived from the organizational position a manager holds.\"",
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q48",
+      "questionType": "mcq",
+      "poolIndex": 18,
+      "sourceRefs": [
+        "ch21,p508",
+        "ch21:s15"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            508
+          ],
+          "pages": [
+            9
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p508"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            15
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s15"
+        }
+      ],
       "slideRef": "ch21:s15",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -786,12 +1401,7 @@
         ],
         "pageCount": 19,
         "syntax": "ch21:s15"
-      },
-      "origin": "2021",
-      "sourceFile": "final21.json",
-      "sourceQuestionId": "Q48",
-      "questionType": "mcq",
-      "poolIndex": 18
+      }
     },
     {
       "id": "Q19",
@@ -821,8 +1431,48 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "This is the exact, verbatim definition of a \"Standard\" provided in the lecture.",
-      "reference": "Chapter 21: Controlling Fundamentals - Answer found verbatim on Slide 11.",
+      "explanation": "This is the exact, verbatim definition of a \"standard\" provided in the textbook.",
+      "reference": "Textbook Page 505: \"A standard is the level of activity established to serve as a model for evaluating organizational performance.\"",
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q19",
+      "questionType": "mcq",
+      "poolIndex": 19,
+      "sourceRefs": [
+        "ch21,p505",
+        "ch21:s11"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            505
+          ],
+          "pages": [
+            6
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p505"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            11
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s11"
+        }
+      ],
       "slideRef": "ch21:s11",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -836,12 +1486,7 @@
         ],
         "pageCount": 19,
         "syntax": "ch21:s11"
-      },
-      "origin": "2024",
-      "sourceFile": "final24.json",
-      "sourceQuestionId": "Q19",
-      "questionType": "mcq",
-      "poolIndex": 19
+      }
     },
     {
       "id": "Q23",
@@ -871,8 +1516,48 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "Controlling is the process that utilizes a systematic effort to compare performance to predetermined standards.",
-      "reference": "Chapter 21: Controlling Fundamentals - Answer found on Slide 6 under Mockler's definition of controlling.",
+      "explanation": "Controlling is the management function that utilizes a systematic effort to compare performance to predetermined standards to verify if performance is in line.",
+      "reference": "Textbook Page 502: \"According to Roberto Mockler, controlling is a systematic effort by business management to compare performance to predetermined standards...\"",
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q23",
+      "questionType": "mcq",
+      "poolIndex": 20,
+      "sourceRefs": [
+        "ch21,p502",
+        "ch21:s6"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            502
+          ],
+          "pages": [
+            3
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p502"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            6
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s6"
+        }
+      ],
       "slideRef": "ch21:s6",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -886,12 +1571,7 @@
         ],
         "pageCount": 19,
         "syntax": "ch21:s6"
-      },
-      "origin": "2024",
-      "sourceFile": "final24.json",
-      "sourceQuestionId": "Q23",
-      "questionType": "mcq",
-      "poolIndex": 20
+      }
     },
     {
       "id": "Q27",
@@ -921,8 +1601,48 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "Step 1 of the controlling process is \"Measuring Performance\". Step 2 is explicitly \"Comparing Measured Performance To Standards\".",
-      "reference": "Chapter 21: Controlling Fundamentals - Answer found directly on the list of steps on Slide 9.",
+      "explanation": "Step 1 of the controlling process is measuring performance. Step 2 is explicitly comparing that measured performance to established standards.",
+      "reference": "Textbook Page 503: \"As Figure 21.2 illustrates, there are three main steps in the controlling process: 1. Measuring performance 2. Comparing measured performance to standards...\"",
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q27",
+      "questionType": "mcq",
+      "poolIndex": 21,
+      "sourceRefs": [
+        "ch21,p503",
+        "ch21:s9"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            503
+          ],
+          "pages": [
+            4
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p503"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            9
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s9"
+        }
+      ],
       "slideRef": "ch21:s9",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -936,12 +1656,7 @@
         ],
         "pageCount": 19,
         "syntax": "ch21:s9"
-      },
-      "origin": "2024",
-      "sourceFile": "final24.json",
-      "sourceQuestionId": "Q27",
-      "questionType": "mcq",
-      "poolIndex": 21
+      }
     },
     {
       "id": "Q65",
@@ -971,8 +1686,48 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "Establishing performance standards is a core component of the \"Comparing Measured Performance To Standards\" step within the Controlling process. Failing to establish these standards prevents successful controlling.",
-      "reference": "Chapter 21: Controlling Fundamentals - Answer deduced from Slide 11.",
+      "explanation": "Establishing and utilizing performance standards is a core component of the \"Comparing Measured Performance To Standards\" step within the controlling process. Failing to establish appropriate standards prevents successful controlling.",
+      "reference": "Textbook Page 505: \"Comparing Measured Performance to Standards... A standard is the level of activity established to serve as a model for evaluating organizational performance.\"",
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q65",
+      "questionType": "mcq",
+      "poolIndex": 22,
+      "sourceRefs": [
+        "ch21,p505",
+        "ch21:s11"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            505
+          ],
+          "pages": [
+            6
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p505"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            11
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s11"
+        }
+      ],
       "slideRef": "ch21:s11",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -986,12 +1741,7 @@
         ],
         "pageCount": 19,
         "syntax": "ch21:s11"
-      },
-      "origin": "2024",
-      "sourceFile": "final24.json",
-      "sourceQuestionId": "Q65",
-      "questionType": "mcq",
-      "poolIndex": 22
+      }
     },
     {
       "id": "Q16",
@@ -1017,8 +1767,48 @@
         }
       ],
       "correctAnswerId": "d",
-      "explanation": "While 'Management by exception' is not explicitly defined in the provided Chapter 21 slides, it is a core controlling concept closely tied to the flowchart on Slide 8: a manager only intervenes (Takes corrective action) when \"Performance [is] significantly different from standards\".",
-      "reference": "Chapter 21: Controlling Fundamentals - Deduced from the Controlling Process diagram on Slide 8.",
+      "explanation": "The management by exception concept is a core controlling principle closely tied to the flowchart of the control process. It means a manager should only intervene (take corrective action) when performance is \"significantly different from standards\" (a significant variance), allowing them to ignore minor variances and focus their time efficiently.",
+      "reference": "Textbook Page 504 (Figure 21.2): The controlling subsystem flowchart dictates that action is only taken when \"Performance [is] significantly different from standards\".",
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q16",
+      "questionType": "mcq",
+      "poolIndex": 23,
+      "sourceRefs": [
+        "ch21,p504",
+        "ch21:s8"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            504
+          ],
+          "pages": [
+            5
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p504"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            8
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s8"
+        }
+      ],
       "slideRef": "ch21:s8",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -1032,12 +1822,7 @@
         ],
         "pageCount": 19,
         "syntax": "ch21:s8"
-      },
-      "origin": "2025",
-      "sourceFile": "final25.json",
-      "sourceQuestionId": "Q16",
-      "questionType": "mcq",
-      "poolIndex": 23
+      }
     },
     {
       "id": "Q22",
@@ -1063,8 +1848,48 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "The lecture provides the strict definition: \"Control: Ensuring that an event occurs as it was planned to occur\".",
-      "reference": "Chapter 21: Controlling Fundamentals - Answer found verbatim on Slide 4.",
+      "explanation": "The textbook provides the strict definition of control: \"ensuring that an event occurs as it was planned to occur.\" Controlling is the process managers go through to do this.",
+      "reference": "Textbook Page 502: \"Stated simply, control entails ensuring that an event occurs as it was planned to occur... Controlling is the process managers go through to control.\"",
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q22",
+      "questionType": "mcq",
+      "poolIndex": 24,
+      "sourceRefs": [
+        "ch21,p502",
+        "ch21:s4"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            502
+          ],
+          "pages": [
+            3
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p502"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            4
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s4"
+        }
+      ],
       "slideRef": "ch21:s4",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -1078,12 +1903,7 @@
         ],
         "pageCount": 19,
         "syntax": "ch21:s4"
-      },
-      "origin": "2025",
-      "sourceFile": "final25.json",
-      "sourceQuestionId": "Q22",
-      "questionType": "mcq",
-      "poolIndex": 24
+      }
     },
     {
       "id": "Q26",
@@ -1109,45 +1929,34 @@
         }
       ],
       "correctAnswerId": "d",
-      "explanation": "Although not explicitly on a single slide in Chapter 21, the controlling process requires that \"managers\" perform it. Based on the overarching principles of management (e.g., Chapter 1), all levels of management—top, middle, and lower—execute all four fundamental functions (Planning, Organizing, Influencing, Controlling).",
-      "reference": "Chapter 21: Controlling Fundamentals - Inferred from the general use of \"managers\" throughout the slides and fundamental management theory.",
-      "slideRef": "ch21:all",
-      "slideRefParsed": {
-        "lectureId": "ch21",
-        "chapterNumber": 21,
-        "topic": "Chapter 21: Controlling Fundamentals",
-        "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
-        "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
-        "kind": "all",
-        "pages": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8,
-          9,
-          10,
-          11,
-          12,
-          13,
-          14,
-          15,
-          16,
-          17,
-          18,
-          19
-        ],
-        "pageCount": 19,
-        "syntax": "ch21:all"
-      },
+      "explanation": "Based on the overarching principles of management, all levels of management—top-level, middle-level, and lower-level (first-line) management—execute the controlling function. For instance, top managers control total company plans, middle managers control operations, and first-line managers control specific activities.",
+      "reference": "Textbook Page 516 (Figure 21.6) outlines how different management levels (Top, Middle, First-line) all use information systems to support control within their specific organizational levels.",
       "origin": "2025",
       "sourceFile": "final25.json",
       "sourceQuestionId": "Q26",
       "questionType": "mcq",
-      "poolIndex": 25
+      "poolIndex": 25,
+      "sourceRefs": [
+        "ch21,p516"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            516
+          ],
+          "pages": [
+            17
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p516"
+        }
+      ]
     },
     {
       "id": "Q29",
@@ -1173,8 +1982,48 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "Controlling is the process of comparing performance to predetermined standards to see if performance aligns.",
-      "reference": "Chapter 21: Controlling Fundamentals - Answer found on Slide 6 under Mockler's definition.",
+      "explanation": "Controlling is the process of comparing actual performance to predetermined standards to see if performance aligns and taking remedial action if needed.",
+      "reference": "Textbook Page 502: \"According to Roberto Mockler, controlling is a systematic effort by business management to compare performance to predetermined standards...\"",
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q29",
+      "questionType": "mcq",
+      "poolIndex": 26,
+      "sourceRefs": [
+        "ch21,p502",
+        "ch21:s6"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            502
+          ],
+          "pages": [
+            3
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p502"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            6
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s6"
+        }
+      ],
       "slideRef": "ch21:s6",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -1188,12 +2037,7 @@
         ],
         "pageCount": 19,
         "syntax": "ch21:s6"
-      },
-      "origin": "2025",
-      "sourceFile": "final25.json",
-      "sourceQuestionId": "Q29",
-      "questionType": "mcq",
-      "poolIndex": 26
+      }
     },
     {
       "id": "Q31",
@@ -1219,9 +2063,51 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "Controlling involves checking performance against plans. If corrective action is needed, the process flows back to \"change plans, organization, or influencing methods\". Because Planning and Control are \"inseparable functions\" (Siamese twins), controlling naturally feeds directly back into planning to adjust future standards.",
-      "reference": "Chapter 21: Controlling Fundamentals - Answer deduced from Slide 4 and the flowchart on Slide 8.",
-      "slideRef": "ch21:s4,8",
+      "explanation": "Controlling involves checking performance against plans. If corrective action is needed, the process flows back to \"change plans, organization, or influencing methods.\" Because planning and control are \"inseparable functions\" (Siamese twins), controlling naturally feeds directly back into planning to adjust future standards or plans.",
+      "reference": "Textbook Page 502 (\"planning and control are virtually inseparable functions\") and Page 504 Figure 21.2 (\"Take corrective action: change plans...\").",
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q31",
+      "questionType": "mcq",
+      "poolIndex": 27,
+      "sourceRefs": [
+        "ch21,p502,504",
+        "ch21:s8"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            502,
+            504
+          ],
+          "pages": [
+            3,
+            5
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p502,504"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            8
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s8"
+        }
+      ],
+      "slideRef": "ch21:s8",
       "slideRefParsed": {
         "lectureId": "ch21",
         "chapterNumber": 21,
@@ -1230,17 +2116,11 @@
         "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
         "kind": "slides",
         "pages": [
-          4,
           8
         ],
         "pageCount": 19,
-        "syntax": "ch21:s4,8"
-      },
-      "origin": "2025",
-      "sourceFile": "final25.json",
-      "sourceQuestionId": "Q31",
-      "questionType": "mcq",
-      "poolIndex": 27
+        "syntax": "ch21:s8"
+      }
     },
     {
       "id": "Q35",
@@ -1266,8 +2146,48 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "The lecture explicitly states that planning and control are \"virtually inseparable functions\" and calls them the \"Siamese twins of management\". Therefore, stating they are \"separable\" is false and does not highlight their true relationship.",
-      "reference": "Chapter 21: Controlling Fundamentals - Answer found directly on Slide 4.",
+      "explanation": "The textbook explicitly states that planning and control are \"virtually inseparable functions\" and calls them the \"Siamese twins of management.\" Therefore, stating they are \"separable\" is false and does not accurately highlight their true relationship.",
+      "reference": "Textbook Page 502: \"As implied by this definition, planning and control are virtually inseparable functions. In fact, these two functions have been called the Siamese twins of management.\"",
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q35",
+      "questionType": "mcq",
+      "poolIndex": 28,
+      "sourceRefs": [
+        "ch21,p502",
+        "ch21:s4"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            502
+          ],
+          "pages": [
+            3
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p502"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            4
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s4"
+        }
+      ],
       "slideRef": "ch21:s4",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -1281,12 +2201,7 @@
         ],
         "pageCount": 19,
         "syntax": "ch21:s4"
-      },
-      "origin": "2025",
-      "sourceFile": "final25.json",
-      "sourceQuestionId": "Q35",
-      "questionType": "mcq",
-      "poolIndex": 28
+      }
     },
     {
       "id": "Q40",
@@ -1312,8 +2227,48 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "Controlling ensures events occur as planned, which promotes coordination. Therefore, \"restricting coordination\" is false and not an important or intended outcome of the controlling function.",
-      "reference": "Chapter 21: Controlling Fundamentals - Deduced from the definition of control on Slide 4.",
+      "explanation": "Controlling ensures events occur as planned, which naturally promotes order and alignment with goals. Therefore, \"restricting coordination\" is false and not an important or intended outcome of the controlling function.",
+      "reference": "Textbook Page 502: \"control entails ensuring that an event occurs as it was planned to occur.\"",
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q40",
+      "questionType": "mcq",
+      "poolIndex": 29,
+      "sourceRefs": [
+        "ch21,p502",
+        "ch21:s4"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            502
+          ],
+          "pages": [
+            3
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p502"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            4
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s4"
+        }
+      ],
       "slideRef": "ch21:s4",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -1327,12 +2282,7 @@
         ],
         "pageCount": 19,
         "syntax": "ch21:s4"
-      },
-      "origin": "2025",
-      "sourceFile": "final25.json",
-      "sourceQuestionId": "Q40",
-      "questionType": "mcq",
-      "poolIndex": 29
+      }
     },
     {
       "id": "Q41",
@@ -1358,8 +2308,51 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "Standards must be set first (usually during planning/initial control setup). Then the formal controlling process steps follow: 1. Measuring Performance, 2. Comparing Measured Performance To Standards (which involves analyzing deviations), 3. Taking Corrective Action. Option 'c' perfectly outlines this logical progression.",
-      "reference": "Chapter 21: Controlling Fundamentals - Answer deduced from the list of steps on Slide 9 and the definition of a Standard on Slide 11.",
+      "explanation": "First, performance standards must be set. Then, the formal controlling process steps follow: 1. Measuring performance, 2. Comparing measured performance to standards (which highlights and analyzes deviations), and 3. Taking corrective action. Option 'c' perfectly outlines this logical progression.",
+      "reference": "Textbook Page 503: \"there are three main steps in the controlling process: 1. Measuring performance 2. Comparing measured performance to standards 3. Taking corrective action\". Page 505 adds: \"...before they can take such a measurement, they must establish some unit of measure...\" and then establish standards.",
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q41",
+      "questionType": "mcq",
+      "poolIndex": 30,
+      "sourceRefs": [
+        "ch21,p503,505",
+        "ch21:s9,11"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            503,
+            505
+          ],
+          "pages": [
+            4,
+            6
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p503,505"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            9,
+            11
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s9,11"
+        }
+      ],
       "slideRef": "ch21:s9,11",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -1374,12 +2367,7 @@
         ],
         "pageCount": 19,
         "syntax": "ch21:s9,11"
-      },
-      "origin": "2025",
-      "sourceFile": "final25.json",
-      "sourceQuestionId": "Q41",
-      "questionType": "mcq",
-      "poolIndex": 30
+      }
     },
     {
       "id": "Q44",
@@ -1405,8 +2393,48 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "A standard is a \"level of activity established to serve as a model for evaluating organizational performance\". Because \"20%\" is a specific, numerical metric, it represents a quantitative standard.",
-      "reference": "Chapter 21: Controlling Fundamentals - Deduced from the definition of a Standard on Slide 11 and general definitions of quantitative data.",
+      "explanation": "A standard is a \"level of activity established to serve as a model for evaluating organizational performance.\" Because \"20%\" is a specific, numerical metric used to gauge performance, it represents a quantitative standard.",
+      "reference": "Textbook Page 505: \"A standard is the level of activity established to serve as a model for evaluating organizational performance.\"",
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q44",
+      "questionType": "mcq",
+      "poolIndex": 31,
+      "sourceRefs": [
+        "ch21,p505",
+        "ch21:s11"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            505
+          ],
+          "pages": [
+            6
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p505"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            11
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s11"
+        }
+      ],
       "slideRef": "ch21:s11",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -1420,12 +2448,7 @@
         ],
         "pageCount": 19,
         "syntax": "ch21:s11"
-      },
-      "origin": "2025",
-      "sourceFile": "final25.json",
-      "sourceQuestionId": "Q44",
-      "questionType": "mcq",
-      "poolIndex": 31
+      }
     }
   ]
 }

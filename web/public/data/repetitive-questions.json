@@ -25,8 +25,8 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "According to the Rational Decision-Making Process Model, 'Implement chosen alternative' is the fourth step. The fifth and final step is 'Gather problem-related feedback' to determine the effect on the problem.",
-      "reference": "Chapter 8: Making Decisions - Answer found on Slide 11 and Slide 18.",
+      "explanation": "According to the rational decision-making process model, implementing the chosen alternative is the fourth step. The fifth and final step is gathering problem-related feedback to determine the effect of the implemented alternative on the identified problem.",
+      "reference": "Textbook Page 187: Figure 8.3 shows Step 4 is 'Implement chosen alternative' and Step 5 is 'Gather problem-related feedback.'",
       "slideRef": "ch8:s11,18",
       "slideRefParsed": {
         "lectureId": "ch8",
@@ -64,6 +64,42 @@
           "sourceFile": "final21.json",
           "sourceQuestionId": "Q13"
         }
+      ],
+      "sourceRefs": [
+        "ch8:s11,18",
+        "ch8,p187"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch8",
+          "chapterNumber": 8,
+          "topic": "Chapter 8: Making Decisions",
+          "lectureFile": "Chapter 8 - Making Decisions.pdf",
+          "pdfPath": "Lectures/Chapter 8 - Making Decisions.pdf",
+          "kind": "slides",
+          "pages": [
+            11,
+            18
+          ],
+          "pageCount": 33,
+          "syntax": "ch8:s11,18"
+        },
+        {
+          "lectureId": "ch8",
+          "chapterNumber": 8,
+          "topic": "Chapter 8: Making Decisions",
+          "lectureFile": "chapter-08.pdf",
+          "pdfPath": "Book/chapter-08.pdf",
+          "kind": "book",
+          "bookPages": [
+            187
+          ],
+          "pages": [
+            8
+          ],
+          "pageCount": 23,
+          "syntax": "ch8,p187"
+        }
       ]
     },
     {
@@ -82,8 +118,8 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Weber's bureaucratic model defines the concept of bureaucracy using three main components: detailed procedures and rules, a clearly outlined organizational hierarchy, and impersonal relationships among organization members.",
-      "reference": "Chapter 11: Fundamentals of Organizing - Answer found verbatim on Slide 9.",
+      "explanation": "Max Weber's concept of bureaucracy is precisely defined by these exact characteristics. It is a system intended to increase organizational efficiency through strict adherence to rules, formal hierarchies, and impersonal interactions.",
+      "reference": "Textbook Page 252: \"Bureaucracy is the term Max Weber used to describe a management system that includes three primary components: detailed procedures and rules, a clearly outlined organizational hierarchy, and impersonal relationships among organization members.\"",
       "slideRef": "ch11:s9",
       "slideRefParsed": {
         "lectureId": "ch11",
@@ -120,6 +156,41 @@
           "sourceFile": "final24.json",
           "sourceQuestionId": "Q8"
         }
+      ],
+      "sourceRefs": [
+        "ch11:s9",
+        "ch11,p252"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch11",
+          "chapterNumber": 11,
+          "topic": "Chapter 11: Fundamentals of Organizing",
+          "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+          "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+          "kind": "slides",
+          "pages": [
+            9
+          ],
+          "pageCount": 38,
+          "syntax": "ch11:s9"
+        },
+        {
+          "lectureId": "ch11",
+          "chapterNumber": 11,
+          "topic": "Chapter 11: Fundamentals of Organizing",
+          "lectureFile": "chapter-11.pdf",
+          "pdfPath": "Book/chapter-11.pdf",
+          "kind": "book",
+          "bookPages": [
+            252
+          ],
+          "pages": [
+            5
+          ],
+          "pageCount": 25,
+          "syntax": "ch11,p252"
+        }
       ]
     },
     {
@@ -138,8 +209,8 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "Communication is ranked highly by chief executives as a key learning area, tying for rank 1 as the most important skill that should be taught, making it a fundamental management skill rather than a supplementary one.",
-      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 6.",
+      "explanation": "The textbook indicates that chief executives rank communication skills extremely high—tying for first place as the most important skill to teach management students. Thus, it is a fundamental, not supplementary, management skill.",
+      "reference": "Textbook Page 351: \"Table 15.1 shows that chief executives rank communication skills... tying for rank 1 as the most important skill that should be taught to management students.\"",
       "slideRef": "ch15:s6",
       "slideRefParsed": {
         "lectureId": "ch15",
@@ -176,6 +247,41 @@
           "sourceFile": "final24.json",
           "sourceQuestionId": "Q14"
         }
+      ],
+      "sourceRefs": [
+        "ch15:s6",
+        "ch15,p351"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch15",
+          "chapterNumber": 15,
+          "topic": "Chapter 15: Influencing and Communication",
+          "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+          "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+          "kind": "slides",
+          "pages": [
+            6
+          ],
+          "pageCount": 25,
+          "syntax": "ch15:s6"
+        },
+        {
+          "lectureId": "ch15",
+          "chapterNumber": 15,
+          "topic": "Chapter 15: Influencing and Communication",
+          "lectureFile": "chapter-15.pdf",
+          "pdfPath": "Book/chapter-15.pdf",
+          "kind": "book",
+          "bookPages": [
+            351
+          ],
+          "pages": [
+            8
+          ],
+          "pageCount": 25,
+          "syntax": "ch15,p351"
+        }
       ]
     },
     {
@@ -194,8 +300,8 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "To increase personal power, a manager should attempt to develop a \"sense of obligation toward the manager\" among organization members. Doing personal favors is a common way to build this sense of obligation, thereby increasing personal power, not detracting from position power.",
-      "reference": "Chapter 21: Controlling Fundamentals - Answer deduced from Slide 16 regarding increasing personal power.",
+      "explanation": "Doing personal favors is a strategy to develop a sense of obligation toward the manager, which increases their personal power, not their position power. Position power is derived from the formal organizational position a manager holds, so doing personal favors does not diminish or preserve it.",
+      "reference": "Textbook Page 508: \"To increase personal power, a manager should attempt to develop the following attitudes and beliefs in other organization members: 1. A sense of obligation toward the manager... The basic strategy suggested for creating this sense of obligation is to do personal favors for people.\"",
       "slideRef": "ch21:s16",
       "slideRefParsed": {
         "lectureId": "ch21",
@@ -232,6 +338,41 @@
           "sourceFile": "final24.json",
           "sourceQuestionId": "Q2"
         }
+      ],
+      "sourceRefs": [
+        "ch21,p508",
+        "ch21:s16"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "chapter-21.pdf",
+          "pdfPath": "Book/chapter-21.pdf",
+          "kind": "book",
+          "bookPages": [
+            508
+          ],
+          "pages": [
+            9
+          ],
+          "pageCount": 27,
+          "syntax": "ch21,p508"
+        },
+        {
+          "lectureId": "ch21",
+          "chapterNumber": 21,
+          "topic": "Chapter 21: Controlling Fundamentals",
+          "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+          "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+          "kind": "slides",
+          "pages": [
+            16
+          ],
+          "pageCount": 19,
+          "syntax": "ch21:s16"
+        }
       ]
     },
     {
@@ -250,8 +391,8 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "The ability to see the organization as a whole is the definition of 'Conceptual Skills'. 'Human Skills' are defined as the ability to work with people.",
-      "reference": "Chapter 1: Introduction - Answer found on Slide 22.",
+      "explanation": "The ability to see the organization as a whole is the definition of 'Conceptual Skills'. 'Human Skills' are defined as the ability to build cooperation and work effectively with people.",
+      "reference": "Textbook Page 11: \"Conceptual skills involve the ability to see the organization as a whole... Human skills build cooperation within the team being led.\"",
       "slideRef": "ch1:s22",
       "slideRefParsed": {
         "lectureId": "ch1",
@@ -287,6 +428,41 @@
           "origin": "2025",
           "sourceFile": "final25.json",
           "sourceQuestionId": "Q5"
+        }
+      ],
+      "sourceRefs": [
+        "ch1:s22",
+        "ch1,p11"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch1",
+          "chapterNumber": 1,
+          "topic": "Chapter 1: Introduction",
+          "lectureFile": "Chapter 1 - Introduction.pdf",
+          "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+          "kind": "slides",
+          "pages": [
+            22
+          ],
+          "pageCount": 30,
+          "syntax": "ch1:s22"
+        },
+        {
+          "lectureId": "ch1",
+          "chapterNumber": 1,
+          "topic": "Chapter 1: Introduction",
+          "lectureFile": "chapter-01.pdf",
+          "pdfPath": "Book/chapter-01.pdf",
+          "kind": "book",
+          "bookPages": [
+            11
+          ],
+          "pages": [
+            10
+          ],
+          "pageCount": 25,
+          "syntax": "ch1,p11"
         }
       ]
     },
@@ -362,9 +538,9 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "Span of management (or span of control) refers to the number of individuals a manager directly supervises to best guide them toward production quotas. The number of organizational levels relates to the vertical dimensioning or the 'height' of the organization chart, not the span of management.",
-      "reference": "Chapter 11: Fundamentals of Organizing - Answer deduced from Slide 20 and Slide 23.",
-      "slideRef": "ch11:s20,23",
+      "explanation": "Span of management (also called span of control) refers to the number of individuals a manager directly supervises, not the number of vertical organizational levels below them.",
+      "reference": "Textbook Page 262: \"Span of management—also called span of control, span of authority, span of supervision, and span of responsibility—is the number of individuals a manager supervises.\"",
+      "slideRef": "ch11:s20",
       "slideRefParsed": {
         "lectureId": "ch11",
         "chapterNumber": 11,
@@ -373,11 +549,10 @@
         "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
         "kind": "slides",
         "pages": [
-          20,
-          23
+          20
         ],
         "pageCount": 38,
-        "syntax": "ch11:s20,23"
+        "syntax": "ch11:s20"
       },
       "origin": "2021",
       "sourceFile": "final21.json",
@@ -400,6 +575,41 @@
           "origin": "2025",
           "sourceFile": "final25.json",
           "sourceQuestionId": "Q13"
+        }
+      ],
+      "sourceRefs": [
+        "ch11:s20",
+        "ch11,p262"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch11",
+          "chapterNumber": 11,
+          "topic": "Chapter 11: Fundamentals of Organizing",
+          "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+          "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+          "kind": "slides",
+          "pages": [
+            20
+          ],
+          "pageCount": 38,
+          "syntax": "ch11:s20"
+        },
+        {
+          "lectureId": "ch11",
+          "chapterNumber": 11,
+          "topic": "Chapter 11: Fundamentals of Organizing",
+          "lectureFile": "chapter-11.pdf",
+          "pdfPath": "Book/chapter-11.pdf",
+          "kind": "book",
+          "bookPages": [
+            262
+          ],
+          "pages": [
+            15
+          ],
+          "pageCount": 25,
+          "syntax": "ch11,p262"
         }
       ]
     },
@@ -476,9 +686,9 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "The basic elements of the interpersonal communication process are the source/encoder, the signal, and the decoder/destination. The statement incorrectly omits the 'signal' entirely and splits source and encoder.",
-      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 12 and Slide 13.",
-      "slideRef": "ch15:s12-13",
+      "explanation": "The statement is false because it omits the \"signal.\" The three basic elements of the interpersonal communication process are the source/encoder, the signal, and the decoder/destination.",
+      "reference": "Textbook Page 348: \"To be a successful interpersonal communicator, a manager must understand the three basic elements of interpersonal communication: the source/encoder, the signal, and the decoder/destination.\"",
+      "slideRef": "ch15:s12",
       "slideRefParsed": {
         "lectureId": "ch15",
         "chapterNumber": 15,
@@ -487,11 +697,10 @@
         "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
         "kind": "slides",
         "pages": [
-          12,
-          13
+          12
         ],
         "pageCount": 25,
-        "syntax": "ch15:s12-13"
+        "syntax": "ch15:s12"
       },
       "origin": "2021",
       "sourceFile": "final21.json",
@@ -515,6 +724,41 @@
           "sourceFile": "final24.json",
           "sourceQuestionId": "Q11"
         }
+      ],
+      "sourceRefs": [
+        "ch15:s12",
+        "ch15,p348"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch15",
+          "chapterNumber": 15,
+          "topic": "Chapter 15: Influencing and Communication",
+          "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+          "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+          "kind": "slides",
+          "pages": [
+            12
+          ],
+          "pageCount": 25,
+          "syntax": "ch15:s12"
+        },
+        {
+          "lectureId": "ch15",
+          "chapterNumber": 15,
+          "topic": "Chapter 15: Influencing and Communication",
+          "lectureFile": "chapter-15.pdf",
+          "pdfPath": "Book/chapter-15.pdf",
+          "kind": "book",
+          "bookPages": [
+            348
+          ],
+          "pages": [
+            5
+          ],
+          "pageCount": 25,
+          "syntax": "ch15,p348"
+        }
       ]
     },
     {
@@ -533,8 +777,8 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "The management principle of 'Unity of Command' explicitly recommends that an individual have only one boss. Establishing multiple guiding authorities contradicts this core principle.",
-      "reference": "Chapter 11: Fundamentals of Organizing - Answer found on Slide 19 under Unity of Command.",
+      "explanation": "Henri Fayol's principle of unity of command explicitly states that an individual should have only one boss. Establishing multiple guiding authorities contradicts this rule.",
+      "reference": "Textbook Page 260: \"Fayol’s management principle of unity of command is the rationale for the existence of the scalar relationship. This principle recommends that an individual have only one boss.\"",
       "slideRef": "ch11:s19",
       "slideRefParsed": {
         "lectureId": "ch11",
@@ -571,6 +815,41 @@
           "sourceFile": "final25.json",
           "sourceQuestionId": "Q12"
         }
+      ],
+      "sourceRefs": [
+        "ch11:s19",
+        "ch11,p260"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch11",
+          "chapterNumber": 11,
+          "topic": "Chapter 11: Fundamentals of Organizing",
+          "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+          "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+          "kind": "slides",
+          "pages": [
+            19
+          ],
+          "pageCount": 38,
+          "syntax": "ch11:s19"
+        },
+        {
+          "lectureId": "ch11",
+          "chapterNumber": 11,
+          "topic": "Chapter 11: Fundamentals of Organizing",
+          "lectureFile": "chapter-11.pdf",
+          "pdfPath": "Book/chapter-11.pdf",
+          "kind": "book",
+          "bookPages": [
+            260
+          ],
+          "pages": [
+            13
+          ],
+          "pageCount": 25,
+          "syntax": "ch11,p260"
+        }
       ]
     },
     {
@@ -589,9 +868,9 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Vertical dimensioning encompasses the scalar relationship (chain of command), mapping how authority scales downward from the individual at the top to those at the bottom.",
-      "reference": "Chapter 11: Fundamentals of Organizing - Answer found directly on Slide 18 and Slide 19.",
-      "slideRef": "ch11:s18-19",
+      "explanation": "Vertical dimensioning deals with the levels of authority within an organization. This is directly built on the scalar relationship (chain of command), which traces authority from the highest level down to the lowest.",
+      "reference": "Textbook Page 260: \"Vertical dimensioning refers to the extent to which an organization uses vertical levels to separate job responsibilities. Vertical dimensioning is directly related to the concept of the scalar relationship—that is, the chain of command.\"",
+      "slideRef": "ch11:s18",
       "slideRefParsed": {
         "lectureId": "ch11",
         "chapterNumber": 11,
@@ -600,11 +879,10 @@
         "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
         "kind": "slides",
         "pages": [
-          18,
-          19
+          18
         ],
         "pageCount": 38,
-        "syntax": "ch11:s18-19"
+        "syntax": "ch11:s18"
       },
       "origin": "2024",
       "sourceFile": "final24.json",
@@ -627,6 +905,41 @@
           "origin": "2025",
           "sourceFile": "final25.json",
           "sourceQuestionId": "Q3"
+        }
+      ],
+      "sourceRefs": [
+        "ch11:s18",
+        "ch11,p260"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch11",
+          "chapterNumber": 11,
+          "topic": "Chapter 11: Fundamentals of Organizing",
+          "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+          "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+          "kind": "slides",
+          "pages": [
+            18
+          ],
+          "pageCount": 38,
+          "syntax": "ch11:s18"
+        },
+        {
+          "lectureId": "ch11",
+          "chapterNumber": 11,
+          "topic": "Chapter 11: Fundamentals of Organizing",
+          "lectureFile": "chapter-11.pdf",
+          "pdfPath": "Book/chapter-11.pdf",
+          "kind": "book",
+          "bookPages": [
+            260
+          ],
+          "pages": [
+            13
+          ],
+          "pageCount": 25,
+          "syntax": "ch11,p260"
         }
       ]
     },
@@ -658,8 +971,8 @@
         }
       ],
       "correctAnswerId": "2",
-      "explanation": "One of the listed advantages of planning is that it 'Enhances decision coordination' by making managers future-oriented and emphasizing organizational objectives.",
-      "reference": "Chapter 7: Principles of Planning - Answer found verbatim on Slide 6 under '+ Advantages'.",
+      "explanation": "One of the key advantages of planning is that it enhances decision coordination across the organization by focusing managers on the future and overarching objectives.",
+      "reference": "Textbook Page 162: \"Advantages of planning include... it enhances decision coordination; and it emphasizes organizational objectives.\"",
       "slideRef": "ch7:s6",
       "slideRefParsed": {
         "lectureId": "ch7",
@@ -696,6 +1009,41 @@
           "sourceFile": "final21.json",
           "sourceQuestionId": "Q25"
         }
+      ],
+      "sourceRefs": [
+        "ch7:s6",
+        "ch7,p162"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch7",
+          "chapterNumber": 7,
+          "topic": "Chapter 7: Principles of Planning",
+          "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+          "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+          "kind": "slides",
+          "pages": [
+            6
+          ],
+          "pageCount": 27,
+          "syntax": "ch7:s6"
+        },
+        {
+          "lectureId": "ch7",
+          "chapterNumber": 7,
+          "topic": "Chapter 7: Principles of Planning",
+          "lectureFile": "chapter-07.pdf",
+          "pdfPath": "Book/chapter-07.pdf",
+          "kind": "book",
+          "bookPages": [
+            162
+          ],
+          "pages": [
+            5
+          ],
+          "pageCount": 23,
+          "syntax": "ch7,p162"
+        }
       ]
     },
     {
@@ -726,8 +1074,8 @@
         }
       ],
       "correctAnswerId": "e",
-      "explanation": "Because the store has comprehensive, standard operating procedures, rules, and policies established for routine situations (returns and complaints), the manager is executing a programmed decision.",
-      "reference": "Chapter 8: Making Decisions - Answer found on Slide 5 and Slide 6.",
+      "explanation": "Because the store has comprehensive, standard operating procedures, rules, and policies established for routine situations like returns and complaints, the manager is executing a programmed decision.",
+      "reference": "Textbook Page 182: \"A programmed decision is routine and repetitive, and the organization typically develops specific ways to handle such decisions.\" Table 8.1 also lists 'Standard operating procedures' under programmed decisions.",
       "slideRef": "ch8:s5-6",
       "slideRefParsed": {
         "lectureId": "ch8",
@@ -765,6 +1113,42 @@
           "sourceFile": "final24.json",
           "sourceQuestionId": "Q20"
         }
+      ],
+      "sourceRefs": [
+        "ch8:s5-6",
+        "ch8,p182"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch8",
+          "chapterNumber": 8,
+          "topic": "Chapter 8: Making Decisions",
+          "lectureFile": "Chapter 8 - Making Decisions.pdf",
+          "pdfPath": "Lectures/Chapter 8 - Making Decisions.pdf",
+          "kind": "slides",
+          "pages": [
+            5,
+            6
+          ],
+          "pageCount": 33,
+          "syntax": "ch8:s5-6"
+        },
+        {
+          "lectureId": "ch8",
+          "chapterNumber": 8,
+          "topic": "Chapter 8: Making Decisions",
+          "lectureFile": "chapter-08.pdf",
+          "pdfPath": "Book/chapter-08.pdf",
+          "kind": "book",
+          "bookPages": [
+            182
+          ],
+          "pages": [
+            3
+          ],
+          "pageCount": 23,
+          "syntax": "ch8,p182"
+        }
       ]
     },
     {
@@ -795,8 +1179,8 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "Under 'Types of Decisions', the traditional techniques for handling a programmed (routine) decision include 'Habit', 'Clerical routine', and 'Organization structure'. Judgment, intuition, and rules of thumb are traditional techniques for nonprogrammed decisions.",
-      "reference": "Chapter 8: Making Decisions - Answer found on the Decision-Making Techniques table on Slide 6.",
+      "explanation": "The traditional techniques for handling a programmed (routine) decision include 'Habit', 'Clerical routine' (standard operating procedures), and 'Organization structure'. Judgment, intuition, and rules of thumb are traditional techniques for nonprogrammed decisions.",
+      "reference": "Textbook Page 183: Table 8.1 lists 'Habit' under Traditional Decision-Making Techniques for Programmed decisions.",
       "slideRef": "ch8:s6",
       "slideRefParsed": {
         "lectureId": "ch8",
@@ -833,6 +1217,41 @@
           "sourceFile": "final24.json",
           "sourceQuestionId": "Q32"
         }
+      ],
+      "sourceRefs": [
+        "ch8:s6",
+        "ch8,p183"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch8",
+          "chapterNumber": 8,
+          "topic": "Chapter 8: Making Decisions",
+          "lectureFile": "Chapter 8 - Making Decisions.pdf",
+          "pdfPath": "Lectures/Chapter 8 - Making Decisions.pdf",
+          "kind": "slides",
+          "pages": [
+            6
+          ],
+          "pageCount": 33,
+          "syntax": "ch8:s6"
+        },
+        {
+          "lectureId": "ch8",
+          "chapterNumber": 8,
+          "topic": "Chapter 8: Making Decisions",
+          "lectureFile": "chapter-08.pdf",
+          "pdfPath": "Book/chapter-08.pdf",
+          "kind": "book",
+          "bookPages": [
+            183
+          ],
+          "pages": [
+            4
+          ],
+          "pageCount": 23,
+          "syntax": "ch8,p183"
+        }
       ]
     },
     {
@@ -863,8 +1282,8 @@
         }
       ],
       "correctAnswerId": "d",
-      "explanation": "A key advantage of division of labor is that workers stay in one place and do one job, meaning they 'do not lose valuable time changing tools or locations,' which effectively saves time. Broadening scope, high motivation, interesting work, and emphasizing human variables are contradicted by the listed disadvantages of the division of labor.",
-      "reference": "Chapter 11: Fundamentals of Organizing - Answer deduced from the Advantages on Slide 12.",
+      "explanation": "A key advantage of division of labor is that workers stay in one place and do one job, meaning they do not lose valuable time changing tools or locations, which effectively saves time. The other options are actually problems associated with extreme division of labor.",
+      "reference": "Textbook Page 253: \"Second, workers who concentrate on performing only one job naturally try to make the job easier and more efficient. Third, workers who are assigned to only one job do not lose valuable time in changing tools or locations.\"",
       "slideRef": "ch11:s12",
       "slideRefParsed": {
         "lectureId": "ch11",
@@ -901,6 +1320,41 @@
           "sourceFile": "final24.json",
           "sourceQuestionId": "Q56"
         }
+      ],
+      "sourceRefs": [
+        "ch11:s12",
+        "ch11,p253"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch11",
+          "chapterNumber": 11,
+          "topic": "Chapter 11: Fundamentals of Organizing",
+          "lectureFile": "Chapter 11 - Fundamentals of Organizing.pdf",
+          "pdfPath": "Lectures/Chapter 11 - Fundamentals of Organizing.pdf",
+          "kind": "slides",
+          "pages": [
+            12
+          ],
+          "pageCount": 38,
+          "syntax": "ch11:s12"
+        },
+        {
+          "lectureId": "ch11",
+          "chapterNumber": 11,
+          "topic": "Chapter 11: Fundamentals of Organizing",
+          "lectureFile": "chapter-11.pdf",
+          "pdfPath": "Book/chapter-11.pdf",
+          "kind": "book",
+          "bookPages": [
+            253
+          ],
+          "pages": [
+            6
+          ],
+          "pageCount": 25,
+          "syntax": "ch11,p253"
+        }
       ]
     },
     {
@@ -931,8 +1385,8 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "The 'need for increasingly complex information' is explicitly listed as one of the Communication Macrobarriers. The other options (perception, destination's view of the source, message interference, multimeaning words) are classified as Microbarriers.",
-      "reference": "Chapter 15: Influencing and Communication - Answer found on Slide 15 and Slide 16.",
+      "explanation": "A macrobarrier is a factor hindering communication in a general situation. The \"need for increasingly complex information\" is specifically listed as a communication macrobarrier. The other options are considered microbarriers, which hinder communication in specific situations.",
+      "reference": "Textbook Page 350-351: \"The following are among the macrobarriers... 2. The need for increasingly complex information.\"",
       "slideRef": "ch15:s15-16",
       "slideRefParsed": {
         "lectureId": "ch15",
@@ -970,6 +1424,44 @@
           "sourceFile": "final24.json",
           "sourceQuestionId": "Q28"
         }
+      ],
+      "sourceRefs": [
+        "ch15:s15-16",
+        "ch15,p350-351"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch15",
+          "chapterNumber": 15,
+          "topic": "Chapter 15: Influencing and Communication",
+          "lectureFile": "Chapter 15 - Influencing and Communication.pdf",
+          "pdfPath": "Lectures/Chapter 15 - Influencing and Communication.pdf",
+          "kind": "slides",
+          "pages": [
+            15,
+            16
+          ],
+          "pageCount": 25,
+          "syntax": "ch15:s15-16"
+        },
+        {
+          "lectureId": "ch15",
+          "chapterNumber": 15,
+          "topic": "Chapter 15: Influencing and Communication",
+          "lectureFile": "chapter-15.pdf",
+          "pdfPath": "Book/chapter-15.pdf",
+          "kind": "book",
+          "bookPages": [
+            350,
+            351
+          ],
+          "pages": [
+            7,
+            8
+          ],
+          "pageCount": 25,
+          "syntax": "ch15,p350-351"
+        }
       ]
     },
     {
@@ -1001,7 +1493,7 @@
       ],
       "correctAnswerId": "a",
       "explanation": "The official definition of management states that it is the continuous process of reaching organizational goals by working with and through people and utilizing other organizational resources.",
-      "reference": "Chapter 1: Introduction - Answer found verbatim on Slide 5.",
+      "reference": "Textbook Page 6: \"...management is the process of reaching organizational goals by working with and through people and other organizational resources.\"",
       "slideRef": "ch1:s5",
       "slideRefParsed": {
         "lectureId": "ch1",
@@ -1038,6 +1530,41 @@
           "sourceFile": "final25.json",
           "sourceQuestionId": "Q59"
         }
+      ],
+      "sourceRefs": [
+        "ch1:s5",
+        "ch1,p6"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch1",
+          "chapterNumber": 1,
+          "topic": "Chapter 1: Introduction",
+          "lectureFile": "Chapter 1 - Introduction.pdf",
+          "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+          "kind": "slides",
+          "pages": [
+            5
+          ],
+          "pageCount": 30,
+          "syntax": "ch1:s5"
+        },
+        {
+          "lectureId": "ch1",
+          "chapterNumber": 1,
+          "topic": "Chapter 1: Introduction",
+          "lectureFile": "chapter-01.pdf",
+          "pdfPath": "Book/chapter-01.pdf",
+          "kind": "book",
+          "bookPages": [
+            6
+          ],
+          "pages": [
+            5
+          ],
+          "pageCount": 25,
+          "syntax": "ch1,p6"
+        }
       ]
     },
     {
@@ -1064,8 +1591,8 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "The overarching role of management is to guide the organization smoothly towards its goals by effectively utilizing its resources through the execution of its core functions (planning, organizing, influencing, controlling).",
-      "reference": "Chapter 1: Introduction - Answer supported by the core concepts on Slide 4 and Slide 5.",
+      "explanation": "Management is the overarching concept and process whose primary role is to smoothly guide the organization towards its goals by effectively utilizing its resources through the execution of its core functions.",
+      "reference": "Textbook Page 5: \"Essentially, the role of managers is to guide organizations toward goal accomplishment... Management moves an organization toward its purposes or goals by assigning activities organization members perform.\"",
       "slideRef": "ch1:s4-5",
       "slideRefParsed": {
         "lectureId": "ch1",
@@ -1103,6 +1630,42 @@
           "sourceFile": "final25.json",
           "sourceQuestionId": "Q18"
         }
+      ],
+      "sourceRefs": [
+        "ch1:s4-5",
+        "ch1,p5"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch1",
+          "chapterNumber": 1,
+          "topic": "Chapter 1: Introduction",
+          "lectureFile": "Chapter 1 - Introduction.pdf",
+          "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+          "kind": "slides",
+          "pages": [
+            4,
+            5
+          ],
+          "pageCount": 30,
+          "syntax": "ch1:s4-5"
+        },
+        {
+          "lectureId": "ch1",
+          "chapterNumber": 1,
+          "topic": "Chapter 1: Introduction",
+          "lectureFile": "chapter-01.pdf",
+          "pdfPath": "Book/chapter-01.pdf",
+          "kind": "book",
+          "bookPages": [
+            5
+          ],
+          "pages": [
+            4
+          ],
+          "pageCount": 25,
+          "syntax": "ch1,p5"
+        }
       ]
     },
     {
@@ -1129,9 +1692,9 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "This question phrasing is slightly irregular, but based on the Planning Process steps, after evaluating alternatives, the next step is to 'Choose best alternative for reaching objectives' (which aligns with selecting the topmost/applicable plan).",
-      "reference": "Chapter 7: Principles of Planning - Answer supported by the definition of planning on Slide 4 (analyzing, evaluating, and selecting among opportunities).",
-      "slideRef": "ch7:s4",
+      "explanation": "Despite the flawed wording in option 'c' ('Selecting up objective' instead of 'Selecting an alternative'), Step 4 of the planning process involves choosing the best alternative (the topmost/applicable plan) for implementation.",
+      "reference": "Textbook Page 164 (The Planning Process): \"Step 4: Choose best alternative for reaching objectives.\"",
+      "slideRef": "ch7:s10",
       "slideRefParsed": {
         "lectureId": "ch7",
         "chapterNumber": 7,
@@ -1140,10 +1703,10 @@
         "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
         "kind": "slides",
         "pages": [
-          4
+          10
         ],
         "pageCount": 27,
-        "syntax": "ch7:s4"
+        "syntax": "ch7:s10"
       },
       "origin": "2024",
       "sourceFile": "final24.json",
@@ -1166,6 +1729,41 @@
           "origin": "2025",
           "sourceFile": "final25.json",
           "sourceQuestionId": "Q20"
+        }
+      ],
+      "sourceRefs": [
+        "ch7:s10",
+        "ch7,p164"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch7",
+          "chapterNumber": 7,
+          "topic": "Chapter 7: Principles of Planning",
+          "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+          "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+          "kind": "slides",
+          "pages": [
+            10
+          ],
+          "pageCount": 27,
+          "syntax": "ch7:s10"
+        },
+        {
+          "lectureId": "ch7",
+          "chapterNumber": 7,
+          "topic": "Chapter 7: Principles of Planning",
+          "lectureFile": "chapter-07.pdf",
+          "pdfPath": "Book/chapter-07.pdf",
+          "kind": "book",
+          "bookPages": [
+            164
+          ],
+          "pages": [
+            7
+          ],
+          "pageCount": 23,
+          "syntax": "ch7,p164"
         }
       ]
     },
@@ -1193,21 +1791,21 @@
         }
       ],
       "correctAnswerId": "d",
-      "explanation": "Evaluating alternatives involves analyzing the pros and cons (the two sides of the coin) of each listed option before making a final choice.",
-      "reference": "Chapter 8: Making Decisions - Slide 16 covers evaluating alternatives and selecting the most beneficial alternative.",
-      "slideRef": "ch8:s16",
+      "explanation": "Evaluating alternatives involves analyzing the pros and cons (the two sides of the coin) of each listed option before making a final selection.",
+      "reference": "Textbook Page 164: Evaluating alternatives is the step where managers assess the benefits and drawbacks of each potential course of action.",
+      "slideRef": "ch7:s10",
       "slideRefParsed": {
-        "lectureId": "ch8",
-        "chapterNumber": 8,
-        "topic": "Chapter 8: Making Decisions",
-        "lectureFile": "Chapter 8 - Making Decisions.pdf",
-        "pdfPath": "Lectures/Chapter 8 - Making Decisions.pdf",
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
         "kind": "slides",
         "pages": [
-          16
+          10
         ],
-        "pageCount": 33,
-        "syntax": "ch8:s16"
+        "pageCount": 27,
+        "syntax": "ch7:s10"
       },
       "origin": "2024",
       "sourceFile": "final24.json",
@@ -1230,6 +1828,41 @@
           "origin": "2025",
           "sourceFile": "final25.json",
           "sourceQuestionId": "Q24"
+        }
+      ],
+      "sourceRefs": [
+        "ch7:s10",
+        "ch7,p164"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch7",
+          "chapterNumber": 7,
+          "topic": "Chapter 7: Principles of Planning",
+          "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+          "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+          "kind": "slides",
+          "pages": [
+            10
+          ],
+          "pageCount": 27,
+          "syntax": "ch7:s10"
+        },
+        {
+          "lectureId": "ch7",
+          "chapterNumber": 7,
+          "topic": "Chapter 7: Principles of Planning",
+          "lectureFile": "chapter-07.pdf",
+          "pdfPath": "Book/chapter-07.pdf",
+          "kind": "book",
+          "bookPages": [
+            164
+          ],
+          "pages": [
+            7
+          ],
+          "pageCount": 23,
+          "syntax": "ch7,p164"
         }
       ]
     },
@@ -1257,9 +1890,9 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Developing premises involves making assumptions about the future conditions upon which alternative plans will be based. It is essentially thinking about future scenarios.",
-      "reference": "Chapter 7: Principles of Planning - Answer supported by the definition of planning on Slide 4 (future-oriented analysis and assumptions for action programs).",
-      "slideRef": "ch7:s4",
+      "explanation": "Developing or setting planning premises involves making assumptions about the future conditions upon which alternative plans will be based. It is essentially thinking about future scenarios.",
+      "reference": "Textbook Page 164: Step 3 of the Planning Process involves \"Develop premises upon which each alternative is based... a premise is an assumption upon which the alternative is based.\"",
+      "slideRef": "ch7:s10",
       "slideRefParsed": {
         "lectureId": "ch7",
         "chapterNumber": 7,
@@ -1268,10 +1901,10 @@
         "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
         "kind": "slides",
         "pages": [
-          4
+          10
         ],
         "pageCount": 27,
-        "syntax": "ch7:s4"
+        "syntax": "ch7:s10"
       },
       "origin": "2024",
       "sourceFile": "final24.json",
@@ -1294,6 +1927,41 @@
           "origin": "2025",
           "sourceFile": "final25.json",
           "sourceQuestionId": "Q27"
+        }
+      ],
+      "sourceRefs": [
+        "ch7:s10",
+        "ch7,p164"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch7",
+          "chapterNumber": 7,
+          "topic": "Chapter 7: Principles of Planning",
+          "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+          "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+          "kind": "slides",
+          "pages": [
+            10
+          ],
+          "pageCount": 27,
+          "syntax": "ch7:s10"
+        },
+        {
+          "lectureId": "ch7",
+          "chapterNumber": 7,
+          "topic": "Chapter 7: Principles of Planning",
+          "lectureFile": "chapter-07.pdf",
+          "pdfPath": "Book/chapter-07.pdf",
+          "kind": "book",
+          "bookPages": [
+            164
+          ],
+          "pages": [
+            7
+          ],
+          "pageCount": 23,
+          "syntax": "ch7,p164"
         }
       ]
     },
@@ -1390,20 +2058,20 @@
       ],
       "correctAnswerId": "c",
       "explanation": "After evaluating options, the manager chooses the best (most feasible) alternative to reach the objectives, which is then developed into actionable plans.",
-      "reference": "Chapter 8: Making Decisions - Slide 16 covers selecting the most beneficial alternative.",
-      "slideRef": "ch8:s16",
+      "reference": "Textbook Page 164: Step 4 of the Planning Process is \"Choose best alternative for reaching objectives.\"",
+      "slideRef": "ch7:s10",
       "slideRefParsed": {
-        "lectureId": "ch8",
-        "chapterNumber": 8,
-        "topic": "Chapter 8: Making Decisions",
-        "lectureFile": "Chapter 8 - Making Decisions.pdf",
-        "pdfPath": "Lectures/Chapter 8 - Making Decisions.pdf",
+        "lectureId": "ch7",
+        "chapterNumber": 7,
+        "topic": "Chapter 7: Principles of Planning",
+        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
         "kind": "slides",
         "pages": [
-          16
+          10
         ],
-        "pageCount": 33,
-        "syntax": "ch8:s16"
+        "pageCount": 27,
+        "syntax": "ch7:s10"
       },
       "origin": "2024",
       "sourceFile": "final24.json",
@@ -1426,6 +2094,41 @@
           "origin": "2025",
           "sourceFile": "final25.json",
           "sourceQuestionId": "Q43"
+        }
+      ],
+      "sourceRefs": [
+        "ch7:s10",
+        "ch7,p164"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch7",
+          "chapterNumber": 7,
+          "topic": "Chapter 7: Principles of Planning",
+          "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+          "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+          "kind": "slides",
+          "pages": [
+            10
+          ],
+          "pageCount": 27,
+          "syntax": "ch7:s10"
+        },
+        {
+          "lectureId": "ch7",
+          "chapterNumber": 7,
+          "topic": "Chapter 7: Principles of Planning",
+          "lectureFile": "chapter-07.pdf",
+          "pdfPath": "Book/chapter-07.pdf",
+          "kind": "book",
+          "bookPages": [
+            164
+          ],
+          "pages": [
+            7
+          ],
+          "pageCount": 23,
+          "syntax": "ch7,p164"
         }
       ]
     },
@@ -1453,8 +2156,8 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "While planning is the basis for all functions, it specifically sets the organizational objectives and targets (standards) that the 'Controlling' function measures performance against to determine if goals are being met.",
-      "reference": "Chapter 7: Principles of Planning - Answer supported by the 'Primacy of Planning' link to Controlling on Slide 7, and general management principles.",
+      "explanation": "Planning establishes the objectives and standards that the Controlling function then uses to measure actual performance against to determine if goals are being met.",
+      "reference": "Textbook Page 161 (and referenced in Control chapters): Planning is the basis for controlling, as controlling compares performance against the standards set during planning.",
       "slideRef": "ch7:s7",
       "slideRefParsed": {
         "lectureId": "ch7",
@@ -1490,6 +2193,41 @@
           "origin": "2025",
           "sourceFile": "final25.json",
           "sourceQuestionId": "Q51"
+        }
+      ],
+      "sourceRefs": [
+        "ch7:s7",
+        "ch7,p161"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch7",
+          "chapterNumber": 7,
+          "topic": "Chapter 7: Principles of Planning",
+          "lectureFile": "Chapter 7 - Principles of Planning.pdf",
+          "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+          "kind": "slides",
+          "pages": [
+            7
+          ],
+          "pageCount": 27,
+          "syntax": "ch7:s7"
+        },
+        {
+          "lectureId": "ch7",
+          "chapterNumber": 7,
+          "topic": "Chapter 7: Principles of Planning",
+          "lectureFile": "chapter-07.pdf",
+          "pdfPath": "Book/chapter-07.pdf",
+          "kind": "book",
+          "bookPages": [
+            161
+          ],
+          "pages": [
+            4
+          ],
+          "pageCount": 23,
+          "syntax": "ch7,p161"
         }
       ]
     },

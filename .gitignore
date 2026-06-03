@@ -36,3 +36,5 @@ Book/web/
 
 # Docker local overrides (optional)
 docker-compose.override.yml
+
+upload/

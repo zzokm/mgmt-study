@@ -4,7 +4,10 @@ import { Bricolage_Grotesque } from "next/font/google";
 import { AnalyticsEngagement } from "@/components/analytics/analytics-engagement";
 import { GoogleAnalytics } from "@/components/analytics/google-analytics";
 import { AppShell } from "@/components/layout/app-shell";
-import { PublicOriginRedirect } from "@/components/layout/public-origin-redirect";
+import {
+  PublicOriginGuard,
+  PublicOriginInlineScript,
+} from "@/components/layout/public-origin-guard";
 import "./globals.css";
 
 const bricolageGrotesque = Bricolage_Grotesque({
@@ -28,8 +31,9 @@ export default function RootLayout({
       className={`${bricolageGrotesque.variable} ${bricolageGrotesque.className} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col font-sans">
+        <PublicOriginInlineScript />
         <Suspense fallback={null}>
-          <PublicOriginRedirect />
+          <PublicOriginGuard />
           <GoogleAnalytics />
           <AnalyticsEngagement />
         </Suspense>

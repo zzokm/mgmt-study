@@ -4,14 +4,15 @@
   "private": true,
   "scripts": {
     "sync": "node scripts/sync-content.mjs",
-    "predev": "npm run copy-pdf-worker && npm run sync",
-    "prebuild": "npm run copy-pdf-worker && npm run sync",
+    "predev": "npm run copy-pdf-worker && npm run sync && npm run write-build-id",
+    "prebuild": "npm run copy-pdf-worker && npm run sync && npm run write-build-id",
     "dev": "next dev --webpack",
     "build": "npm run audit:ci && next build --webpack",
     "start": "next start",
     "lint": "eslint src --max-warnings 0",
     "audit:ci": "node scripts/audit-ci.mjs",
     "copy-pdf-worker": "node scripts/copy-pdf-worker.mjs",
+    "write-build-id": "node scripts/write-build-id.mjs",
     "postinstall": "npm run copy-pdf-worker"
   },
   "dependencies": {

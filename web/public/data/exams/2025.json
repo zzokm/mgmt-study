@@ -1465,8 +1465,8 @@
     ],
     "correctAnswerId": "c",
     "explanation": "The phrasing of the question is somewhat tautological. The process of recruiting and selecting employees falls directly under the 'Recruitment and Selection' (or 'Providing Human Resources') function of HRM, which encompasses Step 1: Recruitment and Step 2: Selection.",
-    "reference": "Chapter 13: Human Resource Management - Answer supported by the 'Providing Human Resources Steps' on Slide 4.",
-    "slideRef": "ch13:s4",
+    "reference": "Chapter 13: Human Resource Management - Slide 26 defines selection in the HRM process.",
+    "slideRef": "ch13:s26",
     "slideRefParsed": {
       "lectureId": "ch13",
       "chapterNumber": 13,
@@ -1475,10 +1475,10 @@
       "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
       "kind": "slides",
       "pages": [
-        4
+        26
       ],
       "pageCount": 46,
-      "syntax": "ch13:s4"
+      "syntax": "ch13:s26"
     },
     "questionKey": "2025:Q33",
     "origin": "2025",
@@ -1948,20 +1948,20 @@
     ],
     "correctAnswerId": "c",
     "explanation": "Selecting the best alternative is the stage where the most feasible course of action is chosen to be developed into actual implemented plans.",
-    "reference": "Chapter 7: Principles of Planning - Answer based on Step 4 of the Planning Process on Slide 10.",
-    "slideRef": "ch7:s10",
+    "reference": "Chapter 8: Making Decisions - Slide 16 covers selecting the most beneficial alternative.",
+    "slideRef": "ch8:s16",
     "slideRefParsed": {
-      "lectureId": "ch7",
-      "chapterNumber": 7,
-      "topic": "Chapter 7: Principles of Planning",
-      "lectureFile": "Chapter 7 - Principles of Planning.pdf",
-      "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+      "lectureId": "ch8",
+      "chapterNumber": 8,
+      "topic": "Chapter 8: Making Decisions",
+      "lectureFile": "Chapter 8 - Making Decisions.pdf",
+      "pdfPath": "Lectures/Chapter 8 - Making Decisions.pdf",
       "kind": "slides",
       "pages": [
-        10
+        16
       ],
-      "pageCount": 27,
-      "syntax": "ch7:s10"
+      "pageCount": 33,
+      "syntax": "ch8:s16"
     },
     "questionKey": "2025:Q43",
     "origin": "2025",

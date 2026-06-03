@@ -277,20 +277,20 @@
       ],
       "correctAnswerId": "e",
       "explanation": "A Job Specification contains the human qualifications necessary to do the job, which explicitly includes 'Physical skills'. Job title, working conditions, equipment used, and job summary are all found in a Job Description.",
-      "reference": "Chapter 13: Human Resource Management - Answer found on the Job Analysis chart on Slide 8.",
-      "slideRef": "ch13:s8",
+      "reference": "Chapter 1: Introduction - Slide 20 (management skills) lists physical skills among qualifications in a job specification.",
+      "slideRef": "ch1:s20",
       "slideRefParsed": {
-        "lectureId": "ch13",
-        "chapterNumber": 13,
-        "topic": "Chapter 13: Human Resource Management",
-        "lectureFile": "Chapter 13 - Human Resource Management.pdf",
-        "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+        "lectureId": "ch1",
+        "chapterNumber": 1,
+        "topic": "Chapter 1: Introduction",
+        "lectureFile": "Chapter 1 - Introduction.pdf",
+        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
         "kind": "slides",
         "pages": [
-          8
+          20
         ],
-        "pageCount": 46,
-        "syntax": "ch13:s8"
+        "pageCount": 30,
+        "syntax": "ch1:s20"
       },
       "origin": "2021",
       "sourceFile": "final21.json",
@@ -417,8 +417,8 @@
       ],
       "correctAnswerId": "c",
       "explanation": "The phrasing of the question is somewhat tautological. The process of recruiting and selecting employees falls directly under the 'Recruitment and Selection' (or 'Providing Human Resources') function of HRM, which encompasses Step 1: Recruitment and Step 2: Selection.",
-      "reference": "Chapter 13: Human Resource Management - Answer supported by the 'Providing Human Resources Steps' on Slide 4.",
-      "slideRef": "ch13:s4",
+      "reference": "Chapter 13: Human Resource Management - Slide 26 defines selection in the HRM process.",
+      "slideRef": "ch13:s26",
       "slideRefParsed": {
         "lectureId": "ch13",
         "chapterNumber": 13,
@@ -427,10 +427,10 @@
         "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
         "kind": "slides",
         "pages": [
-          4
+          26
         ],
         "pageCount": 46,
-        "syntax": "ch13:s4"
+        "syntax": "ch13:s26"
       },
       "origin": "2025",
       "sourceFile": "final25.json",

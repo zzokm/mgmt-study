@@ -522,20 +522,20 @@
       ],
       "correctAnswerId": "d",
       "explanation": "Because controlling involves measuring performance to ensure events occur as planned, failing to monitor the progress of those plans is a direct error in the controlling stage. (Establishing departments is Organizing; communication is Influencing; alternatives are Planning).",
-      "reference": "Chapter 21: Controlling Fundamentals - Deduced from the definition of Controlling on Slide 4 and general management principles outlined in Chapter 1.",
-      "slideRef": "ch21:s4",
+      "reference": "Chapter 1: Introduction - Slide 11 lists controlling common mistakes; \"not monitoring progress in carrying out plans\" is the controlling error.",
+      "slideRef": "ch1:s11",
       "slideRefParsed": {
-        "lectureId": "ch21",
-        "chapterNumber": 21,
-        "topic": "Chapter 21: Controlling Fundamentals",
-        "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
-        "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+        "lectureId": "ch1",
+        "chapterNumber": 1,
+        "topic": "Chapter 1: Introduction",
+        "lectureFile": "Chapter 1 - Introduction.pdf",
+        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
         "kind": "slides",
         "pages": [
-          4
+          11
         ],
-        "pageCount": 19,
-        "syntax": "ch21:s4"
+        "pageCount": 30,
+        "syntax": "ch1:s11"
       },
       "origin": "2021",
       "sourceFile": "final21.json",

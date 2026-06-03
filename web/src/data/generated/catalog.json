@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T12:11:04.317Z",
+  "generatedAt": "2026-06-03T12:16:44.140Z",
   "stats": {
     "totalQuestions": 192,
     "lectures": 10,
@@ -2115,20 +2115,20 @@
       ],
       "correctAnswerId": "d",
       "explanation": "Because controlling involves measuring performance to ensure events occur as planned, failing to monitor the progress of those plans is a direct error in the controlling stage. (Establishing departments is Organizing; communication is Influencing; alternatives are Planning).",
-      "reference": "Chapter 21: Controlling Fundamentals - Deduced from the definition of Controlling on Slide 4 and general management principles outlined in Chapter 1.",
-      "slideRef": "ch21:s4",
+      "reference": "Chapter 1: Introduction - Slide 11 lists controlling common mistakes; \"not monitoring progress in carrying out plans\" is the controlling error.",
+      "slideRef": "ch1:s11",
       "slideRefParsed": {
-        "lectureId": "ch21",
-        "chapterNumber": 21,
-        "topic": "Chapter 21: Controlling Fundamentals",
-        "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
-        "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+        "lectureId": "ch1",
+        "chapterNumber": 1,
+        "topic": "Chapter 1: Introduction",
+        "lectureFile": "Chapter 1 - Introduction.pdf",
+        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
         "kind": "slides",
         "pages": [
-          4
+          11
         ],
-        "pageCount": 19,
-        "syntax": "ch21:s4"
+        "pageCount": 30,
+        "syntax": "ch1:s11"
       },
       "questionKey": "2021:Q26",
       "origin": "2021",
@@ -2638,20 +2638,20 @@
       ],
       "correctAnswerId": "e",
       "explanation": "A Job Specification contains the human qualifications necessary to do the job, which explicitly includes 'Physical skills'. Job title, working conditions, equipment used, and job summary are all found in a Job Description.",
-      "reference": "Chapter 13: Human Resource Management - Answer found on the Job Analysis chart on Slide 8.",
-      "slideRef": "ch13:s8",
+      "reference": "Chapter 1: Introduction - Slide 20 (management skills) lists physical skills among qualifications in a job specification.",
+      "slideRef": "ch1:s20",
       "slideRefParsed": {
-        "lectureId": "ch13",
-        "chapterNumber": 13,
-        "topic": "Chapter 13: Human Resource Management",
-        "lectureFile": "Chapter 13 - Human Resource Management.pdf",
-        "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+        "lectureId": "ch1",
+        "chapterNumber": 1,
+        "topic": "Chapter 1: Introduction",
+        "lectureFile": "Chapter 1 - Introduction.pdf",
+        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
         "kind": "slides",
         "pages": [
-          8
+          20
         ],
-        "pageCount": 46,
-        "syntax": "ch13:s8"
+        "pageCount": 30,
+        "syntax": "ch1:s20"
       },
       "questionKey": "2021:Q36",
       "origin": "2021",
@@ -3975,20 +3975,20 @@
       ],
       "correctAnswerId": "c",
       "explanation": "Planning and controlling are intimately linked. Planning sets the objectives and standards, while controlling measures performance against those plans to ensure goals are met. This deep interdependence earns them the \"Siamese twins\" moniker.",
-      "reference": "Chapter 7: Principles of Planning - Based on external management theory commonly taught alongside these slides, and supported by the interrelated nature shown on Slide 7.",
-      "slideRef": "ch7:s7",
+      "reference": "Chapter 21: Controlling Fundamentals - Slide 4 states planning and control are the \"Siamese twins of management.\"",
+      "slideRef": "ch21:s4",
       "slideRefParsed": {
-        "lectureId": "ch7",
-        "chapterNumber": 7,
-        "topic": "Chapter 7: Principles of Planning",
-        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
-        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "lectureId": "ch21",
+        "chapterNumber": 21,
+        "topic": "Chapter 21: Controlling Fundamentals",
+        "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+        "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
         "kind": "slides",
         "pages": [
-          7
+          4
         ],
-        "pageCount": 27,
-        "syntax": "ch7:s7"
+        "pageCount": 19,
+        "syntax": "ch21:s4"
       },
       "questionKey": "2024:Q17",
       "origin": "2024",
@@ -5823,20 +5823,20 @@
       ],
       "correctAnswerId": "c",
       "explanation": "After evaluating options, the manager chooses the best (most feasible) alternative to reach the objectives, which is then developed into actionable plans.",
-      "reference": "Chapter 7: Principles of Planning - Answer based on Step 4 of the Planning Process on Slide 10: 'Choose best alternative for reaching objectives'.",
-      "slideRef": "ch7:s10",
+      "reference": "Chapter 8: Making Decisions - Slide 16 covers selecting the most beneficial alternative.",
+      "slideRef": "ch8:s16",
       "slideRefParsed": {
-        "lectureId": "ch7",
-        "chapterNumber": 7,
-        "topic": "Chapter 7: Principles of Planning",
-        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
-        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "lectureId": "ch8",
+        "chapterNumber": 8,
+        "topic": "Chapter 8: Making Decisions",
+        "lectureFile": "Chapter 8 - Making Decisions.pdf",
+        "pdfPath": "Lectures/Chapter 8 - Making Decisions.pdf",
         "kind": "slides",
         "pages": [
-          10
+          16
         ],
-        "pageCount": 27,
-        "syntax": "ch7:s10"
+        "pageCount": 33,
+        "syntax": "ch8:s16"
       },
       "questionKey": "2024:Q53",
       "origin": "2024",
@@ -7983,8 +7983,8 @@
       ],
       "correctAnswerId": "c",
       "explanation": "The phrasing of the question is somewhat tautological. The process of recruiting and selecting employees falls directly under the 'Recruitment and Selection' (or 'Providing Human Resources') function of HRM, which encompasses Step 1: Recruitment and Step 2: Selection.",
-      "reference": "Chapter 13: Human Resource Management - Answer supported by the 'Providing Human Resources Steps' on Slide 4.",
-      "slideRef": "ch13:s4",
+      "reference": "Chapter 13: Human Resource Management - Slide 26 defines selection in the HRM process.",
+      "slideRef": "ch13:s26",
       "slideRefParsed": {
         "lectureId": "ch13",
         "chapterNumber": 13,
@@ -7993,10 +7993,10 @@
         "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
         "kind": "slides",
         "pages": [
-          4
+          26
         ],
         "pageCount": 46,
-        "syntax": "ch13:s4"
+        "syntax": "ch13:s26"
       },
       "questionKey": "2025:Q33",
       "origin": "2025",
@@ -8466,20 +8466,20 @@
       ],
       "correctAnswerId": "c",
       "explanation": "Selecting the best alternative is the stage where the most feasible course of action is chosen to be developed into actual implemented plans.",
-      "reference": "Chapter 7: Principles of Planning - Answer based on Step 4 of the Planning Process on Slide 10.",
-      "slideRef": "ch7:s10",
+      "reference": "Chapter 8: Making Decisions - Slide 16 covers selecting the most beneficial alternative.",
+      "slideRef": "ch8:s16",
       "slideRefParsed": {
-        "lectureId": "ch7",
-        "chapterNumber": 7,
-        "topic": "Chapter 7: Principles of Planning",
-        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
-        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "lectureId": "ch8",
+        "chapterNumber": 8,
+        "topic": "Chapter 8: Making Decisions",
+        "lectureFile": "Chapter 8 - Making Decisions.pdf",
+        "pdfPath": "Lectures/Chapter 8 - Making Decisions.pdf",
         "kind": "slides",
         "pages": [
-          10
+          16
         ],
-        "pageCount": 27,
-        "syntax": "ch7:s10"
+        "pageCount": 33,
+        "syntax": "ch8:s16"
       },
       "questionKey": "2025:Q43",
       "origin": "2025",
@@ -11937,20 +11937,20 @@
       ],
       "correctAnswerId": "d",
       "explanation": "Because controlling involves measuring performance to ensure events occur as planned, failing to monitor the progress of those plans is a direct error in the controlling stage. (Establishing departments is Organizing; communication is Influencing; alternatives are Planning).",
-      "reference": "Chapter 21: Controlling Fundamentals - Deduced from the definition of Controlling on Slide 4 and general management principles outlined in Chapter 1.",
-      "slideRef": "ch21:s4",
+      "reference": "Chapter 1: Introduction - Slide 11 lists controlling common mistakes; \"not monitoring progress in carrying out plans\" is the controlling error.",
+      "slideRef": "ch1:s11",
       "slideRefParsed": {
-        "lectureId": "ch21",
-        "chapterNumber": 21,
-        "topic": "Chapter 21: Controlling Fundamentals",
-        "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
-        "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
+        "lectureId": "ch1",
+        "chapterNumber": 1,
+        "topic": "Chapter 1: Introduction",
+        "lectureFile": "Chapter 1 - Introduction.pdf",
+        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
         "kind": "slides",
         "pages": [
-          4
+          11
         ],
-        "pageCount": 19,
-        "syntax": "ch21:s4"
+        "pageCount": 30,
+        "syntax": "ch1:s11"
       },
       "questionKey": "2021:Q26",
       "origin": "2021",
@@ -12514,20 +12514,20 @@
       ],
       "correctAnswerId": "e",
       "explanation": "A Job Specification contains the human qualifications necessary to do the job, which explicitly includes 'Physical skills'. Job title, working conditions, equipment used, and job summary are all found in a Job Description.",
-      "reference": "Chapter 13: Human Resource Management - Answer found on the Job Analysis chart on Slide 8.",
-      "slideRef": "ch13:s8",
+      "reference": "Chapter 1: Introduction - Slide 20 (management skills) lists physical skills among qualifications in a job specification.",
+      "slideRef": "ch1:s20",
       "slideRefParsed": {
-        "lectureId": "ch13",
-        "chapterNumber": 13,
-        "topic": "Chapter 13: Human Resource Management",
-        "lectureFile": "Chapter 13 - Human Resource Management.pdf",
-        "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
+        "lectureId": "ch1",
+        "chapterNumber": 1,
+        "topic": "Chapter 1: Introduction",
+        "lectureFile": "Chapter 1 - Introduction.pdf",
+        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
         "kind": "slides",
         "pages": [
-          8
+          20
         ],
-        "pageCount": 46,
-        "syntax": "ch13:s8"
+        "pageCount": 30,
+        "syntax": "ch1:s20"
       },
       "questionKey": "2021:Q36",
       "origin": "2021",
@@ -14025,20 +14025,20 @@
       ],
       "correctAnswerId": "c",
       "explanation": "Planning and controlling are intimately linked. Planning sets the objectives and standards, while controlling measures performance against those plans to ensure goals are met. This deep interdependence earns them the \"Siamese twins\" moniker.",
-      "reference": "Chapter 7: Principles of Planning - Based on external management theory commonly taught alongside these slides, and supported by the interrelated nature shown on Slide 7.",
-      "slideRef": "ch7:s7",
+      "reference": "Chapter 21: Controlling Fundamentals - Slide 4 states planning and control are the \"Siamese twins of management.\"",
+      "slideRef": "ch21:s4",
       "slideRefParsed": {
-        "lectureId": "ch7",
-        "chapterNumber": 7,
-        "topic": "Chapter 7: Principles of Planning",
-        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
-        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "lectureId": "ch21",
+        "chapterNumber": 21,
+        "topic": "Chapter 21: Controlling Fundamentals",
+        "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+        "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
         "kind": "slides",
         "pages": [
-          7
+          4
         ],
-        "pageCount": 27,
-        "syntax": "ch7:s7"
+        "pageCount": 19,
+        "syntax": "ch21:s4"
       },
       "questionKey": "2024:Q17",
       "origin": "2024",
@@ -16035,20 +16035,20 @@
       ],
       "correctAnswerId": "c",
       "explanation": "After evaluating options, the manager chooses the best (most feasible) alternative to reach the objectives, which is then developed into actionable plans.",
-      "reference": "Chapter 7: Principles of Planning - Answer based on Step 4 of the Planning Process on Slide 10: 'Choose best alternative for reaching objectives'.",
-      "slideRef": "ch7:s10",
+      "reference": "Chapter 8: Making Decisions - Slide 16 covers selecting the most beneficial alternative.",
+      "slideRef": "ch8:s16",
       "slideRefParsed": {
-        "lectureId": "ch7",
-        "chapterNumber": 7,
-        "topic": "Chapter 7: Principles of Planning",
-        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
-        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "lectureId": "ch8",
+        "chapterNumber": 8,
+        "topic": "Chapter 8: Making Decisions",
+        "lectureFile": "Chapter 8 - Making Decisions.pdf",
+        "pdfPath": "Lectures/Chapter 8 - Making Decisions.pdf",
         "kind": "slides",
         "pages": [
-          10
+          16
         ],
-        "pageCount": 27,
-        "syntax": "ch7:s10"
+        "pageCount": 33,
+        "syntax": "ch8:s16"
       },
       "questionKey": "2024:Q53",
       "origin": "2024",
@@ -18441,8 +18441,8 @@
       ],
       "correctAnswerId": "c",
       "explanation": "The phrasing of the question is somewhat tautological. The process of recruiting and selecting employees falls directly under the 'Recruitment and Selection' (or 'Providing Human Resources') function of HRM, which encompasses Step 1: Recruitment and Step 2: Selection.",
-      "reference": "Chapter 13: Human Resource Management - Answer supported by the 'Providing Human Resources Steps' on Slide 4.",
-      "slideRef": "ch13:s4",
+      "reference": "Chapter 13: Human Resource Management - Slide 26 defines selection in the HRM process.",
+      "slideRef": "ch13:s26",
       "slideRefParsed": {
         "lectureId": "ch13",
         "chapterNumber": 13,
@@ -18451,10 +18451,10 @@
         "pdfPath": "Lectures/Chapter 13 - Human Resource Management.pdf",
         "kind": "slides",
         "pages": [
-          4
+          26
         ],
         "pageCount": 46,
-        "syntax": "ch13:s4"
+        "syntax": "ch13:s26"
       },
       "questionKey": "2025:Q33",
       "origin": "2025",
@@ -18924,20 +18924,20 @@
       ],
       "correctAnswerId": "c",
       "explanation": "Selecting the best alternative is the stage where the most feasible course of action is chosen to be developed into actual implemented plans.",
-      "reference": "Chapter 7: Principles of Planning - Answer based on Step 4 of the Planning Process on Slide 10.",
-      "slideRef": "ch7:s10",
+      "reference": "Chapter 8: Making Decisions - Slide 16 covers selecting the most beneficial alternative.",
+      "slideRef": "ch8:s16",
       "slideRefParsed": {
-        "lectureId": "ch7",
-        "chapterNumber": 7,
-        "topic": "Chapter 7: Principles of Planning",
-        "lectureFile": "Chapter 7 - Principles of Planning.pdf",
-        "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+        "lectureId": "ch8",
+        "chapterNumber": 8,
+        "topic": "Chapter 8: Making Decisions",
+        "lectureFile": "Chapter 8 - Making Decisions.pdf",
+        "pdfPath": "Lectures/Chapter 8 - Making Decisions.pdf",
         "kind": "slides",
         "pages": [
-          10
+          16
         ],
-        "pageCount": 27,
-        "syntax": "ch7:s10"
+        "pageCount": 33,
+        "syntax": "ch8:s16"
       },
       "questionKey": "2025:Q43",
       "origin": "2025",

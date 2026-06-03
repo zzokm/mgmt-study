@@ -574,20 +574,20 @@
     ],
     "correctAnswerId": "c",
     "explanation": "Planning and controlling are intimately linked. Planning sets the objectives and standards, while controlling measures performance against those plans to ensure goals are met. This deep interdependence earns them the \"Siamese twins\" moniker.",
-    "reference": "Chapter 7: Principles of Planning - Based on external management theory commonly taught alongside these slides, and supported by the interrelated nature shown on Slide 7.",
-    "slideRef": "ch7:s7",
+    "reference": "Chapter 21: Controlling Fundamentals - Slide 4 states planning and control are the \"Siamese twins of management.\"",
+    "slideRef": "ch21:s4",
     "slideRefParsed": {
-      "lectureId": "ch7",
-      "chapterNumber": 7,
-      "topic": "Chapter 7: Principles of Planning",
-      "lectureFile": "Chapter 7 - Principles of Planning.pdf",
-      "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+      "lectureId": "ch21",
+      "chapterNumber": 21,
+      "topic": "Chapter 21: Controlling Fundamentals",
+      "lectureFile": "Chapter 21  - Controlling Fundamentals.pdf",
+      "pdfPath": "Lectures/Chapter 21  - Controlling Fundamentals.pdf",
       "kind": "slides",
       "pages": [
-        7
+        4
       ],
-      "pageCount": 27,
-      "syntax": "ch7:s7"
+      "pageCount": 19,
+      "syntax": "ch21:s4"
     }
   },
   {
@@ -2170,20 +2170,20 @@
     ],
     "correctAnswerId": "c",
     "explanation": "After evaluating options, the manager chooses the best (most feasible) alternative to reach the objectives, which is then developed into actionable plans.",
-    "reference": "Chapter 7: Principles of Planning - Answer based on Step 4 of the Planning Process on Slide 10: 'Choose best alternative for reaching objectives'.",
-    "slideRef": "ch7:s10",
+    "reference": "Chapter 8: Making Decisions - Slide 16 covers selecting the most beneficial alternative.",
+    "slideRef": "ch8:s16",
     "slideRefParsed": {
-      "lectureId": "ch7",
-      "chapterNumber": 7,
-      "topic": "Chapter 7: Principles of Planning",
-      "lectureFile": "Chapter 7 - Principles of Planning.pdf",
-      "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+      "lectureId": "ch8",
+      "chapterNumber": 8,
+      "topic": "Chapter 8: Making Decisions",
+      "lectureFile": "Chapter 8 - Making Decisions.pdf",
+      "pdfPath": "Lectures/Chapter 8 - Making Decisions.pdf",
       "kind": "slides",
       "pages": [
-        10
+        16
       ],
-      "pageCount": 27,
-      "syntax": "ch7:s10"
+      "pageCount": 33,
+      "syntax": "ch8:s16"
     }
   },
   {

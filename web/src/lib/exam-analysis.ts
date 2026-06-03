@@ -4,9 +4,11 @@ import {
   getCatalog,
   getExamYears,
   getQuestionsByExamYear,
+  getQuestionsByLectureSlug,
   getRepetitiveFileQuestions,
   getRepetitiveStats,
   getStats,
+  slugFromLectureFile,
 } from "@/lib/questions";
 
 export interface ExamYearRow {
@@ -160,6 +162,7 @@ function isTrueFalseNegation(text: string): boolean {
 
 export function buildExamAnalysis(): ExamAnalysisData {
   const catalog = getCatalog();
+  const stats = getStats();
   const questions = getAllQuestions();
   const total = questions.length || 1;
   const years = getExamYears();
@@ -197,24 +200,32 @@ export function buildExamAnalysis(): ExamAnalysisData {
     }))
     .filter((r) => r.count > 0);
 
+  const uniquePoolTotal = stats.totalQuestions;
+
   const lectureYield: LectureYieldRow[] = catalog.poolIndex.lectureFiles
-    .map((f, i) => ({
-      rank: i + 1,
-      lecture: f.lecture,
-      slug: f.file.replace(".json", ""),
-      count: f.count,
-      share: Math.round((f.count / total) * 1000) / 10,
-    }))
+    .map((f) => {
+      const slug = slugFromLectureFile(f.file);
+      const count = getQuestionsByLectureSlug(slug).length;
+      return {
+        lecture: f.lecture,
+        slug,
+        count,
+        share: Math.round((count / uniquePoolTotal) * 1000) / 10,
+      };
+    })
     .sort((a, b) => b.count - a.count)
     .map((row, i) => ({ ...row, rank: i + 1 }));
 
   const poolByLecture: PoolByYearRow[] = catalog.poolIndex.lectureFiles.map(
-    (f) => ({
-      lecture: f.lecture,
-      slug: f.file.replace(".json", ""),
-      total: f.count,
-      byYear: { ...f.origins },
-    })
+    (f) => {
+      const slug = slugFromLectureFile(f.file);
+      return {
+        lecture: f.lecture,
+        slug,
+        total: getQuestionsByLectureSlug(slug).length,
+        byYear: { ...f.origins },
+      };
+    }
   );
 
   const repetitive = getRepetitiveFileQuestions();
@@ -291,7 +302,7 @@ export function buildExamAnalysis(): ExamAnalysisData {
 
   return {
     generatedAt: catalog.generatedAt,
-    stats: getStats(),
+    stats,
     uniqueRepeatedStems: getRepetitiveStats(),
     examYears,
     typeMix,

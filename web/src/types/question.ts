@@ -75,6 +75,8 @@ export interface Catalog {
   generatedAt: string;
   stats: {
     totalQuestions: number;
+    /** All exam slots in pools before stem dedupe (sync-time value). */
+    totalExamInstances?: number;
     lectures: number;
     bookChapters: number;
     exams: number;

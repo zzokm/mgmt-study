@@ -1,4 +1,5 @@
 import type { Catalog, Question } from "@/types/question";
+import { sortExamAppearances } from "@/lib/question-appearances";
 import catalogJson from "@/data/generated/catalog.json";
 import repetitiveJson from "../../public/data/repetitive-questions.json";
 
@@ -21,7 +22,8 @@ export function getQuestionsByExamYear(year: string): Question[] {
   return keys.map((k) => catalog.questionByKey[k]).filter(Boolean);
 }
 
-export function getQuestionsByLectureSlug(slug: string): Question[] {
+/** Raw pool order (includes cross-exam duplicate stems). */
+export function getQuestionsByLectureSlugRaw(slug: string): Question[] {
   const keys = catalog.byLectureSlug[slug] ?? [];
   return keys.map((k) => catalog.questionByKey[k]).filter(Boolean);
 }
@@ -35,18 +37,79 @@ export function normQuestionText(text: string): string {
     .replace(/[^\w\s]/g, "");
 }
 
-/** Lecture practice: one card per unique question stem (browse keeps all exam instances). */
-export function getQuestionsForLecturePractice(slug: string): Question[] {
-  const all = getQuestionsByLectureSlug(slug);
-  const seen = new Set<string>();
-  const unique: Question[] = [];
-  for (const q of all) {
-    const stem = normQuestionText(q.questionText);
-    if (seen.has(stem)) continue;
-    seen.add(stem);
-    unique.push(q);
+function appearanceKey(origin: string, sourceQuestionId: string): string {
+  return `${origin}:${sourceQuestionId}`;
+}
+
+function mergeDuplicateStemGroup(group: Question[]): Question {
+  if (group.length === 1) return group[0];
+
+  const primary = group[0];
+  const appearanceMap = new Map<
+    string,
+    NonNullable<Question["appearances"]>[number]
+  >();
+
+  for (const q of group) {
+    for (const a of q.appearances ?? []) {
+      appearanceMap.set(
+        appearanceKey(a.origin, a.sourceQuestionId),
+        a
+      );
+    }
+    const key = appearanceKey(q.origin, q.sourceQuestionId);
+    if (!appearanceMap.has(key)) {
+      appearanceMap.set(key, {
+        origin: q.origin,
+        sourceFile: q.sourceFile,
+        sourceQuestionId: q.sourceQuestionId,
+      });
+    }
   }
-  return unique;
+
+  const appearances = sortExamAppearances([...appearanceMap.values()]);
+  const origins = [
+    ...new Set(group.flatMap((q) => q.origins ?? [q.origin])),
+  ];
+
+  return {
+    ...primary,
+    instanceCount: group.length,
+    origins,
+    appearances,
+  };
+}
+
+/** One entry per unique stem; merges exam appearances for repeats. */
+export function dedupeQuestionsByStem(questions: Question[]): Question[] {
+  const groups = new Map<string, Question[]>();
+  const order: string[] = [];
+  for (const q of questions) {
+    const stem = normQuestionText(q.questionText);
+    if (!groups.has(stem)) {
+      order.push(stem);
+      groups.set(stem, []);
+    }
+    groups.get(stem)!.push(q);
+  }
+  return order.map((stem) => mergeDuplicateStemGroup(groups.get(stem)!));
+}
+
+/** Browse, practice, and counts: unique stems per lecture pool. */
+export function getQuestionsByLectureSlug(slug: string): Question[] {
+  return dedupeQuestionsByStem(getQuestionsByLectureSlugRaw(slug));
+}
+
+/** @deprecated Use getQuestionsByLectureSlug — same deduped list. */
+export function getQuestionsForLecturePractice(slug: string): Question[] {
+  return getQuestionsByLectureSlug(slug);
+}
+
+export function countUniqueQuestionsInPools(): number {
+  return catalog.poolIndex.lectureFiles.reduce(
+    (sum, f) => sum + getQuestionsByLectureSlug(slugFromLectureFile(f.file)).length,
+    0
+  );
 }
 
 export function getLectureSlugs(): Array<{
@@ -54,11 +117,14 @@ export function getLectureSlugs(): Array<{
   lecture: string;
   count: number;
 }> {
-  return catalog.poolIndex.lectureFiles.map((f) => ({
-    slug: f.file.replace(".json", ""),
-    lecture: f.lecture,
-    count: f.count,
-  }));
+  return catalog.poolIndex.lectureFiles.map((f) => {
+    const slug = slugFromLectureFile(f.file);
+    return {
+      slug,
+      lecture: f.lecture,
+      count: getQuestionsByLectureSlug(slug).length,
+    };
+  });
 }
 
 export function getLectureMeta() {
@@ -70,7 +136,11 @@ export function getExamYears() {
 }
 
 export function getStats() {
-  return catalog.stats;
+  return {
+    ...catalog.stats,
+    totalQuestions: countUniqueQuestionsInPools(),
+    totalExamInstances: catalog.stats.totalQuestions,
+  };
 }
 
 export function isAnswerCorrect(

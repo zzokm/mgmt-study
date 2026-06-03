@@ -12,8 +12,10 @@ import {
   HomeIcon,
   LayersIcon,
   PresentationIcon,
+  MessageSquareIcon,
   RepeatIcon,
 } from "lucide-react";
+import { FEEDBACK_FORM_TOOLTIP, FEEDBACK_FORM_URL } from "@/lib/site-links";
 import {
   Sidebar,
   SidebarContent,
@@ -31,7 +33,12 @@ import {
 } from "@/components/ui/sidebar";
 import { GitHubIcon } from "@/components/icons/github-icon";
 import { Separator } from "@/components/ui/separator";
-import { TooltipProvider } from "@/components/ui/tooltip";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 type NavItem = { href: string; label: string; icon: LucideIcon };
 
@@ -104,6 +111,36 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                 </SidebarGroupContent>
               </SidebarGroup>
             ))}
+            <SidebarGroup>
+              <SidebarGroupLabel>Feedback</SidebarGroupLabel>
+              <SidebarGroupContent>
+                <SidebarMenu>
+                  <SidebarMenuItem>
+                    <Tooltip>
+                      <TooltipTrigger
+                        render={
+                          <SidebarMenuButton
+                            render={
+                              <a
+                                href={FEEDBACK_FORM_URL}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              />
+                            }
+                          />
+                        }
+                      >
+                        <MessageSquareIcon />
+                        <span>Feedback</span>
+                      </TooltipTrigger>
+                      <TooltipContent side="right" className="max-w-xs">
+                        {FEEDBACK_FORM_TOOLTIP}
+                      </TooltipContent>
+                    </Tooltip>
+                  </SidebarMenuItem>
+                </SidebarMenu>
+              </SidebarGroupContent>
+            </SidebarGroup>
           </SidebarContent>
           <SidebarFooter className="mt-auto border-t border-sidebar-border px-4 py-3">
             <a

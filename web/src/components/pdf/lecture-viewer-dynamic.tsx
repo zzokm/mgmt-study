@@ -16,6 +16,8 @@ export function LectureViewerDynamic(props: {
   lecture: LectureMeta;
   lectures: LectureMeta[];
   initialPage?: number;
+  routeBase?: string;
+  pageLabel?: string;
 }) {
   return <LectureViewerInner {...props} />;
 }

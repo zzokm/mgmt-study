@@ -13,8 +13,8 @@ import {
   AlertDialogTitle,
 } from "@/components/ui/alert-dialog";
 import {
+  CERTO_BOOK_CHAPTER_URL,
   CERTO_BOOK_LABEL,
-  CERTO_BOOK_URL,
   CHAPTER_3_LECTURE_SLUG,
   isChapter3Lecture,
 } from "@/lib/chapter-3-book";
@@ -44,9 +44,7 @@ export function Chapter3PracticeGate({
             References for Chapter 3 questions may not be found in the lecture
             slides. They are probably from the course textbook instead. Open{" "}
             <a
-              href={CERTO_BOOK_URL}
-              target="_blank"
-              rel="noopener noreferrer"
+              href={CERTO_BOOK_CHAPTER_URL}
               className="font-medium text-foreground underline underline-offset-4"
             >
               {CERTO_BOOK_LABEL}

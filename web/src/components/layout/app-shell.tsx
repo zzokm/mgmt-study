@@ -4,8 +4,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { LucideIcon } from "lucide-react";
 import {
-  BookOpenIcon,
   BookmarkIcon,
+  BookOpenIcon,
   BrainIcon,
   FileTextIcon,
   GraduationCapIcon,
@@ -41,8 +41,11 @@ const navSections: { label: string; items: NavItem[] }[] = [
     items: [{ href: "/", label: "Home", icon: HomeIcon }],
   },
   {
-    label: "Lectures",
-    items: [{ href: "/lectures/", label: "Lecture slides", icon: PresentationIcon }],
+    label: "Materials",
+    items: [
+      { href: "/lectures/", label: "Lecture slides", icon: PresentationIcon },
+      { href: "/book/", label: "Textbook chapters", icon: BookOpenIcon },
+    ],
   },
   {
     label: "Practice",

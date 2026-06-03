@@ -130,3 +130,19 @@ export function getRepetitiveStats() {
 export function getLectureIdList(): string[] {
   return Object.keys(catalog.lectureMeta);
 }
+
+export function getBookChapterMeta() {
+  return catalog.bookChapterMeta ?? {};
+}
+
+export function getBookChapterIdList(): string[] {
+  return Object.keys(getBookChapterMeta()).sort(
+    (a, b) =>
+      getBookChapterMeta()[a].chapterNumber -
+      getBookChapterMeta()[b].chapterNumber
+  );
+}
+
+export function getBookTitle(): string {
+  return catalog.bookTitle ?? "Textbook";
+}

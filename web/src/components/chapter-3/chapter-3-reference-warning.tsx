@@ -1,7 +1,7 @@
 import { TriangleAlertIcon } from "lucide-react";
 import {
+  CERTO_BOOK_CHAPTER_URL,
   CERTO_BOOK_LABEL,
-  CERTO_BOOK_URL,
 } from "@/lib/chapter-3-book";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 
@@ -20,9 +20,7 @@ export function Chapter3ReferenceWarning() {
         </p>
         <p>
           <a
-            href={CERTO_BOOK_URL}
-            target="_blank"
-            rel="noopener noreferrer"
+            href={CERTO_BOOK_CHAPTER_URL}
             className="font-medium underline underline-offset-4"
           >
             {CERTO_BOOK_LABEL}

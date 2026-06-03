@@ -94,6 +94,9 @@ export default function HomePage() {
           <LinkButton href="/lectures/" variant="outline" size="sm">
             Lecture PDFs
           </LinkButton>
+          <LinkButton href="/book/" variant="outline" size="sm">
+            Textbook chapters
+          </LinkButton>
           <LinkButton href="/analysis/" variant="outline" size="sm">
             Exam analysis
           </LinkButton>

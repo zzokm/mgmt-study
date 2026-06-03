@@ -7,12 +7,16 @@ interface LectureViewerProps {
   lecture: LectureMeta;
   lectures: LectureMeta[];
   initialPage?: number;
+  routeBase?: string;
+  pageLabel?: string;
 }
 
 export function LectureViewer({
   lecture,
   lectures,
   initialPage = 1,
+  routeBase = "/lectures",
+  pageLabel = "slide",
 }: LectureViewerProps) {
   const startPage = Math.max(
     1,
@@ -30,12 +34,13 @@ export function LectureViewer({
           lectures={lectures}
           activeLectureId={lecture.lectureId}
           pageIndex={pageIndex}
+          routeBase={routeBase}
         />
       </div>
 
       <p className="text-center text-xs text-muted-foreground">
-        {lecture.topic} · slide {startPage} of {lecture.pageCount} · switch
-        chapter via tabs above · use{" "}
+        {lecture.topic} · {pageLabel} {startPage} of {lecture.pageCount} ·
+        switch chapter via tabs above · use{" "}
         <code className="text-[0.7rem]">?page=N</code> to deep-link
       </p>
     </div>

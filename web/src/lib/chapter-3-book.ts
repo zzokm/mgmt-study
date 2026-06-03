@@ -2,10 +2,10 @@
 
 export const CHAPTER_3_LECTURE_SLUG = "chapter-3-business-ethics";
 
-export const CERTO_BOOK_URL =
-  "https://drive.google.com/file/d/1Czor1fQcx_jDNFSYhAP-DgPFp-5_7E-l/view?usp=sharing";
+/** In-site textbook chapter (split PDF, not full book). */
+export const CERTO_BOOK_CHAPTER_URL = "/book/ch3/";
 
-export const CERTO_BOOK_LABEL = "Modern Management (Certo, 12th ed.) — PDF";
+export const CERTO_BOOK_LABEL = "Chapter 3 in the textbook (Certo, 12th ed.)";
 
 export function isChapter3Lecture(slug: string | undefined): boolean {
   return slug === CHAPTER_3_LECTURE_SLUG;

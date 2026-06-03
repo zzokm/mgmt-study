@@ -1,3 +1,4 @@
+import { getBookChapterMeta } from "@/lib/questions";
 import { getLectureMeta, getLectureSlugs } from "@/lib/questions";
 
 const SITE = "Management Study";
@@ -8,6 +9,10 @@ function lectureTitle(slug: string): string | undefined {
 
 function lectureTitleById(lectureId: string): string | undefined {
   return getLectureMeta()[lectureId]?.topic;
+}
+
+function bookChapterTitleById(chapterId: string): string | undefined {
+  return getBookChapterMeta()[chapterId]?.topic;
 }
 
 export type PageTitleSearchParams = Record<string, string | string[] | undefined>;
@@ -82,6 +87,17 @@ export function getPageTitle(
       return `Lecture · ${label}${slide} · ${SITE}`;
     }
     return `Lectures · ${SITE}`;
+  }
+
+  if (segments[0] === "book") {
+    if (segments[1]) {
+      const topic = bookChapterTitleById(segments[1]);
+      const page = param(searchParams, "page");
+      const pageSuffix = page ? ` (page ${page})` : "";
+      const label = topic ?? segments[1];
+      return `Textbook · ${label}${pageSuffix} · ${SITE}`;
+    }
+    return `Textbook chapters · ${SITE}`;
   }
 
   return `${SITE}`;

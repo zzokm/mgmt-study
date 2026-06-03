@@ -88,6 +88,7 @@ export function LectureViewerFull({
   activeLectureId,
   pageIndex,
   syncUrl = true,
+  routeBase = "/lectures",
   height = LECTURE_VIEWER_HEIGHT,
 }: {
   lectures: LectureMeta[];
@@ -95,6 +96,8 @@ export function LectureViewerFull({
   pageIndex: number;
   /** When false, tab changes do not navigate (e.g. practice fullscreen modal). */
   syncUrl?: boolean;
+  /** Base path for tab navigation, e.g. `/lectures` or `/book`. */
+  routeBase?: string;
   height?: string;
 }) {
   const router = useRouter();
@@ -131,9 +134,9 @@ export function LectureViewerFull({
     (lectureId: string) => {
       if (!syncUrl || lectureId === activeLectureId) return;
       syncingFromViewerRef.current = true;
-      router.push(`/lectures/${lectureId}/?page=1`);
+      router.push(`${routeBase}/${lectureId}/?page=1`);
     },
-    [activeLectureId, router, syncUrl]
+    [activeLectureId, routeBase, router, syncUrl]
   );
 
   const handleReady = useCallback(

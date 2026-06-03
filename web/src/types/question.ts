@@ -57,16 +57,29 @@ export interface LectureMeta {
   publicPdfUrl: string;
 }
 
+export interface BookChapterMeta {
+  chapterId: string;
+  chapterNumber: number;
+  topic: string;
+  sourceFile: string;
+  bookPageRange: number[];
+  pageCount: number;
+  publicPdfUrl: string;
+}
+
 export interface Catalog {
   generatedAt: string;
   stats: {
     totalQuestions: number;
     lectures: number;
+    bookChapters: number;
     exams: number;
     repetitive: number;
   };
   examYears: string[];
   lectureMeta: Record<string, LectureMeta>;
+  bookTitle: string;
+  bookChapterMeta: Record<string, BookChapterMeta>;
   poolIndex: {
     lectureFiles: Array<{
       file: string;

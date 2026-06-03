@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-06-03T12:49:16.885Z",
+  "generatedAt": "2026-06-03T13:06:06.684Z",
   "stats": {
     "totalQuestions": 192,
     "lectures": 10,
+    "bookChapters": 10,
     "exams": 4,
     "repetitive": 25
   },
@@ -104,6 +105,129 @@
       "publicPdfUrl": "/lectures/ch21.pdf"
     }
   },
+  "bookChapterMeta": {
+    "ch1": {
+      "chapterId": "ch1",
+      "chapterNumber": 1,
+      "topic": "Chapter 1: Introduction",
+      "sourceFile": "chapter-01.pdf",
+      "bookPageRange": [
+        23,
+        46
+      ],
+      "pageCount": 25,
+      "publicPdfUrl": "/book/ch1.pdf"
+    },
+    "ch2": {
+      "chapterId": "ch2",
+      "chapterNumber": 2,
+      "topic": "Chapter 2: History and Current Thinking",
+      "sourceFile": "chapter-02.pdf",
+      "bookPageRange": [
+        47,
+        70
+      ],
+      "pageCount": 25,
+      "publicPdfUrl": "/book/ch2.pdf"
+    },
+    "ch3": {
+      "chapterId": "ch3",
+      "chapterNumber": 3,
+      "topic": "Chapter 3: Business Ethics",
+      "sourceFile": "chapter-03.pdf",
+      "bookPageRange": [
+        71,
+        100
+      ],
+      "pageCount": 31,
+      "publicPdfUrl": "/book/ch3.pdf"
+    },
+    "ch7": {
+      "chapterId": "ch7",
+      "chapterNumber": 7,
+      "topic": "Chapter 7: Principles of Planning",
+      "sourceFile": "chapter-07.pdf",
+      "bookPageRange": [
+        179,
+        200
+      ],
+      "pageCount": 23,
+      "publicPdfUrl": "/book/ch7.pdf"
+    },
+    "ch8": {
+      "chapterId": "ch8",
+      "chapterNumber": 8,
+      "topic": "Chapter 8: Making Decisions",
+      "sourceFile": "chapter-08.pdf",
+      "bookPageRange": [
+        201,
+        222
+      ],
+      "pageCount": 23,
+      "publicPdfUrl": "/book/ch8.pdf"
+    },
+    "ch11": {
+      "chapterId": "ch11",
+      "chapterNumber": 11,
+      "topic": "Chapter 11: Fundamentals of Organizing",
+      "sourceFile": "chapter-11.pdf",
+      "bookPageRange": [
+        269,
+        292
+      ],
+      "pageCount": 25,
+      "publicPdfUrl": "/book/ch11.pdf"
+    },
+    "ch13": {
+      "chapterId": "ch13",
+      "chapterNumber": 13,
+      "topic": "Chapter 13: Human Resource Management",
+      "sourceFile": "chapter-13.pdf",
+      "bookPageRange": [
+        315,
+        338
+      ],
+      "pageCount": 25,
+      "publicPdfUrl": "/book/ch13.pdf"
+    },
+    "ch15": {
+      "chapterId": "ch15",
+      "chapterNumber": 15,
+      "topic": "Chapter 15: Influencing and Communication",
+      "sourceFile": "chapter-15.pdf",
+      "bookPageRange": [
+        365,
+        388
+      ],
+      "pageCount": 25,
+      "publicPdfUrl": "/book/ch15.pdf"
+    },
+    "ch18": {
+      "chapterId": "ch18",
+      "chapterNumber": 18,
+      "topic": "Chapter 18: Groups and Teams",
+      "sourceFile": "chapter-18.pdf",
+      "bookPageRange": [
+        445,
+        470
+      ],
+      "pageCount": 27,
+      "publicPdfUrl": "/book/ch18.pdf"
+    },
+    "ch21": {
+      "chapterId": "ch21",
+      "chapterNumber": 21,
+      "topic": "Chapter 21: Controlling Fundamentals",
+      "sourceFile": "chapter-21.pdf",
+      "bookPageRange": [
+        521,
+        546
+      ],
+      "pageCount": 27,
+      "publicPdfUrl": "/book/ch21.pdf"
+    }
+  },
+  "bookTitle": "Modern Management (Certo, 12th ed.)",
   "poolIndex": {
     "generatedOn": "2026-06-01",
     "totalQuestions": 192,

@@ -1,10 +1,12 @@
 import type { Question } from "@/types/question";
 import {
+  countUniqueQuestionsInPools,
   getAllQuestions,
   getCatalog,
   getExamYears,
   getQuestionsByExamYear,
   getQuestionsByLectureSlug,
+  getQuestionsByLectureSlugRaw,
   getRepetitiveFileQuestions,
   getRepetitiveStats,
   getStats,
@@ -108,6 +110,8 @@ export interface ExamAnalysisData {
   examYears: ExamYearRow[];
   typeMix: TypeMixRow[];
   lectureYield: LectureYieldRow[];
+  lectureYieldAll: LectureYieldRow[];
+  lectureYieldTotals: { unique: number; all: number };
   poolByLecture: PoolByYearRow[];
   repeatedStems: RepeatedStemRow[];
   fourExamHighlight: RepeatedStemRow | null;
@@ -234,6 +238,28 @@ function buildCorrectAnswerDistribution(
   };
 }
 
+function buildLectureYield(
+  getCount: (slug: string) => number,
+  poolTotal: number
+): LectureYieldRow[] {
+  const catalog = getCatalog();
+  const total = poolTotal || 1;
+
+  return catalog.poolIndex.lectureFiles
+    .map((f) => {
+      const slug = slugFromLectureFile(f.file);
+      const count = getCount(slug);
+      return {
+        lecture: f.lecture,
+        slug,
+        count,
+        share: Math.round((count / total) * 1000) / 10,
+      };
+    })
+    .sort((a, b) => b.count - a.count)
+    .map((row, i) => ({ ...row, rank: i + 1 }));
+}
+
 export function buildExamAnalysis(): ExamAnalysisData {
   const catalog = getCatalog();
   const stats = getStats();
@@ -274,21 +300,20 @@ export function buildExamAnalysis(): ExamAnalysisData {
     }))
     .filter((r) => r.count > 0);
 
-  const uniquePoolTotal = stats.totalQuestions;
+  const lectureYieldTotals = {
+    unique: countUniqueQuestionsInPools(),
+    all: catalog.stats.totalQuestions,
+  };
 
-  const lectureYield: LectureYieldRow[] = catalog.poolIndex.lectureFiles
-    .map((f) => {
-      const slug = slugFromLectureFile(f.file);
-      const count = getQuestionsByLectureSlug(slug).length;
-      return {
-        lecture: f.lecture,
-        slug,
-        count,
-        share: Math.round((count / uniquePoolTotal) * 1000) / 10,
-      };
-    })
-    .sort((a, b) => b.count - a.count)
-    .map((row, i) => ({ ...row, rank: i + 1 }));
+  const lectureYield = buildLectureYield(
+    (slug) => getQuestionsByLectureSlug(slug).length,
+    lectureYieldTotals.unique
+  );
+
+  const lectureYieldAll = buildLectureYield(
+    (slug) => getQuestionsByLectureSlugRaw(slug).length,
+    lectureYieldTotals.all
+  );
 
   const poolByLecture: PoolByYearRow[] = catalog.poolIndex.lectureFiles.map(
     (f) => {
@@ -391,6 +416,8 @@ export function buildExamAnalysis(): ExamAnalysisData {
     examYears,
     typeMix,
     lectureYield,
+    lectureYieldAll,
+    lectureYieldTotals,
     poolByLecture,
     repeatedStems,
     fourExamHighlight,

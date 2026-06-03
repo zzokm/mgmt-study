@@ -38,16 +38,24 @@ function truncate(text: string, max = 72) {
 }
 
 const CORRECT_ANSWER_YEAR_TABS = ["all", "2025", "2024", "2021", "2019"] as const;
+const LECTURE_YIELD_MODES = ["unique", "all"] as const;
 
 export function ExamAnalysisDashboard({ data }: { data: ExamAnalysisData }) {
   const { stats } = data;
   const [answerYear, setAnswerYear] = useState<string>("all");
+  const [yieldMode, setYieldMode] = useState<(typeof LECTURE_YIELD_MODES)[number]>("unique");
   const answerDistribution =
     data.correctAnswerDistributionByYear[answerYear] ??
     data.correctAnswerDistributionByYear.all;
   const answerYearLabel =
     answerYear === "all" ? "all exam questions" : `the ${answerYear} final`;
-  const chartLectures = data.lectureYield.slice(0, 8).map((r) => ({
+  const lectureYieldRows =
+    yieldMode === "unique" ? data.lectureYield : data.lectureYieldAll;
+  const lectureYieldTotal =
+    yieldMode === "unique"
+      ? data.lectureYieldTotals.unique
+      : data.lectureYieldTotals.all;
+  const chartLectures = lectureYieldRows.slice(0, 8).map((r) => ({
     name: `Ch ${r.slug.match(/chapter-(\d+)/)?.[1] ?? "?"}`,
     count: r.count,
     full: r.lecture,
@@ -206,10 +214,31 @@ export function ExamAnalysisDashboard({ data }: { data: ExamAnalysisData }) {
       </section>
 
       <section className="flex flex-col gap-4">
-        <SectionHeading
-          title="Highest-yield chapters"
-          description="Chapters with the most exam questions in the pool."
-        />
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+          <SectionHeading
+            title="Highest-yield chapters"
+            description={
+              yieldMode === "unique"
+                ? `Chapters ranked by unique stems (${lectureYieldTotal} questions after deduplication).`
+                : `Chapters ranked by every exam appearance (${lectureYieldTotal} total, including repeats).`
+            }
+          />
+          <Tabs
+            value={yieldMode}
+            onValueChange={(value) =>
+              setYieldMode(value as (typeof LECTURE_YIELD_MODES)[number])
+            }
+          >
+            <TabsList className="flex h-auto flex-wrap gap-1">
+              <TabsTrigger value="unique">
+                Unique ({data.lectureYieldTotals.unique})
+              </TabsTrigger>
+              <TabsTrigger value="all">
+                All ({data.lectureYieldTotals.all})
+              </TabsTrigger>
+            </TabsList>
+          </Tabs>
+        </div>
         <Card>
           <CardContent className="pt-6">
             <AnalysisChart height={280}>
@@ -247,7 +276,7 @@ export function ExamAnalysisDashboard({ data }: { data: ExamAnalysisData }) {
               </TableRow>
             </TableHeader>
             <TableBody>
-              {data.lectureYield.map((row) => (
+              {lectureYieldRows.map((row) => (
                 <TableRow key={row.slug}>
                   <TableCell className="tabular-nums text-muted-foreground">
                     {row.rank}

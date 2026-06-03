@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import type { ExamAnalysisData } from "@/lib/exam-analysis";
 import { repetitiveQuestionHref } from "@/lib/exam-analysis";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -36,8 +37,16 @@ function truncate(text: string, max = 72) {
   return `${text.slice(0, max).trim()}…`;
 }
 
+const CORRECT_ANSWER_YEAR_TABS = ["all", "2025", "2024", "2021", "2019"] as const;
+
 export function ExamAnalysisDashboard({ data }: { data: ExamAnalysisData }) {
   const { stats } = data;
+  const [answerYear, setAnswerYear] = useState<string>("all");
+  const answerDistribution =
+    data.correctAnswerDistributionByYear[answerYear] ??
+    data.correctAnswerDistributionByYear.all;
+  const answerYearLabel =
+    answerYear === "all" ? "all exam questions" : `the ${answerYear} final`;
   const chartLectures = data.lectureYield.slice(0, 8).map((r) => ({
     name: `Ch ${r.slug.match(/chapter-(\d+)/)?.[1] ?? "?"}`,
     count: r.count,
@@ -138,18 +147,27 @@ export function ExamAnalysisDashboard({ data }: { data: ExamAnalysisData }) {
       <section className="flex flex-col gap-4">
         <SectionHeading
           title="Correct answer distribution"
-          description="How often each option is the keyed correct answer across all exam questions."
+          description={`How often each option is the keyed correct answer for ${answerYearLabel}.`}
         />
+        <Tabs value={answerYear} onValueChange={setAnswerYear}>
+          <TabsList className="flex flex-wrap h-auto gap-1">
+            {CORRECT_ANSWER_YEAR_TABS.map((year) => (
+              <TabsTrigger key={year} value={year}>
+                {year === "all" ? "All" : year}
+              </TabsTrigger>
+            ))}
+          </TabsList>
+        </Tabs>
         <div className="grid gap-6 lg:grid-cols-2">
           <Card>
             <CardHeader>
               <CardTitle className="text-lg">True / false</CardTitle>
               <CardDescription>
-                {data.correctAnswerDistribution.trueFalse.total} keyed T/F questions
+                {answerDistribution.trueFalse.total} keyed T/F questions
               </CardDescription>
             </CardHeader>
             <CardContent className="flex flex-col gap-4">
-              {data.correctAnswerDistribution.trueFalse.answers.map((row) => (
+              {answerDistribution.trueFalse.answers.map((row) => (
                 <div key={row.label} className="flex flex-col gap-1.5">
                   <div className="flex justify-between text-sm">
                     <span>{row.label}</span>
@@ -167,12 +185,11 @@ export function ExamAnalysisDashboard({ data }: { data: ExamAnalysisData }) {
             <CardHeader>
               <CardTitle className="text-lg">Multiple choice</CardTitle>
               <CardDescription>
-                {data.correctAnswerDistribution.mcq.total} keyed MCQ questions (A–E by
-                position)
+                {answerDistribution.mcq.total} keyed MCQ questions (A–E by position)
               </CardDescription>
             </CardHeader>
             <CardContent className="flex flex-col gap-4">
-              {data.correctAnswerDistribution.mcq.answers.map((row) => (
+              {answerDistribution.mcq.answers.map((row) => (
                 <div key={row.label} className="flex flex-col gap-1.5">
                   <div className="flex justify-between text-sm">
                     <span>{row.label}</span>

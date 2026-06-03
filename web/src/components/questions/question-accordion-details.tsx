@@ -8,16 +8,19 @@ import { QuestionStem } from "./question-stem";
 interface QuestionAccordionDetailsProps {
   question: Question;
   className?: string;
+  /** When false, skip repeating context/stem (shown in accordion trigger). */
+  showStem?: boolean;
 }
 
 /** Answer, explanation, reference, and slide preview for browse / results views. */
 export function QuestionAccordionDetails({
   question,
   className,
+  showStem = true,
 }: QuestionAccordionDetailsProps) {
   return (
     <div className={cn("flex flex-col gap-4", className)}>
-      <QuestionStem question={question} />
+      {showStem ? <QuestionStem question={question} /> : null}
       <QuestionExamAppearances
         question={question}
         variant="detailed"

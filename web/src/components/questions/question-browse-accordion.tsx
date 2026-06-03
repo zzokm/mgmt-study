@@ -136,7 +136,12 @@ export function QuestionBrowseAccordion({
                   <SaveButton question={q} />
                 </div>
               ) : null}
-              <QuestionAccordionDetails question={q} />
+              <QuestionAccordionDetails
+                question={q}
+                showStem={
+                  browseContext !== "by_lecture" && browseContext !== "by_exam"
+                }
+              />
             </div>
           </AccordionContent>
         </AccordionItem>

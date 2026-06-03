@@ -121,7 +121,7 @@ export interface ExamAnalysisData {
     trueFalseShare: number;
   };
   themes: ThemeRow[];
-  correctAnswerDistribution: CorrectAnswerDistribution;
+  correctAnswerDistributionByYear: Record<string, CorrectAnswerDistribution>;
 }
 
 const THEME_RULES: Array<{ theme: string; test: (text: string) => boolean }> = [
@@ -222,6 +222,15 @@ function buildCorrectAnswerRows(
       count: counts[label] ?? 0,
       share: total > 0 ? Math.round((counts[label] / total) * 1000) / 10 : 0,
     })),
+  };
+}
+
+function buildCorrectAnswerDistribution(
+  questions: Question[]
+): CorrectAnswerDistribution {
+  return {
+    trueFalse: buildCorrectAnswerRows(questions, "true_false", ["True", "False"]),
+    mcq: buildCorrectAnswerRows(questions, "mcq", ["A", "B", "C", "D", "E"]),
   };
 }
 
@@ -365,10 +374,15 @@ export function buildExamAnalysis(): ExamAnalysisData {
     .filter((t) => t.total > 0)
     .sort((a, b) => b.total - a.total);
 
-  const correctAnswerDistribution = {
-    trueFalse: buildCorrectAnswerRows(questions, "true_false", ["True", "False"]),
-    mcq: buildCorrectAnswerRows(questions, "mcq", ["A", "B", "C", "D", "E"]),
-  };
+  const correctAnswerDistributionByYear: Record<string, CorrectAnswerDistribution> =
+    {
+      all: buildCorrectAnswerDistribution(questions),
+    };
+  for (const year of years) {
+    correctAnswerDistributionByYear[year] = buildCorrectAnswerDistribution(
+      getQuestionsByExamYear(year)
+    );
+  }
 
   return {
     generatedAt: catalog.generatedAt,
@@ -393,6 +407,6 @@ export function buildExamAnalysis(): ExamAnalysisData {
           : 0,
     },
     themes,
-    correctAnswerDistribution,
+    correctAnswerDistributionByYear,
   };
 }

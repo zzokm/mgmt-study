@@ -39,11 +39,6 @@
         "pageCount": 19,
         "syntax": "ch3:s9"
       },
-      "origin": "2025",
-      "sourceFile": "final25.json",
-      "sourceQuestionId": "Q14",
-      "questionType": "true_false",
-      "poolIndex": 1,
       "sourceRefs": [
         "ch3:s9",
         "ch3,p52"
@@ -78,7 +73,12 @@
           "pageCount": 31,
           "syntax": "ch3,p52"
         }
-      ]
+      ],
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q14",
+      "questionType": "true_false",
+      "poolIndex": 1
     },
     {
       "id": "Q16",
@@ -125,11 +125,6 @@
         "pageCount": 19,
         "syntax": "ch3:s7,9"
       },
-      "origin": "2024",
-      "sourceFile": "final24.json",
-      "sourceQuestionId": "Q16",
-      "questionType": "mcq",
-      "poolIndex": 2,
       "sourceRefs": [
         "ch3:s7,9",
         "ch3,p52"
@@ -165,7 +160,12 @@
           "pageCount": 31,
           "syntax": "ch3,p52"
         }
-      ]
+      ],
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q16",
+      "questionType": "mcq",
+      "poolIndex": 2
     },
     {
       "id": "Q24",
@@ -211,11 +211,6 @@
         "pageCount": 19,
         "syntax": "ch3:s9"
       },
-      "origin": "2024",
-      "sourceFile": "final24.json",
-      "sourceQuestionId": "Q24",
-      "questionType": "mcq",
-      "poolIndex": 3,
       "sourceRefs": [
         "ch3:s9",
         "ch3,p55"
@@ -250,7 +245,12 @@
           "pageCount": 31,
           "syntax": "ch3,p55"
         }
-      ]
+      ],
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q24",
+      "questionType": "mcq",
+      "poolIndex": 3
     },
     {
       "id": "Q26",
@@ -296,11 +296,6 @@
         "pageCount": 19,
         "syntax": "ch3:s9"
       },
-      "origin": "2024",
-      "sourceFile": "final24.json",
-      "sourceQuestionId": "Q26",
-      "questionType": "mcq",
-      "poolIndex": 4,
       "sourceRefs": [
         "ch3:s9",
         "ch3,p58"
@@ -335,7 +330,12 @@
           "pageCount": 31,
           "syntax": "ch3,p58"
         }
-      ]
+      ],
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q26",
+      "questionType": "mcq",
+      "poolIndex": 4
     },
     {
       "id": "Q35",
@@ -381,11 +381,6 @@
         "pageCount": 19,
         "syntax": "ch3:s5"
       },
-      "origin": "2024",
-      "sourceFile": "final24.json",
-      "sourceQuestionId": "Q35",
-      "questionType": "mcq",
-      "poolIndex": 5,
       "sourceRefs": [
         "ch3:s5",
         "ch3,p63"
@@ -420,7 +415,12 @@
           "pageCount": 31,
           "syntax": "ch3,p63"
         }
-      ]
+      ],
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q35",
+      "questionType": "mcq",
+      "poolIndex": 5
     },
     {
       "id": "Q36",
@@ -466,11 +466,6 @@
         "pageCount": 19,
         "syntax": "ch3:s11"
       },
-      "origin": "2024",
-      "sourceFile": "final24.json",
-      "sourceQuestionId": "Q36",
-      "questionType": "mcq",
-      "poolIndex": 6,
       "sourceRefs": [
         "ch3:s11",
         "ch3,p64"
@@ -505,7 +500,12 @@
           "pageCount": 31,
           "syntax": "ch3,p64"
         }
-      ]
+      ],
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q36",
+      "questionType": "mcq",
+      "poolIndex": 6
     },
     {
       "id": "Q37",
@@ -551,11 +551,6 @@
         "pageCount": 19,
         "syntax": "ch3:s15"
       },
-      "origin": "2024",
-      "sourceFile": "final24.json",
-      "sourceQuestionId": "Q37",
-      "questionType": "mcq",
-      "poolIndex": 7,
       "sourceRefs": [
         "ch3:s15",
         "ch3,p66"
@@ -590,7 +585,12 @@
           "pageCount": 31,
           "syntax": "ch3,p66"
         }
-      ]
+      ],
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q37",
+      "questionType": "mcq",
+      "poolIndex": 7
     }
   ]
 }

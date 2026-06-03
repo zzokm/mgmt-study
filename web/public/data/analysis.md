@@ -1,6 +1,6 @@
 # Management Final Exams — Combined Question Pool & Examiner Analysis
 
-*Generated: 2026-06-01*
+*Generated: 2026-06-04*
 
 ## Executive summary
 
@@ -62,20 +62,24 @@ Each lecture file contains every question tagged with:
 
 See `question-pools-by-lecture/_index.json` for machine-readable metadata.
 
-## Cross-exam repetition (exact wording)
+## Cross-exam repetition (normalized stems + matching answers)
 
-**25** distinct question stems appear more than once across the four exams (**27** duplicate appearances). These are the strongest signals of examiner priority.
+**34** distinct question stems (normalized text + correct answer) appear more than once across the four exams (**37** duplicate appearances). These are the strongest signals of examiner priority.
 
 ### Appeared in all four exams (maximum yield)
 
 - **Chapter 18: Groups and Teams** (true_false): "A task group is a formal group outlined in the chain of command on an organization chart."
+
+### Appeared in three exams
+
+- [2019, 2021, 2024] **Chapter 15: Influencing and Communication**: "_________ is the process of sharing information with other individuals."
 
 ### Top repeated stems (2+ appearances)
 
 | Times | Origins | Ans | Type | Lecture | Question (truncated) |
 |------:|---------|:---:|------|---------|----------------------|
 | 4 | 2019, 2021, 2024, 2025 | b | true_false | Chapter 18: Groups and Teams | A task group is a formal group outlined in the chain of command on an organizati |
-| 2 | 2019, 2021 | 2 | mcq | Chapter 7: Principles of Planning | Which of the following is an advantage of planning? |
+| 3 | 2019, 2021, 2024 | 2 | mcq | Chapter 15: Influencing and Communication | _________ is the process of sharing information with other individuals. |
 | 2 | 2019, 2021 | b | true_false | Chapter 8: Making Decisions | Implementation of the chosen alternative is the final step in the decision-makin |
 | 2 | 2019, 2024 | a | true_false | Chapter 11: Fundamentals of Organizing | Bureaucracy can be characterized as a management system with detailed procedures |
 | 2 | 2019, 2024 | b | true_false | Chapter 15: Influencing and Communication | Communication is considered a supplementary management skill rather than a funda |
@@ -85,20 +89,25 @@ See `question-pools-by-lecture/_index.json` for machine-readable metadata.
 | 2 | 2021, 2025 | b | true_false | Chapter 11: Fundamentals of Organizing | Span of management refers to the number of organizational levels below that of a |
 | 2 | 2021, 2025 | b | true_false | Chapter 13: Human Resource Management | Wikstrom's human resource inventory forms are meant to be used exclusively for f |
 | 2 | 2021, 2024 | b | true_false | Chapter 15: Influencing and Communication | The basic elements of the interpersonal communication process are the source, th |
-| 2 | 2021, 2024 | e | mcq | Chapter 8: Making Decisions | This is an example of a(n) |
-| 2 | 2021, 2024 | c | mcq | Chapter 8: Making Decisions | Which of the following is a traditional technique for solving a programmed decis |
-| 2 | 2021, 2024 | d | mcq | Chapter 11: Fundamentals of Organizing | Which of the following is an advantage of division of labor? |
-| 2 | 2021, 2024 | a | mcq | Chapter 15: Influencing and Communication | Which of the following is a communication macrobarrier? |
 | 2 | 2024, 2025 | b | true_false | Chapter 11: Fundamentals of Organizing | Henri Fayol recommends that businesses establish multiple guiding authorities wh |
 | 2 | 2024, 2025 | a | true_false | Chapter 11: Fundamentals of Organizing | Vertical dimensioning is directly related to the concept of the scalar relations |
+| 2 | 2019, 2021 | 3 | mcq | Chapter 11: Fundamentals of Organizing | _________ is the assignment of various portions of a particular task among a num |
+| 2 | 2019, 2021 | 2 | mcq | Chapter 7: Principles of Planning | Which of the following is an advantage of planning? |
+| 2 | 2019, 2021 | 2 | mcq | Chapter 21: Controlling Fundamentals | _________ is managerial activity aimed at bringing organizational performance up |
+| 2 | 2019, 2021 | 3 | mcq | Chapter 21: Controlling Fundamentals | _________ is the systematic effort to compare performance to predetermined stand |
+| 2 | 2021, 2024 | a | mcq | Chapter 1: Introduction | The more resources unused during the production process, the more ________ the m |
+| 2 | 2021, 2024 | e | mcq | Chapter 8: Making Decisions | This is an example of a(n) |
+| 2 | 2021, 2024 | c | mcq | Chapter 8: Making Decisions | Which of the following is a traditional technique for solving a programmed decis |
+| 2 | 2021, 2024 | e | mcq | Chapter 15: Influencing and Communication | The person in the interpersonal communication situation who originates and encod |
+| 2 | 2021, 2024 | a | mcq | Chapter 15: Influencing and Communication | Which of the following is a communication macrobarrier? |
+| 2 | 2021, 2024 | c | mcq | Chapter 21: Controlling Fundamentals | ________ and ________ have been called the "Siamese twins of management." |
+| 2 | 2021, 2024 | c | mcq | Chapter 21: Controlling Fundamentals | The level of activity established to serve as a model for evaluating organizatio |
+| 2 | 2024, 2025 | c | mcq | Chapter 21: Controlling Fundamentals | ____ is the management function through which managers compare present performan |
+| 2 | 2024, 2025 | a | mcq | Chapter 11: Fundamentals of Organizing | ____ includes determining tasks and groupings of work. It should not be rigid, b |
 | 2 | 2024, 2025 | a | mcq | Chapter 1: Introduction | Which of the following statements is true for the management function? |
 | 2 | 2024, 2025 | a | mcq | Chapter 1: Introduction | Name one of the basic concepts for smoothly running an organisation. |
 | 2 | 2024, 2025 | c | mcq | Chapter 7: Principles of Planning | At what step of the planning can be processed with the topmost and applicable pl |
 | 2 | 2024, 2025 | d | mcq | Chapter 7: Principles of Planning | In which pace of the planning process, two sides of a coin of each alternative a |
-| 2 | 2024, 2025 | a | mcq | Chapter 7: Principles of Planning | Thinking for the future output is known as |
-| 2 | 2024, 2025 | c | mcq | Chapter 18: Groups and Teams | Which of the following statements about groupthink is true? |
-| 2 | 2024, 2025 | c | mcq | Chapter 7: Principles of Planning | At what stage of the planning becomes the most feasible plan that can be impleme |
-| 2 | 2024, 2025 | a | mcq | Chapter 7: Principles of Planning | Planning establishes a ground standard for |
 
 ## Lecture-level trends by exam year
 

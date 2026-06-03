@@ -1,5 +1,6 @@
 import type { Catalog, Question } from "@/types/question";
 import { sortExamAppearances } from "@/lib/question-appearances";
+import { clusterByRepetitionKey, normQuestionText, repetitionKey } from "@/lib/stem-match";
 import catalogJson from "@/data/generated/catalog.json";
 import repetitiveJson from "../../public/data/repetitive-questions.json";
 
@@ -28,14 +29,8 @@ export function getQuestionsByLectureSlugRaw(slug: string): Question[] {
   return keys.map((k) => catalog.questionByKey[k]).filter(Boolean);
 }
 
-/** Match build_question_pools.py stem grouping for cross-exam duplicates. */
-export function normQuestionText(text: string): string {
-  return text
-    .toLowerCase()
-    .trim()
-    .replace(/\s+/g, " ")
-    .replace(/[^\w\s]/g, "");
-}
+/** Match build_question_pools.py / stem_match.py grouping for cross-exam duplicates. */
+export { normQuestionText, repetitionKey } from "@/lib/stem-match";
 
 function appearanceKey(origin: string, sourceQuestionId: string): string {
   return `${origin}:${sourceQuestionId}`;
@@ -80,19 +75,11 @@ function mergeDuplicateStemGroup(group: Question[]): Question {
   };
 }
 
-/** One entry per unique stem; merges exam appearances for repeats. */
+/** One entry per unique stem + answer; merges exam appearances for repeats. */
 export function dedupeQuestionsByStem(questions: Question[]): Question[] {
-  const groups = new Map<string, Question[]>();
-  const order: string[] = [];
-  for (const q of questions) {
-    const stem = normQuestionText(q.questionText);
-    if (!groups.has(stem)) {
-      order.push(stem);
-      groups.set(stem, []);
-    }
-    groups.get(stem)!.push(q);
-  }
-  return order.map((stem) => mergeDuplicateStemGroup(groups.get(stem)!));
+  return clusterByRepetitionKey(questions).map((group) =>
+    mergeDuplicateStemGroup(group)
+  );
 }
 
 /** Browse, practice, and counts: unique stems per lecture pool. */

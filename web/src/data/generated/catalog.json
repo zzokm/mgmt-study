@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-03T20:22:28.784Z",
+  "generatedAt": "2026-06-03T21:23:51.728Z",
   "stats": {
     "totalQuestions": 192,
     "lectures": 10,
     "bookChapters": 10,
     "exams": 4,
-    "repetitive": 25
+    "repetitive": 34
   },
   "examYears": [
     "2019",
@@ -229,7 +229,7 @@
   },
   "bookTitle": "Modern Management (Certo, 12th ed.)",
   "poolIndex": {
-    "generatedOn": "2026-06-01",
+    "generatedOn": "2026-06-04",
     "totalQuestions": 192,
     "examSources": {
       "final19.json": "2019",
@@ -15519,11 +15519,19 @@
     "2021:Q20",
     "2024:Q7",
     "2024:Q9",
+    "2019:Q1.d",
     "2019:Q1.f",
+    "2019:Q1.i",
+    "2019:Q1.j",
+    "2021:Q27",
     "2021:Q30",
     "2021:Q31",
-    "2021:Q34",
+    "2021:Q38",
     "2021:Q39",
+    "2021:Q45",
+    "2021:Q46",
+    "2024:Q23",
+    "2024:Q25",
     "2024:Q29",
     "2024:Q38",
     "2024:Q40",
@@ -15532,6 +15540,7 @@
     "2024:Q52",
     "2024:Q53",
     "2024:Q55",
+    "2019:Q1.e",
     "2019:Q2.f"
   ],
   "questionByKey": {
@@ -15883,7 +15892,25 @@
       "sourceQuestionId": "Q1.d",
       "questionType": "mcq",
       "lectureSlug": "chapter-11-fundamentals-of-organizing",
-      "examOrder": 4
+      "examOrder": 4,
+      "appearances": [
+        {
+          "origin": "2019",
+          "sourceFile": "final19.json",
+          "sourceQuestionId": "Q1.d"
+        },
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q33"
+        }
+      ],
+      "instanceCount": 2,
+      "origins": [
+        "2019",
+        "2021"
+      ],
+      "repetitionGroupRank": 12
     },
     "2019:Q1.e": {
       "id": "Q1.e",
@@ -15970,7 +15997,31 @@
       "sourceQuestionId": "Q1.e",
       "questionType": "mcq",
       "lectureSlug": "chapter-15-influencing-and-communication",
-      "examOrder": 5
+      "examOrder": 5,
+      "appearances": [
+        {
+          "origin": "2019",
+          "sourceFile": "final19.json",
+          "sourceQuestionId": "Q1.e"
+        },
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q37"
+        },
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q54"
+        }
+      ],
+      "instanceCount": 3,
+      "origins": [
+        "2019",
+        "2021",
+        "2024"
+      ],
+      "repetitionGroupRank": 33
     },
     "2019:Q1.f": {
       "id": "Q1.f",
@@ -16075,7 +16126,7 @@
         "2019",
         "2021"
       ],
-      "repetitionGroupRank": 12
+      "repetitionGroupRank": 13
     },
     "2019:Q1.g": {
       "id": "Q1.g",
@@ -16266,7 +16317,25 @@
       "sourceQuestionId": "Q1.i",
       "questionType": "mcq",
       "lectureSlug": "chapter-21-controlling-fundamentals",
-      "examOrder": 9
+      "examOrder": 9,
+      "appearances": [
+        {
+          "origin": "2019",
+          "sourceFile": "final19.json",
+          "sourceQuestionId": "Q1.i"
+        },
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q47"
+        }
+      ],
+      "instanceCount": 2,
+      "origins": [
+        "2019",
+        "2021"
+      ],
+      "repetitionGroupRank": 14
     },
     "2019:Q1.j": {
       "id": "Q1.j",
@@ -16353,7 +16422,25 @@
       "sourceQuestionId": "Q1.j",
       "questionType": "mcq",
       "lectureSlug": "chapter-21-controlling-fundamentals",
-      "examOrder": 10
+      "examOrder": 10,
+      "appearances": [
+        {
+          "origin": "2019",
+          "sourceFile": "final19.json",
+          "sourceQuestionId": "Q1.j"
+        },
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q44"
+        }
+      ],
+      "instanceCount": 2,
+      "origins": [
+        "2019",
+        "2021"
+      ],
+      "repetitionGroupRank": 15
     },
     "2019:Q2.a": {
       "id": "Q2.a",
@@ -16858,7 +16945,7 @@
         "2024",
         "2025"
       ],
-      "repetitionGroupRank": 25
+      "repetitionGroupRank": 34
     },
     "2019:Q2.g": {
       "id": "Q2.g",
@@ -18685,7 +18772,7 @@
         "2024",
         "2025"
       ],
-      "repetitionGroupRank": 25
+      "repetitionGroupRank": 34
     },
     "2021:Q22": {
       "id": "Q22",
@@ -19017,7 +19104,7 @@
         "2019",
         "2021"
       ],
-      "repetitionGroupRank": 12
+      "repetitionGroupRank": 13
     },
     "2021:Q26": {
       "id": "Q26",
@@ -19177,7 +19264,25 @@
       "sourceQuestionId": "Q27",
       "questionType": "mcq",
       "lectureSlug": "chapter-1-introduction",
-      "examOrder": 27
+      "examOrder": 27,
+      "appearances": [
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q27"
+        },
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q66"
+        }
+      ],
+      "instanceCount": 2,
+      "origins": [
+        "2021",
+        "2024"
+      ],
+      "repetitionGroupRank": 16
     },
     "2021:Q28": {
       "id": "Q28",
@@ -19447,7 +19552,7 @@
         "2021",
         "2024"
       ],
-      "repetitionGroupRank": 13
+      "repetitionGroupRank": 17
     },
     "2021:Q31": {
       "id": "Q31",
@@ -19552,7 +19657,7 @@
         "2021",
         "2024"
       ],
-      "repetitionGroupRank": 14
+      "repetitionGroupRank": 18
     },
     "2021:Q32": {
       "id": "Q32",
@@ -19726,7 +19831,25 @@
       "sourceQuestionId": "Q33",
       "questionType": "mcq",
       "lectureSlug": "chapter-11-fundamentals-of-organizing",
-      "examOrder": 33
+      "examOrder": 33,
+      "appearances": [
+        {
+          "origin": "2019",
+          "sourceFile": "final19.json",
+          "sourceQuestionId": "Q1.d"
+        },
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q33"
+        }
+      ],
+      "instanceCount": 2,
+      "origins": [
+        "2019",
+        "2021"
+      ],
+      "repetitionGroupRank": 12
     },
     "2021:Q34": {
       "id": "Q34",
@@ -19813,25 +19936,7 @@
       "sourceQuestionId": "Q34",
       "questionType": "mcq",
       "lectureSlug": "chapter-11-fundamentals-of-organizing",
-      "examOrder": 34,
-      "appearances": [
-        {
-          "origin": "2021",
-          "sourceFile": "final21.json",
-          "sourceQuestionId": "Q34"
-        },
-        {
-          "origin": "2024",
-          "sourceFile": "final24.json",
-          "sourceQuestionId": "Q56"
-        }
-      ],
-      "instanceCount": 2,
-      "origins": [
-        "2021",
-        "2024"
-      ],
-      "repetitionGroupRank": 15
+      "examOrder": 34
     },
     "2021:Q35": {
       "id": "Q35",
@@ -20092,7 +20197,31 @@
       "sourceQuestionId": "Q37",
       "questionType": "mcq",
       "lectureSlug": "chapter-15-influencing-and-communication",
-      "examOrder": 37
+      "examOrder": 37,
+      "appearances": [
+        {
+          "origin": "2019",
+          "sourceFile": "final19.json",
+          "sourceQuestionId": "Q1.e"
+        },
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q37"
+        },
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q54"
+        }
+      ],
+      "instanceCount": 3,
+      "origins": [
+        "2019",
+        "2021",
+        "2024"
+      ],
+      "repetitionGroupRank": 33
     },
     "2021:Q38": {
       "id": "Q38",
@@ -20179,7 +20308,25 @@
       "sourceQuestionId": "Q38",
       "questionType": "mcq",
       "lectureSlug": "chapter-15-influencing-and-communication",
-      "examOrder": 38
+      "examOrder": 38,
+      "appearances": [
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q38"
+        },
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q49"
+        }
+      ],
+      "instanceCount": 2,
+      "origins": [
+        "2021",
+        "2024"
+      ],
+      "repetitionGroupRank": 19
     },
     "2021:Q39": {
       "id": "Q39",
@@ -20288,7 +20435,7 @@
         "2021",
         "2024"
       ],
-      "repetitionGroupRank": 16
+      "repetitionGroupRank": 20
     },
     "2021:Q40": {
       "id": "Q40",
@@ -20621,7 +20768,25 @@
       "sourceQuestionId": "Q44",
       "questionType": "mcq",
       "lectureSlug": "chapter-21-controlling-fundamentals",
-      "examOrder": 44
+      "examOrder": 44,
+      "appearances": [
+        {
+          "origin": "2019",
+          "sourceFile": "final19.json",
+          "sourceQuestionId": "Q1.j"
+        },
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q44"
+        }
+      ],
+      "instanceCount": 2,
+      "origins": [
+        "2019",
+        "2021"
+      ],
+      "repetitionGroupRank": 15
     },
     "2021:Q45": {
       "id": "Q45",
@@ -20708,7 +20873,25 @@
       "sourceQuestionId": "Q45",
       "questionType": "mcq",
       "lectureSlug": "chapter-21-controlling-fundamentals",
-      "examOrder": 45
+      "examOrder": 45,
+      "appearances": [
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q45"
+        },
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q17"
+        }
+      ],
+      "instanceCount": 2,
+      "origins": [
+        "2021",
+        "2024"
+      ],
+      "repetitionGroupRank": 21
     },
     "2021:Q46": {
       "id": "Q46",
@@ -20795,7 +20978,25 @@
       "sourceQuestionId": "Q46",
       "questionType": "mcq",
       "lectureSlug": "chapter-21-controlling-fundamentals",
-      "examOrder": 46
+      "examOrder": 46,
+      "appearances": [
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q46"
+        },
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q19"
+        }
+      ],
+      "instanceCount": 2,
+      "origins": [
+        "2021",
+        "2024"
+      ],
+      "repetitionGroupRank": 22
     },
     "2021:Q47": {
       "id": "Q47",
@@ -20882,7 +21083,25 @@
       "sourceQuestionId": "Q47",
       "questionType": "mcq",
       "lectureSlug": "chapter-21-controlling-fundamentals",
-      "examOrder": 47
+      "examOrder": 47,
+      "appearances": [
+        {
+          "origin": "2019",
+          "sourceFile": "final19.json",
+          "sourceQuestionId": "Q1.i"
+        },
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q47"
+        }
+      ],
+      "instanceCount": 2,
+      "origins": [
+        "2019",
+        "2021"
+      ],
+      "repetitionGroupRank": 14
     },
     "2021:Q48": {
       "id": "Q48",
@@ -21363,7 +21582,7 @@
         "2024",
         "2025"
       ],
-      "repetitionGroupRank": 25
+      "repetitionGroupRank": 34
     },
     "2024:Q6": {
       "id": "Q6",
@@ -22292,7 +22511,25 @@
       "sourceQuestionId": "Q17",
       "questionType": "mcq",
       "lectureSlug": "chapter-7-principles-of-planning",
-      "examOrder": 17
+      "examOrder": 17,
+      "appearances": [
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q45"
+        },
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q17"
+        }
+      ],
+      "instanceCount": 2,
+      "origins": [
+        "2021",
+        "2024"
+      ],
+      "repetitionGroupRank": 21
     },
     "2024:Q18": {
       "id": "Q18",
@@ -22466,7 +22703,25 @@
       "sourceQuestionId": "Q19",
       "questionType": "mcq",
       "lectureSlug": "chapter-21-controlling-fundamentals",
-      "examOrder": 19
+      "examOrder": 19,
+      "appearances": [
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q46"
+        },
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q19"
+        }
+      ],
+      "instanceCount": 2,
+      "origins": [
+        "2021",
+        "2024"
+      ],
+      "repetitionGroupRank": 22
     },
     "2024:Q20": {
       "id": "Q20",
@@ -22573,7 +22828,7 @@
         "2021",
         "2024"
       ],
-      "repetitionGroupRank": 13
+      "repetitionGroupRank": 17
     },
     "2024:Q21": {
       "id": "Q21",
@@ -22801,7 +23056,25 @@
       "sourceQuestionId": "Q23",
       "questionType": "mcq",
       "lectureSlug": "chapter-21-controlling-fundamentals",
-      "examOrder": 23
+      "examOrder": 23,
+      "appearances": [
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q23"
+        },
+        {
+          "origin": "2025",
+          "sourceFile": "final25.json",
+          "sourceQuestionId": "Q29"
+        }
+      ],
+      "instanceCount": 2,
+      "origins": [
+        "2024",
+        "2025"
+      ],
+      "repetitionGroupRank": 23
     },
     "2024:Q24": {
       "id": "Q24",
@@ -22977,7 +23250,25 @@
       "sourceQuestionId": "Q25",
       "questionType": "mcq",
       "lectureSlug": "chapter-11-fundamentals-of-organizing",
-      "examOrder": 25
+      "examOrder": 25,
+      "appearances": [
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q25"
+        },
+        {
+          "origin": "2025",
+          "sourceFile": "final25.json",
+          "sourceQuestionId": "Q42"
+        }
+      ],
+      "instanceCount": 2,
+      "origins": [
+        "2024",
+        "2025"
+      ],
+      "repetitionGroupRank": 24
     },
     "2024:Q26": {
       "id": "Q26",
@@ -23260,7 +23551,7 @@
         "2021",
         "2024"
       ],
-      "repetitionGroupRank": 16
+      "repetitionGroupRank": 20
     },
     "2024:Q29": {
       "id": "Q29",
@@ -23365,7 +23656,7 @@
         "2024",
         "2025"
       ],
-      "repetitionGroupRank": 17
+      "repetitionGroupRank": 25
     },
     "2024:Q30": {
       "id": "Q30",
@@ -23605,7 +23896,7 @@
         "2021",
         "2024"
       ],
-      "repetitionGroupRank": 14
+      "repetitionGroupRank": 18
     },
     "2024:Q33": {
       "id": "Q33",
@@ -24143,7 +24434,7 @@
         "2024",
         "2025"
       ],
-      "repetitionGroupRank": 18
+      "repetitionGroupRank": 26
     },
     "2024:Q39": {
       "id": "Q39",
@@ -24296,7 +24587,7 @@
         "2024",
         "2025"
       ],
-      "repetitionGroupRank": 19
+      "repetitionGroupRank": 27
     },
     "2024:Q41": {
       "id": "Q41",
@@ -24449,7 +24740,7 @@
         "2024",
         "2025"
       ],
-      "repetitionGroupRank": 20
+      "repetitionGroupRank": 28
     },
     "2024:Q43": {
       "id": "Q43",
@@ -24824,7 +25115,7 @@
         "2024",
         "2025"
       ],
-      "repetitionGroupRank": 21
+      "repetitionGroupRank": 29
     },
     "2024:Q48": {
       "id": "Q48",
@@ -24998,7 +25289,25 @@
       "sourceQuestionId": "Q49",
       "questionType": "mcq",
       "lectureSlug": "chapter-15-influencing-and-communication",
-      "examOrder": 49
+      "examOrder": 49,
+      "appearances": [
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q38"
+        },
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q49"
+        }
+      ],
+      "instanceCount": 2,
+      "origins": [
+        "2021",
+        "2024"
+      ],
+      "repetitionGroupRank": 19
     },
     "2024:Q50": {
       "id": "Q50",
@@ -25203,7 +25512,7 @@
         "2024",
         "2025"
       ],
-      "repetitionGroupRank": 22
+      "repetitionGroupRank": 30
     },
     "2024:Q53": {
       "id": "Q53",
@@ -25304,7 +25613,7 @@
         "2024",
         "2025"
       ],
-      "repetitionGroupRank": 23
+      "repetitionGroupRank": 31
     },
     "2024:Q54": {
       "id": "Q54",
@@ -25391,7 +25700,31 @@
       "sourceQuestionId": "Q54",
       "questionType": "mcq",
       "lectureSlug": "chapter-15-influencing-and-communication",
-      "examOrder": 54
+      "examOrder": 54,
+      "appearances": [
+        {
+          "origin": "2019",
+          "sourceFile": "final19.json",
+          "sourceQuestionId": "Q1.e"
+        },
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q37"
+        },
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q54"
+        }
+      ],
+      "instanceCount": 3,
+      "origins": [
+        "2019",
+        "2021",
+        "2024"
+      ],
+      "repetitionGroupRank": 33
     },
     "2024:Q55": {
       "id": "Q55",
@@ -25492,7 +25825,7 @@
         "2024",
         "2025"
       ],
-      "repetitionGroupRank": 24
+      "repetitionGroupRank": 32
     },
     "2024:Q56": {
       "id": "Q56",
@@ -25579,25 +25912,7 @@
       "sourceQuestionId": "Q56",
       "questionType": "mcq",
       "lectureSlug": "chapter-11-fundamentals-of-organizing",
-      "examOrder": 56,
-      "appearances": [
-        {
-          "origin": "2021",
-          "sourceFile": "final21.json",
-          "sourceQuestionId": "Q34"
-        },
-        {
-          "origin": "2024",
-          "sourceFile": "final24.json",
-          "sourceQuestionId": "Q56"
-        }
-      ],
-      "instanceCount": 2,
-      "origins": [
-        "2021",
-        "2024"
-      ],
-      "repetitionGroupRank": 15
+      "examOrder": 56
     },
     "2024:Q57": {
       "id": "Q57",
@@ -26432,7 +26747,25 @@
       "sourceQuestionId": "Q66",
       "questionType": "mcq",
       "lectureSlug": "chapter-1-introduction",
-      "examOrder": 66
+      "examOrder": 66,
+      "appearances": [
+        {
+          "origin": "2021",
+          "sourceFile": "final21.json",
+          "sourceQuestionId": "Q27"
+        },
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q66"
+        }
+      ],
+      "instanceCount": 2,
+      "origins": [
+        "2021",
+        "2024"
+      ],
+      "repetitionGroupRank": 16
     },
     "2025:Q1": {
       "id": "Q1",
@@ -27135,7 +27468,7 @@
         "2024",
         "2025"
       ],
-      "repetitionGroupRank": 25
+      "repetitionGroupRank": 34
     },
     "2025:Q10": {
       "id": "Q10",
@@ -27786,7 +28119,7 @@
         "2024",
         "2025"
       ],
-      "repetitionGroupRank": 18
+      "repetitionGroupRank": 26
     },
     "2025:Q19": {
       "id": "Q19",
@@ -27974,7 +28307,7 @@
         "2024",
         "2025"
       ],
-      "repetitionGroupRank": 19
+      "repetitionGroupRank": 27
     },
     "2025:Q21": {
       "id": "Q21",
@@ -28324,7 +28657,7 @@
         "2024",
         "2025"
       ],
-      "repetitionGroupRank": 20
+      "repetitionGroupRank": 28
     },
     "2025:Q25": {
       "id": "Q25",
@@ -28595,7 +28928,7 @@
         "2024",
         "2025"
       ],
-      "repetitionGroupRank": 21
+      "repetitionGroupRank": 29
     },
     "2025:Q28": {
       "id": "Q28",
@@ -28761,7 +29094,25 @@
       "sourceQuestionId": "Q29",
       "questionType": "mcq",
       "lectureSlug": "chapter-21-controlling-fundamentals",
-      "examOrder": 29
+      "examOrder": 29,
+      "appearances": [
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q23"
+        },
+        {
+          "origin": "2025",
+          "sourceFile": "final25.json",
+          "sourceQuestionId": "Q29"
+        }
+      ],
+      "instanceCount": 2,
+      "origins": [
+        "2024",
+        "2025"
+      ],
+      "repetitionGroupRank": 23
     },
     "2025:Q30": {
       "id": "Q30",
@@ -29813,7 +30164,25 @@
       "sourceQuestionId": "Q42",
       "questionType": "mcq",
       "lectureSlug": "chapter-11-fundamentals-of-organizing",
-      "examOrder": 42
+      "examOrder": 42,
+      "appearances": [
+        {
+          "origin": "2024",
+          "sourceFile": "final24.json",
+          "sourceQuestionId": "Q25"
+        },
+        {
+          "origin": "2025",
+          "sourceFile": "final25.json",
+          "sourceQuestionId": "Q42"
+        }
+      ],
+      "instanceCount": 2,
+      "origins": [
+        "2024",
+        "2025"
+      ],
+      "repetitionGroupRank": 24
     },
     "2025:Q43": {
       "id": "Q43",
@@ -29914,7 +30283,7 @@
         "2024",
         "2025"
       ],
-      "repetitionGroupRank": 23
+      "repetitionGroupRank": 31
     },
     "2025:Q44": {
       "id": "Q44",
@@ -30528,7 +30897,7 @@
         "2024",
         "2025"
       ],
-      "repetitionGroupRank": 24
+      "repetitionGroupRank": 32
     },
     "2025:Q52": {
       "id": "Q52",
@@ -31072,7 +31441,7 @@
         "2024",
         "2025"
       ],
-      "repetitionGroupRank": 22
+      "repetitionGroupRank": 30
     },
     "2025:Q59": {
       "id": "Q59",
@@ -31177,7 +31546,7 @@
         "2024",
         "2025"
       ],
-      "repetitionGroupRank": 17
+      "repetitionGroupRank": 25
     },
     "2025:Q60": {
       "id": "Q60",

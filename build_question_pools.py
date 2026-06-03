@@ -3,8 +3,9 @@ import json
 import re
 from collections import Counter, defaultdict
 from datetime import date
-from difflib import SequenceMatcher
 from pathlib import Path
+
+from stem_match import group_repetitive_instances, norm_stem
 
 EXAMS = {
     "final19.json": "2019",
@@ -19,12 +20,7 @@ ORIGIN_YEARS = ["2019", "2021", "2024", "2025"]
 
 
 def norm_text(t: str) -> str:
-    if not t:
-        return ""
-    t = t.lower().strip()
-    t = re.sub(r"\s+", " ", t)
-    t = re.sub(r"[^\w\s]", "", t)
-    return t
+    return norm_stem(t)
 
 
 def slug_topic(topic: str) -> str:
@@ -128,22 +124,14 @@ def write_pools(by_topic: dict[str, list[dict]]) -> list[dict]:
 
 
 def write_repetitive_questions(all_q: list[dict]) -> dict:
-    """Questions with identical stems appearing 2+ times; least→most repetitions, then standard sort."""
-    text_map: dict[str, list[dict]] = defaultdict(list)
-    for q in all_q:
-        key = norm_text(q.get("questionText", ""))
-        if key:
-            text_map[key].append(q)
-
+    """Questions with matching stems + answers appearing 2+ times across exams."""
+    raw_groups = group_repetitive_instances(all_q)
     groups: list[dict] = []
-    for _key, instances in text_map.items():
-        count = len(instances)
-        if count < 2:
-            continue
+    for instances in raw_groups:
         sorted_instances = sort_questions(instances)
         groups.append(
             {
-                "instanceCount": count,
+                "instanceCount": len(sorted_instances),
                 "questionText": sorted_instances[0].get("questionText"),
                 "topic": sorted_instances[0].get("topic"),
                 "questionType": sorted_instances[0].get("questionType"),
@@ -183,9 +171,9 @@ def write_repetitive_questions(all_q: list[dict]) -> dict:
     payload = {
         "title": "Repetitive Questions",
         "description": (
-            "One entry per repeated stem (exact text match, 2+ appearances across exams). "
-            "Perfect duplicates collapsed to a single question; instanceCount and appearances "
-            "record how often and where it showed up. "
+            "One entry per repeated stem (normalized match on question text + correct answer, "
+            "2+ appearances across exams). Underscores/blanks and light stem variation collapse "
+            "when the keyed answer matches; instanceCount and appearances record every exam slot. "
             "Ordered by instanceCount ascending (2, then 3, then 4…); "
             "within the same count: True/False before MCQ, then 2019→2021→2024→2025, "
             "then exam question id (Q1, Q2, Q1.a…)."
@@ -213,18 +201,16 @@ def analyze(all_q: list[dict], by_topic: dict[str, list[dict]], meta: list[dict]
         topic_by_origin[q["origin"]][q.get("topic") or "Unknown"] += 1
         type_by_origin[q["origin"]][q["questionType"]] += 1
 
-    text_map: dict[str, list[dict]] = defaultdict(list)
-    for q in all_q:
-        text_map[norm_text(q.get("questionText", ""))].append(q)
-    exact_dups = {k: v for k, v in text_map.items() if len(v) > 1 and k}
-
     cross_year = []
-    for key, group in sorted(exact_dups.items(), key=lambda x: -len(x[1])):
-        origins = sorted({q["origin"] for q in group})
-        rep = sort_questions(group)[0]
+    for instances in sorted(
+        group_repetitive_instances(all_q),
+        key=lambda g: (-len(g), question_sort_key(sort_questions(g)[0])),
+    ):
+        origins = sorted({q["origin"] for q in instances}, key=lambda o: ORIGIN_ORDER.get(o, 99))
+        rep = sort_questions(instances)[0]
         cross_year.append(
             {
-                "count": len(group),
+                "count": len(instances),
                 "origins": origins,
                 "topic": rep.get("topic"),
                 "text": rep.get("questionText"),
@@ -339,11 +325,13 @@ def analyze(all_q: list[dict], by_topic: dict[str, list[dict]], meta: list[dict]
     w("See `question-pools-by-lecture/_index.json` for machine-readable metadata.")
     w("")
 
-    w("## Cross-exam repetition (exact wording)")
+    w("## Cross-exam repetition (normalized stems + matching answers)")
     w("")
+    dup_slots = sum(d["count"] - 1 for d in cross_year)
     w(
-        f"**{len(exact_dups)}** distinct question stems appear more than once across the four exams "
-        f"(**{sum(len(v)-1 for v in exact_dups.values())}** duplicate appearances). "
+        f"**{len(cross_year)}** distinct question stems (normalized text + correct answer) appear "
+        f"more than once across the four exams "
+        f"(**{dup_slots}** duplicate appearances). "
         "These are the strongest signals of examiner priority."
     )
     w("")

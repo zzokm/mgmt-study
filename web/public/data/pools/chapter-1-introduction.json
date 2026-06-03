@@ -26,11 +26,21 @@
       "correctAnswerId": "b",
       "explanation": "The statement describes 'Organizing', not 'Influencing'. Organizing is the process of assigning tasks developed under the planning function to various individuals or groups within the organization. Influencing involves guiding the activities of organization members in appropriate directions.",
       "reference": "Textbook Page 6: \"Organizing can be thought of as assigning the tasks developed under the planning function to various individuals or groups within the organization... Influencing can be defined as guiding the activities of organization members in appropriate directions.\"",
-      "origin": "2021",
-      "sourceFile": "final21.json",
-      "sourceQuestionId": "Q3",
-      "questionType": "true_false",
-      "poolIndex": 1,
+      "slideRef": "ch1:s9-10",
+      "slideRefParsed": {
+        "lectureId": "ch1",
+        "chapterNumber": 1,
+        "topic": "Chapter 1: Introduction",
+        "lectureFile": "Chapter 1 - Introduction.pdf",
+        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+        "kind": "slides",
+        "pages": [
+          9,
+          10
+        ],
+        "pageCount": 30,
+        "syntax": "ch1:s9-10"
+      },
       "sourceRefs": [
         "ch1:s9-10",
         "ch1,p6"
@@ -67,21 +77,11 @@
           "syntax": "ch1,p6"
         }
       ],
-      "slideRef": "ch1:s9-10",
-      "slideRefParsed": {
-        "lectureId": "ch1",
-        "chapterNumber": 1,
-        "topic": "Chapter 1: Introduction",
-        "lectureFile": "Chapter 1 - Introduction.pdf",
-        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
-        "kind": "slides",
-        "pages": [
-          9,
-          10
-        ],
-        "pageCount": 30,
-        "syntax": "ch1:s9-10"
-      }
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q3",
+      "questionType": "true_false",
+      "poolIndex": 1
     },
     {
       "id": "Q4",
@@ -101,11 +101,20 @@
       "correctAnswerId": "b",
       "explanation": "Motivating, leading, directing, or actuating are all alternative terms used to describe the 'Influencing' function of management, not the 'Organizing' function.",
       "reference": "Textbook Page 6: \"Influencing is another of the basic functions within the management process. This function—also commonly referred to as motivating, leading, directing, or actuating—is concerned primarily with people...\"",
-      "origin": "2021",
-      "sourceFile": "final21.json",
-      "sourceQuestionId": "Q4",
-      "questionType": "true_false",
-      "poolIndex": 2,
+      "slideRef": "ch1:s10",
+      "slideRefParsed": {
+        "lectureId": "ch1",
+        "chapterNumber": 1,
+        "topic": "Chapter 1: Introduction",
+        "lectureFile": "Chapter 1 - Introduction.pdf",
+        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+        "kind": "slides",
+        "pages": [
+          10
+        ],
+        "pageCount": 30,
+        "syntax": "ch1:s10"
+      },
       "sourceRefs": [
         "ch1:s10",
         "ch1,p6"
@@ -141,20 +150,11 @@
           "syntax": "ch1,p6"
         }
       ],
-      "slideRef": "ch1:s10",
-      "slideRefParsed": {
-        "lectureId": "ch1",
-        "chapterNumber": 1,
-        "topic": "Chapter 1: Introduction",
-        "lectureFile": "Chapter 1 - Introduction.pdf",
-        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
-        "kind": "slides",
-        "pages": [
-          10
-        ],
-        "pageCount": 30,
-        "syntax": "ch1:s10"
-      }
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q4",
+      "questionType": "true_false",
+      "poolIndex": 2
     },
     {
       "id": "Q5",
@@ -174,11 +174,20 @@
       "correctAnswerId": "a",
       "explanation": "According to Robert L. Katz's classic view of management skills, technical skills are explicitly defined as the ability to apply specialized knowledge and expertise to work-related techniques and procedures.",
       "reference": "Textbook Page 11: \"Technical skills involve the ability to apply specialized knowledge and expertise to work-related techniques and procedures.\"",
-      "origin": "2021",
-      "sourceFile": "final21.json",
-      "sourceQuestionId": "Q5",
-      "questionType": "true_false",
-      "poolIndex": 3,
+      "slideRef": "ch1:s22",
+      "slideRefParsed": {
+        "lectureId": "ch1",
+        "chapterNumber": 1,
+        "topic": "Chapter 1: Introduction",
+        "lectureFile": "Chapter 1 - Introduction.pdf",
+        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+        "kind": "slides",
+        "pages": [
+          22
+        ],
+        "pageCount": 30,
+        "syntax": "ch1:s22"
+      },
       "sourceRefs": [
         "ch1:s22",
         "ch1,p11"
@@ -214,20 +223,11 @@
           "syntax": "ch1,p11"
         }
       ],
-      "slideRef": "ch1:s22",
-      "slideRefParsed": {
-        "lectureId": "ch1",
-        "chapterNumber": 1,
-        "topic": "Chapter 1: Introduction",
-        "lectureFile": "Chapter 1 - Introduction.pdf",
-        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
-        "kind": "slides",
-        "pages": [
-          22
-        ],
-        "pageCount": 30,
-        "syntax": "ch1:s22"
-      }
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q5",
+      "questionType": "true_false",
+      "poolIndex": 3
     },
     {
       "id": "Q6",
@@ -247,11 +247,20 @@
       "correctAnswerId": "b",
       "explanation": "The ability to see the organization as a whole is the definition of 'Conceptual Skills'. 'Human Skills' are defined as the ability to build cooperation and work effectively with people.",
       "reference": "Textbook Page 11: \"Conceptual skills involve the ability to see the organization as a whole... Human skills build cooperation within the team being led.\"",
-      "origin": "2021",
-      "sourceFile": "final21.json",
-      "sourceQuestionId": "Q6",
-      "questionType": "true_false",
-      "poolIndex": 4,
+      "slideRef": "ch1:s22",
+      "slideRefParsed": {
+        "lectureId": "ch1",
+        "chapterNumber": 1,
+        "topic": "Chapter 1: Introduction",
+        "lectureFile": "Chapter 1 - Introduction.pdf",
+        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+        "kind": "slides",
+        "pages": [
+          22
+        ],
+        "pageCount": 30,
+        "syntax": "ch1:s22"
+      },
       "sourceRefs": [
         "ch1:s22",
         "ch1,p11"
@@ -287,23 +296,14 @@
           "syntax": "ch1,p11"
         }
       ],
-      "slideRef": "ch1:s22",
-      "slideRefParsed": {
-        "lectureId": "ch1",
-        "chapterNumber": 1,
-        "topic": "Chapter 1: Introduction",
-        "lectureFile": "Chapter 1 - Introduction.pdf",
-        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
-        "kind": "slides",
-        "pages": [
-          22
-        ],
-        "pageCount": 30,
-        "syntax": "ch1:s22"
-      }
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q6",
+      "questionType": "true_false",
+      "poolIndex": 4
     },
     {
-      "id": "Q5_2025",
+      "id": "Q5",
       "topic": "Chapter 1: Introduction",
       "questionText": "Human skills, unlike technical skills, involve the ability to see the organization as a whole.",
       "context": null,
@@ -320,11 +320,20 @@
       "correctAnswerId": "b",
       "explanation": "The ability to see the organization as a whole is defined as 'Conceptual Skills', whereas 'Human Skills' deal with the ability to work effectively with people.",
       "reference": "Textbook Page 11: \"Conceptual skills involve the ability to see the organization as a whole.\"",
-      "origin": "2025",
-      "sourceFile": "final25.json",
-      "sourceQuestionId": "Q5",
-      "questionType": "true_false",
-      "poolIndex": 5,
+      "slideRef": "ch1:s22",
+      "slideRefParsed": {
+        "lectureId": "ch1",
+        "chapterNumber": 1,
+        "topic": "Chapter 1: Introduction",
+        "lectureFile": "Chapter 1 - Introduction.pdf",
+        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+        "kind": "slides",
+        "pages": [
+          22
+        ],
+        "pageCount": 30,
+        "syntax": "ch1:s22"
+      },
       "sourceRefs": [
         "ch1:s22",
         "ch1,p11"
@@ -360,20 +369,11 @@
           "syntax": "ch1,p11"
         }
       ],
-      "slideRef": "ch1:s22",
-      "slideRefParsed": {
-        "lectureId": "ch1",
-        "chapterNumber": 1,
-        "topic": "Chapter 1: Introduction",
-        "lectureFile": "Chapter 1 - Introduction.pdf",
-        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
-        "kind": "slides",
-        "pages": [
-          22
-        ],
-        "pageCount": 30,
-        "syntax": "ch1:s22"
-      }
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q5",
+      "questionType": "true_false",
+      "poolIndex": 5
     },
     {
       "id": "Q27",
@@ -405,11 +405,20 @@
       "correctAnswerId": "a",
       "explanation": "Managerial efficiency refers to the proportion of total organizational resources that contribute to productivity. Therefore, the textbook explicitly states that if more resources are unused or wasted, the manager is considered inefficient.",
       "reference": "Textbook Page 10: \"The more resources wasted or unused during the production process, the more inefficient is the manager.\"",
-      "origin": "2021",
-      "sourceFile": "final21.json",
-      "sourceQuestionId": "Q27",
-      "questionType": "mcq",
-      "poolIndex": 6,
+      "slideRef": "ch1:s16",
+      "slideRefParsed": {
+        "lectureId": "ch1",
+        "chapterNumber": 1,
+        "topic": "Chapter 1: Introduction",
+        "lectureFile": "Chapter 1 - Introduction.pdf",
+        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+        "kind": "slides",
+        "pages": [
+          16
+        ],
+        "pageCount": 30,
+        "syntax": "ch1:s16"
+      },
       "sourceRefs": [
         "ch1:s16",
         "ch1,p10"
@@ -445,20 +454,11 @@
           "syntax": "ch1,p10"
         }
       ],
-      "slideRef": "ch1:s16",
-      "slideRefParsed": {
-        "lectureId": "ch1",
-        "chapterNumber": 1,
-        "topic": "Chapter 1: Introduction",
-        "lectureFile": "Chapter 1 - Introduction.pdf",
-        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
-        "kind": "slides",
-        "pages": [
-          16
-        ],
-        "pageCount": 30,
-        "syntax": "ch1:s16"
-      }
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q27",
+      "questionType": "mcq",
+      "poolIndex": 6
     },
     {
       "id": "Q28",
@@ -490,11 +490,20 @@
       "correctAnswerId": "b",
       "explanation": "Effectiveness is defined as making substantial progress toward organizational goals ('doing the right things' or reaching goals), while efficiency is defined as ensuring most resources contribute to production without waste ('doing things right' or not wasting resources). Thus, a manager who is both reaches goals and does not waste resources.",
       "reference": "Textbook Page 9 (Effectiveness means meeting goals) and Page 10 (Figure 1.6 matrix shows \"Reaching goals and not wasting resources\" in the Efficient/Effective quadrant).",
-      "origin": "2021",
-      "sourceFile": "final21.json",
-      "sourceQuestionId": "Q28",
-      "questionType": "mcq",
-      "poolIndex": 7,
+      "slideRef": "ch1:s17",
+      "slideRefParsed": {
+        "lectureId": "ch1",
+        "chapterNumber": 1,
+        "topic": "Chapter 1: Introduction",
+        "lectureFile": "Chapter 1 - Introduction.pdf",
+        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+        "kind": "slides",
+        "pages": [
+          17
+        ],
+        "pageCount": 30,
+        "syntax": "ch1:s17"
+      },
       "sourceRefs": [
         "ch1:s17",
         "ch1,p9-10"
@@ -532,20 +541,11 @@
           "syntax": "ch1,p9-10"
         }
       ],
-      "slideRef": "ch1:s17",
-      "slideRefParsed": {
-        "lectureId": "ch1",
-        "chapterNumber": 1,
-        "topic": "Chapter 1: Introduction",
-        "lectureFile": "Chapter 1 - Introduction.pdf",
-        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
-        "kind": "slides",
-        "pages": [
-          17
-        ],
-        "pageCount": 30,
-        "syntax": "ch1:s17"
-      }
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q28",
+      "questionType": "mcq",
+      "poolIndex": 7
     },
     {
       "id": "Q29",
@@ -577,11 +577,21 @@
       "correctAnswerId": "d",
       "explanation": "According to the contemporary view of management skills, change-related activities are aimed at modifying organizational components. The textbook specifies that these include encouraging innovative thinking, monitoring the external environment, and proposing new strategies.",
       "reference": "Textbook Page 12: \"Change-related activities are management efforts aimed at modifying organizational components. Such activities include... encouraging innovative thinking...\"",
-      "origin": "2021",
-      "sourceFile": "final21.json",
-      "sourceQuestionId": "Q29",
-      "questionType": "mcq",
-      "poolIndex": 8,
+      "slideRef": "ch1:s26,28",
+      "slideRefParsed": {
+        "lectureId": "ch1",
+        "chapterNumber": 1,
+        "topic": "Chapter 1: Introduction",
+        "lectureFile": "Chapter 1 - Introduction.pdf",
+        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+        "kind": "slides",
+        "pages": [
+          26,
+          28
+        ],
+        "pageCount": 30,
+        "syntax": "ch1:s26,28"
+      },
       "sourceRefs": [
         "ch1,p12"
       ],
@@ -602,10 +612,15 @@
           "pageCount": 25,
           "syntax": "ch1,p12"
         }
-      ]
+      ],
+      "origin": "2021",
+      "sourceFile": "final21.json",
+      "sourceQuestionId": "Q29",
+      "questionType": "mcq",
+      "poolIndex": 8
     },
     {
-      "id": "Q29_2024",
+      "id": "Q29",
       "topic": "Chapter 1: Introduction",
       "questionText": "Which of the following statements is true for the management function?",
       "context": null,
@@ -634,11 +649,20 @@
       "correctAnswerId": "a",
       "explanation": "The official definition of management states that it is the continuous process of reaching organizational goals by working with and through people and utilizing other organizational resources.",
       "reference": "Textbook Page 6: \"...management is the process of reaching organizational goals by working with and through people and other organizational resources.\"",
-      "origin": "2024",
-      "sourceFile": "final24.json",
-      "sourceQuestionId": "Q29",
-      "questionType": "mcq",
-      "poolIndex": 9,
+      "slideRef": "ch1:s5",
+      "slideRefParsed": {
+        "lectureId": "ch1",
+        "chapterNumber": 1,
+        "topic": "Chapter 1: Introduction",
+        "lectureFile": "Chapter 1 - Introduction.pdf",
+        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+        "kind": "slides",
+        "pages": [
+          5
+        ],
+        "pageCount": 30,
+        "syntax": "ch1:s5"
+      },
       "sourceRefs": [
         "ch1:s5",
         "ch1,p6"
@@ -674,20 +698,11 @@
           "syntax": "ch1,p6"
         }
       ],
-      "slideRef": "ch1:s5",
-      "slideRefParsed": {
-        "lectureId": "ch1",
-        "chapterNumber": 1,
-        "topic": "Chapter 1: Introduction",
-        "lectureFile": "Chapter 1 - Introduction.pdf",
-        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
-        "kind": "slides",
-        "pages": [
-          5
-        ],
-        "pageCount": 30,
-        "syntax": "ch1:s5"
-      }
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q29",
+      "questionType": "mcq",
+      "poolIndex": 9
     },
     {
       "id": "Q38",
@@ -715,11 +730,21 @@
       "correctAnswerId": "a",
       "explanation": "Management is the overarching concept and process whose primary role is to smoothly guide the organization towards its goals by effectively utilizing its resources through the execution of its core functions.",
       "reference": "Textbook Page 5: \"Essentially, the role of managers is to guide organizations toward goal accomplishment... Management moves an organization toward its purposes or goals by assigning activities organization members perform.\"",
-      "origin": "2024",
-      "sourceFile": "final24.json",
-      "sourceQuestionId": "Q38",
-      "questionType": "mcq",
-      "poolIndex": 10,
+      "slideRef": "ch1:s4-5",
+      "slideRefParsed": {
+        "lectureId": "ch1",
+        "chapterNumber": 1,
+        "topic": "Chapter 1: Introduction",
+        "lectureFile": "Chapter 1 - Introduction.pdf",
+        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+        "kind": "slides",
+        "pages": [
+          4,
+          5
+        ],
+        "pageCount": 30,
+        "syntax": "ch1:s4-5"
+      },
       "sourceRefs": [
         "ch1:s4-5",
         "ch1,p5"
@@ -756,21 +781,11 @@
           "syntax": "ch1,p5"
         }
       ],
-      "slideRef": "ch1:s4-5",
-      "slideRefParsed": {
-        "lectureId": "ch1",
-        "chapterNumber": 1,
-        "topic": "Chapter 1: Introduction",
-        "lectureFile": "Chapter 1 - Introduction.pdf",
-        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
-        "kind": "slides",
-        "pages": [
-          4,
-          5
-        ],
-        "pageCount": 30,
-        "syntax": "ch1:s4-5"
-      }
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q38",
+      "questionType": "mcq",
+      "poolIndex": 10
     },
     {
       "id": "Q61",
@@ -802,11 +817,21 @@
       "correctAnswerId": "b",
       "explanation": "In the breakdown of organizational resources, the textbook explicitly defines 'Capital resources' as the machines or equipment used directly in the manufacturing process to maintain desired production levels.",
       "reference": "Textbook Page 8: \"Capital resources are machines used during the manufacturing process. Modern machines, or equipment, can be a major factor in maintaining desired production levels.\"",
-      "origin": "2024",
-      "sourceFile": "final24.json",
-      "sourceQuestionId": "Q61",
-      "questionType": "mcq",
-      "poolIndex": 11,
+      "slideRef": "ch1:s13-14",
+      "slideRefParsed": {
+        "lectureId": "ch1",
+        "chapterNumber": 1,
+        "topic": "Chapter 1: Introduction",
+        "lectureFile": "Chapter 1 - Introduction.pdf",
+        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+        "kind": "slides",
+        "pages": [
+          13,
+          14
+        ],
+        "pageCount": 30,
+        "syntax": "ch1:s13-14"
+      },
       "sourceRefs": [
         "ch1:s13-14",
         "ch1,p8"
@@ -843,21 +868,11 @@
           "syntax": "ch1,p8"
         }
       ],
-      "slideRef": "ch1:s13-14",
-      "slideRefParsed": {
-        "lectureId": "ch1",
-        "chapterNumber": 1,
-        "topic": "Chapter 1: Introduction",
-        "lectureFile": "Chapter 1 - Introduction.pdf",
-        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
-        "kind": "slides",
-        "pages": [
-          13,
-          14
-        ],
-        "pageCount": 30,
-        "syntax": "ch1:s13-14"
-      }
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q61",
+      "questionType": "mcq",
+      "poolIndex": 11
     },
     {
       "id": "Q64",
@@ -889,11 +904,21 @@
       "correctAnswerId": "a",
       "explanation": "According to the classic view of management skills, while the need for technical and conceptual skills varies depending on the management level, 'Human Skills' remain highly and equally important across top, middle, and supervisory levels.",
       "reference": "Textbook Page 11: \"Human skills, however, are extremely important to managers at top, middle, and lower (or supervisory) levels. The common denominator of all management levels, after all, is people.\"",
-      "origin": "2024",
-      "sourceFile": "final24.json",
-      "sourceQuestionId": "Q64",
-      "questionType": "mcq",
-      "poolIndex": 12,
+      "slideRef": "ch1:s23-24",
+      "slideRefParsed": {
+        "lectureId": "ch1",
+        "chapterNumber": 1,
+        "topic": "Chapter 1: Introduction",
+        "lectureFile": "Chapter 1 - Introduction.pdf",
+        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+        "kind": "slides",
+        "pages": [
+          23,
+          24
+        ],
+        "pageCount": 30,
+        "syntax": "ch1:s23-24"
+      },
       "sourceRefs": [
         "ch1:s23-24",
         "ch1,p11"
@@ -930,21 +955,11 @@
           "syntax": "ch1,p11"
         }
       ],
-      "slideRef": "ch1:s23-24",
-      "slideRefParsed": {
-        "lectureId": "ch1",
-        "chapterNumber": 1,
-        "topic": "Chapter 1: Introduction",
-        "lectureFile": "Chapter 1 - Introduction.pdf",
-        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
-        "kind": "slides",
-        "pages": [
-          23,
-          24
-        ],
-        "pageCount": 30,
-        "syntax": "ch1:s23-24"
-      }
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q64",
+      "questionType": "mcq",
+      "poolIndex": 12
     },
     {
       "id": "Q66",
@@ -976,11 +991,20 @@
       "correctAnswerId": "a",
       "explanation": "Managerial efficiency deals directly with the proportion of resources contributing to productivity. The textbook explicitly correlates wasted or unused resources with managerial inefficiency.",
       "reference": "Textbook Page 10: \"The more resources wasted or unused during the production process, the more inefficient is the manager.\"",
-      "origin": "2024",
-      "sourceFile": "final24.json",
-      "sourceQuestionId": "Q66",
-      "questionType": "mcq",
-      "poolIndex": 13,
+      "slideRef": "ch1:s16",
+      "slideRefParsed": {
+        "lectureId": "ch1",
+        "chapterNumber": 1,
+        "topic": "Chapter 1: Introduction",
+        "lectureFile": "Chapter 1 - Introduction.pdf",
+        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+        "kind": "slides",
+        "pages": [
+          16
+        ],
+        "pageCount": 30,
+        "syntax": "ch1:s16"
+      },
       "sourceRefs": [
         "ch1:s16",
         "ch1,p10"
@@ -1016,20 +1040,11 @@
           "syntax": "ch1,p10"
         }
       ],
-      "slideRef": "ch1:s16",
-      "slideRefParsed": {
-        "lectureId": "ch1",
-        "chapterNumber": 1,
-        "topic": "Chapter 1: Introduction",
-        "lectureFile": "Chapter 1 - Introduction.pdf",
-        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
-        "kind": "slides",
-        "pages": [
-          16
-        ],
-        "pageCount": 30,
-        "syntax": "ch1:s16"
-      }
+      "origin": "2024",
+      "sourceFile": "final24.json",
+      "sourceQuestionId": "Q66",
+      "questionType": "mcq",
+      "poolIndex": 13
     },
     {
       "id": "Q18",
@@ -1057,11 +1072,21 @@
       "correctAnswerId": "a",
       "explanation": "Management is the core encompassing concept whose primary role is to smoothly guide the organization towards its goals through the effective use of resources.",
       "reference": "Textbook Page 5: \"Essentially, the role of managers is to guide organizations toward goal accomplishment... Management moves an organization toward its purposes or goals by assigning activities organization members perform.\"",
-      "origin": "2025",
-      "sourceFile": "final25.json",
-      "sourceQuestionId": "Q18",
-      "questionType": "mcq",
-      "poolIndex": 14,
+      "slideRef": "ch1:s4-5",
+      "slideRefParsed": {
+        "lectureId": "ch1",
+        "chapterNumber": 1,
+        "topic": "Chapter 1: Introduction",
+        "lectureFile": "Chapter 1 - Introduction.pdf",
+        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+        "kind": "slides",
+        "pages": [
+          4,
+          5
+        ],
+        "pageCount": 30,
+        "syntax": "ch1:s4-5"
+      },
       "sourceRefs": [
         "ch1:s4-5",
         "ch1,p5"
@@ -1098,21 +1123,11 @@
           "syntax": "ch1,p5"
         }
       ],
-      "slideRef": "ch1:s4-5",
-      "slideRefParsed": {
-        "lectureId": "ch1",
-        "chapterNumber": 1,
-        "topic": "Chapter 1: Introduction",
-        "lectureFile": "Chapter 1 - Introduction.pdf",
-        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
-        "kind": "slides",
-        "pages": [
-          4,
-          5
-        ],
-        "pageCount": 30,
-        "syntax": "ch1:s4-5"
-      }
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q18",
+      "questionType": "mcq",
+      "poolIndex": 14
     },
     {
       "id": "Q54",
@@ -1140,11 +1155,21 @@
       "correctAnswerId": "d",
       "explanation": "Basic managerial activities—specifically people-related and task-related skills—encompass supervising (monitoring operations), motivating (which is the core of the 'influencing' function), and stimulating/actuating personnel to reach organizational goals efficiently.",
       "reference": "Textbook Pages 6, 12, 13: Supervising falls under \"monitoring operations\" (Page 13). Motivating and stimulating (actuating) fall under the \"Influencing\" function (Page 6).",
-      "origin": "2025",
-      "sourceFile": "final25.json",
-      "sourceQuestionId": "Q54",
-      "questionType": "mcq",
-      "poolIndex": 15,
+      "slideRef": "ch1:s10,27",
+      "slideRefParsed": {
+        "lectureId": "ch1",
+        "chapterNumber": 1,
+        "topic": "Chapter 1: Introduction",
+        "lectureFile": "Chapter 1 - Introduction.pdf",
+        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+        "kind": "slides",
+        "pages": [
+          10,
+          27
+        ],
+        "pageCount": 30,
+        "syntax": "ch1:s10,27"
+      },
       "sourceRefs": [
         "ch1,p6,12-13"
       ],
@@ -1169,10 +1194,15 @@
           "pageCount": 25,
           "syntax": "ch1,p6,12-13"
         }
-      ]
+      ],
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q54",
+      "questionType": "mcq",
+      "poolIndex": 15
     },
     {
-      "id": "Q59_2025",
+      "id": "Q59",
       "topic": "Chapter 1: Introduction",
       "questionText": "Which of the following statements is true for the management function?",
       "context": null,
@@ -1201,11 +1231,20 @@
       "correctAnswerId": "A",
       "explanation": "Management is formally defined as the process of reaching organizational goals by working with and through people and other organizational resources.",
       "reference": "Textbook Page 6: \"...management is the process of reaching organizational goals by working with and through people and other organizational resources.\"",
-      "origin": "2025",
-      "sourceFile": "final25.json",
-      "sourceQuestionId": "Q59",
-      "questionType": "mcq",
-      "poolIndex": 16,
+      "slideRef": "ch1:s5",
+      "slideRefParsed": {
+        "lectureId": "ch1",
+        "chapterNumber": 1,
+        "topic": "Chapter 1: Introduction",
+        "lectureFile": "Chapter 1 - Introduction.pdf",
+        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
+        "kind": "slides",
+        "pages": [
+          5
+        ],
+        "pageCount": 30,
+        "syntax": "ch1:s5"
+      },
       "sourceRefs": [
         "ch1:s5",
         "ch1,p6"
@@ -1241,20 +1280,11 @@
           "syntax": "ch1,p6"
         }
       ],
-      "slideRef": "ch1:s5",
-      "slideRefParsed": {
-        "lectureId": "ch1",
-        "chapterNumber": 1,
-        "topic": "Chapter 1: Introduction",
-        "lectureFile": "Chapter 1 - Introduction.pdf",
-        "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
-        "kind": "slides",
-        "pages": [
-          5
-        ],
-        "pageCount": 30,
-        "syntax": "ch1:s5"
-      }
+      "origin": "2025",
+      "sourceFile": "final25.json",
+      "sourceQuestionId": "Q59",
+      "questionType": "mcq",
+      "poolIndex": 16
     }
   ]
 }

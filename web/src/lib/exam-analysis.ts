@@ -84,6 +84,23 @@ export interface ThemeRow {
   byYear: Record<string, number>;
 }
 
+export interface CorrectAnswerCountRow {
+  label: string;
+  count: number;
+  share: number;
+}
+
+export interface CorrectAnswerDistribution {
+  trueFalse: {
+    total: number;
+    answers: CorrectAnswerCountRow[];
+  };
+  mcq: {
+    total: number;
+    answers: CorrectAnswerCountRow[];
+  };
+}
+
 export interface ExamAnalysisData {
   generatedAt: string;
   stats: ReturnType<typeof getStats>;
@@ -104,6 +121,7 @@ export interface ExamAnalysisData {
     trueFalseShare: number;
   };
   themes: ThemeRow[];
+  correctAnswerDistribution: CorrectAnswerDistribution;
 }
 
 const THEME_RULES: Array<{ theme: string; test: (text: string) => boolean }> = [
@@ -158,6 +176,53 @@ function isFillInBlank(text: string): boolean {
 
 function isTrueFalseNegation(text: string): boolean {
   return /\b(not|never|only|unlike|avoid)\b/i.test(text);
+}
+
+function trueFalseCorrectLabel(q: Question): "True" | "False" | null {
+  const correctId = q.correctAnswerId.trim().toLowerCase();
+  const option = q.options.find((o) => o.id.toLowerCase() === correctId);
+  if (!option) return null;
+  const content = option.content.trim().toLowerCase();
+  if (content === "true") return "True";
+  if (content === "false") return "False";
+  return null;
+}
+
+function mcqCorrectLetter(q: Question): "A" | "B" | "C" | "D" | "E" | null {
+  const correctId = q.correctAnswerId.trim().toLowerCase();
+  const index = q.options.findIndex((o) => o.id.toLowerCase() === correctId);
+  if (index < 0 || index > 4) return null;
+  return String.fromCharCode(65 + index) as "A" | "B" | "C" | "D" | "E";
+}
+
+function buildCorrectAnswerRows(
+  questions: Question[],
+  type: "true_false" | "mcq",
+  labels: readonly string[]
+): { total: number; answers: CorrectAnswerCountRow[] } {
+  const counts = Object.fromEntries(labels.map((l) => [l, 0])) as Record<
+    string,
+    number
+  >;
+  let total = 0;
+
+  for (const q of questions) {
+    if (normalizeType(q) !== type) continue;
+    const label =
+      type === "true_false" ? trueFalseCorrectLabel(q) : mcqCorrectLetter(q);
+    if (!label || !(label in counts)) continue;
+    total++;
+    counts[label]++;
+  }
+
+  return {
+    total,
+    answers: labels.map((label) => ({
+      label,
+      count: counts[label] ?? 0,
+      share: total > 0 ? Math.round((counts[label] / total) * 1000) / 10 : 0,
+    })),
+  };
 }
 
 export function buildExamAnalysis(): ExamAnalysisData {
@@ -300,6 +365,11 @@ export function buildExamAnalysis(): ExamAnalysisData {
     .filter((t) => t.total > 0)
     .sort((a, b) => b.total - a.total);
 
+  const correctAnswerDistribution = {
+    trueFalse: buildCorrectAnswerRows(questions, "true_false", ["True", "False"]),
+    mcq: buildCorrectAnswerRows(questions, "mcq", ["A", "B", "C", "D", "E"]),
+  };
+
   return {
     generatedAt: catalog.generatedAt,
     stats,
@@ -323,5 +393,6 @@ export function buildExamAnalysis(): ExamAnalysisData {
           : 0,
     },
     themes,
+    correctAnswerDistribution,
   };
 }

@@ -137,6 +137,59 @@ export function ExamAnalysisDashboard({ data }: { data: ExamAnalysisData }) {
 
       <section className="flex flex-col gap-4">
         <SectionHeading
+          title="Correct answer distribution"
+          description="How often each option is the keyed correct answer across all exam questions."
+        />
+        <div className="grid gap-6 lg:grid-cols-2">
+          <Card>
+            <CardHeader>
+              <CardTitle className="text-lg">True / false</CardTitle>
+              <CardDescription>
+                {data.correctAnswerDistribution.trueFalse.total} keyed T/F questions
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="flex flex-col gap-4">
+              {data.correctAnswerDistribution.trueFalse.answers.map((row) => (
+                <div key={row.label} className="flex flex-col gap-1.5">
+                  <div className="flex justify-between text-sm">
+                    <span>{row.label}</span>
+                    <span className="tabular-nums text-muted-foreground">
+                      {row.count} ({row.share}%)
+                    </span>
+                  </div>
+                  <Progress value={row.share} className="h-2" />
+                </div>
+              ))}
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardHeader>
+              <CardTitle className="text-lg">Multiple choice</CardTitle>
+              <CardDescription>
+                {data.correctAnswerDistribution.mcq.total} keyed MCQ questions (A–E by
+                position)
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="flex flex-col gap-4">
+              {data.correctAnswerDistribution.mcq.answers.map((row) => (
+                <div key={row.label} className="flex flex-col gap-1.5">
+                  <div className="flex justify-between text-sm">
+                    <span>{row.label}</span>
+                    <span className="tabular-nums text-muted-foreground">
+                      {row.count} ({row.share}%)
+                    </span>
+                  </div>
+                  <Progress value={row.share} className="h-2" />
+                </div>
+              ))}
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
+      <section className="flex flex-col gap-4">
+        <SectionHeading
           title="Highest-yield chapters"
           description="Chapters with the most exam questions in the pool."
         />

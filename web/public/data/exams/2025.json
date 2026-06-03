@@ -2779,21 +2779,20 @@
     ],
     "correctAnswerId": "C",
     "explanation": "In Chapter 1, common mistakes for each function were defined. The mistake of 'not exploring enough viable alternatives for reaching objectives' is a specific error associated with the Planning function. Establishing departments is Organizing, communicating is Influencing, and monitoring is Controlling.",
-    "reference": "Chapter 7: Principles of Planning - Based on external course context (Chapter 1, Slide 8) and the Planning Process steps (Slide 10) where listing alternatives is a key step.",
-    "slideRef": "ch7:s8,10",
+    "reference": "Chapter 1: Introduction - Slide 8 lists common managerial errors by management function; not exploring enough viable alternatives is the planning error.",
+    "slideRef": "ch1:s8",
     "slideRefParsed": {
-      "lectureId": "ch7",
-      "chapterNumber": 7,
-      "topic": "Chapter 7: Principles of Planning",
-      "lectureFile": "Chapter 7 - Principles of Planning.pdf",
-      "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+      "lectureId": "ch1",
+      "chapterNumber": 1,
+      "topic": "Chapter 1: Introduction",
+      "lectureFile": "Chapter 1 - Introduction.pdf",
+      "pdfPath": "Lectures/Chapter 1 - Introduction.pdf",
       "kind": "slides",
       "pages": [
-        8,
-        10
+        8
       ],
-      "pageCount": 27,
-      "syntax": "ch7:s8,10"
+      "pageCount": 30,
+      "syntax": "ch1:s8"
     },
     "questionKey": "2025:Q60",
     "origin": "2025",

@@ -225,4 +225,4 @@ Slide numbers map 1:1 to PDF page index in `Lectures/` (1-based).
 | final25.json | Q57 | slides | 36,37,38,39 | `ch13:s36-39` | 36,37,38,39 | ✓ | Chapter 13: Human Resource Management - Answer supported by the 'Techn |
 | final25.json | Q58 | slides | 16 | `ch18:s16` | 16 | ✓ | Chapter 18: Groups and Teams - Inferred from the definition and sympto |
 | final25.json | Q59 | slides | 5 | `ch1:s5` | 5 | ✓ | Chapter 1: Introduction - Answer found verbatim on Slide 5. |
-| final25.json | Q60 | slides | 8,10 | `ch7:s8,10` | 8,10 | ✓ | Chapter 7: Principles of Planning - Based on external course context ( |
+| final25.json | Q60 | slides | 8 | `ch1:s8` | 8 | ✓ | Chapter 1: Introduction - Slide 8 lists common managerial errors by management function. |

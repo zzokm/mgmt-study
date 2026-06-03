@@ -15,8 +15,9 @@ import {
   MessageSquareIcon,
   RepeatIcon,
 } from "lucide-react";
-import { FEEDBACK_FORM_TOOLTIP, FEEDBACK_FORM_URL } from "@/lib/site-links";
+import { FEEDBACK_FORM_TOOLTIP, FEEDBACK_FORM_URL, GITHUB_PROFILE_URL } from "@/lib/site-links";
 import { ExamCountdown } from "@/components/layout/exam-countdown";
+import { ExamPostCelebration } from "@/components/layout/exam-post-celebration";
 import {
   Sidebar,
   SidebarContent,
@@ -91,10 +92,15 @@ export function AppShell({ children }: { children: React.ReactNode }) {
             </Link>
             <p className="text-xs text-muted-foreground">Management finals prep</p>
           </SidebarHeader>
-          <SidebarContent>
-            <ExamCountdown className="mb-2 mt-1" />
-            {navSections.map((section) => (
-              <SidebarGroup key={section.label}>
+          <SidebarContent className="pt-0">
+            <div className="flex flex-col justify-end px-2 pt-3 pb-1">
+              <ExamCountdown className="mx-0" />
+            </div>
+            {navSections.map((section, index) => (
+              <SidebarGroup
+                key={section.label}
+                className={index === 0 ? "pt-0" : undefined}
+              >
                 <SidebarGroupLabel>{section.label}</SidebarGroupLabel>
                 <SidebarGroupContent>
                   <SidebarMenu>
@@ -150,7 +156,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           </SidebarContent>
           <SidebarFooter className="mt-auto border-t border-sidebar-border px-4 py-3">
             <a
-              href="https://github.com/zzokm"
+              href={GITHUB_PROFILE_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="flex w-full items-center justify-center gap-2 text-xs text-muted-foreground/80 transition-colors hover:text-muted-foreground"
@@ -168,7 +174,10 @@ export function AppShell({ children }: { children: React.ReactNode }) {
               Management Study Site
             </span>
           </header>
-          <main className="flex-1 p-4 md:p-6">{children}</main>
+          <main className="flex-1 p-4 md:p-6">
+            <ExamPostCelebration />
+            {children}
+          </main>
         </SidebarInset>
       </SidebarProvider>
     </TooltipProvider>

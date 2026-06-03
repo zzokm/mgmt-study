@@ -537,8 +537,8 @@
       }
     ],
     "correctAnswerId": "b",
-    "explanation": "Corporate social responsibility (CSR) obligates managers to take actions that protect and improve both the welfare of society and the interests of the organization simultaneously, rather than prioritizing societal goals over organizational goals. The slides emphasize balancing corporate health with stakeholder relations, ensuring an opportunity to make a \"fair profit\" alongside fulfilling societal needs.",
-    "reference": "Chapter 3: Business Ethics - Answer deduced from the principles of stakeholder relations and fair profit on Slide 9.",
+    "explanation": "Corporate social responsibility means protecting and improving both the welfare of society and the interests of the organization simultaneously. It does not state that societal goals are more important, but rather that a manager must strive to achieve societal as well as organizational goals.",
+    "reference": "Textbook Page 52: \"According to the concept of corporate social responsibility, a manager must strive to achieve societal as well as organizational goals.\" Slide 9 emphasizes balancing corporate health with stakeholder relations.",
     "slideRef": "ch3:s9",
     "slideRefParsed": {
       "lectureId": "ch3",
@@ -553,6 +553,41 @@
       "pageCount": 19,
       "syntax": "ch3:s9"
     },
+    "sourceRefs": [
+      "ch3:s9",
+      "ch3,p52"
+    ],
+    "sourceRefsParsed": [
+      {
+        "lectureId": "ch3",
+        "chapterNumber": 3,
+        "topic": "Chapter 3: Business Ethics",
+        "lectureFile": "Chapter 3 - Busniess Ethics.pdf",
+        "pdfPath": "Lectures/Chapter 3 - Busniess Ethics.pdf",
+        "kind": "slides",
+        "pages": [
+          9
+        ],
+        "pageCount": 19,
+        "syntax": "ch3:s9"
+      },
+      {
+        "lectureId": "ch3",
+        "chapterNumber": 3,
+        "topic": "Chapter 3: Business Ethics",
+        "lectureFile": "chapter-03.pdf",
+        "pdfPath": "Book/chapter-03.pdf",
+        "kind": "book",
+        "bookPages": [
+          52
+        ],
+        "pages": [
+          1
+        ],
+        "pageCount": 31,
+        "syntax": "ch3,p52"
+      }
+    ],
     "questionKey": "2025:Q14",
     "origin": "2025",
     "sourceFile": "final25.json",

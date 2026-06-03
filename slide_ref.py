@@ -1,9 +1,10 @@
 """
 Slide reference syntax and parsing for management exam questions.
 
-Syntax (slideRef string)
-------------------------
-  {lectureId}:{slideSpec}
+Syntax
+------
+  Slides (slideRef / sourceRefs):  {lectureId}:{slideSpec}
+  Textbook (sourceRefs only):        {lectureId},p{pageSpec}
 
   lectureId   : ch1, ch2, ch3, ch7, ch8, ch11, ch13, ch15, ch18, ch21
   slideSpec   :
@@ -13,13 +14,18 @@ Syntax (slideRef string)
     s{N}-{M},{P}   combined (e.g. s7-8,24)
     all            entire lecture deck (1..pageCount)
     course         no specific slide; external / course-context only
+  pageSpec (book):
+    p{N}           printed textbook page (chapter footer number)
+    p{N}-{M}       inclusive range
+    p{N},{M}       non-contiguous pages
 
 Examples
 --------
   ch18:s9
   ch11:s18-19
-  ch13:s36-39
-  ch21:s4,8
+  ch3:s7,9
+  ch3,p52
+  ch3,p58
   ch13:course
   ch21:all
 
@@ -41,6 +47,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 LECTURES_DIR = ROOT / "Lectures"
 MANIFEST_PATH = ROOT / "lectures_manifest.json"
+BOOK_MANIFEST_PATH = ROOT / "book_manifest.json"
 
 # Topic substring (after "Chapter N:") -> lecture filename in Lectures/
 LECTURE_FILES: dict[int, str] = {
@@ -72,6 +79,7 @@ TOPIC_TITLES: dict[int, str] = {
 SLIDE_REF_RE = re.compile(
     r"^ch(\d+):(s[\d,\-]+|all|course)$", re.IGNORECASE
 )
+BOOK_REF_RE = re.compile(r"^ch(\d+),p([\d,\-]+)$", re.IGNORECASE)
 
 # Slides with empty/unreadable diagrams in the PDF viewer (do not cite or open).
 CH7_BLOCKED_SLIDE_PAGES: frozenset[int] = frozenset({8})
@@ -282,6 +290,102 @@ def expand_page_spec(spec: str) -> list[int]:
 
 def expand_pages(slide_ref: str, manifest: dict | None = None) -> list[int]:
     return parse_slide_ref(slide_ref, manifest)["pages"]
+
+
+def load_book_manifest() -> dict:
+    return json.loads(BOOK_MANIFEST_PATH.read_text(encoding="utf-8"))
+
+
+def book_printed_pages_to_pdf_pages(chapter: int, printed_pages: list[int], book_manifest: dict | None = None) -> list[int]:
+    """Map chapter printed page numbers (footer) to 1-based pages in the split chapter PDF."""
+    book_manifest = book_manifest or load_book_manifest()
+    lid = lecture_id(chapter)
+    ch = book_manifest["chapters"][lid]
+    page_count = ch["pageCount"]
+    pstart = ch.get("printedPageStart") or ch["bookPageRange"][0]
+    pdf_pages: list[int] = []
+    for p in printed_pages:
+        if "printedPageStart" in ch:
+            idx = p - pstart + 1
+        else:
+            idx = p - ch["bookPageRange"][0] + 1
+        if 1 <= idx <= page_count:
+            pdf_pages.append(idx)
+    return sorted(set(pdf_pages))
+
+
+def parse_book_ref(token: str, book_manifest: dict | None = None, lecture_manifest: dict | None = None) -> dict:
+    book_manifest = book_manifest or load_book_manifest()
+    lecture_manifest = lecture_manifest or get_lecture_manifest()
+    m = BOOK_REF_RE.match(token.strip())
+    if not m:
+        raise ValueError(f"Invalid book ref: {token}")
+    ch = int(m.group(1))
+    lid = lecture_id(ch)
+    ch_meta = book_manifest["chapters"][lid]
+    lec = lecture_manifest.get(lid, {})
+    printed_pages = expand_page_spec(m.group(2))
+    pdf_pages = book_printed_pages_to_pdf_pages(ch, printed_pages, book_manifest)
+    return {
+        "lectureId": lid,
+        "chapterNumber": ch,
+        "topic": ch_meta.get("topic") or lec.get("topic") or f"Chapter {ch}",
+        "lectureFile": ch_meta["sourceFile"],
+        "pdfPath": f"Book/{ch_meta['sourceFile']}",
+        "kind": "book",
+        "bookPages": printed_pages,
+        "pages": pdf_pages,
+        "pageCount": ch_meta["pageCount"],
+        "syntax": token.strip(),
+    }
+
+
+def parse_source_ref(
+    token: str,
+    manifest: dict | None = None,
+    book_manifest: dict | None = None,
+) -> dict:
+    token = token.strip()
+    manifest = manifest or load_manifest()
+    lectures = manifest.get("lectures") or manifest
+    if BOOK_REF_RE.match(token):
+        return parse_book_ref(token, book_manifest, lectures)
+    return parse_slide_ref(token, manifest)
+
+
+def parse_source_refs(
+    tokens: list[str],
+    manifest: dict | None = None,
+    book_manifest: dict | None = None,
+) -> list[dict]:
+    return [parse_source_ref(t, manifest, book_manifest) for t in tokens]
+
+
+def primary_slide_ref_from_sources(source_refs: list[str]) -> str | None:
+    for token in source_refs:
+        if SLIDE_REF_RE.match(token.strip()):
+            return token.strip()
+    return None
+
+
+def enrich_question_sources(
+    question: dict,
+    manifest: dict | None = None,
+    book_manifest: dict | None = None,
+) -> dict:
+    """Ensure sourceRefs/sourceRefsParsed; keep slideRef as the slides-only ref."""
+    manifest = manifest or load_manifest()
+    book_manifest = book_manifest or load_book_manifest()
+    refs = question.get("sourceRefs")
+    if not refs:
+        return question
+    parsed = parse_source_refs(refs, manifest, book_manifest)
+    question["sourceRefsParsed"] = parsed
+    slide = primary_slide_ref_from_sources(refs)
+    if slide:
+        question["slideRef"] = slide
+        question["slideRefParsed"] = parse_slide_ref(slide, manifest)
+    return question
 
 
 def resolve_pdf(slide_ref: str, root: Path | None = None) -> tuple[Path, list[int], dict]:

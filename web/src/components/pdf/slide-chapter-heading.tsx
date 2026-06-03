@@ -3,6 +3,8 @@ import { cn } from "@/lib/utils";
 interface SlideChapterHeadingProps {
   topic?: string;
   pageNumber: number;
+  /** Overrides default "Slide {pageNumber}" suffix. */
+  pageSuffix?: string;
   size?: "xs" | "sm" | "md";
   className?: string;
 }
@@ -10,10 +12,12 @@ interface SlideChapterHeadingProps {
 export function SlideChapterHeading({
   topic,
   pageNumber,
+  pageSuffix,
   size = "md",
   className,
 }: SlideChapterHeadingProps) {
   const chapter = topic?.trim() || "Lecture slides";
+  const suffix = pageSuffix ?? `Slide ${pageNumber}`;
   const textClass =
     size === "xs" ? "text-[11px]" : size === "sm" ? "text-xs" : "text-sm";
 
@@ -26,7 +30,7 @@ export function SlideChapterHeading({
       )}
     >
       {chapter}
-      <span className="font-normal text-muted-foreground"> · Slide {pageNumber}</span>
+      <span className="font-normal text-muted-foreground"> · {suffix}</span>
     </span>
   );
 }

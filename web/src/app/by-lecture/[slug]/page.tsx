@@ -2,10 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { metadataTitle } from "@/lib/analytics-page-titles";
 import { getLectureSlugs, getQuestionsByLectureSlug } from "@/lib/questions";
-import { Chapter3ReferenceWarning } from "@/components/chapter-3/chapter-3-reference-warning";
 import { LinkButton } from "@/components/ui/link-button";
 import { QuestionBrowseAccordion } from "@/components/questions/question-browse-accordion";
-import { isChapter3Lecture } from "@/lib/chapter-3-book";
 
 export function generateStaticParams() {
   return getLectureSlugs().map((l) => ({ slug: l.slug }));
@@ -41,8 +39,6 @@ export default async function LectureQuestionsPage({
         </div>
         <LinkButton href={`/practice/lecture/${slug}/`}>Practice this lecture</LinkButton>
       </div>
-
-      {isChapter3Lecture(slug) ? <Chapter3ReferenceWarning /> : null}
 
       <QuestionBrowseAccordion
         questions={questions}

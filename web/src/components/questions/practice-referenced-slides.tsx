@@ -2,7 +2,7 @@
 
 import type { Question } from "@/types/question";
 import { questionHasReferencedSlidePreview } from "@/lib/referenced-slides";
-import { SlidePanel } from "@/components/pdf/slide-panel-dynamic";
+import { ReferencedSourcePanels } from "@/components/questions/referenced-source-panels";
 import { cn } from "@/lib/utils";
 
 interface PracticeReferencedSlidesProps {
@@ -15,8 +15,6 @@ export function PracticeReferencedSlides({
   question,
   className,
 }: PracticeReferencedSlidesProps) {
-  const parsed = question.slideRefParsed;
-
   if (!questionHasReferencedSlidePreview(question)) return null;
 
   return (
@@ -25,17 +23,13 @@ export function PracticeReferencedSlides({
         "flex flex-col gap-4 border-t border-border/60 pt-5",
         className
       )}
-      aria-label="Referenced slides"
+      aria-label="Referenced sources"
     >
       <h4 className="text-sm font-medium tracking-tight text-foreground">
-        Referenced slides
+        Referenced sources
       </h4>
 
-      <SlidePanel
-        slideRefParsed={parsed}
-        question={question}
-        density="compact"
-      />
+      <ReferencedSourcePanels question={question} density="compact" />
     </section>
   );
 }

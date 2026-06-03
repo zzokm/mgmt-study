@@ -23,8 +23,8 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "Corporate social responsibility (CSR) obligates managers to take actions that protect and improve both the welfare of society and the interests of the organization simultaneously, rather than prioritizing societal goals over organizational goals. The slides emphasize balancing corporate health with stakeholder relations, ensuring an opportunity to make a \"fair profit\" alongside fulfilling societal needs.",
-      "reference": "Chapter 3: Business Ethics - Answer deduced from the principles of stakeholder relations and fair profit on Slide 9.",
+      "explanation": "Corporate social responsibility means protecting and improving both the welfare of society and the interests of the organization simultaneously. It does not state that societal goals are more important, but rather that a manager must strive to achieve societal as well as organizational goals.",
+      "reference": "Textbook Page 52: \"According to the concept of corporate social responsibility, a manager must strive to achieve societal as well as organizational goals.\" Slide 9 emphasizes balancing corporate health with stakeholder relations.",
       "slideRef": "ch3:s9",
       "slideRefParsed": {
         "lectureId": "ch3",
@@ -43,7 +43,42 @@
       "sourceFile": "final25.json",
       "sourceQuestionId": "Q14",
       "questionType": "true_false",
-      "poolIndex": 1
+      "poolIndex": 1,
+      "sourceRefs": [
+        "ch3:s9",
+        "ch3,p52"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch3",
+          "chapterNumber": 3,
+          "topic": "Chapter 3: Business Ethics",
+          "lectureFile": "Chapter 3 - Busniess Ethics.pdf",
+          "pdfPath": "Lectures/Chapter 3 - Busniess Ethics.pdf",
+          "kind": "slides",
+          "pages": [
+            9
+          ],
+          "pageCount": 19,
+          "syntax": "ch3:s9"
+        },
+        {
+          "lectureId": "ch3",
+          "chapterNumber": 3,
+          "topic": "Chapter 3: Business Ethics",
+          "lectureFile": "chapter-03.pdf",
+          "pdfPath": "Book/chapter-03.pdf",
+          "kind": "book",
+          "bookPages": [
+            52
+          ],
+          "pages": [
+            1
+          ],
+          "pageCount": 31,
+          "syntax": "ch3,p52"
+        }
+      ]
     },
     {
       "id": "Q16",
@@ -73,8 +108,8 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "Corporate social responsibility involves taking actions that protect and improve both the welfare of society as a whole and the interests of the organization. The slides highlight that ethics and competitiveness are inseparable, and acting ethically toward all stakeholders improves both corporate health and public image.",
-      "reference": "Chapter 3: Business Ethics - Reflected in the stakeholder relations and corporate health principles on Slide 7 and Slide 9.",
+      "explanation": "The textbook explicitly defines corporate social responsibility exactly as the managerial obligation to take action that protects and improves both the welfare of society as a whole and the interests of the organization. The slides highlight that acting ethically toward all stakeholders improves corporate health.",
+      "reference": "Textbook Page 52: \"corporate social responsibility is the managerial obligation to take action that protects and improves both the welfare of society as a whole and the interests of the organization.\" Slides 7 and 9 reflect this through stakeholder relations.",
       "slideRef": "ch3:s7,9",
       "slideRefParsed": {
         "lectureId": "ch3",
@@ -94,7 +129,43 @@
       "sourceFile": "final24.json",
       "sourceQuestionId": "Q16",
       "questionType": "mcq",
-      "poolIndex": 2
+      "poolIndex": 2,
+      "sourceRefs": [
+        "ch3:s7,9",
+        "ch3,p52"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch3",
+          "chapterNumber": 3,
+          "topic": "Chapter 3: Business Ethics",
+          "lectureFile": "Chapter 3 - Busniess Ethics.pdf",
+          "pdfPath": "Lectures/Chapter 3 - Busniess Ethics.pdf",
+          "kind": "slides",
+          "pages": [
+            7,
+            9
+          ],
+          "pageCount": 19,
+          "syntax": "ch3:s7,9"
+        },
+        {
+          "lectureId": "ch3",
+          "chapterNumber": 3,
+          "topic": "Chapter 3: Business Ethics",
+          "lectureFile": "chapter-03.pdf",
+          "pdfPath": "Book/chapter-03.pdf",
+          "kind": "book",
+          "bookPages": [
+            52
+          ],
+          "pages": [
+            1
+          ],
+          "pageCount": 31,
+          "syntax": "ch3,p52"
+        }
+      ]
     },
     {
       "id": "Q24",
@@ -124,8 +195,8 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Milton Friedman famously argued that corporate social responsibility is unethical because it compels managers to spend money on general social causes that rightfully belongs to the shareholders, employees, or customers. While the slides do not mention Friedman by name, they align with this core business tension by emphasizing that a fundamental responsibility to suppliers and distributors is the opportunity to make a \"fair profit\".",
-      "reference": "Chapter 3: Business Ethics - Based on external management theory (Friedman's shareholder primacy), aligned with the \"fair profit\" concept on Slide 9.",
+      "explanation": "Milton Friedman argues that making managers pursue socially responsible objectives may be unethical because it forces them to spend money (which rightfully belongs to the owners/shareholders) on other individuals or general societal causes, setting up a direct conflict of interest.",
+      "reference": "Textbook Page 55: \"Friedman also argues that to require business managers to pursue socially responsible objectives may, in fact, be unethical, because it compels managers to spend money on some individuals that rightfully belongs to other individuals.\" Slide 9 aligns with this by emphasizing the opportunity to make a \"fair profit\".",
       "slideRef": "ch3:s9",
       "slideRefParsed": {
         "lectureId": "ch3",
@@ -144,7 +215,42 @@
       "sourceFile": "final24.json",
       "sourceQuestionId": "Q24",
       "questionType": "mcq",
-      "poolIndex": 3
+      "poolIndex": 3,
+      "sourceRefs": [
+        "ch3:s9",
+        "ch3,p55"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch3",
+          "chapterNumber": 3,
+          "topic": "Chapter 3: Business Ethics",
+          "lectureFile": "Chapter 3 - Busniess Ethics.pdf",
+          "pdfPath": "Lectures/Chapter 3 - Busniess Ethics.pdf",
+          "kind": "slides",
+          "pages": [
+            9
+          ],
+          "pageCount": 19,
+          "syntax": "ch3:s9"
+        },
+        {
+          "lectureId": "ch3",
+          "chapterNumber": 3,
+          "topic": "Chapter 3: Business Ethics",
+          "lectureFile": "chapter-03.pdf",
+          "pdfPath": "Book/chapter-03.pdf",
+          "kind": "book",
+          "bookPages": [
+            55
+          ],
+          "pages": [
+            4
+          ],
+          "pageCount": 31,
+          "syntax": "ch3,p55"
+        }
+      ]
     },
     {
       "id": "Q26",
@@ -174,8 +280,8 @@
         }
       ],
       "correctAnswerId": "e",
-      "explanation": "A manager's specific social obligation to consumers is to ensure that the goods or services provided meet high quality and safety standards. The slides explicitly state, using the Johnson & Johnson Credo as an example, that the first responsibility is to the people who use the products and services, and that \"everything we do must be of high quality\".",
-      "reference": "Chapter 3: Business Ethics - Answer found directly on Slide 9 (Johnson & Johnson Credo).",
+      "explanation": "According to the textbook's breakdown of stakeholders and corresponding social obligations, the specific obligation a manager owes to consumers is to provide safe products. Abiding by laws is owed to government agencies, providing safe working environments is owed to employees, and repaying debts is owed to lenders.",
+      "reference": "Textbook Page 58 (Table 3.2): Stakeholder: Consumers -> Social Obligations Owed: To provide safe products. Slide 9 echoes this via the Johnson & Johnson Credo.",
       "slideRef": "ch3:s9",
       "slideRefParsed": {
         "lectureId": "ch3",
@@ -194,7 +300,42 @@
       "sourceFile": "final24.json",
       "sourceQuestionId": "Q26",
       "questionType": "mcq",
-      "poolIndex": 4
+      "poolIndex": 4,
+      "sourceRefs": [
+        "ch3:s9",
+        "ch3,p58"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch3",
+          "chapterNumber": 3,
+          "topic": "Chapter 3: Business Ethics",
+          "lectureFile": "Chapter 3 - Busniess Ethics.pdf",
+          "pdfPath": "Lectures/Chapter 3 - Busniess Ethics.pdf",
+          "kind": "slides",
+          "pages": [
+            9
+          ],
+          "pageCount": 19,
+          "syntax": "ch3:s9"
+        },
+        {
+          "lectureId": "ch3",
+          "chapterNumber": 3,
+          "topic": "Chapter 3: Business Ethics",
+          "lectureFile": "chapter-03.pdf",
+          "pdfPath": "Book/chapter-03.pdf",
+          "kind": "book",
+          "bookPages": [
+            58
+          ],
+          "pages": [
+            7
+          ],
+          "pageCount": 31,
+          "syntax": "ch3,p58"
+        }
+      ]
     },
     {
       "id": "Q35",
@@ -224,8 +365,8 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "Ethics in business is formally defined as the capacity to reflect on values in the corporate decision-making process, to determine how these values and decisions affect various stakeholder groups, and to establish how managers can use these observations in day-to-day company management.",
-      "reference": "Chapter 3: Business Ethics - Answer found verbatim on Slide 5 under \"Definitions\".",
+      "explanation": "Both the textbook and the lecture slides explicitly define business ethics as the capacity to reflect on values in the corporate decision-making process, to determine how these values and decisions affect various stakeholder groups.",
+      "reference": "Textbook Page 63: \"In business, ethics can be defined as the capacity to reflect on values in the corporate decision-making process...\" Slide 5 provides the exact same definition.",
       "slideRef": "ch3:s5",
       "slideRefParsed": {
         "lectureId": "ch3",
@@ -244,7 +385,42 @@
       "sourceFile": "final24.json",
       "sourceQuestionId": "Q35",
       "questionType": "mcq",
-      "poolIndex": 5
+      "poolIndex": 5,
+      "sourceRefs": [
+        "ch3:s5",
+        "ch3,p63"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch3",
+          "chapterNumber": 3,
+          "topic": "Chapter 3: Business Ethics",
+          "lectureFile": "Chapter 3 - Busniess Ethics.pdf",
+          "pdfPath": "Lectures/Chapter 3 - Busniess Ethics.pdf",
+          "kind": "slides",
+          "pages": [
+            5
+          ],
+          "pageCount": 19,
+          "syntax": "ch3:s5"
+        },
+        {
+          "lectureId": "ch3",
+          "chapterNumber": 3,
+          "topic": "Chapter 3: Business Ethics",
+          "lectureFile": "chapter-03.pdf",
+          "pdfPath": "Book/chapter-03.pdf",
+          "kind": "book",
+          "bookPages": [
+            63
+          ],
+          "pages": [
+            12
+          ],
+          "pageCount": 31,
+          "syntax": "ch3,p63"
+        }
+      ]
     },
     {
       "id": "Q36",
@@ -274,8 +450,8 @@
         }
       ],
       "correctAnswerId": "d",
-      "explanation": "A code of ethics is explicitly defined as a formal statement that acts as a guide for the ethics of how people within a particular organization should act and make decisions.",
-      "reference": "Chapter 3: Business Ethics - Answer found verbatim on Slide 11 under \"A Code of Ethics\".",
+      "explanation": "A code of ethics is precisely defined in both the textbook and lecture materials as a formal statement that acts as a guide for the ethics of how people within a particular organization should act and make decisions.",
+      "reference": "Textbook Page 64: \"A code of ethics is a formal statement that acts as a guide for the ethics of how people within a particular organization should act and make decisions.\" Slide 11 provides the exact same definition.",
       "slideRef": "ch3:s11",
       "slideRefParsed": {
         "lectureId": "ch3",
@@ -294,7 +470,42 @@
       "sourceFile": "final24.json",
       "sourceQuestionId": "Q36",
       "questionType": "mcq",
-      "poolIndex": 6
+      "poolIndex": 6,
+      "sourceRefs": [
+        "ch3:s11",
+        "ch3,p64"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch3",
+          "chapterNumber": 3,
+          "topic": "Chapter 3: Business Ethics",
+          "lectureFile": "Chapter 3 - Busniess Ethics.pdf",
+          "pdfPath": "Lectures/Chapter 3 - Busniess Ethics.pdf",
+          "kind": "slides",
+          "pages": [
+            11
+          ],
+          "pageCount": 19,
+          "syntax": "ch3:s11"
+        },
+        {
+          "lectureId": "ch3",
+          "chapterNumber": 3,
+          "topic": "Chapter 3: Business Ethics",
+          "lectureFile": "chapter-03.pdf",
+          "pdfPath": "Book/chapter-03.pdf",
+          "kind": "book",
+          "bookPages": [
+            64
+          ],
+          "pages": [
+            13
+          ],
+          "pageCount": 31,
+          "syntax": "ch3,p64"
+        }
+      ]
     },
     {
       "id": "Q37",
@@ -324,8 +535,8 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "In the context of creating an ethical workplace, the \"golden rule\" standard is explicitly defined as acting in a way you would expect others to act toward you.",
-      "reference": "Chapter 3: Business Ethics - Answer found verbatim on Slide 15 under \"Creating an Ethical Workplace\".",
+      "explanation": "The Golden Rule is a fundamental ethical standard defined as acting in a way you would expect others to act toward you. The other options refer to the professional ethic, the utilitarian principle, the legal test, and Kant's categorical imperative, respectively.",
+      "reference": "Textbook Page 66: \"1. The golden rule: Act in a way you would expect others to act toward you.\" Slide 15 provides the exact same definition.",
       "slideRef": "ch3:s15",
       "slideRefParsed": {
         "lectureId": "ch3",
@@ -344,7 +555,42 @@
       "sourceFile": "final24.json",
       "sourceQuestionId": "Q37",
       "questionType": "mcq",
-      "poolIndex": 7
+      "poolIndex": 7,
+      "sourceRefs": [
+        "ch3:s15",
+        "ch3,p66"
+      ],
+      "sourceRefsParsed": [
+        {
+          "lectureId": "ch3",
+          "chapterNumber": 3,
+          "topic": "Chapter 3: Business Ethics",
+          "lectureFile": "Chapter 3 - Busniess Ethics.pdf",
+          "pdfPath": "Lectures/Chapter 3 - Busniess Ethics.pdf",
+          "kind": "slides",
+          "pages": [
+            15
+          ],
+          "pageCount": 19,
+          "syntax": "ch3:s15"
+        },
+        {
+          "lectureId": "ch3",
+          "chapterNumber": 3,
+          "topic": "Chapter 3: Business Ethics",
+          "lectureFile": "chapter-03.pdf",
+          "pdfPath": "Book/chapter-03.pdf",
+          "kind": "book",
+          "bookPages": [
+            66
+          ],
+          "pages": [
+            15
+          ],
+          "pageCount": 31,
+          "syntax": "ch3,p66"
+        }
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 export type QuestionType = "true_false" | "mcq" | "other";
 
-export type SlideRefKind = "slides" | "all" | "course";
+export type SlideRefKind = "slides" | "all" | "course" | "book";
 
 export interface QuestionOption {
   id: string;
@@ -14,6 +14,8 @@ export interface SlideRefParsed {
   lectureFile: string;
   pdfPath: string;
   kind: SlideRefKind;
+  /** Printed textbook page numbers (book refs only). */
+  bookPages?: number[];
   pages: number[];
   pageCount: number;
   syntax: string;
@@ -30,6 +32,8 @@ export interface Question {
   reference: string;
   slideRef: string;
   slideRefParsed: SlideRefParsed;
+  sourceRefs?: string[];
+  sourceRefsParsed?: SlideRefParsed[];
   questionKey: string;
   origin: string;
   sourceFile: string;

@@ -29,6 +29,10 @@ interface SlideReferenceViewerDialogProps {
   lectureId: string;
   pageNumber: number;
   topic?: string;
+  /** Overrides default "Slide {pageNumber}" in the header. */
+  pageSuffix?: string;
+  /** Base path for tab navigation (`/lectures` or `/book`). */
+  routeBase?: "/lectures" | "/book";
 }
 
 export function SlideReferenceViewerDialog({
@@ -38,9 +42,12 @@ export function SlideReferenceViewerDialog({
   lectureId,
   pageNumber,
   topic,
+  pageSuffix,
+  routeBase = "/lectures",
 }: SlideReferenceViewerDialogProps) {
   const pageIndex = Math.max(0, pageNumber - 1);
   const chapterLabel = topic?.trim() || "Lecture slides";
+  const sourceLabel = routeBase === "/book" ? "textbook page" : "slide";
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
@@ -50,7 +57,11 @@ export function SlideReferenceViewerDialog({
       >
         <header className="flex shrink-0 items-center gap-3 border-b bg-background px-3 py-2.5 sm:px-4">
           <DialogTitle className="min-w-0 flex-1 text-left font-normal">
-            <SlideChapterHeading topic={topic} pageNumber={pageNumber} />
+            <SlideChapterHeading
+              topic={topic}
+              pageNumber={pageNumber}
+              pageSuffix={pageSuffix}
+            />
           </DialogTitle>
           <DialogClose
             render={
@@ -68,17 +79,18 @@ export function SlideReferenceViewerDialog({
         </header>
 
         <DialogDescription className="sr-only">
-          Full lecture PDF viewer for {chapterLabel}, slide {pageNumber}
+          Full PDF viewer for {chapterLabel}, {sourceLabel} {pageNumber}
         </DialogDescription>
 
         {open ? (
           <div className="min-h-0 flex-1 overflow-hidden bg-background">
             <LectureViewerFull
-              key={`${lectureId}-${pageNumber}`}
+              key={`${routeBase}-${lectureId}-${pageNumber}`}
               lectures={lectures}
               activeLectureId={lectureId}
               pageIndex={pageIndex}
               syncUrl={false}
+              routeBase={routeBase}
               height="100%"
             />
           </div>

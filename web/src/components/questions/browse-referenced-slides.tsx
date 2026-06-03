@@ -5,7 +5,7 @@ import type { Question } from "@/types/question";
 import { AnalyticsEvents } from "@/lib/analytics-events";
 import { questionAnalyticsParams, trackEvent } from "@/lib/analytics";
 import { questionHasReferencedSlidePreview } from "@/lib/referenced-slides";
-import { SlidePanel } from "@/components/pdf/slide-panel-dynamic";
+import { ReferencedSourcePanels } from "@/components/questions/referenced-source-panels";
 import {
   Collapsible,
   CollapsibleContent,
@@ -24,7 +24,6 @@ export function BrowseReferencedSlides({
   question,
   className,
 }: BrowseReferencedSlidesProps) {
-  const parsed = question.slideRefParsed;
   const [open, setOpen] = useState(false);
 
   if (!questionHasReferencedSlidePreview(question)) return null;
@@ -40,7 +39,7 @@ export function BrowseReferencedSlides({
             : AnalyticsEvents.slidePreviewClose,
           {
             ...questionAnalyticsParams(question),
-            lecture_id: parsed.lectureId,
+            lecture_id: question.slideRefParsed.lectureId,
           }
         );
       }}
@@ -59,15 +58,11 @@ export function BrowseReferencedSlides({
             open && "rotate-180"
           )}
         />
-        <span>Referenced slides</span>
+        <span>Referenced sources</span>
       </CollapsibleTrigger>
 
       <CollapsibleContent className="border-t border-border/60 px-3 pb-3 pt-3">
-        <SlidePanel
-          slideRefParsed={parsed}
-          question={question}
-          density="compact"
-        />
+        <ReferencedSourcePanels question={question} density="compact" />
       </CollapsibleContent>
     </Collapsible>
   );

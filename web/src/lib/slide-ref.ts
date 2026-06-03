@@ -1,6 +1,7 @@
-import type { SlideRefParsed } from "@/types/question";
+import type { Question, SlideRefParsed } from "@/types/question";
 
 const SLIDE_REF_RE = /^ch(\d+):(s[\d,\-]+|all|course)$/i;
+const BOOK_REF_RE = /^ch(\d+),p([\d,\-]+)$/i;
 
 export function expandPageSpec(spec: string): number[] {
   const pages: number[] = [];
@@ -81,8 +82,95 @@ export function lecturePdfUrl(lectureId: string): string {
   return `/lectures/${lectureId}.pdf`;
 }
 
+export function bookPdfUrl(chapterId: string): string {
+  return `/book/${chapterId}.pdf`;
+}
+
+export function bookChapterUrl(chapterId: string, page?: number): string {
+  const base = `/book/${chapterId}/`;
+  return page != null ? `${base}?page=${page}` : base;
+}
+
 export function lecturePageUrl(lectureId: string, page: number): string {
   return `/lectures/${lectureId}/?page=${page}`;
+}
+
+export function parseBookRef(
+  token: string,
+  bookMeta?: Record<
+    string,
+    {
+      pageCount: number;
+      topic: string;
+      sourceFile: string;
+      bookPageRange: [number, number];
+      printedPageStart?: number;
+    }
+  >
+): SlideRefParsed {
+  const m = BOOK_REF_RE.exec(token.trim());
+  if (!m) throw new Error(`Invalid book ref: ${token}`);
+
+  const ch = parseInt(m[1], 10);
+  const lid = `ch${ch}`;
+  const meta = bookMeta?.[lid];
+  const printedPages = expandPageSpec(m[2]);
+  const pageStart =
+    meta?.printedPageStart ?? meta?.bookPageRange?.[0] ?? 1;
+  const pageCount = meta?.pageCount ?? 1;
+  const pdfPages = printedPages
+    .map((p) =>
+      meta?.printedPageStart != null
+        ? p - pageStart + 1
+        : p - (meta?.bookPageRange?.[0] ?? 1) + 1
+    )
+    .filter((idx) => idx >= 1 && idx <= pageCount);
+
+  return {
+    lectureId: lid,
+    chapterNumber: ch,
+    topic: meta?.topic ?? `Chapter ${ch}`,
+    lectureFile: meta?.sourceFile ?? "",
+    pdfPath: `Book/${meta?.sourceFile ?? ""}`,
+    kind: "book",
+    bookPages: printedPages,
+    pages: [...new Set(pdfPages)].sort((a, b) => a - b),
+    pageCount,
+    syntax: token.trim(),
+  };
+}
+
+export function parseSourceRef(
+  token: string,
+  lectureMeta?: Record<string, { pageCount: number; topic: string; lectureFile: string; pdfPath: string }>,
+  bookMeta?: Record<
+    string,
+    {
+      pageCount: number;
+      topic: string;
+      sourceFile: string;
+      bookPageRange: [number, number];
+      printedPageStart?: number;
+    }
+  >
+): SlideRefParsed {
+  if (BOOK_REF_RE.test(token.trim())) {
+    return parseBookRef(token, bookMeta);
+  }
+  return parseSlideRef(token, lectureMeta);
+}
+
+export function questionSourceRefsParsed(question: Question): SlideRefParsed[] {
+  if (question.sourceRefsParsed?.length) {
+    return question.sourceRefsParsed;
+  }
+  return [question.slideRefParsed];
+}
+
+export function pdfUrlForRef(parsed: SlideRefParsed): string {
+  return parsed.kind === "book"
+    ? bookPdfUrl(parsed.lectureId)
+    : lecturePdfUrl(parsed.lectureId);
 }
 
 /** ch7 slide 8: Planning Steps diagram renders with empty boxes in the PDF viewer. */
@@ -93,9 +181,18 @@ const BLOCKED_PAGES: Record<string, ReadonlySet<number>> = {
 export function pagesForDisplay(parsed: SlideRefParsed): number[] {
   if (parsed.kind === "course") return [];
   if (parsed.kind === "all") return [];
+  if (parsed.kind === "book") return parsed.pages;
   const blocked = BLOCKED_PAGES[parsed.lectureId];
   if (!blocked) return parsed.pages;
   return parsed.pages.filter((p) => !blocked.has(p));
+}
+
+export function pageLabelForRef(parsed: SlideRefParsed, pdfPage: number): string {
+  if (parsed.kind === "book" && parsed.bookPages?.length) {
+    const idx = parsed.pages.indexOf(pdfPage);
+    if (idx >= 0) return `Textbook p. ${parsed.bookPages[idx]}`;
+  }
+  return `Slide ${pdfPage}`;
 }
 
 export function slideRefLabel(slideRef: string): string {

@@ -27,7 +27,8 @@ const SlideRefParsedSchema = z.object({
   topic: z.string(),
   lectureFile: z.string(),
   pdfPath: z.string(),
-  kind: z.enum(["slides", "all", "course"]),
+  kind: z.enum(["slides", "all", "course", "book"]),
+  bookPages: z.array(z.number()).optional(),
   pages: z.array(z.number()),
   pageCount: z.number(),
   syntax: z.string(),
@@ -44,6 +45,8 @@ const QuestionSchema = z.object({
   reference: z.string(),
   slideRef: z.string(),
   slideRefParsed: SlideRefParsedSchema,
+  sourceRefs: z.array(z.string()).optional(),
+  sourceRefsParsed: z.array(SlideRefParsedSchema).optional(),
 });
 
 function ensureDir(p) {

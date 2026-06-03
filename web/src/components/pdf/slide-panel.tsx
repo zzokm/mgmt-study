@@ -5,7 +5,12 @@ import { useMemo, useState } from "react";
 import { Document } from "react-pdf";
 import type { Question, SlideRefParsed } from "@/types/question";
 import { sameOriginAssetPath } from "@/lib/public-origin";
-import { lecturePdfUrl, pagesForDisplay } from "@/lib/slide-ref";
+import {
+  pageLabelForRef,
+  pagesForDisplay,
+  pdfUrlForRef,
+} from "@/lib/slide-ref";
+import { getBookChaptersForViewer } from "@/lib/book-chapters";
 import { getLectureMeta } from "@/lib/questions";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { SlidePreviewLoading } from "./slide-preview-loading";
@@ -46,18 +51,29 @@ export function SlidePanel({
     : pages.length > 1
       ? "gap-10"
       : "gap-0";
-  const pdfUrl = sameOriginAssetPath(lecturePdfUrl(slideRefParsed.lectureId));
+  const pdfUrl = sameOriginAssetPath(pdfUrlForRef(slideRefParsed));
   const [loaded, setLoaded] = useState(false);
   const [loadError, setLoadError] = useState<string | null>(null);
   const [fullscreenPage, setFullscreenPage] = useState<number | null>(null);
 
-  const lectures = useMemo(
+  const lectureList = useMemo(
     () =>
       Object.values(getLectureMeta()).sort(
         (a, b) => a.chapterNumber - b.chapterNumber
       ),
     []
   );
+
+  const viewerLectures = useMemo(
+    () =>
+      slideRefParsed.kind === "book"
+        ? getBookChaptersForViewer()
+        : lectureList,
+    [slideRefParsed.kind, lectureList]
+  );
+
+  const viewerRouteBase =
+    slideRefParsed.kind === "book" ? ("/book" as const) : ("/lectures" as const);
 
   if (slideRefParsed.kind === "course") {
     return (
@@ -132,6 +148,7 @@ export function SlidePanel({
                 <SlideCardHeader
                   topic={slideRefParsed.topic}
                   pageNum={pageNum}
+                  pageSuffix={pageLabelForRef(slideRefParsed, pageNum)}
                   compact={compact}
                   onFullscreen={() => setFullscreenPage(pageNum)}
                 />
@@ -148,10 +165,12 @@ export function SlidePanel({
           onOpenChange={(open) => {
             if (!open) setFullscreenPage(null);
           }}
-          lectures={lectures}
+          lectures={viewerLectures}
           lectureId={slideRefParsed.lectureId}
           pageNumber={fullscreenPage}
           topic={slideRefParsed.topic}
+          pageSuffix={pageLabelForRef(slideRefParsed, fullscreenPage)}
+          routeBase={viewerRouteBase}
         />
       ) : null}
     </div>

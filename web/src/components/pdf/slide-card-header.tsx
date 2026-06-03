@@ -8,6 +8,7 @@ import { Maximize2Icon } from "lucide-react";
 interface SlideCardHeaderProps {
   topic: string;
   pageNum: number;
+  pageSuffix?: string;
   compact?: boolean;
   onFullscreen: () => void;
 }
@@ -15,6 +16,7 @@ interface SlideCardHeaderProps {
 export function SlideCardHeader({
   topic,
   pageNum,
+  pageSuffix,
   compact = false,
   onFullscreen,
 }: SlideCardHeaderProps) {
@@ -29,6 +31,7 @@ export function SlideCardHeader({
         <SlideChapterHeading
           topic={topic}
           pageNumber={pageNum}
+          pageSuffix={pageSuffix}
           size={compact ? "xs" : "sm"}
         />
       </div>

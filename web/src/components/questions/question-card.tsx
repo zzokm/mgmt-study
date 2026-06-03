@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { QuestionMeta } from "./question-meta";
+import { QuestionStem } from "./question-stem";
 
 interface QuestionCardProps {
   question: Question;
@@ -83,7 +84,7 @@ export function QuestionCard({
     return (
       <div className="flex flex-col gap-6">
         <QuestionMeta question={question} />
-        <p className="text-lg leading-relaxed">{question.questionText}</p>
+        <QuestionStem question={question} />
         <div className="flex flex-col gap-3 sm:flex-row">
           {question.options.map((opt) => (
             <Button
@@ -106,7 +107,7 @@ export function QuestionCard({
   return (
     <div className="flex flex-col gap-6">
       <QuestionMeta question={question} />
-      <p className="text-lg leading-relaxed">{question.questionText}</p>
+      <QuestionStem question={question} />
       <RadioGroup
         value={selectedId ?? ""}
         onValueChange={onSelect}

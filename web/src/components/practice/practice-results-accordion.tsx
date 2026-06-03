@@ -19,6 +19,7 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { QuestionAccordionDetails } from "@/components/questions/question-accordion-details";
 import { QuestionMeta } from "@/components/questions/question-meta";
+import { QuestionStem } from "@/components/questions/question-stem";
 import { cn } from "@/lib/utils";
 import { CircleCheckIcon, CircleXIcon, MinusCircleIcon } from "lucide-react";
 
@@ -149,9 +150,7 @@ export function PracticeResultsAccordion({
                     </span>
                   </div>
                   <QuestionMeta question={q} />
-                  <span className="line-clamp-3 font-normal text-foreground">
-                    {q.questionText}
-                  </span>
+                  <QuestionStem question={q} variant="browse" />
                 </div>
               </div>
             </AccordionTrigger>

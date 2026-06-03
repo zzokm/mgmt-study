@@ -16,6 +16,7 @@ import {
 import { QuestionAccordionDetails } from "./question-accordion-details";
 import { Badge } from "@/components/ui/badge";
 import { QuestionMeta } from "./question-meta";
+import { QuestionStem } from "./question-stem";
 import { SaveButton } from "./save-button";
 
 interface QuestionBrowseAccordionProps {
@@ -124,9 +125,7 @@ export function QuestionBrowseAccordion({
                 ) : null}
                 {renderTriggerPrefix?.(q)}
                 <QuestionMeta question={q} />
-                <span className="line-clamp-3 font-normal text-foreground">
-                  {q.questionText}
-                </span>
+                <QuestionStem question={q} variant="browse" />
               </div>
             </div>
           </AccordionTrigger>

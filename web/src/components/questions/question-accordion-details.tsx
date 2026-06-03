@@ -3,6 +3,7 @@ import { cn } from "@/lib/utils";
 import { QuestionExamAppearances } from "./question-exam-appearances";
 import { QuestionDetailSections } from "./question-detail-sections";
 import { BrowseReferencedSlides } from "./browse-referenced-slides";
+import { QuestionStem } from "./question-stem";
 
 interface QuestionAccordionDetailsProps {
   question: Question;
@@ -16,6 +17,7 @@ export function QuestionAccordionDetails({
 }: QuestionAccordionDetailsProps) {
   return (
     <div className={cn("flex flex-col gap-4", className)}>
+      <QuestionStem question={question} />
       <QuestionExamAppearances
         question={question}
         variant="detailed"

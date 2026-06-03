@@ -6,6 +6,7 @@ import { getExamYears, getLectureSlugs } from "@/lib/questions";
 export const metadata: Metadata = {
   title: metadataTitle("/practice/"),
 };
+import { FeedbackPromoCard } from "@/components/layout/feedback-promo-card";
 import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default function PracticeIndexPage() {
@@ -21,6 +22,8 @@ export default function PracticeIndexPage() {
           slides.
         </p>
       </div>
+
+      <FeedbackPromoCard />
 
       <div>
         <h2 className="mb-3 text-sm font-medium text-muted-foreground">By exam year</h2>

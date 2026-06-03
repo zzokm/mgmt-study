@@ -112,7 +112,9 @@ export function AppShell({ children }: { children: React.ReactNode }) {
               </SidebarGroup>
             ))}
             <SidebarGroup>
-              <SidebarGroupLabel>Feedback</SidebarGroupLabel>
+              <SidebarGroupLabel>
+                Feedback
+              </SidebarGroupLabel>
               <SidebarGroupContent>
                 <SidebarMenu>
                   <SidebarMenuItem>
@@ -131,7 +133,9 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                         }
                       >
                         <MessageSquareIcon />
-                        <span>Feedback</span>
+                        <span>
+                          Feedback <span aria-hidden="true">⭐</span>
+                        </span>
                       </TooltipTrigger>
                       <TooltipContent side="right" className="max-w-xs">
                         {FEEDBACK_FORM_TOOLTIP}

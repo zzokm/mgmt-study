@@ -45,7 +45,7 @@ export function PracticeSessionFooter({
     <footer
       className={cn(
         "fixed bottom-0 z-50 border-t bg-background/95 shadow-[0_-4px_24px_-4px_rgba(0,0,0,0.12)] backdrop-blur supports-[backdrop-filter]:bg-background/85",
-        "left-0 right-0 max-w-[100vw] overflow-hidden md:left-[var(--sidebar-width)]",
+        "left-0 right-0 max-w-[100vw] overflow-hidden transition-[left] duration-200 ease-linear md:left-[var(--sidebar-inset-left)]",
         "pb-[max(0.75rem,env(safe-area-inset-bottom))]",
         "pl-[max(0.5rem,env(safe-area-inset-left))] pr-[max(0.5rem,env(safe-area-inset-right))]"
       )}

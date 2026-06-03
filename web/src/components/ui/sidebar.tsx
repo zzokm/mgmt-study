@@ -57,6 +57,7 @@ function SidebarProvider({
   defaultOpen = true,
   open: openProp,
   onOpenChange: setOpenProp,
+  collapsible = "offcanvas",
   className,
   style,
   children,
@@ -65,6 +66,8 @@ function SidebarProvider({
   defaultOpen?: boolean
   open?: boolean
   onOpenChange?: (open: boolean) => void
+  /** Matches `Sidebar` collapsible mode so fixed footers can align with the content inset. */
+  collapsible?: "offcanvas" | "icon" | "none"
 }) {
   const isMobile = useIsMobile()
   const [openMobile, setOpenMobile] = React.useState(false)
@@ -113,6 +116,13 @@ function SidebarProvider({
   // This makes it easier to style the sidebar with Tailwind classes.
   const state = open ? "expanded" : "collapsed"
 
+  const sidebarInsetLeft = React.useMemo(() => {
+    if (isMobile) return "0px"
+    if (open) return SIDEBAR_WIDTH
+    if (collapsible === "icon") return SIDEBAR_WIDTH_ICON
+    return "0px"
+  }, [isMobile, open, collapsible])
+
   const contextValue = React.useMemo<SidebarContextProps>(
     () => ({
       state,
@@ -130,10 +140,12 @@ function SidebarProvider({
     <SidebarContext.Provider value={contextValue}>
       <div
         data-slot="sidebar-wrapper"
+        data-state={state}
         style={
           {
             "--sidebar-width": SIDEBAR_WIDTH,
             "--sidebar-width-icon": SIDEBAR_WIDTH_ICON,
+            "--sidebar-inset-left": sidebarInsetLeft,
             ...style,
           } as React.CSSProperties
         }

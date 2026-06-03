@@ -8,7 +8,7 @@ export function FeedbackPromoCard() {
     <Card className="border-primary/25 bg-muted/40">
       <CardHeader className="pb-2">
         <CardTitle className="text-lg">
-          Good luck on your exam tomorrow <span aria-hidden="true">❤️</span>
+          Good luck on your exam <span aria-hidden="true">❤️</span>
         </CardTitle>
         <CardDescription>
           Thank you for using this site. Your feedback helps improve resources for similar

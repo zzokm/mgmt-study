@@ -16,6 +16,7 @@ import {
   RepeatIcon,
 } from "lucide-react";
 import { FEEDBACK_FORM_TOOLTIP, FEEDBACK_FORM_URL } from "@/lib/site-links";
+import { ExamCountdown } from "@/components/layout/exam-countdown";
 import {
   Sidebar,
   SidebarContent,
@@ -91,6 +92,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
             <p className="text-xs text-muted-foreground">Management finals prep</p>
           </SidebarHeader>
           <SidebarContent>
+            <ExamCountdown className="mb-2 mt-1" />
             {navSections.map((section) => (
               <SidebarGroup key={section.label}>
                 <SidebarGroupLabel>{section.label}</SidebarGroupLabel>

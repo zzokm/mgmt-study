@@ -4,6 +4,7 @@ import { Bricolage_Grotesque } from "next/font/google";
 import { AnalyticsEngagement } from "@/components/analytics/analytics-engagement";
 import { GoogleAnalytics } from "@/components/analytics/google-analytics";
 import { AppShell } from "@/components/layout/app-shell";
+import { PublicOriginRedirect } from "@/components/layout/public-origin-redirect";
 import "./globals.css";
 
 const bricolageGrotesque = Bricolage_Grotesque({
@@ -28,6 +29,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col font-sans">
         <Suspense fallback={null}>
+          <PublicOriginRedirect />
           <GoogleAnalytics />
           <AnalyticsEngagement />
         </Suspense>

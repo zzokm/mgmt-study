@@ -32,6 +32,10 @@ export default async function PracticeLecturePage({
   const questions = getQuestionsByLectureSlug(slug);
 
   return (
-    <PracticeSessionHydrated questions={questions} title={`${meta.lecture} — Practice`} />
+    <PracticeSessionHydrated
+      questions={questions}
+      title={`${meta.lecture} — Practice`}
+      lectureSlug={slug}
+    />
   );
 }

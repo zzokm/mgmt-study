@@ -1876,8 +1876,8 @@
     ],
     "correctAnswerId": "c",
     "explanation": "This question phrasing is slightly irregular, but based on the Planning Process steps, after evaluating alternatives, the next step is to 'Choose best alternative for reaching objectives' (which aligns with selecting the topmost/applicable plan).",
-    "reference": "Chapter 7: Principles of Planning - Answer supported by the Planning Process steps on Slide 10 (Step 4: Choose best alternative).",
-    "slideRef": "ch7:s10",
+    "reference": "Chapter 7: Principles of Planning - Answer supported by the definition of planning on Slide 4 (analyzing, evaluating, and selecting among opportunities).",
+    "slideRef": "ch7:s4",
     "slideRefParsed": {
       "lectureId": "ch7",
       "chapterNumber": 7,
@@ -1886,10 +1886,10 @@
       "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
       "kind": "slides",
       "pages": [
-        10
+        4
       ],
       "pageCount": 27,
-      "syntax": "ch7:s10"
+      "syntax": "ch7:s4"
     },
     "questionKey": "2024:Q40",
     "origin": "2024",
@@ -1976,20 +1976,20 @@
     ],
     "correctAnswerId": "d",
     "explanation": "Evaluating alternatives involves analyzing the pros and cons (the two sides of the coin) of each listed option before making a final choice.",
-    "reference": "Chapter 7: Principles of Planning - Answer deduced from the logical progression of the Planning Process steps on Slide 10, specifically between Step 2 (Listing) and Step 4 (Choosing).",
-    "slideRef": "ch7:s10",
+    "reference": "Chapter 8: Making Decisions - Slide 16 covers evaluating alternatives and selecting the most beneficial alternative.",
+    "slideRef": "ch8:s16",
     "slideRefParsed": {
-      "lectureId": "ch7",
-      "chapterNumber": 7,
-      "topic": "Chapter 7: Principles of Planning",
-      "lectureFile": "Chapter 7 - Principles of Planning.pdf",
-      "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+      "lectureId": "ch8",
+      "chapterNumber": 8,
+      "topic": "Chapter 8: Making Decisions",
+      "lectureFile": "Chapter 8 - Making Decisions.pdf",
+      "pdfPath": "Lectures/Chapter 8 - Making Decisions.pdf",
       "kind": "slides",
       "pages": [
-        10
+        16
       ],
-      "pageCount": 27,
-      "syntax": "ch7:s10"
+      "pageCount": 33,
+      "syntax": "ch8:s16"
     },
     "questionKey": "2024:Q42",
     "origin": "2024",
@@ -2228,8 +2228,8 @@
     ],
     "correctAnswerId": "a",
     "explanation": "Developing premises involves making assumptions about the future conditions upon which alternative plans will be based. It is essentially thinking about future scenarios.",
-    "reference": "Chapter 7: Principles of Planning - Answer based on Step 3 of the Planning Process on Slide 10: 'Develop premises upon which each alternative is based'.",
-    "slideRef": "ch7:s10",
+    "reference": "Chapter 7: Principles of Planning - Answer supported by the definition of planning on Slide 4 (future-oriented analysis and assumptions for action programs).",
+    "slideRef": "ch7:s4",
     "slideRefParsed": {
       "lectureId": "ch7",
       "chapterNumber": 7,
@@ -2238,10 +2238,10 @@
       "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
       "kind": "slides",
       "pages": [
-        10
+        4
       ],
       "pageCount": 27,
-      "syntax": "ch7:s10"
+      "syntax": "ch7:s4"
     },
     "questionKey": "2024:Q47",
     "origin": "2024",
@@ -2734,8 +2734,8 @@
     ],
     "correctAnswerId": "b",
     "explanation": "In the context of the planning process, developing premises means formulating assumptions about future conditions and environments upon which the alternative plans will be based.",
-    "reference": "Chapter 7: Principles of Planning - Answer based on Step 3 of the Planning Process on Slide 10.",
-    "slideRef": "ch7:s10",
+    "reference": "Chapter 7: Principles of Planning - Answer supported by the planning definition on Slide 4 (assumptions about foreseen opportunities / future conditions).",
+    "slideRef": "ch7:s4",
     "slideRefParsed": {
       "lectureId": "ch7",
       "chapterNumber": 7,
@@ -2744,10 +2744,10 @@
       "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
       "kind": "slides",
       "pages": [
-        10
+        4
       ],
       "pageCount": 27,
-      "syntax": "ch7:s10"
+      "syntax": "ch7:s4"
     },
     "questionKey": "2024:Q57",
     "origin": "2024",

@@ -15,8 +15,7 @@ export const PDF_DOCUMENT_OPTIONS = {
 } as const;
 
 function pdfWorkerSrc(): string {
-  if (typeof window === "undefined") return PDF_WORKER_V4_URL;
-  return `${window.location.origin}${PDF_WORKER_V4_URL}`;
+  return PDF_WORKER_V4_URL;
 }
 
 if (typeof window !== "undefined") {

@@ -4,6 +4,7 @@ import dynamic from "next/dynamic";
 import { useMemo, useState } from "react";
 import { Document } from "react-pdf";
 import type { Question, SlideRefParsed } from "@/types/question";
+import { sameOriginAssetPath } from "@/lib/public-origin";
 import { lecturePdfUrl, pagesForDisplay } from "@/lib/slide-ref";
 import { getLectureMeta } from "@/lib/questions";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
@@ -22,12 +23,6 @@ const SlideReferenceViewerDialog = dynamic(
     ),
   { ssr: false }
 );
-
-function pdfFileUrl(path: string): string {
-  if (path.startsWith("http")) return path;
-  if (typeof window === "undefined") return path;
-  return `${window.location.origin}${path}`;
-}
 
 interface SlidePanelProps {
   slideRefParsed: SlideRefParsed;
@@ -51,7 +46,7 @@ export function SlidePanel({
     : pages.length > 1
       ? "gap-10"
       : "gap-0";
-  const pdfUrl = pdfFileUrl(lecturePdfUrl(slideRefParsed.lectureId));
+  const pdfUrl = sameOriginAssetPath(lecturePdfUrl(slideRefParsed.lectureId));
   const [loaded, setLoaded] = useState(false);
   const [loadError, setLoadError] = useState<string | null>(null);
   const [fullscreenPage, setFullscreenPage] = useState<number | null>(null);

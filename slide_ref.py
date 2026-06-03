@@ -73,6 +73,9 @@ SLIDE_REF_RE = re.compile(
     r"^ch(\d+):(s[\d,\-]+|all|course)$", re.IGNORECASE
 )
 
+# Slides with empty/unreadable diagrams in the PDF viewer (do not cite or open).
+CH7_BLOCKED_SLIDE_PAGES: frozenset[int] = frozenset({8})
+
 
 def chapter_from_topic(topic: str | None) -> int | None:
     if not topic:

@@ -8,18 +8,13 @@ import {
   type PluginRegistry,
 } from "@embedpdf/react-pdf-viewer";
 import type { LectureMeta } from "@/types/question";
+import { sameOriginAssetPath } from "@/lib/public-origin";
 import {
   customizeLectureViewerUi,
   LECTURE_VIEWER_DISABLED_CATEGORIES,
 } from "./lecture-pdf-config";
 
 const LECTURE_VIEWER_HEIGHT = "min(80vh, 900px)";
-
-function absoluteAssetUrl(path: string): string {
-  if (path.startsWith("http")) return path;
-  if (typeof window === "undefined") return path;
-  return `${window.location.origin}${path}`;
-}
 
 type ScrollCapability = {
   onLayoutReady: (
@@ -111,7 +106,7 @@ export function LectureViewerFull({
   const initialDocuments = useMemo(
     () =>
       lectures.map((lec) => ({
-        url: absoluteAssetUrl(lec.publicPdfUrl),
+        url: sameOriginAssetPath(lec.publicPdfUrl),
         documentId: lec.lectureId,
         name: `Ch ${lec.chapterNumber}: ${lec.topic}`,
         autoActivate: lec.lectureId === activeLectureId,
@@ -123,7 +118,7 @@ export function LectureViewerFull({
 
   const viewerConfig = useMemo(
     () => ({
-      wasmUrl: absoluteAssetUrl("/pdfium.wasm"),
+      wasmUrl: sameOriginAssetPath("/pdfium.wasm"),
       theme: { preference: "dark" as const },
       tabBar: "always" as const,
       disabledCategories: LECTURE_VIEWER_DISABLED_CATEGORIES,

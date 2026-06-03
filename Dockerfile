@@ -24,9 +24,11 @@ COPY web ./web
 
 WORKDIR /app/web
 ARG NEXT_PUBLIC_GOOGLE_TAG_ID
+ARG NEXT_PUBLIC_SITE_URL=https://mgmt.yehia.dev
 ENV NODE_ENV=production
 ENV NEXT_TELEMETRY_DISABLED=1
 ENV NEXT_PUBLIC_GOOGLE_TAG_ID=$NEXT_PUBLIC_GOOGLE_TAG_ID
+ENV NEXT_PUBLIC_SITE_URL=$NEXT_PUBLIC_SITE_URL
 RUN npm run copy-pdf-worker && npm run build
 
 # --- Serve static site on port 3000 ---

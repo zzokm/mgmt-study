@@ -2,6 +2,7 @@
 
 import type { Question } from "@/types/question";
 import { getPageTitle, type PageTitleSearchParams } from "@/lib/analytics-page-titles";
+import { absolutePublicUrl } from "@/lib/public-origin";
 
 export const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GOOGLE_TAG_ID;
 
@@ -68,7 +69,9 @@ export function trackPageView(options: {
   const page_path = options.path;
   const page_location =
     typeof window !== "undefined"
-      ? `${window.location.origin}${page_path}${options.search ?? window.location.search}`
+      ? absolutePublicUrl(
+          `${page_path}${options.search ?? window.location.search}`
+        )
       : page_path;
   const page_title = options.title;
 

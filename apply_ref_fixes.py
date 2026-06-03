@@ -49,9 +49,59 @@ FIXES: list[tuple[str, str, str, str]] = [
         "ch8:s16",
         "Chapter 8: Making Decisions - Slide 16 covers selecting the most beneficial alternative.",
     ),
+    # Planning process — avoid ch7:s8/s10 (blank diagrams); see CH7_BLOCKED_SLIDE_PAGES
+    (
+        "final24.json",
+        "Q40",
+        "ch7:s4",
+        "Chapter 7: Principles of Planning - Answer supported by the definition of planning on Slide 4 "
+        "(analyzing, evaluating, and selecting among opportunities).",
+    ),
+    (
+        "final25.json",
+        "Q20",
+        "ch7:s4",
+        "Chapter 7: Principles of Planning - Answer supported by the definition of planning on Slide 4 "
+        "(selecting among opportunities to reach objectives).",
+    ),
+    (
+        "final24.json",
+        "Q42",
+        "ch8:s16",
+        "Chapter 8: Making Decisions - Slide 16 covers evaluating alternatives and selecting "
+        "the most beneficial alternative.",
+    ),
+    (
+        "final25.json",
+        "Q24",
+        "ch8:s16",
+        "Chapter 8: Making Decisions - Slide 16 covers evaluating alternatives before selection.",
+    ),
+    (
+        "final24.json",
+        "Q47",
+        "ch7:s4",
+        "Chapter 7: Principles of Planning - Answer supported by the definition of planning on Slide 4 "
+        "(future-oriented analysis and assumptions for action programs).",
+    ),
+    (
+        "final24.json",
+        "Q57",
+        "ch7:s4",
+        "Chapter 7: Principles of Planning - Answer supported by the planning definition on Slide 4 "
+        "(assumptions about foreseen opportunities / future conditions).",
+    ),
+    (
+        "final25.json",
+        "Q27",
+        "ch7:s4",
+        "Chapter 7: Principles of Planning - Answer supported by the definition of planning on Slide 4 "
+        "(assumptions about future conditions for action programs).",
+    ),
 ]
 
 POOL_FILES = list((ROOT / "question-pools-by-lecture").glob("*.json"))
+REPETITIVE_PATH = ROOT / "repetitive-questions.json"
 
 
 def main() -> None:
@@ -92,6 +142,26 @@ def main() -> None:
         if changed:
             pool_path.write_text(
                 json.dumps(pool, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+            )
+
+    # Sync repetitive-questions.json stems when origin matches a fixed exam question
+    if REPETITIVE_PATH.exists():
+        repetitive = json.loads(REPETITIVE_PATH.read_text(encoding="utf-8"))
+        lookup = {(exam, qid): (slide, ref) for exam, qid, slide, ref in FIXES}
+        changed_rep = False
+        for rq in repetitive.get("questions", []):
+            key = (rq.get("sourceFile"), rq.get("sourceQuestionId") or rq.get("id"))
+            if key in lookup:
+                slide, ref = lookup[key]
+                rq["reference"] = ref
+                rq["slideRef"] = slide
+                rq["slideRefParsed"] = parse_slide_ref(slide, manifest)
+                changed_rep = True
+                print(f"Repetitive stem {rq.get('id')} ({key[0]} {key[1]}) -> {slide}")
+        if changed_rep:
+            REPETITIVE_PATH.write_text(
+                json.dumps(repetitive, indent=2, ensure_ascii=False) + "\n",
+                encoding="utf-8",
             )
 
 

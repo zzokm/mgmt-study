@@ -820,8 +820,8 @@
     ],
     "correctAnswerId": "c",
     "explanation": "Selecting the best alternative (or 'selecting up objective' based on the flawed wording of the option) is the step where the most applicable plan is chosen for implementation.",
-    "reference": "Chapter 7: Principles of Planning - Answer based on Step 4 of the Planning Process on Slide 10.",
-    "slideRef": "ch7:s10",
+    "reference": "Chapter 7: Principles of Planning - Answer supported by the definition of planning on Slide 4 (selecting among opportunities to reach objectives).",
+    "slideRef": "ch7:s4",
     "slideRefParsed": {
       "lectureId": "ch7",
       "chapterNumber": 7,
@@ -830,10 +830,10 @@
       "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
       "kind": "slides",
       "pages": [
-        10
+        4
       ],
       "pageCount": 27,
-      "syntax": "ch7:s10"
+      "syntax": "ch7:s4"
     },
     "questionKey": "2025:Q20",
     "origin": "2025",
@@ -1013,20 +1013,20 @@
     ],
     "correctAnswerId": "d",
     "explanation": "Evaluating alternatives is the step where the pros and cons of different courses of action are analyzed before a final choice is made.",
-    "reference": "Chapter 7: Principles of Planning - Answer logically deduced from the Planning Process flow on Slide 10.",
-    "slideRef": "ch7:s10",
+    "reference": "Chapter 8: Making Decisions - Slide 16 covers evaluating alternatives before selection.",
+    "slideRef": "ch8:s16",
     "slideRefParsed": {
-      "lectureId": "ch7",
-      "chapterNumber": 7,
-      "topic": "Chapter 7: Principles of Planning",
-      "lectureFile": "Chapter 7 - Principles of Planning.pdf",
-      "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
+      "lectureId": "ch8",
+      "chapterNumber": 8,
+      "topic": "Chapter 8: Making Decisions",
+      "lectureFile": "Chapter 8 - Making Decisions.pdf",
+      "pdfPath": "Lectures/Chapter 8 - Making Decisions.pdf",
       "kind": "slides",
       "pages": [
-        10
+        16
       ],
-      "pageCount": 27,
-      "syntax": "ch7:s10"
+      "pageCount": 33,
+      "syntax": "ch8:s16"
     },
     "questionKey": "2025:Q24",
     "origin": "2025",
@@ -1175,8 +1175,8 @@
     ],
     "correctAnswerId": "a",
     "explanation": "Developing or setting planning premises involves making assumptions and forecasts about future conditions that will affect the execution of the plans.",
-    "reference": "Chapter 7: Principles of Planning - Answer based on Step 3 of the Planning Process on Slide 10.",
-    "slideRef": "ch7:s10",
+    "reference": "Chapter 7: Principles of Planning - Answer supported by the definition of planning on Slide 4 (assumptions about future conditions for action programs).",
+    "slideRef": "ch7:s4",
     "slideRefParsed": {
       "lectureId": "ch7",
       "chapterNumber": 7,
@@ -1185,10 +1185,10 @@
       "pdfPath": "Lectures/Chapter 7 - Principles of Planning.pdf",
       "kind": "slides",
       "pages": [
-        10
+        4
       ],
       "pageCount": 27,
-      "syntax": "ch7:s10"
+      "syntax": "ch7:s4"
     },
     "questionKey": "2025:Q27",
     "origin": "2025",

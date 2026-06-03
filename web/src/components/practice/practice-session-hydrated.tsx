@@ -1,6 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
+import { Chapter3PracticeGate } from "@/components/chapter-3/chapter-3-practice-gate";
 import type { Question } from "@/types/question";
 
 const PracticeSessionInner = dynamic(
@@ -11,7 +12,13 @@ const PracticeSessionInner = dynamic(
 export function PracticeSessionHydrated(props: {
   questions: Question[];
   title: string;
+  lectureSlug?: string;
 }) {
-  return <PracticeSessionInner {...props} />;
+  const { lectureSlug, ...sessionProps } = props;
+  return (
+    <Chapter3PracticeGate lectureSlug={lectureSlug}>
+      <PracticeSessionInner {...sessionProps} />
+    </Chapter3PracticeGate>
+  );
 }
 

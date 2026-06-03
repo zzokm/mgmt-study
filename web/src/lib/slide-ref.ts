@@ -85,10 +85,17 @@ export function lecturePageUrl(lectureId: string, page: number): string {
   return `/lectures/${lectureId}/?page=${page}`;
 }
 
+/** ch7 slide 8: Planning Steps diagram renders with empty boxes in the PDF viewer. */
+const BLOCKED_PAGES: Record<string, ReadonlySet<number>> = {
+  ch7: new Set([8]),
+};
+
 export function pagesForDisplay(parsed: SlideRefParsed): number[] {
   if (parsed.kind === "course") return [];
   if (parsed.kind === "all") return [];
-  return parsed.pages;
+  const blocked = BLOCKED_PAGES[parsed.lectureId];
+  if (!blocked) return parsed.pages;
+  return parsed.pages.filter((p) => !blocked.has(p));
 }
 
 export function slideRefLabel(slideRef: string): string {

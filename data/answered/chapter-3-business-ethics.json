@@ -26,7 +26,7 @@
       "explanation": "Corporate social responsibility (CSR) obligates managers to take actions that protect and improve both the welfare of society and the interests of the organization simultaneously, rather than prioritizing societal goals over organizational goals. The slides emphasize balancing corporate health with stakeholder relations, ensuring an opportunity to make a \"fair profit\" alongside fulfilling societal needs[cite: 9].",
       "reference": "Answer deduced from the principles of stakeholder relations and fair profit on Slide 9.",
       "origin": "2025",
-      "sourceFile": "final25.json",
+      "sourceFile": "data/exams/2025.json",
       "sourceQuestionId": "Q14",
       "questionType": "true_false",
       "poolIndex": 1
@@ -62,7 +62,7 @@
       "explanation": "Corporate social responsibility involves taking actions that protect and improve both the welfare of society as a whole and the interests of the organization. The slides highlight that ethics and competitiveness are inseparable, and acting ethically toward all stakeholders improves both corporate health and public image[cite: 9].",
       "reference": "Reflected in the stakeholder relations and corporate health principles on Slide 7 and Slide 9.",
       "origin": "2024",
-      "sourceFile": "final24.json",
+      "sourceFile": "data/exams/2024.json",
       "sourceQuestionId": "Q16",
       "questionType": "mcq",
       "poolIndex": 2
@@ -98,7 +98,7 @@
       "explanation": "Milton Friedman famously argued that corporate social responsibility is unethical because it compels managers to spend money on general social causes that rightfully belongs to the shareholders, employees, or customers. While the slides do not mention Friedman by name, they align with this core business tension by emphasizing that a fundamental responsibility to suppliers and distributors is the opportunity to make a \"fair profit\"[cite: 9].",
       "reference": "Based on external management theory (Friedman's shareholder primacy), aligned with the \"fair profit\" concept on Slide 9.",
       "origin": "2024",
-      "sourceFile": "final24.json",
+      "sourceFile": "data/exams/2024.json",
       "sourceQuestionId": "Q24",
       "questionType": "mcq",
       "poolIndex": 3
@@ -134,7 +134,7 @@
       "explanation": "A manager's specific social obligation to consumers is to ensure that the goods or services provided meet high quality and safety standards. The slides explicitly state, using the Johnson & Johnson Credo as an example, that the first responsibility is to the people who use the products and services, and that \"everything we do must be of high quality\"[cite: 9].",
       "reference": "Answer found directly on Slide 9 (Johnson & Johnson Credo).",
       "origin": "2024",
-      "sourceFile": "final24.json",
+      "sourceFile": "data/exams/2024.json",
       "sourceQuestionId": "Q26",
       "questionType": "mcq",
       "poolIndex": 4
@@ -170,7 +170,7 @@
       "explanation": "Ethics in business is formally defined as the capacity to reflect on values in the corporate decision-making process, to determine how these values and decisions affect various stakeholder groups, and to establish how managers can use these observations in day-to-day company management[cite: 9].",
       "reference": "Answer found verbatim on Slide 5 under \"Definitions\".",
       "origin": "2024",
-      "sourceFile": "final24.json",
+      "sourceFile": "data/exams/2024.json",
       "sourceQuestionId": "Q35",
       "questionType": "mcq",
       "poolIndex": 5
@@ -206,7 +206,7 @@
       "explanation": "A code of ethics is explicitly defined as a formal statement that acts as a guide for the ethics of how people within a particular organization should act and make decisions[cite: 9].",
       "reference": "Answer found verbatim on Slide 11 under \"A Code of Ethics\".",
       "origin": "2024",
-      "sourceFile": "final24.json",
+      "sourceFile": "data/exams/2024.json",
       "sourceQuestionId": "Q36",
       "questionType": "mcq",
       "poolIndex": 6
@@ -242,7 +242,7 @@
       "explanation": "In the context of creating an ethical workplace, the \"golden rule\" standard is explicitly defined as acting in a way you would expect others to act toward you[cite: 9].",
       "reference": "Answer found verbatim on Slide 15 under \"Creating an Ethical Workplace\".",
       "origin": "2024",
-      "sourceFile": "final24.json",
+      "sourceFile": "data/exams/2024.json",
       "sourceQuestionId": "Q37",
       "questionType": "mcq",
       "poolIndex": 7

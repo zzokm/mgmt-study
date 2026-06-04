@@ -25,7 +25,7 @@
       "explanation": "Henri Fayol's General Principles of Management explicitly include 'Unity of Command' and 'Unity of Direction'. These principles dictate that employees should receive orders from only one superior and that there should be one head and one unified plan for a group of activities having the same objective. Therefore, establishing multiple guiding authorities contradicts Fayol's framework.",
       "reference": "Answer found on Slide 13 under General Principles of Management.",
       "origin": "2025",
-      "sourceFile": "final25.json",
+      "sourceFile": "data/exams/2025.json",
       "sourceQuestionId": "Q12",
       "questionType": "true_false",
       "poolIndex": 1

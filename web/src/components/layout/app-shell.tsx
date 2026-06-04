@@ -15,7 +15,12 @@ import {
   MessageSquareIcon,
   RepeatIcon,
 } from "lucide-react";
-import { FEEDBACK_FORM_TOOLTIP, FEEDBACK_FORM_URL, GITHUB_PROFILE_URL } from "@/lib/site-links";
+import {
+  FEEDBACK_FORM_TOOLTIP,
+  FEEDBACK_FORM_URL,
+  GITHUB_PROFILE_URL,
+  GITHUB_REPO_URL,
+} from "@/lib/site-links";
 import { ExamCountdown } from "@/components/layout/exam-countdown";
 import { ExamPostCelebration } from "@/components/layout/exam-post-celebration";
 import {
@@ -149,6 +154,20 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                         {FEEDBACK_FORM_TOOLTIP}
                       </TooltipContent>
                     </Tooltip>
+                  </SidebarMenuItem>
+                  <SidebarMenuItem>
+                    <SidebarMenuButton
+                      render={
+                        <a
+                          href={GITHUB_REPO_URL}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        />
+                      }
+                    >
+                      <GitHubIcon />
+                      <span>GitHub repository</span>
+                    </SidebarMenuButton>
                   </SidebarMenuItem>
                 </SidebarMenu>
               </SidebarGroupContent>

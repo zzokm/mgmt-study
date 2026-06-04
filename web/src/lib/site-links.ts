@@ -6,6 +6,8 @@ export const FEEDBACK_FORM_TOOLTIP =
 
 export const GITHUB_PROFILE_URL = "https://github.com/zzokm";
 
+export const GITHUB_REPO_URL = "https://github.com/zzokm/mgmt-study";
+
 /** Final exam window — update when the schedule changes. */
 export const EXAM_START = {
   date: "2026-06-04",

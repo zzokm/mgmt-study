@@ -10,10 +10,10 @@ const WEB_ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const MGMT_ROOT = join(WEB_ROOT, "..");
 
 const EXAM_MAP = {
-  "final19.json": "2019",
-  "final21.json": "2021",
-  "final24.json": "2024",
-  "final25.json": "2025",
+  "data/exams/2019.json": "2019",
+  "data/exams/2021.json": "2021",
+  "data/exams/2024.json": "2024",
+  "data/exams/2025.json": "2025",
 };
 
 const OptionSchema = z.object({
@@ -96,13 +96,13 @@ function main() {
   ensureDir(generatedDir);
 
   // Manifest + lecture PDFs
-  const manifestPath = join(MGMT_ROOT, "lectures_manifest.json");
+  const manifestPath = join(MGMT_ROOT, "data", "manifests", "lectures.json");
   const manifest = JSON.parse(readFileSync(manifestPath, "utf8"));
   copy(manifestPath, join(publicData, "lectures_manifest.json"));
 
   const lectureMeta = {};
   for (const [lid, lec] of Object.entries(manifest.lectures)) {
-    const srcPdf = join(MGMT_ROOT, "Lectures", lec.lectureFile);
+    const srcPdf = join(MGMT_ROOT, "assets", "lectures", lec.lectureFile);
     const destPdf = join(publicLectures, `${lid}.pdf`);
     copy(srcPdf, destPdf);
     lectureMeta[lid] = {
@@ -112,13 +112,13 @@ function main() {
   }
 
   // Textbook chapter PDFs (split chapters only — not the full book)
-  const bookManifestPath = join(MGMT_ROOT, "book_manifest.json");
+  const bookManifestPath = join(MGMT_ROOT, "data", "manifests", "book.json");
   const bookManifest = JSON.parse(readFileSync(bookManifestPath, "utf8"));
   copy(bookManifestPath, join(publicData, "book_manifest.json"));
 
   const bookChapterMeta = {};
   for (const [cid, ch] of Object.entries(bookManifest.chapters)) {
-    const srcPdf = join(MGMT_ROOT, "Book", ch.sourceFile);
+    const srcPdf = join(MGMT_ROOT, "assets", "book", ch.sourceFile);
     const destPdf = join(publicBook, `${cid}.pdf`);
     copy(srcPdf, destPdf);
     bookChapterMeta[cid] = {
@@ -133,13 +133,13 @@ function main() {
   }
 
   // Pools
-  const poolIndexSrc = join(MGMT_ROOT, "question-pools-by-lecture", "_index.json");
+  const poolIndexSrc = join(MGMT_ROOT, "data", "pools", "_index.json");
   copy(poolIndexSrc, join(publicPools, "_index.json"));
   const poolIndex = JSON.parse(readFileSync(poolIndexSrc, "utf8"));
 
   const byLectureSlug = {};
   for (const entry of poolIndex.lectureFiles) {
-    const src = join(MGMT_ROOT, "question-pools-by-lecture", entry.file);
+    const src = join(MGMT_ROOT, "data", "pools", entry.file);
     copy(src, join(publicPools, entry.file));
     const pool = JSON.parse(readFileSync(src, "utf8"));
     byLectureSlug[pool.slug] = pool.questions.map((q) => {
@@ -151,13 +151,16 @@ function main() {
 
   // Repetitive + analysis
   copy(
-    join(MGMT_ROOT, "repetitive-questions.json"),
+    join(MGMT_ROOT, "data", "repetitive-questions.json"),
     join(publicData, "repetitive-questions.json")
   );
   const repetitive = JSON.parse(
     readFileSync(join(publicData, "repetitive-questions.json"), "utf8")
   );
-  copy(join(MGMT_ROOT, "EXAM_QUESTION_ANALYSIS.md"), join(publicData, "analysis.md"));
+  copy(
+    join(MGMT_ROOT, "data", "analysis", "exam-question-analysis.md"),
+    join(publicData, "analysis.md")
+  );
 
   // Exams -> catalog questions
   const questions = [];

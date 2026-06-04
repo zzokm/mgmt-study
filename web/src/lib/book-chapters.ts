@@ -14,7 +14,7 @@ export function bookChapterAsLectureMeta(ch: BookChapterMeta): LectureMeta {
     chapterNumber: ch.chapterNumber,
     topic: ch.topic,
     lectureFile: ch.sourceFile,
-    pdfPath: `Book/${ch.sourceFile}`,
+    pdfPath: `assets/book/${ch.sourceFile}`,
     pageCount: ch.pageCount,
     publicPdfUrl: ch.publicPdfUrl,
   };

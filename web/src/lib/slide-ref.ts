@@ -129,7 +129,7 @@ export function parseBookRef(
     chapterNumber: ch,
     topic: meta?.topic ?? `Chapter ${ch}`,
     lectureFile: meta?.sourceFile ?? "",
-    pdfPath: `Book/${meta?.sourceFile ?? ""}`,
+    pdfPath: `assets/book/${meta?.sourceFile ?? ""}`,
     kind: "book",
     bookPages: citedPages,
     pages: [...new Set(pdfPages)].sort((a, b) => a - b),

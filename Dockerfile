@@ -13,12 +13,9 @@ FROM node:22-bookworm-slim AS builder
 WORKDIR /app
 
 # Course data consumed by web/scripts/sync-content.mjs
-COPY final19.json final21.json final24.json final25.json ./
-COPY repetitive-questions.json lectures_manifest.json book_manifest.json ./
-COPY EXAM_QUESTION_ANALYSIS.md ./
-COPY question-pools-by-lecture ./question-pools-by-lecture
-COPY Lectures ./Lectures
-COPY Book/chapter-*.pdf ./Book/
+COPY data ./data
+COPY assets/lectures ./assets/lectures
+COPY assets/book ./assets/book
 
 COPY --from=deps /app/web/node_modules ./web/node_modules
 COPY web ./web

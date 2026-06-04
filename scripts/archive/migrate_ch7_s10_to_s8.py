@@ -8,16 +8,16 @@ from pathlib import Path
 
 from slide_ref import enrich_question_sources, load_book_manifest, load_manifest
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 CH7_S10 = re.compile(r"ch7:s10\b", re.I)
 CH7_S8 = "ch7:s8"
 
 TARGETS = [
-    ROOT / "final24.json",
-    ROOT / "final25.json",
-    ROOT / "question-pools-by-lecture" / "chapter-7-principles-of-planning.json",
-    ROOT / "answered-pools" / "chapter-7-principles-of-planning.json",
-    ROOT / "repetitive-questions.json",
+    ROOT / "data" / "exams" / "2024.json",
+    ROOT / "data" / "exams" / "2025.json",
+    ROOT / "data" / "pools" / "chapter-7-principles-of-planning.json",
+    ROOT / "data" / "answered" / "chapter-7-principles-of-planning.json",
+    ROOT / "data" / "repetitive-questions.json",
 ]
 
 

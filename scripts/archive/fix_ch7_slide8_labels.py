@@ -7,9 +7,9 @@ from pathlib import Path
 
 import fitz
 
-ROOT = Path(__file__).resolve().parents[1]
-SRC = ROOT / "Lectures" / "Chapter 7 - Principles of Planning.pdf"
-OUT = ROOT / "Lectures" / "Chapter 7 - Principles of Planning (labels-fixed).pdf"
+ROOT = Path(__file__).resolve().parents[2]
+SRC = ROOT / "assets" / "lectures" / "Chapter 7 - Principles of Planning.pdf"
+OUT = ROOT / "assets" / "lectures" / "Chapter 7 - Principles of Planning (labels-fixed).pdf"
 CALIBRI = Path(r"C:\Windows\Fonts\calibri.ttf")
 SLIDE_INDEX = 7  # slide 8 (1-based)
 TITLE_Y_MAX = 120.0
